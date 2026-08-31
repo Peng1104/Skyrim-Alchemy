@@ -34,7 +34,7 @@ select = ["E", "F", "I", "D"]
 convention = "numpy"
 
 [tool.pyright]
-include = ["app", "test.py"]
+include = ["app", "run.py"]
 stubPath = "typings"
 typeCheckingMode = "strict"
 pythonVersion = "3.14"

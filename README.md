@@ -26,10 +26,10 @@ cp config.example.toml config.toml   # optional - see Configuration below
 ### CLI
 
 ```bash
-uv run test.py                  # combine the whole screenshot history
-uv run test.py --min 2 --max 5  # combine only screenshots 2 through 5
-uv run test.py --refresh        # ignore the OCR cache and re-read every screenshot found
-uv run test.py --delete-old     # delete screenshots that already have a cached OCR result
+uv run run.py                  # combine the whole screenshot history
+uv run run.py --min 2 --max 5  # combine only screenshots 2 through 5
+uv run run.py --refresh        # ignore the OCR cache and re-read every screenshot found
+uv run run.py --delete-old     # delete screenshots that already have a cached OCR result
 ```
 
 Output is printed to the console and saved to `logs/<timestamp>.log`.
