@@ -1,0 +1,22 @@
+# Git
+.git
+
+# Secrets and configuration files
+.env
+.env.example
+config.toml
+config.example.toml
+
+# Python cache
+__pycache__
+.venv
+.ruff_cache/
+
+# Application logs and cache
+logs/
+*.log
+cache/
+
+# Test files
+Makefile
+teste.py

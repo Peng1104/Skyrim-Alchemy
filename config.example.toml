@@ -1,0 +1,14 @@
+# The directory used to get the game print screens from
+game_directory = "C:/SteamLibrary/steamapps/common/Skyrim Special Edition"
+
+# Console log language: "en", "pt", or "de". Defaults to "en" if omitted.
+log_language = "en"
+
+# Alchemy perks, each defaults to false. These change potion values (and can
+# change which recipe the optimizer prefers), unlike Alchemy skill/Alchemist/
+# Fortify Alchemy/Seeker of Shadows, which are NOT modeled since they scale
+# every effect uniformly and never change the ranking between recipes.
+perk_physician = false    # +25% magnitude on Restore Health/Magicka/Stamina
+perk_benefactor = false   # +25% on beneficial effects, in potions dominated by a beneficial effect
+perk_poisoner = false     # +25% on harmful effects, in potions dominated by a harmful effect (poisons)
+perk_purity = false       # zeroes out the opposite-polarity effects in a mixed potion

@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      context: .
+      target: prod
+    image: skyrim-alchemy-optimizer:latest
+    ports:
+      - "8001:8001"
+    environment:
+      - GAME_DIRECTORY=/screenshots
+    volumes:
+      - ${SKYRIM_SCREENSHOTS_DIR}:/screenshots:ro
+      - ./cache:/app/cache
+      - ./logs:/app/logs
+      - ./config.toml:/app/config.toml:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+# Secrets and configuration files
+.env
+config.toml
+
+# Python cache
+__pycache__
+.venv
+.ruff_cache/
+
+# Application logs and cache
+logs/
+cache/
