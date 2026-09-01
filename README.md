@@ -11,6 +11,9 @@ Reads your Skyrim inventory from in-game screenshots (via local OCR), scrapes in
 For the exact math behind the gold/value calculation and the optimizer, see `docs/calculation/`:
 [English](docs/calculation/CALCULATION.en.md) · [Português](docs/calculation/CALCULATION.pt.md) · [Deutsch](docs/calculation/CALCULATION.de.md)
 
+For where the ingredient/effect data comes from and how it's scraped and cached, see `docs/data-sources/`:
+[English](docs/data-sources/DATA_SOURCES.en.md) · [Português](docs/data-sources/DATA_SOURCES.pt.md) · [Deutsch](docs/data-sources/DATA_SOURCES.de.md)
+
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/) (manages Python 3.14 and dependencies)
