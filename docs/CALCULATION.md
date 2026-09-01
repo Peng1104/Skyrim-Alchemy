@@ -123,7 +123,7 @@ veneno:
 $$
 e^{\ast} = \text{arg\,max}_{e \,\in\, \text{effects}} \; \text{value}_{raw}(e)
 \qquad\qquad
-\text{is\_poison} = \text{harmful}(e^{\ast})
+\text{isPoison} = \text{harmful}(e^{\ast})
 $$
 
 ### 3.2 Purity
@@ -133,7 +133,7 @@ Se **Purity** está ativa e a "polaridade" do efeito não bate com a da mistura
 veneno), magnitude e duração daquele efeito são zeradas:
 
 $$
-\text{harmful}(e) \ne \text{is\_poison}
+\text{harmful}(e) \ne \text{isPoison}
 \;\Longrightarrow\;
 f_m \leftarrow 0,\quad f_d \leftarrow 0
 $$
@@ -155,12 +155,12 @@ $$
 $$
 
 $$
-\text{is\_poison} \;\wedge\; \text{Poisoner ativo} \;\wedge\; \text{harmful}(e)
+\text{isPoison} \;\wedge\; \text{Poisoner ativo} \;\wedge\; \text{harmful}(e)
 \;\Longrightarrow\; \mu \leftarrow \mu \cdot b
 $$
 
 $$
-\lnot\,\text{is\_poison} \;\wedge\; \text{Benefactor ativo} \;\wedge\; \lnot\,\text{harmful}(e)
+\lnot\,\text{isPoison} \;\wedge\; \text{Benefactor ativo} \;\wedge\; \lnot\,\text{harmful}(e)
 \;\Longrightarrow\; \mu \leftarrow \mu \cdot b
 $$
 
