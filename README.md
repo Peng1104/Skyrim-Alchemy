@@ -29,11 +29,21 @@ cp config.example.toml config.toml   # optional - see Configuration below
 ### CLI
 
 ```bash
-uv run run.py                  # combine the whole screenshot history
-uv run run.py --min 2 --max 5  # combine only screenshots 2 through 5
-uv run run.py --refresh        # ignore the OCR cache and re-read every screenshot found
-uv run run.py --delete-old     # delete screenshots that already have a cached OCR result
+uv run run.py                    # combine the whole screenshot history
+uv run run.py --min 2 --max 5    # combine only screenshots 2 through 5
+uv run run.py --refresh          # ignore the OCR cache and re-read every screenshot found
+uv run run.py --delete-old       # after combining, delete every screenshot that already has a cached OCR result
+uv run run.py --delete-old 0-5   # ...or only screenshots 0 through 5
+uv run run.py --delete-cache     # after combining, delete every cached OCR result (keeps the screenshot images)
+uv run run.py --list             # list every known screenshot ID (image/cache availability) and exit
+uv run run.py --info             # show cached ingredients for every screenshot and exit
+uv run run.py --info 2,4-6       # ...or only screenshots 2, 4, 5, and 6
 ```
+
+`--delete-old`, `--delete-cache`, and `--info` take an optional screenshot ID
+selector: a single ID (`2`), an inclusive range (`0-5`), or a comma-separated
+combination (`0-2,4,6-8`). Without a value, they apply to every known
+screenshot ID.
 
 Output is printed to the console and saved to `logs/<timestamp>.log`.
 
