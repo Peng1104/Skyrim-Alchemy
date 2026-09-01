@@ -314,7 +314,7 @@ class Inventory:
         for screenshot_id in range(lo, hi + 1):
             image_path = all_paths.get(screenshot_id)
             # `refresh` only forces re-OCR when the source image still exists -
-            # if it was deleted (e.g. via --delete-old), fall back to the cache
+            # if it was deleted (e.g. via --delete-png), fall back to the cache
             # instead of silently dropping that screenshot's ingredients.
             cached = None if (refresh and image_path is not None) \
                 else self._load_screenshot_cache(screenshot_id)

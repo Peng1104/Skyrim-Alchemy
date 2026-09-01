@@ -141,7 +141,7 @@ def _parse_args() -> argparse.Namespace:
     Returns
     -------
     argparse.Namespace
-        Parsed arguments (`min`, `max`, `refresh`, `delete_old`, `delete_cache`,
+        Parsed arguments (`min`, `max`, `refresh`, `delete_png`, `delete_cache`,
         `list`, `info`).
     """
     parser = argparse.ArgumentParser(description=translate("cli_description"), add_help=False)
@@ -162,11 +162,11 @@ def _parse_args() -> argparse.Namespace:
         help=translate("cli_help_refresh"),
     )
     _add_id_selector_argument(
-        parser, "--delete-old",
-        help=translate("cli_help_delete_old"),
+        parser, "-p", "--delete-png",
+        help=translate("cli_help_delete_png"),
     )
     _add_id_selector_argument(
-        parser, "--delete-cache",
+        parser, "-c", "--delete-cache",
         help=translate("cli_help_delete_cache"),
     )
     parser.add_argument(
@@ -236,7 +236,7 @@ def _resolve_id_selector(selector: list[int], inventory: Inventory) -> list[int]
     Parameters
     ----------
     selector : list[int]
-        The parsed `--info`/`--delete-old`/`--delete-cache` value.
+        The parsed `--info`/`--delete-png`/`--delete-cache` value.
     inventory : Inventory
         The Inventory to list all known screenshot IDs from, when needed.
 
@@ -297,16 +297,16 @@ def main() -> None:
             _print_screenshot_info(inventory, _resolve_id_selector(args.info, inventory))
         return
 
-    if args.delete_old is not None or args.delete_cache is not None:
+    if args.delete_png is not None or args.delete_cache is not None:
         # Standalone maintenance action, like --list/--info above - neither
         # deletion depends on retrieve() having run first (both work purely
         # off what's already on disk/cached from prior runs), so this must
         # not fall through to combining screenshots and printing the full
         # optimization result the caller didn't ask for.
         with ConsoleCapture():
-            if args.delete_old is not None:
+            if args.delete_png is not None:
                 deleted = inventory.delete_processed_screenshots(
-                    _resolve_id_selector(args.delete_old, inventory)
+                    _resolve_id_selector(args.delete_png, inventory)
                 )
                 print(translate("screenshots_deleted", count=len(deleted)))
 

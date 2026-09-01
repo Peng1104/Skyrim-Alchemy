@@ -35,15 +35,15 @@ cp config.example.toml config.toml   # optional - siehe Konfiguration unten
 uv run run.py                    # kombiniert die gesamte Screenshot-Historie
 uv run run.py --min 2 --max 5    # kombiniert nur die Screenshots 2 bis 5
 uv run run.py -r                 # (--refresh) ignoriert den OCR-Cache und liest jeden gefundenen Screenshot neu ein
-uv run run.py --delete-old       # löscht jeden Screenshot, der bereits ein zwischengespeichertes OCR-Ergebnis hat, und beendet sich
-uv run run.py --delete-old 0-5   # ...oder nur die Screenshots 0 bis 5
-uv run run.py --delete-cache     # löscht jedes zwischengespeicherte OCR-Ergebnis (behält die Screenshot-Bilder), und beendet sich
+uv run run.py -p                 # (--delete-png) löscht jedes Screenshot-PNG, das bereits ein zwischengespeichertes OCR-Ergebnis hat, und beendet sich
+uv run run.py -p 0-5             # ...oder nur die Screenshots 0 bis 5
+uv run run.py -c                 # (--delete-cache) löscht jedes zwischengespeicherte OCR-Ergebnis (behält die PNGs), und beendet sich
 uv run run.py -l                 # (--list) listet jede bekannte Screenshot-ID (Bild-/Cache-Verfügbarkeit) auf und beendet sich
 uv run run.py -i                 # (--info) zeigt die zwischengespeicherten Zutaten jedes Screenshots an und beendet sich
 uv run run.py -i 2,4-6           # ...oder nur die Screenshots 2, 4, 5 und 6
 ```
 
-`--delete-old`, `--delete-cache` und `--info` akzeptieren einen optionalen
+`--delete-png`, `--delete-cache` und `--info` akzeptieren einen optionalen
 Screenshot-ID-Selektor: eine einzelne ID (`2`), einen einschließenden
 Bereich (`0-5`), oder eine durch Kommas getrennte Kombination (`0-2,4,6-8`).
 Ohne Wert gelten sie für jede bekannte Screenshot-ID.

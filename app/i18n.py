@@ -231,10 +231,10 @@ _MESSAGES: dict[str, dict[Language, str]] = {
         "de": "Ignoriert den Cache pro Screenshot innerhalb des gewählten Bereichs "
               "und führt das OCR erneut aus.",
     },
-    "cli_help_delete_old": {
-        "en": "Delete screenshots that already have a cached OCR result.",
-        "pt": "Apaga screenshots que já têm um resultado de OCR em cache.",
-        "de": "Löscht Screenshots, die bereits ein zwischengespeichertes OCR-Ergebnis haben.",
+    "cli_help_delete_png": {
+        "en": "Delete screenshot PNGs that already have a cached OCR result.",
+        "pt": "Apaga os PNGs de screenshot que já têm um resultado de OCR em cache.",
+        "de": "Löscht Screenshot-PNGs, die bereits ein zwischengespeichertes OCR-Ergebnis haben.",
     },
     "cli_help_delete_cache": {
         "en": "Delete cached OCR results (not the screenshot images themselves).",
