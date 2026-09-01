@@ -201,6 +201,11 @@ _MESSAGES: dict[str, Translations] = {
         "pt": "🗑️ {count} resultado(s) de OCR em cache apagado(s).",
         "de": "🗑️ {count} zwischengespeicherte(s) OCR-Ergebnis(se) gelöscht.",
     },
+    "logs_deleted": {
+        "en": "🗑️ {count} log file(s) deleted.",
+        "pt": "🗑️ {count} arquivo(s) de log apagado(s).",
+        "de": "🗑️ {count} Protokolldatei(en) gelöscht.",
+    },
     "screenshot_list_header": {
         "en": "🗂️ Screenshots:",
         "pt": "🗂️ Capturas de tela:",
@@ -297,6 +302,11 @@ _MESSAGES: dict[str, Translations] = {
         "en": "Delete cached OCR results (not the screenshot images themselves).",
         "pt": "Apaga resultados de OCR em cache (não as imagens dos screenshots).",
         "de": "Löscht zwischengespeicherte OCR-Ergebnisse (nicht die Screenshot-Bilder selbst).",
+    },
+    "cli_help_delete_logs": {
+        "en": "Delete every saved run log under logs/, except this run's own.",
+        "pt": "Apaga todo log de execução salvo em logs/, exceto o deste run.",
+        "de": "Löscht jedes gespeicherte Lauf-Protokoll unter logs/, außer dem dieses Laufs.",
     },
     "cli_help_list": {
         "en": "List every known screenshot ID (image/cache availability), the last "

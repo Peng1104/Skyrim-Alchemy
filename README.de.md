@@ -38,6 +38,7 @@ uv run run.py -r                 # (--refresh) ignoriert den OCR-Cache und liest
 uv run run.py -p                 # (--delete-png) löscht jedes Screenshot-PNG, das bereits ein zwischengespeichertes OCR-Ergebnis hat, und beendet sich
 uv run run.py -p 0-5             # ...oder nur die Screenshots 0 bis 5
 uv run run.py -c                 # (--delete-cache) löscht jedes zwischengespeicherte OCR-Ergebnis (behält die PNGs), und beendet sich
+uv run run.py -L                 # (--delete-logs) löscht jedes gespeicherte Lauf-Protokoll unter logs/ (außer dem dieses Laufs), und beendet sich
 uv run run.py -l                 # (--list) listet jede bekannte Screenshot-ID (Bild-/Cache-Verfügbarkeit) auf und beendet sich
 uv run run.py -i                 # (--info) zeigt die zwischengespeicherten Zutaten jedes Screenshots an und beendet sich
 uv run run.py -i 2,4-6           # ...oder nur die Screenshots 2, 4, 5 und 6

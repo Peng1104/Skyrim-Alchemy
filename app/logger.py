@@ -126,3 +126,31 @@ class ConsoleCapture:
 
         if self.file:
             self.file.flush()
+
+
+def delete_logs(exclude: Path | None = None) -> list[Path]:
+    """
+    Delete every saved run log under `LOGGING_DIRECTORY`.
+
+    Parameters
+    ----------
+    exclude : Path | None, optional
+        A log file to keep - the current run's own log, still open for
+        writing under an active `ConsoleCapture`. Deleting it out from under
+        that open file handle would silently discard this very deletion's
+        own record once the run finishes and closes it.
+
+    Returns
+    -------
+    list[Path]
+        Paths of the log files that were deleted.
+    """
+    to_delete = [
+        path for path in LOGGING_DIRECTORY.glob("*.log")
+        if path != exclude
+    ]
+
+    for path in to_delete:
+        path.unlink()
+
+    return to_delete

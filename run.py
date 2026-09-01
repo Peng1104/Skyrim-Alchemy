@@ -1,11 +1,12 @@
 """Test script - CLI run without spinning up the API server."""
 import argparse
 from collections.abc import Iterable
+from pathlib import Path
 
 from app.config import get_settings
 from app.i18n import translate
 from app.inventory import Inventory
-from app.logger import ConsoleCapture
+from app.logger import ConsoleCapture, delete_logs
 from app.optimizer import AlchemyOptimizer, execute
 
 
@@ -142,7 +143,7 @@ def _parse_args() -> argparse.Namespace:
     -------
     argparse.Namespace
         Parsed arguments (`min`, `max`, `refresh`, `delete_png`, `delete_cache`,
-        `list`, `info`).
+        `delete_logs`, `list`, `info`).
     """
     parser = argparse.ArgumentParser(description=translate("cli_description"), add_help=False)
     parser.add_argument(
@@ -168,6 +169,10 @@ def _parse_args() -> argparse.Namespace:
     _add_id_selector_argument(
         parser, "-c", "--delete-cache",
         help=translate("cli_help_delete_cache"),
+    )
+    parser.add_argument(
+        "-L", "--delete-logs", action="store_true",
+        help=translate("cli_help_delete_logs"),
     )
     parser.add_argument(
         "-l", "--list", action="store_true",
@@ -297,13 +302,13 @@ def main() -> None:
             _print_screenshot_info(inventory, _resolve_id_selector(args.info, inventory))
         return
 
-    if args.delete_png is not None or args.delete_cache is not None:
-        # Standalone maintenance action, like --list/--info above - neither
-        # deletion depends on retrieve() having run first (both work purely
-        # off what's already on disk/cached from prior runs), so this must
-        # not fall through to combining screenshots and printing the full
-        # optimization result the caller didn't ask for.
-        with ConsoleCapture():
+    if args.delete_png is not None or args.delete_cache is not None or args.delete_logs:
+        # Standalone maintenance action, like --list/--info above - none of
+        # these deletions depend on retrieve() having run first (all work
+        # purely off what's already on disk/cached from prior runs), so this
+        # must not fall through to combining screenshots and printing the
+        # full optimization result the caller didn't ask for.
+        with ConsoleCapture() as capture:
             if args.delete_png is not None:
                 deleted = inventory.delete_processed_screenshots(
                     _resolve_id_selector(args.delete_png, inventory)
@@ -315,6 +320,13 @@ def main() -> None:
                     _resolve_id_selector(args.delete_cache, inventory)
                 )
                 print(translate("cache_deleted", count=len(deleted_ids)))
+
+            if args.delete_logs:
+                # Excludes this very run's own log file - it's still open
+                # for writing (see ConsoleCapture), so deleting it here would
+                # silently discard this deletion's own printed record.
+                deleted_logs = delete_logs(exclude=Path(capture.filename))
+                print(translate("logs_deleted", count=len(deleted_logs)))
         return
 
     optimizer = AlchemyOptimizer(decimal_places=3)
