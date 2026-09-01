@@ -194,6 +194,108 @@ _MESSAGES: dict[str, dict[Language, str]] = {
         "pt": "   ❌ Nenhum ingrediente em cache (ainda não processada).",
         "de": "   ❌ Keine zwischengespeicherten Zutaten (noch nicht per OCR erkannt).",
     },
+    "cli_description": {
+        "en": "Skyrim Alchemy Optimizer - CLI",
+        "pt": "Skyrim Alchemy Optimizer - CLI",
+        "de": "Skyrim Alchemy Optimizer - CLI",
+    },
+    "cli_help_min": {
+        "en": "Lowest screenshot ID to combine. Requires --max. Without either, the "
+              "range is resolved automatically: on the first ever run, from 0; when "
+              "screenshots newer than the last run exist, from right after the last "
+              "run's highest ID; otherwise, the same range as the last run "
+              "(replaying it from cache).",
+        "pt": "Menor ID de screenshot a combinar. Requer --max. Sem nenhum dos dois, o "
+              "intervalo é resolvido automaticamente: na primeira execução, a partir "
+              "de 0; quando há screenshots mais novos que o último run, a partir logo "
+              "após o maior ID do último run; caso contrário, o mesmo intervalo do "
+              "último run (reproduzido a partir do cache).",
+        "de": "Niedrigste zu kombinierende Screenshot-ID. Erfordert --max. Ohne beide "
+              "wird der Bereich automatisch aufgelöst: beim allerersten Lauf ab 0; "
+              "wenn neuere Screenshots als der letzte Lauf existieren, direkt nach "
+              "der höchsten ID des letzten Laufs; andernfalls derselbe Bereich wie "
+              "beim letzten Lauf (aus dem Cache wiedergegeben).",
+    },
+    "cli_help_max": {
+        "en": "Highest screenshot ID to combine. Requires --min. Without either, "
+              "resolved automatically (see --min).",
+        "pt": "Maior ID de screenshot a combinar. Requer --min. Sem nenhum dos dois, "
+              "resolvido automaticamente (veja --min).",
+        "de": "Höchste zu kombinierende Screenshot-ID. Erfordert --min. Ohne beide "
+              "automatisch aufgelöst (siehe --min).",
+    },
+    "cli_help_refresh": {
+        "en": "Ignore the per-screenshot cache within the selected range and re-run OCR.",
+        "pt": "Ignora o cache por screenshot dentro do intervalo selecionado e "
+              "reprocessa o OCR.",
+        "de": "Ignoriert den Cache pro Screenshot innerhalb des gewählten Bereichs "
+              "und führt das OCR erneut aus.",
+    },
+    "cli_help_delete_old": {
+        "en": "Delete screenshots that already have a cached OCR result.",
+        "pt": "Apaga screenshots que já têm um resultado de OCR em cache.",
+        "de": "Löscht Screenshots, die bereits ein zwischengespeichertes OCR-Ergebnis haben.",
+    },
+    "cli_help_delete_cache": {
+        "en": "Delete cached OCR results (not the screenshot images themselves).",
+        "pt": "Apaga resultados de OCR em cache (não as imagens dos screenshots).",
+        "de": "Löscht zwischengespeicherte OCR-Ergebnisse (nicht die Screenshot-Bilder selbst).",
+    },
+    "cli_help_list": {
+        "en": "List every known screenshot ID (image/cache availability), the last "
+              "run's range, and the range the next default run would resolve to. "
+              "Does not combine or optimize anything.",
+        "pt": "Lista todo ID de screenshot conhecido (disponibilidade de "
+              "imagem/cache), o intervalo do último run, e o intervalo que o "
+              "próximo run padrão resolveria. Não combina nem otimiza nada.",
+        "de": "Listet jede bekannte Screenshot-ID (Bild-/Cache-Verfügbarkeit), den "
+              "Bereich des letzten Laufs und den Bereich auf, den der nächste "
+              "Standardlauf auflösen würde. Kombiniert oder optimiert nichts.",
+    },
+    "cli_help_info": {
+        "en": "Show image/cache availability and cached ingredients for one or more "
+              "screenshots. Does not combine or optimize anything.",
+        "pt": "Mostra disponibilidade de imagem/cache e os ingredientes em cache de "
+              "um ou mais screenshots. Não combina nem otimiza nada.",
+        "de": "Zeigt Bild-/Cache-Verfügbarkeit und zwischengespeicherte Zutaten für "
+              "einen oder mehrere Screenshots. Kombiniert oder optimiert nichts.",
+    },
+    "cli_help_id_selector_suffix": {
+        "en": "Without a value, applies to every known screenshot ID; with one, a "
+              "single ID, a range like 0-5, or a comma-separated combination like "
+              "0,2,4-6.",
+        "pt": "Sem valor, aplica-se a todo ID de screenshot conhecido; com um valor, "
+              "um ID único, um intervalo como 0-5, ou uma combinação separada por "
+              "vírgulas como 0,2,4-6.",
+        "de": "Ohne Wert gilt es für jede bekannte Screenshot-ID; mit Wert eine "
+              "einzelne ID, ein Bereich wie 0-5, oder eine durch Kommas getrennte "
+              "Kombination wie 0,2,4-6.",
+    },
+    "cli_error_min_max_together": {
+        "en": "--min and --max must be given together.",
+        "pt": "--min e --max devem ser passados juntos.",
+        "de": "--min und --max müssen zusammen angegeben werden.",
+    },
+    "cli_error_invalid_range": {
+        "en": "invalid range: '{part}'",
+        "pt": "intervalo inválido: '{part}'",
+        "de": "ungültiger Bereich: '{part}'",
+    },
+    "cli_error_invalid_range_order": {
+        "en": "invalid range: '{part}' (start must be <= end)",
+        "pt": "intervalo inválido: '{part}' (início deve ser <= fim)",
+        "de": "ungültiger Bereich: '{part}' (Start muss <= Ende sein)",
+    },
+    "cli_error_invalid_screenshot_id": {
+        "en": "invalid screenshot ID: '{part}'",
+        "pt": "ID de screenshot inválido: '{part}'",
+        "de": "ungültige Screenshot-ID: '{part}'",
+    },
+    "cli_error_no_ids_given": {
+        "en": "no screenshot IDs given",
+        "pt": "nenhum ID de screenshot informado",
+        "de": "keine Screenshot-ID angegeben",
+    },
 }
 
 

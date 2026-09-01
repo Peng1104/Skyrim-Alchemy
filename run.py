@@ -1,11 +1,74 @@
 """Test script - CLI run without spinning up the API server."""
 import argparse
+from collections.abc import Iterable
 
 from app.config import get_settings
 from app.i18n import translate
 from app.inventory import Inventory
 from app.logger import ConsoleCapture
 from app.optimizer import AlchemyOptimizer, execute
+
+
+def _parse_id_range(part: str) -> range:
+    """
+    Parse a single inclusive range selector part (e.g. "0-5") into a `range`.
+
+    Parameters
+    ----------
+    part : str
+        The range part, containing a "-".
+
+    Returns
+    -------
+    range
+        The inclusive ID range it describes.
+
+    Raises
+    ------
+    argparse.ArgumentTypeError
+        If `part` isn't a valid range.
+    """
+    start_str, _, end_str = part.partition("-")
+
+    try:
+        start, end = int(start_str), int(end_str)
+    except ValueError:
+        raise argparse.ArgumentTypeError(translate("cli_error_invalid_range", part=part)) from None
+
+    if start > end:
+        raise argparse.ArgumentTypeError(translate("cli_error_invalid_range_order", part=part))
+
+    return range(start, end + 1)
+
+
+def _parse_id_part(part: str) -> Iterable[int]:
+    """
+    Parse one comma-separated selector part into the screenshot IDs it represents.
+
+    Parameters
+    ----------
+    part : str
+        A single non-empty, stripped part (a range like "0-5", or a single ID).
+
+    Returns
+    -------
+    Iterable[int]
+        The ID(s) this part represents.
+
+    Raises
+    ------
+    argparse.ArgumentTypeError
+        If `part` isn't a valid range or ID.
+    """
+    if "-" in part:
+        return _parse_id_range(part)
+
+    try:
+        return (int(part),)
+    except ValueError:
+        raise argparse.ArgumentTypeError(
+            translate("cli_error_invalid_screenshot_id", part=part)
+        ) from None
 
 
 def _parse_id_selector(spec: str) -> list[int]:
@@ -36,31 +99,11 @@ def _parse_id_selector(spec: str) -> list[int]:
     for part in spec.split(","):
         part = part.strip()
 
-        if not part:
-            continue
-
-        if "-" in part:
-            start_str, _, end_str = part.partition("-")
-
-            try:
-                start, end = int(start_str), int(end_str)
-            except ValueError:
-                raise argparse.ArgumentTypeError(f"invalid range: '{part}'") from None
-
-            if start > end:
-                raise argparse.ArgumentTypeError(
-                    f"invalid range: '{part}' (start must be <= end)"
-                )
-
-            ids.update(range(start, end + 1))
-        else:
-            try:
-                ids.add(int(part))
-            except ValueError:
-                raise argparse.ArgumentTypeError(f"invalid screenshot ID: '{part}'") from None
+        if part:
+            ids.update(_parse_id_part(part))
 
     if not ids:
-        raise argparse.ArgumentTypeError("no screenshot IDs given")
+        raise argparse.ArgumentTypeError(translate("cli_error_no_ids_given"))
 
     return sorted(ids)
 
@@ -87,9 +130,7 @@ def _add_id_selector_argument(parser: argparse.ArgumentParser, *flags: str, help
     parser.add_argument(
         *flags, nargs="?", type=_parse_id_selector, const=[], default=None,
         metavar="IDS",
-        help=f"{help} Without a value, applies to every known screenshot ID; with "
-             "one, a single ID, a range like 0-5, or a comma-separated combination "
-             "like 0,2,4-6.",
+        help=f"{help} {translate('cli_help_id_selector_suffix')}",
     )
 
 
@@ -103,48 +144,40 @@ def _parse_args() -> argparse.Namespace:
         Parsed arguments (`min`, `max`, `refresh`, `delete_old`, `delete_cache`,
         `list`, `info`).
     """
-    parser = argparse.ArgumentParser(description="Skyrim Alchemy Optimizer - CLI")
+    parser = argparse.ArgumentParser(description=translate("cli_description"))
     parser.add_argument(
         "--min", type=int, default=None,
-        help="Lowest screenshot ID to combine. Requires --max. Without either, the "
-             "range is resolved automatically: on the first ever run, from 0; when "
-             "screenshots newer than the last run exist, from right after the last "
-             "run's highest ID; otherwise, the same range as the last run "
-             "(replaying it from cache).",
+        help=translate("cli_help_min"),
     )
     parser.add_argument(
         "--max", type=int, default=None,
-        help="Highest screenshot ID to combine. Requires --min. Without either, "
-             "resolved automatically (see --min).",
+        help=translate("cli_help_max"),
     )
     parser.add_argument(
         "--refresh", action="store_true",
-        help="Ignore the per-screenshot cache within the selected range and re-run OCR.",
+        help=translate("cli_help_refresh"),
     )
     _add_id_selector_argument(
         parser, "--delete-old",
-        help="Delete screenshots that already have a cached OCR result.",
+        help=translate("cli_help_delete_old"),
     )
     _add_id_selector_argument(
         parser, "--delete-cache",
-        help="Delete cached OCR results (not the screenshot images themselves).",
+        help=translate("cli_help_delete_cache"),
     )
     parser.add_argument(
         "--list", action="store_true",
-        help="List every known screenshot ID (image/cache availability), the last "
-             "run's range, and the range the next default run would resolve to. "
-             "Does not combine or optimize anything.",
+        help=translate("cli_help_list"),
     )
     _add_id_selector_argument(
         parser, "--info",
-        help="Show image/cache availability and cached ingredients for one or more "
-             "screenshots. Does not combine or optimize anything.",
+        help=translate("cli_help_info"),
     )
 
     args = parser.parse_args()
 
     if (args.min is None) != (args.max is None):
-        parser.error("--min and --max must be given together.")
+        parser.error(translate("cli_error_min_max_together"))
 
     return args
 
