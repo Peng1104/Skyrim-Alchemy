@@ -216,7 +216,21 @@ Given the inventory $\text{amount}(g)$ of each ingredient $g$, the engine
 (`app/optimizer/_engine.py`) generates **every** valid 2- and 3-ingredient
 combination from the items on hand, computes $\text{value}(potion)$ for each
 one (sections 1–5), deduplicates them while keeping the highest value, and
-solves the following integer linear program with PuLP/CBC:
+solves the following integer linear program with PuLP/CBC.
+
+### 6.1 Combination count
+
+The candidate generation step (`_generate_potions`) only combines the
+**distinct ingredient types actually in the inventory**, not every
+ingredient UESP knows about — so for $k$ distinct types on hand, it builds
+up to $\binom{k}{2} + \binom{k}{3}$ candidate potions before validity
+filtering and deduplication trim that down. $k$ is bounded above by the
+total number of scraped ingredients (190 as of this writing — see
+[docs/data-sources](../data-sources/DATA_SOURCES.en.md#1-ingredients)),
+giving a theoretical worst case of
+$\binom{190}{2} + \binom{190}{3} = 17{,}955 + 1{,}125{,}180 = 1{,}143{,}135$
+candidates — never reached in practice, since no single inventory holds
+every known ingredient at once.
 
 **Decision variables** — for each unique recipe $r$, $x_r \in \mathbb{Z}_{\ge 0}$
 is the number of times it will be brewed.

@@ -213,7 +213,22 @@ Dado o inventário $\text{amount}(g)$ de cada ingrediente $g$, o motor
 (`app/optimizer/_engine.py`) gera **todas** as combinações válidas de 2 e 3
 ingredientes a partir dos itens em posse, calcula $\text{value}(potion)$ para
 cada uma (seções 1–5), remove duplicatas mantendo a de maior valor, e resolve
-o seguinte problema de programação linear inteira com PuLP/CBC:
+o seguinte problema de programação linear inteira com PuLP/CBC.
+
+### 6.1 Quantidade de combinações
+
+A etapa de geração de candidatas (`_generate_potions`) só combina os
+**tipos de ingrediente distintos que estão de fato no inventário**, não
+todo ingrediente que a UESP conhece — então, para $k$ tipos distintos em
+posse, ela monta até $\binom{k}{2} + \binom{k}{3}$ poções candidatas, antes
+da filtragem de validade e da remoção de duplicatas reduzirem esse número.
+$k$ é limitado pelo total de ingredientes raspados (190 no momento em que
+isso foi escrito — veja
+[docs/data-sources](../data-sources/DATA_SOURCES.pt.md#1-ingredientes)),
+o que dá um pior caso teórico de
+$\binom{190}{2} + \binom{190}{3} = 17{,}955 + 1{,}125{,}180 = 1{,}143{,}135$
+candidatas — nunca alcançado na prática, já que nenhum inventário tem todo
+ingrediente conhecido ao mesmo tempo.
 
 **Variáveis de decisão** — para cada receita única $r$, $x_r \in \mathbb{Z}_{\ge 0}$
 é o número de vezes que ela será fabricada.

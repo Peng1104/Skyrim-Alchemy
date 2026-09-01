@@ -222,7 +222,22 @@ Gegeben das Inventar $\text{amount}(g)$ jeder Zutat $g$, erzeugt die Engine
 (`app/optimizer/_engine.py`) **alle** gültigen 2- und 3-Zutaten-Kombinationen
 aus den vorhandenen Gegenständen, berechnet $\text{value}(potion)$ für jede
 davon (Abschnitte 1–5), entfernt Duplikate unter Beibehaltung des höchsten
-Werts und löst das folgende ganzzahlige lineare Programm mit PuLP/CBC:
+Werts und löst das folgende ganzzahlige lineare Programm mit PuLP/CBC.
+
+### 6.1 Anzahl der Kombinationen
+
+Der Kandidaten-Generierungsschritt (`_generate_potions`) kombiniert nur die
+**tatsächlich im Inventar vorhandenen unterschiedlichen Zutatenarten**,
+nicht jede Zutat, die UESP kennt — für $k$ unterschiedliche Arten im
+Besitz baut er also bis zu $\binom{k}{2} + \binom{k}{3}$ Kandidaten-Tränke,
+bevor die Gültigkeitsprüfung und die Deduplizierung diese Zahl reduzieren.
+$k$ ist nach oben durch die Gesamtzahl der gescrapten Zutaten begrenzt (190
+zum Zeitpunkt dieses Schreibens — siehe
+[docs/data-sources](../data-sources/DATA_SOURCES.de.md#1-zutaten)), was
+einen theoretischen Worst Case von
+$\binom{190}{2} + \binom{190}{3} = 17{,}955 + 1{,}125{,}180 = 1{,}143{,}135$
+Kandidaten ergibt — in der Praxis nie erreicht, da kein Inventar jemals
+jede bekannte Zutat gleichzeitig enthält.
 
 **Entscheidungsvariablen** — für jedes eindeutige Rezept $r$ ist
 $x_r \in \mathbb{Z}_{\ge 0}$ die Anzahl, wie oft es gebraut wird.

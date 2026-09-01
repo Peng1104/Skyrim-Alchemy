@@ -31,6 +31,14 @@ Daraus entsteht ein `dict[str, Ingredient]` — jede `Ingredient` hat einen
 Namen und eine Liste von bis zu 4 `IngredientEffect`s, jede mit einer
 optionalen `{Modifier: Faktor}`-Zuordnung.
 
+Zum Zeitpunkt dieses Schreibens listen die 3 Tabellen der Seite insgesamt
+**190 Zutaten** auf. Das ist nirgendwo im Projekt fest codiert — es ist
+einfach das, was UESPs Seite beim nächsten Auffrischen des Caches gerade
+enthält —, aber es ist die praktische Obergrenze dafür, wie viele
+unterschiedliche Zutatenarten der Optimierer jemals sehen kann, was für
+dessen Worst-Case-Kombinationszahl relevant ist (siehe
+[Abschnitt 6.1 des Berechnungsdokuments](../calculation/CALCULATION.de.md#61-anzahl-der-kombinationen)).
+
 ### 1.1 Abdeckung von DLCs und Creation Club
 
 Der Scraper filtert **nicht** nach Herkunft — er erfasst bedingungslos

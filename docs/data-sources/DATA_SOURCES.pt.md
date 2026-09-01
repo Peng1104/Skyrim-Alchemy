@@ -31,6 +31,14 @@ Isso produz um `dict[str, Ingredient]` — cada `Ingredient` tem um nome e uma
 lista de até 4 `IngredientEffect`s, cada um com um mapa opcional
 `{Modifier: fator}`.
 
+No momento em que isso foi escrito, as 3 tabelas da página listam **190
+ingredientes** no total. Isso não está fixo em código nenhum lugar do
+projeto — é o que a página da UESP tiver na próxima vez que o cache for
+atualizado — mas é o limite superior prático de quantos tipos distintos de
+ingrediente o otimizador pode ver, o que importa para o pior caso da
+quantidade de combinações (veja a
+[seção 6.1 do documento de cálculo](../calculation/CALCULATION.pt.md#61-quantidade-de-combinações)).
+
 ### 1.1 Cobertura de DLC e Creation Club
 
 O scraper **não** filtra por origem — ele captura toda linha das tabelas da

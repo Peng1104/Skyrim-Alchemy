@@ -31,6 +31,13 @@ This produces a `dict[str, Ingredient]` — each `Ingredient` has a name and a
 list of up to 4 `IngredientEffect`s, each with an optional
 `{Modifier: factor}` map.
 
+As of this writing, the page's 3 tables list **190 ingredients** in total.
+This isn't hardcoded anywhere in the project — it's whatever UESP's page
+happens to contain the next time the cache is refreshed — but it's the
+practical upper bound on how many distinct ingredient types the optimizer
+could ever see, which matters for its worst-case combination count (see
+[section 6.1 of the calculation doc](../calculation/CALCULATION.en.md#61-combination-count)).
+
 ### 1.1 DLC and Creation Club coverage
 
 The scraper does **not** filter by origin — it captures every row in the
