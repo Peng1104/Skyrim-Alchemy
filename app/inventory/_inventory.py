@@ -266,6 +266,7 @@ class Inventory:
     def retrieve(
         self,
         known_names: Iterable[str],
+        known_effect_names: Iterable[str] = (),
         *,
         min_id: int | None = None,
         max_id: int | None = None,
@@ -284,6 +285,11 @@ class Inventory:
         known_names : Iterable[str]
             Whitelist of valid ingredient names used to fuzzy-match OCR text
             and correct recognition errors.
+        known_effect_names : Iterable[str], optional
+            Magic effect names (any case), forwarded to
+            `extract_ingredients_from_image` to reject the selected item's
+            tooltip effect labels instead of misreading one as an owned
+            ingredient - see `app.inventory._ocr.match_ocr_data`.
         min_id : int | None, optional
             Lowest screenshot ID to include. Defaults to 0 (the whole history)
             when not given.
@@ -303,6 +309,7 @@ class Inventory:
             return
 
         known_names_list = list(known_names)
+        known_effect_names_set = frozenset(name.lower() for name in known_effect_names)
         lo = min_id if min_id is not None else 0
         hi = max_id if max_id is not None else max(*all_paths, *cached_ids)
 
@@ -327,7 +334,7 @@ class Inventory:
                 try:
                     image_bytes = image_path.read_bytes()
                     cached = extract_ingredients_from_image(
-                        image_bytes, image_path.name, known_names_list
+                        image_bytes, image_path.name, known_names_list, known_effect_names_set
                     )
                 except OcrUnavailableError as ocr_error:
                     # Neither the ocr container nor local Tesseract is usable -

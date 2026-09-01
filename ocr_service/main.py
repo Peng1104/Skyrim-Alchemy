@@ -48,6 +48,30 @@ _PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 # Kept in sync with app/upload_validation.py's MAX_FILE_SIZE_BYTES in the main project.
 _MAX_FILE_SIZE_BYTES = 15 * 1024 * 1024
 
+# Kept in sync with app/ocr_client.py's _BINARIZE_THRESHOLD in the main
+# project - see that constant's comment for why a hard black/white
+# threshold is applied after autocontrast (recovers inventory rows that
+# render over a busy, low-contrast background and would otherwise be
+# dropped entirely rather than misread).
+_BINARIZE_THRESHOLD = 50
+
+
+def _binarize_pixel(value: int) -> int:
+    """
+    Map one grayscale pixel to pure black or white at `_BINARIZE_THRESHOLD`.
+
+    Parameters
+    ----------
+    value : int
+        The pixel's grayscale value (0-255).
+
+    Returns
+    -------
+    int
+        255 (white) if above the threshold, else 0 (black).
+    """
+    return 255 if value > _BINARIZE_THRESHOLD else 0
+
 
 def _check_auth(header_value: str | None) -> None:
     """
@@ -135,6 +159,7 @@ async def ocr(
 
         with Image.open(buffer) as img:
             processed = ImageOps.autocontrast(ImageOps.grayscale(img))
-            return pytesseract.image_to_data(processed, lang="eng", output_type=Output.DICT)
+            binarized = Image.eval(processed, _binarize_pixel)
+            return pytesseract.image_to_data(binarized, lang="eng", output_type=Output.DICT)
     except UnidentifiedImageError:
         raise HTTPException(400, detail="Could not decode image.") from None

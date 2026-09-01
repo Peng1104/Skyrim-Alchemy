@@ -33,6 +33,18 @@ OCR_SERVICE_BASE_URL = os.environ.get("OCR_SERVICE_URL", "http://localhost:9000"
 _REQUEST_TIMEOUT_SECONDS = 30.0
 _HEALTH_CHECK_TIMEOUT_SECONDS = 1.5
 
+# Grayscale value (0-255, after autocontrast) below which a pixel is treated
+# as text ink rather than background. Some inventory rows render over a
+# busy, dark character-portrait background instead of the plain menu
+# background, and their grey (unselected-row) text ends up low-contrast
+# enough that Tesseract detects the row as one paragraph block but extracts
+# no legible characters from it at all (e.g. "Sabre Cat Tooth (3)" and
+# "Salt Pile (137)" were silently dropped entirely, not misread). A hard
+# black/white threshold after autocontrast recovers them; empirically,
+# values in this range don't lose or corrupt any row that autocontrast
+# alone already reads correctly.
+_BINARIZE_THRESHOLD = 50
+
 _OcrBackend = Literal["container", "local"]
 
 
@@ -121,6 +133,23 @@ def run_remote_ocr(image_bytes: bytes, filename: str) -> pytesseract.TesseractDa
     return response.json()
 
 
+def _binarize_pixel(value: int) -> int:
+    """
+    Map one grayscale pixel to pure black or white at `_BINARIZE_THRESHOLD`.
+
+    Parameters
+    ----------
+    value : int
+        The pixel's grayscale value (0-255).
+
+    Returns
+    -------
+    int
+        255 (white) if above the threshold, else 0 (black).
+    """
+    return 255 if value > _BINARIZE_THRESHOLD else 0
+
+
 def _run_local_tesseract(image_bytes: bytes) -> pytesseract.TesseractDataDict:
     """
     Run Tesseract in-process against raw image bytes.
@@ -137,8 +166,15 @@ def _run_local_tesseract(image_bytes: bytes) -> pytesseract.TesseractDataDict:
     """
     with Image.open(io.BytesIO(image_bytes)) as img:
         processed = ImageOps.autocontrast(ImageOps.grayscale(img))
+        # `Image.eval` (a thin `image.point()` wrapper with a single,
+        # unambiguous `Callable[[int], float]` signature) instead of calling
+        # `.point()` directly - `.point`'s own overloads include a
+        # `NumpyArray` branch that pyright can't resolve without numpy
+        # installed (not a dependency of this project), which taints the
+        # whole overload set as partially Unknown under strict mode.
+        binarized = Image.eval(processed, _binarize_pixel)
 
-        return pytesseract.image_to_data(processed, lang="eng", output_type=Output.DICT)
+        return pytesseract.image_to_data(binarized, lang="eng", output_type=Output.DICT)
 
 
 @lru_cache

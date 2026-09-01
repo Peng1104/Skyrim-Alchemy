@@ -336,6 +336,7 @@ def main() -> None:
 
         inventory.retrieve(
             optimizer.ingredients_data.keys(),
+            optimizer.effects_data.keys(),
             min_id=min_id, max_id=max_id, refresh=args.refresh,
         )
 

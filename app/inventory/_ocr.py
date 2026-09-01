@@ -1,5 +1,6 @@
 """OCR extraction of ingredient name/amount pairs from a Skyrim inventory screenshot."""
 import re
+import unicodedata
 
 import pytesseract
 from rapidfuzz import fuzz, process
@@ -27,8 +28,14 @@ from app.ocr_client import run_ocr
 # this font, and without this the amount group fails to match at all and
 # silently falls back to 1 instead of the real count. Normalized back to "1"
 # by `_parse_amount` before parsing.
+#
+# The closing ')' is optional - on a row whose background is low-contrast
+# enough to need `_binarize` (see that function), the closing paren is thin
+# enough to occasionally vanish in the black/white threshold, leaving e.g.
+# "Sabre Cat Tooth (3" with no ')'. Requiring it would drop the amount group
+# entirely and silently fall back to 1 instead of the real count.
 _LINE_PATTERN = re.compile(
-    r"^[^A-Za-z]{0,10}(?P<name>[A-Za-z][A-Za-z'’\- ]*[A-Za-z])(?:\s*\((?P<amount>[}\d]\d*)\))?"
+    r"^[^A-Za-z]{0,10}(?P<name>[A-Za-z][A-Za-z'’\- ]*[A-Za-z])(?:\s*\((?P<amount>[}\d]\d*)\)?)?"
 )
 _FUZZY_SCORE_CUTOFF = 82
 _MIN_NAME_LENGTH = 3
@@ -44,7 +51,12 @@ _NOTIFICATION_KEYWORDS = ("removed", "added")
 # "Carry Weight X/Y  Gold Z" bar at the bottom of the inventory screen can
 # OCR "Gold" as an isolated word, which then fuzzy-matches the real
 # ingredient "Gold Kanet" (score 90) and is wrongly counted as 1 owned.
-_UI_CHROME_NAMES = frozenset({"gold"})
+# Likewise the "A Add  B Exit" button prompt row present on every inventory
+# screen: post-`_binarize` its "Add"/"Exit" OCR cleanly and short, and
+# WRatio's partial-ratio scoring can put a 3-4 letter word above
+# `_FUZZY_SCORE_CUTOFF` against an unrelated long ingredient name by
+# coincidence (e.g. "add" scores 90 against "Red Kelp Gas Bladder").
+_UI_CHROME_NAMES = frozenset({"gold", "add", "exit"})
 
 # Horizontal gap (in pixels) between two consecutive OCR'd words on the same
 # detected line that signals they actually belong to two unrelated UI columns
@@ -53,6 +65,31 @@ _UI_CHROME_NAMES = frozenset({"gold"})
 # text independent, instead of losing the second column to the line pattern's
 # leading-prefix match on the first.
 _COLUMN_GAP_THRESHOLD = 60
+
+
+def _strip_diacritics(text: str) -> str:
+    """
+    Replace accented letters with their plain-ASCII base (e.g. "é" -> "e").
+
+    Tesseract occasionally renders a spurious diacritic onto an ASCII letter
+    of the game's font (e.g. "Abecean" reads as "Abecén"). `_LINE_PATTERN`'s
+    name group only allows `[A-Za-z]`, so an unstripped diacritic truncates
+    the match right before it - severing the name from the "(amount)" that
+    follows and silently falling back to an amount of 1.
+
+    Parameters
+    ----------
+    text : str
+        Raw OCR'd text, possibly containing accented characters.
+
+    Returns
+    -------
+    str
+        The same text with diacritics removed.
+    """
+    return "".join(
+        char for char in unicodedata.normalize("NFKD", text) if not unicodedata.combining(char)
+    )
 
 
 def _line_segments(data: pytesseract.TesseractDataDict) -> list[str]:
@@ -106,7 +143,9 @@ def _line_segments(data: pytesseract.TesseractDataDict) -> list[str]:
 
 
 def match_ocr_data(
-    data: pytesseract.TesseractDataDict, known_names: list[str]
+    data: pytesseract.TesseractDataDict,
+    known_names: list[str],
+    known_effect_names: frozenset[str] = frozenset(),
 ) -> list[InventoryIngredient]:
     """
     Fuzzy-match Tesseract OCR output against known ingredient names.
@@ -122,6 +161,17 @@ def match_ocr_data(
         Output of `pytesseract.image_to_data(..., output_type=Output.DICT)`.
     known_names : list[str]
         Whitelist of valid ingredient names to match OCR text against.
+    known_effect_names : frozenset[str], optional
+        Lowercased magic effect names (e.g. "resist frost"), used to reject
+        the selected item's tooltip - its four effect labels have no
+        ingredient name namespace overlap (verified: Skyrim has zero
+        ingredients sharing a name with an effect) but can still fuzzy-match
+        one by coincidence (e.g. "Resist Frost" scores 85 against the real
+        ingredient "Farengar's Frost Salt", above `_FUZZY_SCORE_CUTOFF`).
+        Effect labels never carry a trailing "(amount)", so only checked
+        when `amount_candidate` is absent - a real owned-1 ingredient row
+        also lacks the suffix, and this must not reject those. Empty by
+        default so callers that can't supply it (yet) keep prior behavior.
 
     Returns
     -------
@@ -131,7 +181,7 @@ def match_ocr_data(
     ingredients: list[InventoryIngredient] = []
 
     for segment in _line_segments(data):
-        segment = segment.strip()
+        segment = _strip_diacritics(segment.strip())
         match = _LINE_PATTERN.match(segment)
 
         if not match:
@@ -147,6 +197,9 @@ def match_ocr_data(
             continue
 
         if name_candidate.lower() in _UI_CHROME_NAMES:
+            continue
+
+        if amount_candidate is None and name_candidate.lower() in known_effect_names:
             continue
 
         remainder = segment[match.end():].strip().lower()
@@ -191,7 +244,10 @@ def _parse_amount(amount_text: str) -> int:
 
 
 def extract_ingredients_from_image(
-    image_bytes: bytes, filename: str, known_names: list[str]
+    image_bytes: bytes,
+    filename: str,
+    known_names: list[str],
+    known_effect_names: frozenset[str] = frozenset(),
 ) -> list[InventoryIngredient]:
     """
     Run OCR on a screenshot and fuzzy-match recognized lines against known ingredient names.
@@ -210,6 +266,10 @@ def extract_ingredients_from_image(
         Original filename, forwarded to the OCR service if that backend is used.
     known_names : list[str]
         Whitelist of valid ingredient names to match OCR text against.
+    known_effect_names : frozenset[str], optional
+        Lowercased magic effect names, forwarded to `match_ocr_data` to
+        reject the selected item's tooltip effect labels - see its
+        docstring.
 
     Returns
     -------
@@ -223,4 +283,4 @@ def extract_ingredients_from_image(
     """
     data = run_ocr(image_bytes, filename)
 
-    return match_ocr_data(data, known_names)
+    return match_ocr_data(data, known_names, known_effect_names)

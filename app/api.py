@@ -113,6 +113,7 @@ async def optimize_screenshots(
 
     optimizer = get_optimizer()
     known_names = list(optimizer.ingredients_data.keys())
+    known_effect_names = frozenset(name.lower() for name in optimizer.effects_data.keys())
     combined: dict[str, InventoryIngredient] = {}
 
     for upload in files:
@@ -123,7 +124,7 @@ async def optimize_screenshots(
         except OcrServiceError as ocr_error:
             raise HTTPException(502, detail=str(ocr_error)) from None
 
-        for ingredient in match_ocr_data(data, known_names):
+        for ingredient in match_ocr_data(data, known_names, known_effect_names):
             combined[ingredient.name] = ingredient
 
     ingredients = sorted(combined.values(), key=lambda ingredient: ingredient.name)
