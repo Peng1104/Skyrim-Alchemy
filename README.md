@@ -1,5 +1,7 @@
 # Skyrim Alchemy Optimizer
 
+🌐 [English](README.md) · [Português](README.pt.md) · [Deutsch](README.de.md)
+
 Reads your Skyrim inventory from in-game screenshots (via local OCR), scrapes ingredient/effect data from UESP, and uses integer linear programming (PuLP) to compute the most valuable potions you can brew — and how many of each.
 
 ## How it works
@@ -8,11 +10,9 @@ Reads your Skyrim inventory from in-game screenshots (via local OCR), scrapes in
 2. **OCR**: each screenshot is read with Tesseract, and recognized text is fuzzy-matched against the real ingredient list scraped from UESP (corrects OCR typos, filters out UI noise).
 3. **Optimization**: given your inventory quantities, an ILP solver finds the combination of 2–3 ingredient potions that maximizes total gold value.
 
-For the exact math behind the gold/value calculation and the optimizer, see `docs/calculation/`:
-[English](docs/calculation/CALCULATION.en.md) · [Português](docs/calculation/CALCULATION.pt.md) · [Deutsch](docs/calculation/CALCULATION.de.md)
+For the exact math behind the gold/value calculation and the optimizer, see [docs/calculation/CALCULATION.en.md](docs/calculation/CALCULATION.en.md).
 
-For where the ingredient/effect data comes from and how it's scraped and cached, see `docs/data-sources/`:
-[English](docs/data-sources/DATA_SOURCES.en.md) · [Português](docs/data-sources/DATA_SOURCES.pt.md) · [Deutsch](docs/data-sources/DATA_SOURCES.de.md)
+For where the ingredient/effect data comes from and how it's scraped and cached, see [docs/data-sources/DATA_SOURCES.en.md](docs/data-sources/DATA_SOURCES.en.md).
 
 ## Requirements
 
