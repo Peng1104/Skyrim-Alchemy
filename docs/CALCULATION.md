@@ -200,9 +200,7 @@ Uma combinação de $n \in \{2, 3\}$ ingredientes só forma uma poção válida
 1. $2 \le n \le 3$
 2. O conjunto de efeitos compartilhados não é vazio
 3. Cada efeito $e$ da poção aparece em pelo menos 2 dos ingredientes:
-   $$
-   \forall e \in \text{effects} : \big|\{i : e \in \text{effects}(i)\}\big| \ge 2
-   $$
+   $\forall e \in \text{effects} : \big|\{i : e \in \text{effects}(i)\}\big| \ge 2$
 4. Cada ingrediente compartilha pelo menos um efeito com outro ingrediente da
    mesma poção (nenhum ingrediente "solto")
 
