@@ -34,13 +34,13 @@ cp config.example.toml config.toml   # opcional - veja Configuração abaixo
 ```bash
 uv run run.py                    # combina todo o histórico de screenshots
 uv run run.py --min 2 --max 5    # combina apenas os screenshots 2 a 5
-uv run run.py --refresh          # ignora o cache de OCR e relê todo screenshot encontrado
+uv run run.py -r                 # (--refresh) ignora o cache de OCR e relê todo screenshot encontrado
 uv run run.py --delete-old       # apaga todo screenshot que já tem um resultado de OCR em cache, e sai
 uv run run.py --delete-old 0-5   # ...ou apenas os screenshots 0 a 5
 uv run run.py --delete-cache     # apaga todo resultado de OCR em cache (mantém as imagens), e sai
-uv run run.py --list             # lista todo ID de screenshot conhecido (disponibilidade de imagem/cache) e sai
-uv run run.py --info             # mostra os ingredientes em cache de todo screenshot e sai
-uv run run.py --info 2,4-6       # ...ou apenas os screenshots 2, 4, 5 e 6
+uv run run.py -l                 # (--list) lista todo ID de screenshot conhecido (disponibilidade de imagem/cache) e sai
+uv run run.py -i                 # (--info) mostra os ingredientes em cache de todo screenshot e sai
+uv run run.py -i 2,4-6           # ...ou apenas os screenshots 2, 4, 5 e 6
 ```
 
 `--delete-old`, `--delete-cache` e `--info` aceitam um seletor de IDs de

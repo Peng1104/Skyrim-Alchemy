@@ -144,7 +144,11 @@ def _parse_args() -> argparse.Namespace:
         Parsed arguments (`min`, `max`, `refresh`, `delete_old`, `delete_cache`,
         `list`, `info`).
     """
-    parser = argparse.ArgumentParser(description=translate("cli_description"))
+    parser = argparse.ArgumentParser(description=translate("cli_description"), add_help=False)
+    parser.add_argument(
+        "-h", "--help", action="help",
+        help=translate("cli_help_help"),
+    )
     parser.add_argument(
         "--min", type=int, default=None,
         help=translate("cli_help_min"),
@@ -154,7 +158,7 @@ def _parse_args() -> argparse.Namespace:
         help=translate("cli_help_max"),
     )
     parser.add_argument(
-        "--refresh", action="store_true",
+        "-r", "--refresh", action="store_true",
         help=translate("cli_help_refresh"),
     )
     _add_id_selector_argument(
@@ -166,11 +170,11 @@ def _parse_args() -> argparse.Namespace:
         help=translate("cli_help_delete_cache"),
     )
     parser.add_argument(
-        "--list", action="store_true",
+        "-l", "--list", action="store_true",
         help=translate("cli_help_list"),
     )
     _add_id_selector_argument(
-        parser, "--info",
+        parser, "-i", "--info",
         help=translate("cli_help_info"),
     )
 

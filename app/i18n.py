@@ -296,6 +296,11 @@ _MESSAGES: dict[str, dict[Language, str]] = {
         "pt": "nenhum ID de screenshot informado",
         "de": "keine Screenshot-ID angegeben",
     },
+    "cli_help_help": {
+        "en": "Show this help message and exit.",
+        "pt": "Mostra esta mensagem de ajuda e sai.",
+        "de": "Zeigt diese Hilfemeldung an und beendet sich.",
+    },
 }
 
 
