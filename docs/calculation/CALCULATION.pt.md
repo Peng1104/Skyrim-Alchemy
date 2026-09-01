@@ -44,24 +44,32 @@ $$
 ### 1.2 Custo do efeito
 
 O jogo trata efeitos "instantâneos" ($D_0 < 1$, sem duração real, ex.: Restore
-Health) de forma diferente de efeitos com duração:
+Health) de forma diferente de efeitos com duração.
+
+**Se $D_0 < 1$:**
 
 $$
-\text{cost}(effect) =
-\begin{cases}
-  C \cdot \max\!\big(M^{1.1},\, 1\big) & \text{se } D_0 < 1 \\[6pt]
-  C \cdot \max\!\big(M^{1.1},\, 1\big) \cdot T(D) & \text{se } D_0 \ge 1
-\end{cases}
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big)
 $$
 
-onde o termo de duração $T(D)$ é
+**Se $D_0 \ge 1$:**
 
 $$
-T(D) =
-\begin{cases}
-  \left(\dfrac{D}{10}\right)^{1.1} & \text{se } D > 0 \\[8pt]
-  1 & \text{se } D = 0
-\end{cases}
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D)
+$$
+
+onde o termo de duração $T(D)$ é:
+
+**Se $D > 0$:**
+
+$$
+T(D) = \left(\dfrac{D}{10}\right)^{1.1}
+$$
+
+**Se $D = 0$:**
+
+$$
+T(D) = 1
 $$
 
 > $D = 0$ só ocorre quando a perícia **Purity** zera o fator de duração de um
@@ -109,8 +117,8 @@ de fatores $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$, obtida de uma das duas formas:
 O ingrediente vencedor é aquele que **maximiza o valor resultante do efeito**:
 
 $$
-(f_c, f_m, f_d) = \text{arg\,max}_{i \,\in\, \text{contribuintes}(e)}
-\;\; \text{value}\big(e;\, f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
+(f_c, f_m, f_d) = \text{arg max}_{i \in \text{contribuintes}(e)}
+\quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
 $$
 
 Se nenhum ingrediente tiver modificadores, usa-se a tripla neutra $(1, 1, 1)$.
@@ -119,11 +127,8 @@ Se nenhum ingrediente tiver modificadores, usa-se a tripla neutra $(1, 1, 1)$.
 
 Perícias opcionais (`app/config.py`: `perk_physician`, `perk_benefactor`,
 `perk_poisoner`, `perk_purity`) ajustam magnitude/duração **depois** da
-resolução de prioridade da seção 2. O bônus fixo de todas elas é
-
-$$
-b = 1.25 \quad (+25\%)
-$$
+resolução de prioridade da seção 2. O bônus fixo de todas elas é $b = 1.25$
+(ou seja, um multiplicador de **+25%**).
 
 ### 3.1 Classificação poção vs. veneno
 
@@ -133,7 +138,7 @@ maior valor bruto, e ele decide se a mistura inteira é tratada como poção ou
 veneno:
 
 $$
-e^{\ast} = \text{arg\,max}_{e \,\in\, \text{effects}} \; \text{value}_{raw}(e)
+e^{\ast} = \text{arg max}_{e \in \text{effects}} \quad \text{value}_{raw}(e)
 \qquad\qquad
 \text{isPoison} = \text{harmful}(e^{\ast})
 $$
@@ -146,49 +151,50 @@ veneno), magnitude e duração daquele efeito são zeradas:
 
 $$
 \text{harmful}(e) \ne \text{isPoison}
-\;\Longrightarrow\;
+\quad\Longrightarrow\quad
 f_m \leftarrow 0,\quad f_d \leftarrow 0
 $$
 
-Isso colapsa o efeito ao seu custo base mínimo (o termo $\max(M^{1.1},1)$ vira
-$1$, e o termo de duração vira $1$ pela regra de $D=0$ da seção 1.2).
+Isso colapsa o efeito ao seu custo base mínimo (o termo $\max(M^{1.1}, 1)$
+vira $1$, e o termo de duração vira $1$ pela regra de $D=0$ da seção 1.2).
 
 ### 3.3 Physician, Benefactor, Poisoner
 
-Um multiplicador $\mu$ é acumulado (independente de Purity):
+Um multiplicador $\mu$ é acumulado (independente de Purity), começando em
+$\mu = 1$:
 
 $$
-\mu = 1
-$$
-
-$$
-\text{Physician ativo} \;\wedge\; e \in \{\text{Restore Health, Restore Magicka, Restore Stamina}\}
-\;\Longrightarrow\; \mu \leftarrow \mu \cdot b
+\text{Physician ativo} \wedge e \in \\{\text{Restore Health, Restore Magicka, Restore Stamina}\\}
+\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
 $$
 
 $$
-\text{isPoison} \;\wedge\; \text{Poisoner ativo} \;\wedge\; \text{harmful}(e)
-\;\Longrightarrow\; \mu \leftarrow \mu \cdot b
+\text{isPoison} \wedge \text{Poisoner ativo} \wedge \text{harmful}(e)
+\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
 $$
 
 $$
-\lnot\,\text{isPoison} \;\wedge\; \text{Benefactor ativo} \;\wedge\; \lnot\,\text{harmful}(e)
-\;\Longrightarrow\; \mu \leftarrow \mu \cdot b
+\lnot \text{isPoison} \wedge \text{Benefactor ativo} \wedge \lnot \text{harmful}(e)
+\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
 $$
 
 ### 3.4 Aplicação do multiplicador
 
 Para a maioria dos efeitos o multiplicador escala a **magnitude**. Para um
 conjunto fixo de efeitos que não têm magnitude significativa
-($\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\}$), o jogo escala a
-**duração** em vez disso:
+($\\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\\}$), o jogo escala
+a **duração** em vez disso:
+
+**Se $e$ está nesse conjunto de efeitos de duração:**
 
 $$
-(f_m, f_d) \leftarrow
-\begin{cases}
-  (f_m,\; f_d \cdot \mu) & \text{se } e \in \text{efeitos de duração} \\[4pt]
-  (f_m \cdot \mu,\; f_d) & \text{caso contrário}
-\end{cases}
+(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu)
+$$
+
+**Caso contrário:**
+
+$$
+(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d)
 $$
 
 Os $(f_m, f_d)$ resultantes substituem os da seção 2 no cálculo final do
@@ -196,13 +202,13 @@ efeito (seção 1).
 
 ## 4. Validade de uma poção
 
-Uma combinação de $n \in \{2, 3\}$ ingredientes só forma uma poção válida
+Uma combinação de $n \in \\{2, 3\\}$ ingredientes só forma uma poção válida
 (`Potion.valid`) se **todas** as regras abaixo forem satisfeitas:
 
 1. $2 \le n \le 3$
 2. O conjunto de efeitos compartilhados não é vazio
 3. Cada efeito $e$ da poção aparece em pelo menos 2 dos ingredientes:
-   $\forall e \in \text{effects} : \big|\{i : e \in \text{effects}(i)\}\big| \ge 2$
+   $\forall e \in \text{effects} : \big|\\{i : e \in \text{effects}(i)\\}\big| \ge 2$
 4. Cada ingrediente compartilha pelo menos um efeito com outro ingrediente da
    mesma poção (nenhum ingrediente "solto")
 
@@ -213,7 +219,7 @@ compartilhados, cada um já ajustado por prioridade de ingrediente (seção 2) e
 por perícias (seção 3):
 
 $$
-\text{value}(potion) = \sum_{e \,\in\, \text{effects}(potion)} \text{value}_p(e)
+\text{value}(potion) = \sum_{e \in \text{effects}(potion)} \text{value}_p(e)
 $$
 
 ## 6. Otimização (programação linear inteira)
@@ -244,6 +250,6 @@ onde $\text{count}(g, r)$ é o número de unidades do ingrediente $g$ que a
 receita $r$ consome (1 ou 2, já que uma poção usa no máximo 3 ingredientes
 distintos).
 
-A solução ótima $\{x_r\}$ define a sequência de fabricação
+A solução ótima $\\{x_r\\}$ define a sequência de fabricação
 (`fabrication_sequence`), ordenada por valor decrescente, e os ingredientes
 sobrando são o inventário inicial menos o consumido pela solução.

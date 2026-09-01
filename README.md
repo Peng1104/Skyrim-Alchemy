@@ -8,6 +8,9 @@ Reads your Skyrim inventory from in-game screenshots (via local OCR), scrapes in
 2. **OCR**: each screenshot is read with Tesseract, and recognized text is fuzzy-matched against the real ingredient list scraped from UESP (corrects OCR typos, filters out UI noise).
 3. **Optimization**: given your inventory quantities, an ILP solver finds the combination of 2–3 ingredient potions that maximizes total gold value.
 
+For the exact math behind the gold/value calculation and the optimizer, see `docs/calculation/`:
+[English](docs/calculation/CALCULATION.en.md) · [Português](docs/calculation/CALCULATION.pt.md) · [Deutsch](docs/calculation/CALCULATION.de.md)
+
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/) (manages Python 3.14 and dependencies)
