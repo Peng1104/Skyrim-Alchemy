@@ -31,6 +31,28 @@ This produces a `dict[str, Ingredient]` — each `Ingredient` has a name and a
 list of up to 4 `IngredientEffect`s, each with an optional
 `{Modifier: factor}` map.
 
+### 1.1 DLC and Creation Club coverage
+
+The scraper does **not** filter by origin — it captures every row in the
+page's tables unconditionally, whether the ingredient is from the base
+game, an official DLC (Dawnguard, Hearthfire, Dragonborn), or any
+Creation Club/Anniversary Edition content (Rare Curios, Fishing, Saints &
+Seducers, The Cause, Plague of the Dead, etc.). None of that is filtered
+out, and there's no setting to exclude it — if it's a row on UESP's
+`Skyrim:Ingredients` page, it ends up in `ingredients_data`.
+
+This also means the resulting data isn't cleanly separable by origin:
+UESP tags a few rows with a small superscript badge linking to the source
+DLC/Creation (`DG`, `HF`, `DB`, or a generic `CC`), but many
+Creation-Club-origin ingredients (Mort Flesh from Plague of the Dead, for
+example) carry no badge at all and are visually indistinguishable from
+base-game ones in the table. So there's no reliable way to derive "is this
+ingredient from a DLC I own" from the scraped data.
+
+In practice this is harmless: if you don't own a given DLC/Creation, its
+ingredients simply never show up in your in-game inventory, so OCR never
+matches them — they just sit unused in `ingredients_data`.
+
 ## 2. Effects
 
 Source: [Skyrim:Alchemy Effects](https://en.uesp.net/wiki/Skyrim:Alchemy_Effects).
