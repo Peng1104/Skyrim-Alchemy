@@ -139,6 +139,61 @@ _MESSAGES: dict[str, dict[Language, str]] = {
         "pt": "🗑️ {count} captura(s) de tela apagada(s) (já processada(s)).",
         "de": "🗑️ {count} Screenshot(s) gelöscht (bereits verarbeitet).",
     },
+    "cache_deleted": {
+        "en": "🗑️ {count} cached OCR result(s) deleted.",
+        "pt": "🗑️ {count} resultado(s) de OCR em cache apagado(s).",
+        "de": "🗑️ {count} zwischengespeicherte(s) OCR-Ergebnis(se) gelöscht.",
+    },
+    "screenshot_list_header": {
+        "en": "🗂️ Screenshots:",
+        "pt": "🗂️ Capturas de tela:",
+        "de": "🗂️ Screenshots:",
+    },
+    "screenshot_list_line": {
+        "en": "   • {id}: image {image_mark}, cache {cache_mark}",
+        "pt": "   • {id}: imagem {image_mark}, cache {cache_mark}",
+        "de": "   • {id}: Bild {image_mark}, Cache {cache_mark}",
+    },
+    "screenshot_list_empty": {
+        "en": "🗂️ No screenshots found (neither in the game directory nor cached).",
+        "pt": "🗂️ Nenhuma captura de tela encontrada (nem no diretório do jogo, nem em cache).",
+        "de": "🗂️ Keine Screenshots gefunden (weder im Spielverzeichnis noch im Cache).",
+    },
+    "marker_range_line": {
+        "en": "📍 Last run: screenshots {min_id} to {max_id}.",
+        "pt": "📍 Último run: capturas {min_id} a {max_id}.",
+        "de": "📍 Letzter Lauf: Screenshots {min_id} bis {max_id}.",
+    },
+    "marker_range_empty": {
+        "en": "📍 No run yet.",
+        "pt": "📍 Nenhum run ainda.",
+        "de": "📍 Noch kein Lauf.",
+    },
+    "next_range_line": {
+        "en": "🆕 Next default run: screenshots {min_id} to {max_id}.",
+        "pt": "🆕 Próximo run padrão: capturas {min_id} a {max_id}.",
+        "de": "🆕 Nächster Standardlauf: Screenshots {min_id} bis {max_id}.",
+    },
+    "screenshot_info_header": {
+        "en": "🖼️ Screenshot {id}:",
+        "pt": "🖼️ Captura {id}:",
+        "de": "🖼️ Screenshot {id}:",
+    },
+    "screenshot_info_image_line": {
+        "en": "   image: {mark}",
+        "pt": "   imagem: {mark}",
+        "de": "   Bild: {mark}",
+    },
+    "screenshot_info_cache_line": {
+        "en": "   cache: {mark}",
+        "pt": "   cache: {mark}",
+        "de": "   Cache: {mark}",
+    },
+    "screenshot_info_no_ingredients": {
+        "en": "   ❌ No cached ingredients (not OCR'd yet).",
+        "pt": "   ❌ Nenhum ingrediente em cache (ainda não processada).",
+        "de": "   ❌ Keine zwischengespeicherten Zutaten (noch nicht per OCR erkannt).",
+    },
 }
 
 

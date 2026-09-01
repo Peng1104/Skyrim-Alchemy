@@ -18,12 +18,33 @@ class InventoryMarker(BaseModel):
     """Model representing the on-disk marker for the last combined screenshot range."""
 
     processed_screenshot_ids: list[int] = Field(
-        ..., description="Every screenshot ID included in the most recent default "
-                          "(full-history) combination - not just the highest one, so "
-                          "gaps in the numbering are represented accurately. Each "
+        ..., description="Every screenshot ID included in the most recent `retrieve` "
+                          "call, whatever range it covered - not just the highest one, "
+                          "so gaps in the numbering are represented accurately. Each "
                           "screenshot's own OCR result is cached separately (see "
                           "app.inventory._inventory), so this is informational "
-                          "bookkeeping only - it is not required to determine what needs OCR.")
+                          "bookkeeping only - it is not required to determine what needs "
+                          "OCR. Used by `Inventory.resolve_new_range` to pick the range "
+                          "for a default (no explicit --min/--max) run.")
+
+
+class ScreenshotStatus(BaseModel):
+    """Model representing one screenshot ID's availability, for `--list`."""
+
+    id: int = Field(..., description="The screenshot's ID.")
+    has_image: bool = Field(
+        ..., description="Whether the source screenshot file still exists in the "
+                          "game directory.")
+    has_cache: bool = Field(
+        ..., description="Whether this screenshot's OCR result is cached on disk.")
+
+
+class ScreenshotDetail(ScreenshotStatus):
+    """Model representing one screenshot's availability plus its cached ingredients, for `--info`."""
+
+    ingredients: list[InventoryIngredient] = Field(
+        ..., description="This screenshot's cached OCR result, or an empty list "
+                          "if it has no cache yet (has_cache is False).")
 
 
 class Modifier(StrEnum):
