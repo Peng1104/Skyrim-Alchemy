@@ -97,7 +97,7 @@ de fatores $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$, obtida de uma das duas formas:
 O ingrediente vencedor é aquele que **maximiza o valor resultante do efeito**:
 
 $$
-(f_c, f_m, f_d) = \operatorname*{arg\,max}_{i \,\in\, \text{contribuintes}(e)}
+(f_c, f_m, f_d) = \text{arg\,max}_{i \,\in\, \text{contribuintes}(e)}
 \;\; \text{value}\big(e;\, f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
 $$
 
@@ -121,9 +121,9 @@ maior valor bruto, e ele decide se a mistura inteira é tratada como poção ou
 veneno:
 
 $$
-e^{\*} = \operatorname*{arg\,max}_{e \,\in\, \text{effects}} \text{value}_{raw}(e)
+e^{\ast} = \text{arg\,max}_{e \,\in\, \text{effects}} \; \text{value}_{raw}(e)
 \qquad\qquad
-\text{is\_poison} = \text{harmful}(e^{\*})
+\text{is\_poison} = \text{harmful}(e^{\ast})
 $$
 
 ### 3.2 Purity
