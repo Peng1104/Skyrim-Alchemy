@@ -46,32 +46,24 @@ $$
 ### 1.2 Effektkosten
 
 Das Spiel behandelt "sofortige" Effekte ($D_0 < 1$, ohne echte Dauer, z. B.
-Heilung wiederherstellen) anders als Effekte mit Dauer.
-
-**Wenn $D_0 < 1$:**
+Heilung wiederherstellen) anders als Effekte mit Dauer:
 
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big)
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \qquad \text{wenn } D_0 < 1
 $$
 
-**Wenn $D_0 \ge 1$:**
-
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D)
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D) \qquad \text{wenn } D_0 \ge 1
 $$
 
 wobei der Dauerterm $T(D)$ ist:
 
-**Wenn $D > 0$:**
-
 $$
-T(D) = \left(\dfrac{D}{10}\right)^{1.1}
+T(D) = \left(\dfrac{D}{10}\right)^{1.1} \qquad \text{wenn } D > 0
 $$
 
-**Wenn $D = 0$:**
-
 $$
-T(D) = 1
+T(D) = 1 \qquad \text{wenn } D = 0
 $$
 
 > $D = 0$ tritt nur auf, wenn der Perk **Purity** den Dauerfaktor eines
@@ -194,16 +186,12 @@ eine feste Menge von Effekten ohne nennenswerte Stärke
 ($\\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\\}$), skaliert
 das Spiel stattdessen die **Dauer**:
 
-**Wenn $e$ zu dieser Menge dauerskalierender Effekte gehört:**
-
 $$
-(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu)
+(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu) \qquad \text{wenn } e \text{ zu dieser Menge gehört}
 $$
 
-**Andernfalls:**
-
 $$
-(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d)
+(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d) \qquad \text{andernfalls}
 $$
 
 Die resultierenden $(f_m, f_d)$ ersetzen die aus Abschnitt 2 in der

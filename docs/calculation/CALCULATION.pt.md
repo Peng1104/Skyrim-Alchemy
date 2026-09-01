@@ -44,32 +44,24 @@ $$
 ### 1.2 Custo do efeito
 
 O jogo trata efeitos "instantâneos" ($D_0 < 1$, sem duração real, ex.: Restore
-Health) de forma diferente de efeitos com duração.
-
-**Se $D_0 < 1$:**
+Health) de forma diferente de efeitos com duração:
 
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big)
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \qquad \text{se } D_0 < 1
 $$
 
-**Se $D_0 \ge 1$:**
-
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D)
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D) \qquad \text{se } D_0 \ge 1
 $$
 
 onde o termo de duração $T(D)$ é:
 
-**Se $D > 0$:**
-
 $$
-T(D) = \left(\dfrac{D}{10}\right)^{1.1}
+T(D) = \left(\dfrac{D}{10}\right)^{1.1} \qquad \text{se } D > 0
 $$
 
-**Se $D = 0$:**
-
 $$
-T(D) = 1
+T(D) = 1 \qquad \text{se } D = 0
 $$
 
 > $D = 0$ só ocorre quando a perícia **Purity** zera o fator de duração de um
@@ -185,16 +177,12 @@ conjunto fixo de efeitos que não têm magnitude significativa
 ($\\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\\}$), o jogo escala
 a **duração** em vez disso:
 
-**Se $e$ está nesse conjunto de efeitos de duração:**
-
 $$
-(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu)
+(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu) \qquad \text{se } e \text{ está nesse conjunto}
 $$
 
-**Caso contrário:**
-
 $$
-(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d)
+(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d) \qquad \text{caso contrário}
 $$
 
 Os $(f_m, f_d)$ resultantes substituem os da seção 2 no cálculo final do

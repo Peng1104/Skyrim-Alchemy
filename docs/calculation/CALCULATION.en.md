@@ -44,32 +44,24 @@ $$
 ### 1.2 Effect cost
 
 The game treats "instant" effects ($D_0 < 1$, no real duration, e.g. Restore
-Health) differently from effects that have a duration.
-
-**If $D_0 < 1$:**
+Health) differently from effects that have a duration:
 
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big)
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \qquad \text{if } D_0 < 1
 $$
 
-**If $D_0 \ge 1$:**
-
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D)
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D) \qquad \text{if } D_0 \ge 1
 $$
 
 where the duration term $T(D)$ is:
 
-**If $D > 0$:**
-
 $$
-T(D) = \left(\dfrac{D}{10}\right)^{1.1}
+T(D) = \left(\dfrac{D}{10}\right)^{1.1} \qquad \text{if } D > 0
 $$
 
-**If $D = 0$:**
-
 $$
-T(D) = 1
+T(D) = 1 \qquad \text{if } D = 0
 $$
 
 > $D = 0$ only happens when the **Purity** perk zeroes out the duration
@@ -189,16 +181,12 @@ effects that have no meaningful magnitude
 ($\\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\\}$), the game
 scales **duration** instead:
 
-**If $e$ is in that set of duration-scaling effects:**
-
 $$
-(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu)
+(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu) \qquad \text{if } e \text{ is in that set}
 $$
 
-**Otherwise:**
-
 $$
-(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d)
+(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d) \qquad \text{otherwise}
 $$
 
 The resulting $(f_m, f_d)$ replace the ones from section 2 in the effect's
