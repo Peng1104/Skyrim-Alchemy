@@ -97,9 +97,11 @@ Para cada ingrediente $i$ que contribui com o efeito $e$, define-se a tripla
 de fatores $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$, obtida de uma das duas formas:
 
 1. **Prioridade explícita** (`Effect.priority_overrides`): alguns efeitos
-   (ex.: *Damage Health*) têm uma tabela própria na UESP listando razões de
-   magnitude/duração não padrão por ingrediente (ex.: *River Betty*). Nesse
-   caso $f_c^{(i)} = 1$ e $(f_m^{(i)}, f_d^{(i)})$ vêm da tabela.
+   (ex.: *Damage Health*) têm uma tabela própria na
+   [lista de efeitos da UESP](https://en.uesp.net/wiki/Skyrim:Alchemy_Effects)
+   listando razões de magnitude/duração não padrão por ingrediente (ex.:
+   *River Betty*). Nesse caso $f_c^{(i)} = 1$ e $(f_m^{(i)}, f_d^{(i)})$ vêm
+   da tabela.
 2. **Modificadores padrão**: quando não há override, usa-se
    $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$ dos modificadores `Value`/`Magnitude`/`Duration`
    do próprio ingrediente para aquele efeito.
