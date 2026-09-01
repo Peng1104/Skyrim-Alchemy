@@ -53,7 +53,7 @@ class ConsoleCapture:
         """
         if filename is None:
             filename = str(LOGGING_DIRECTORY /
-                           datetime.now().strftime("%H.%M.%S_%d-%m-%Y.log"))
+                           datetime.now().strftime("%d-%m-%Y_%H.%M.%S.log"))
 
         self.filename = filename
 
