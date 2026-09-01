@@ -59,28 +59,49 @@ uv run python -m app   # inicia o uvicorn na porta :8001
 | Método | Rota | Descrição |
 | :--- | :--- | :--- |
 | `GET` | `/health` | Verificação de disponibilidade |
-| `POST` | `/optimize` | Lê o inventário atual e retorna a sequência de fabricação ótima |
-| `DELETE` | `/cache/pages` | Apaga todas as páginas HTML da UESP em cache, forçando uma nova raspagem na próxima `/optimize` |
+| `POST` | `/optimize/screenshots` | Envia um ou mais screenshots do inventário (PNG) mais os toggles de perícia, retorna a sequência de fabricação ótima |
+| `DELETE` | `/cache/pages` | Apaga todas as páginas HTML da UESP em cache, forçando uma nova raspagem na próxima requisição |
+
+`POST /optimize/screenshots` aceita uma requisição `multipart/form-data`: uma
+ou mais partes `files` (PNG apenas), mais os campos booleanos opcionais
+`perk_physician`/`perk_benefactor`/`perk_poisoner`/`perk_purity` (cada um
+com padrão `false`). Quando o inventário abrange vários screenshots rolados,
+envie todos na mesma requisição — a leitura do arquivo mais recente para um
+dado ingrediente sobrescreve a anterior, já que cada screenshot mostra a
+quantidade total atual, não um delta.
+
+O OCR em si roda num serviço `ocr` isolado (veja Docker abaixo), não no
+processo da API — a API nunca processa os bytes da imagem enviada
+diretamente.
 
 ### Docker
 
 ```bash
-export SKYRIM_SCREENSHOTS_DIR="/path/to/Skyrim Special Edition"
+export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
 docker compose up -d --build
 ```
 
+Isso sobe dois containers: `app` (a API, publicada em `:8001`) e `ocr`
+(Tesseract, alcançável só pelo `app` via uma rede Docker interna — sem porta
+publicada no host). `OCR_SERVICE_TOKEN` é um segredo compartilhado entre os
+dois, checado em toda requisição interna de OCR; gere um novo por deploy,
+nunca reutilize ou comite esse valor.
+
 ## Configuração
 
-As configurações são resolvidas nesta ordem: init > variável de ambiente > `.env` > `config.toml` > padrão.
+As configurações do `config.toml` (`game_directory`, `log_language`, os
+perks) só são usadas pelo CLI — a API não lê nada disso, então elas não têm
+efeito nenhum sobre `docker compose up`. Ordem de resolução: init >
+`config.toml` > padrão.
 
-| Chave em `config.toml` | Variável de ambiente | Padrão | Descrição |
-| :--- | :--- | :--- | :--- |
-| `game_directory` | `GAME_DIRECTORY` | detectado automaticamente via Steam | Caminho da instalação do Skyrim (onde os screenshots são salvos) |
-| `log_language` | `LOG_LANGUAGE` | `en` | Idioma do log no console: `en`, `pt`, ou `de` |
-| `perk_physician` | `PERK_PHYSICIAN` | `false` | +25% de magnitude em Restaurar Vida/Magicka/Vigor |
-| `perk_benefactor` | `PERK_BENEFACTOR` | `false` | +25% em efeitos benéficos, em poções dominadas por um efeito benéfico |
-| `perk_poisoner` | `PERK_POISONER` | `false` | +25% em efeitos nocivos, em poções dominadas por um efeito nocivo (venenos) |
-| `perk_purity` | `PERK_PURITY` | `false` | Zera os efeitos de polaridade oposta em uma poção mista |
+| Chave em `config.toml` | Padrão | Descrição |
+| :--- | :--- | :--- |
+| `game_directory` | detectado automaticamente via Steam | Caminho da instalação do Skyrim (onde os screenshots são salvos) |
+| `log_language` | `en` | Idioma do log no console: `en`, `pt`, ou `de` |
+| `perk_physician` | `false` | +25% de magnitude em Restaurar Vida/Magicka/Vigor |
+| `perk_benefactor` | `false` | +25% em efeitos benéficos, em poções dominadas por um efeito benéfico |
+| `perk_poisoner` | `false` | +25% em efeitos nocivos, em poções dominadas por um efeito nocivo (venenos) |
+| `perk_purity` | `false` | Zera os efeitos de polaridade oposta em uma poção mista |
 
 `game_directory` é detectado automaticamente lendo o `libraryfolders.vdf` do cliente Steam (cobre bibliotecas extras em outros discos), no Windows, Linux e macOS. Defina-o explicitamente em `config.toml` se você não usa Steam, ou se a detecção automática escolher a instalação errada.
 

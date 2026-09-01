@@ -1,15 +1,19 @@
 """
 Application settings module.
 
-`game_directory` and `log_language` are non-secret user preferences loaded from
-`config.toml` (or GAME_DIRECTORY/LOG_LANGUAGE environment variables). `game_directory`
-falls back to an auto-detected Skyrim Special Edition install path (see `app.steam`)
-when unset; `log_language` defaults to `"en"`.
+`game_directory` and `log_language` are non-secret user preferences loaded
+from `config.toml`. `game_directory` falls back to an auto-detected Skyrim
+Special Edition install path (see `app.steam`) when unset; `log_language`
+defaults to `"en"`.
 
-Note: the field is named `log_language`, not `language` - pydantic-settings maps
-a field to the env var of the same name uppercased, and `LANGUAGE` is already a
-common POSIX/gettext locale variable (e.g. `LANGUAGE=pt_BR:pt:en`) that many
-systems set. Naming it `language` would silently pick that up and crash validation.
+These settings are only ever read by the CLI (`run.py`) - the API never
+touches `Settings` at all, and its one secret (`OCR_SERVICE_TOKEN`) is read
+directly from the environment in `app/ocr_client.py`/`ocr_service/main.py`,
+never through this class. Environment variable / `.env` support was
+deliberately dropped here: `config.toml` was already the only source
+actually in use (nothing in this project's Docker setup needs to inject
+these via env var anymore), so keeping unused input sources around was just
+a footgun waiting to confuse someone about precedence.
 """
 from functools import lru_cache
 from typing import Literal
@@ -28,10 +32,9 @@ Language = Literal["en", "pt", "de"]
 
 
 class Settings(BaseSettings):
-    """Application settings, merged from environment variables, `.env`, and `config.toml`."""
+    """Application settings, loaded from `config.toml` (CLI use only)."""
 
     model_config = SettingsConfigDict(
-        env_file=".env",
         toml_file="config.toml",
         extra="ignore",
     )
@@ -74,13 +77,10 @@ class Settings(BaseSettings):
         dotenv_settings: PydanticBaseSettingsSource,
         file_secret_settings: PydanticBaseSettingsSource,
     ) -> tuple[PydanticBaseSettingsSource, ...]:
-        """Define settings source priority: init > env > .env > config.toml > secrets file."""
+        """Define settings source priority: init > config.toml (env/.env intentionally excluded)."""
         return (
             init_settings,
-            env_settings,
-            dotenv_settings,
             TomlConfigSettingsSource(settings_cls),
-            file_secret_settings,
         )
 
 

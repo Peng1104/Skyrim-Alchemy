@@ -59,28 +59,49 @@ uv run python -m app   # startet uvicorn auf Port :8001
 | Methode | Pfad | Beschreibung |
 | :--- | :--- | :--- |
 | `GET` | `/health` | Verfügbarkeitsprüfung |
-| `POST` | `/optimize` | Liest das aktuelle Inventar und gibt die optimale Herstellungsreihenfolge zurück |
-| `DELETE` | `/cache/pages` | Löscht alle zwischengespeicherten UESP-HTML-Seiten und erzwingt beim nächsten `/optimize` ein frisches Scraping |
+| `POST` | `/optimize/screenshots` | Lädt ein oder mehrere Inventar-Screenshots (PNG) plus Perk-Umschalter hoch und gibt die optimale Herstellungsreihenfolge zurück |
+| `DELETE` | `/cache/pages` | Löscht alle zwischengespeicherten UESP-HTML-Seiten und erzwingt bei der nächsten Anfrage ein frisches Scraping |
+
+`POST /optimize/screenshots` akzeptiert eine `multipart/form-data`-Anfrage:
+ein oder mehrere `files`-Teile (nur PNG), plus die optionalen booleschen
+Formularfelder `perk_physician`/`perk_benefactor`/`perk_poisoner`/
+`perk_purity` (jeweils standardmäßig `false`). Erstreckt sich ein Inventar
+über mehrere gescrollte Screenshots, lade sie alle in derselben Anfrage hoch
+— die Werte aus späteren Dateien überschreiben für eine gegebene Zutat die
+aus früheren, da jeder Screenshot die aktuelle Gesamtmenge zeigt, kein Delta.
+
+Das OCR selbst läuft in einem isolierten `ocr`-Dienst (siehe Docker unten),
+nicht im API-Prozess — die API verarbeitet hochgeladene Bilddaten nie selbst.
 
 ### Docker
 
 ```bash
-export SKYRIM_SCREENSHOTS_DIR="/path/to/Skyrim Special Edition"
+export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
 docker compose up -d --build
 ```
 
+Das startet zwei Container: `app` (die API, veröffentlicht auf `:8001`) und
+`ocr` (Tesseract, nur von `app` über ein rein internes Docker-Netzwerk
+erreichbar — kein veröffentlichter Host-Port). `OCR_SERVICE_TOKEN` ist ein
+gemeinsames Geheimnis zwischen den beiden, geprüft bei jeder internen
+OCR-Anfrage; erzeuge pro Deployment ein neues, nie wiederverwenden oder
+committen.
+
 ## Konfiguration
 
-Einstellungen werden in dieser Reihenfolge aufgelöst: Init > Umgebungsvariable > `.env` > `config.toml` > Standardwert.
+`config.toml`-Einstellungen (`game_directory`, `log_language`, die Perks)
+werden nur vom CLI verwendet — die API liest sie überhaupt nicht, sie haben
+also keine Auswirkung auf `docker compose up`. Auflösungsreihenfolge: Init >
+`config.toml` > Standardwert.
 
-| `config.toml`-Schlüssel | Umgebungsvariable | Standard | Beschreibung |
-| :--- | :--- | :--- | :--- |
-| `game_directory` | `GAME_DIRECTORY` | automatisch über Steam erkannt | Pfad zur Skyrim-Installation (wo Screenshots gespeichert werden) |
-| `log_language` | `LOG_LANGUAGE` | `en` | Konsolen-Log-Sprache: `en`, `pt` oder `de` |
-| `perk_physician` | `PERK_PHYSICIAN` | `false` | +25% Stärke bei Heilung/Magicka/Ausdauer wiederherstellen |
-| `perk_benefactor` | `PERK_BENEFACTOR` | `false` | +25% auf wohltätige Effekte, bei Tränken, die von einem wohltätigen Effekt dominiert werden |
-| `perk_poisoner` | `PERK_POISONER` | `false` | +25% auf schädliche Effekte, bei Tränken, die von einem schädlichen Effekt dominiert werden (Gifte) |
-| `perk_purity` | `PERK_PURITY` | `false` | Setzt die Effekte entgegengesetzter Polarität in einem gemischten Trank auf null |
+| `config.toml`-Schlüssel | Standard | Beschreibung |
+| :--- | :--- | :--- |
+| `game_directory` | automatisch über Steam erkannt | Pfad zur Skyrim-Installation (wo Screenshots gespeichert werden) |
+| `log_language` | `en` | Konsolen-Log-Sprache: `en`, `pt` oder `de` |
+| `perk_physician` | `false` | +25% Stärke bei Heilung/Magicka/Ausdauer wiederherstellen |
+| `perk_benefactor` | `false` | +25% auf wohltätige Effekte, bei Tränken, die von einem wohltätigen Effekt dominiert werden |
+| `perk_poisoner` | `false` | +25% auf schädliche Effekte, bei Tränken, die von einem schädlichen Effekt dominiert werden (Gifte) |
+| `perk_purity` | `false` | Setzt die Effekte entgegengesetzter Polarität in einem gemischten Trank auf null |
 
 `game_directory` wird automatisch erkannt, indem die `libraryfolders.vdf` des Steam-Clients gelesen wird (deckt zusätzliche Bibliotheken auf anderen Laufwerken ab), unter Windows, Linux und macOS. Setze es explizit in `config.toml`, wenn du kein Steam nutzt oder die automatische Erkennung die falsche Installation wählt.
 
