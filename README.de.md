@@ -56,22 +56,10 @@ Die Ausgabe wird in der Konsole angezeigt und in `logs/<timestamp>.log` gespeich
 uv run python -m app   # startet uvicorn auf Port :8001
 ```
 
-| Methode | Pfad | Beschreibung |
-| :--- | :--- | :--- |
-| `GET` | `/health` | Verfügbarkeitsprüfung |
-| `POST` | `/optimize/screenshots` | Lädt ein oder mehrere Inventar-Screenshots (PNG) plus Perk-Umschalter hoch und gibt die optimale Herstellungsreihenfolge zurück |
-| `DELETE` | `/cache/pages` | Löscht alle zwischengespeicherten UESP-HTML-Seiten und erzwingt bei der nächsten Anfrage ein frisches Scraping |
-
-`POST /optimize/screenshots` akzeptiert eine `multipart/form-data`-Anfrage:
-ein oder mehrere `files`-Teile (nur PNG), plus die optionalen booleschen
-Formularfelder `perk_physician`/`perk_benefactor`/`perk_poisoner`/
-`perk_purity` (jeweils standardmäßig `false`). Erstreckt sich ein Inventar
-über mehrere gescrollte Screenshots, lade sie alle in derselben Anfrage hoch
-— die Werte aus späteren Dateien überschreiben für eine gegebene Zutat die
-aus früheren, da jeder Screenshot die aktuelle Gesamtmenge zeigt, kein Delta.
-
 Das OCR selbst läuft in einem isolierten `ocr`-Dienst (siehe Docker unten),
 nicht im API-Prozess — die API verarbeitet hochgeladene Bilddaten nie selbst.
+
+Für das Anfrage-/Antwortformat jedes Endpunkts siehe [docs/api/API.de.md](docs/api/API.de.md).
 
 ### Docker
 

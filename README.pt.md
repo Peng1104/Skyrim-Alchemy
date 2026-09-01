@@ -56,23 +56,10 @@ A saída é impressa no console e salva em `logs/<timestamp>.log`.
 uv run python -m app   # inicia o uvicorn na porta :8001
 ```
 
-| Método | Rota | Descrição |
-| :--- | :--- | :--- |
-| `GET` | `/health` | Verificação de disponibilidade |
-| `POST` | `/optimize/screenshots` | Envia um ou mais screenshots do inventário (PNG) mais os toggles de perícia, retorna a sequência de fabricação ótima |
-| `DELETE` | `/cache/pages` | Apaga todas as páginas HTML da UESP em cache, forçando uma nova raspagem na próxima requisição |
-
-`POST /optimize/screenshots` aceita uma requisição `multipart/form-data`: uma
-ou mais partes `files` (PNG apenas), mais os campos booleanos opcionais
-`perk_physician`/`perk_benefactor`/`perk_poisoner`/`perk_purity` (cada um
-com padrão `false`). Quando o inventário abrange vários screenshots rolados,
-envie todos na mesma requisição — a leitura do arquivo mais recente para um
-dado ingrediente sobrescreve a anterior, já que cada screenshot mostra a
-quantidade total atual, não um delta.
-
 O OCR em si roda num serviço `ocr` isolado (veja Docker abaixo), não no
-processo da API — a API nunca processa os bytes da imagem enviada
-diretamente.
+processo da API — a API nunca processa os bytes da imagem enviada diretamente.
+
+Para o formato de entrada/saída de cada endpoint, veja [docs/api/API.pt.md](docs/api/API.pt.md).
 
 ### Docker
 
