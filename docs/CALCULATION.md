@@ -1,10 +1,20 @@
 # Cálculo de valor de poções e otimização
 
-Este documento descreve, em notação matemática (LaTeX), como o projeto calcula o
-valor em ouro de um efeito, de uma poção, e como o solver escolhe a combinação
-de poções mais lucrativa dado o inventário disponível. A implementação de
-referência está em `app/models.py` (`Effect.value`, `Potion.value`),
-`app/perks.py` (bônus de perícia) e `app/optimizer/_engine.py` (ILP).
+Este documento descreve como o projeto calcula o valor em **ouro** de um
+efeito, de uma poção, e como o solver escolhe a combinação de poções mais
+lucrativa dado o inventário disponível. A implementação de referência está em
+`app/models.py` (`Effect.value`, `Potion.value`), `app/perks.py` (bônus de
+perícia) e `app/optimizer/_engine.py` (ILP).
+
+O projeto otimiza apenas o valor em ouro — mas isso também maximiza o
+**XP de Alquimia** ganho ao fabricar as poções. Segundo a
+[UESP](https://en.uesp.net/wiki/Skyrim:Alchemy#Gaining_Skill_XP), o XP
+ganho ao fabricar uma poção é **proporcional ao seu valor em ouro**
+(o jogo não documenta a constante exata de proporcionalidade, mas a relação é
+monotônica: poção mais cara $\Rightarrow$ mais XP). Ou seja, a sequência de
+fabricação retornada por este otimizador — que maximiza $\sum \text{value}(r)$
+— é, pela mesma razão, a sequência que também maximiza o XP de Alquimia
+acumulado, sem precisar de um modelo de XP separado.
 
 ## 1. Valor base de um efeito
 
