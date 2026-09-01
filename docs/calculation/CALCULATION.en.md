@@ -107,12 +107,12 @@ triple $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$, obtained one of two ways:
    $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$ from the ingredient's own
    `Value`/`Magnitude`/`Duration` modifiers for that effect.
 
-The winning ingredient is the one that **maximizes the resulting effect
-value**:
+The winning ingredient is the one, among the contributors to $e$, that
+**maximizes the resulting effect value** (where $i$ ranges over the
+contributing ingredients):
 
 $$
-(f_c, f_m, f_d) = \text{arg max}_{i \in \text{contributors}(e)}
-\quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
+(f_c, f_m, f_d) = \text{arg max}_i \quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
 $$
 
 If no ingredient has modifiers, the neutral triple $(1, 1, 1)$ is used.
@@ -126,14 +126,16 @@ $b = 1.25$ (i.e. a **+25%** multiplier).
 
 ### 3.1 Potion vs. poison classification
 
-Before applying any perk, the value of **every** effect is computed with no
-perk bonus at all ($\text{value}_{raw}$). The dominant effect is the one with
-the highest raw value, and it decides whether the whole mixture is treated as
-a potion or a poison:
+Before applying any perk, the value of **every** effect in the potion is
+computed with no perk bonus at all ($\text{value}_{raw}$). The dominant
+effect $e^{\ast}$ is the one with the highest raw value, and it decides
+whether the whole mixture is treated as a potion or a poison:
 
 $$
-e^{\ast} = \text{arg max}_{e \in \text{effects}} \quad \text{value}_{raw}(e)
-\qquad\qquad
+e^{\ast} = \text{arg max}_e \quad \text{value}_{raw}(e)
+$$
+
+$$
 \text{isPoison} = \text{harmful}(e^{\ast})
 $$
 
@@ -157,21 +159,15 @@ section 1.2).
 ### 3.3 Physician, Benefactor, Poisoner
 
 A multiplier $\mu$ is accumulated (independent of Purity), starting at
-$\mu = 1$:
+$\mu = 1$. Each perk below, if active and its condition matches, multiplies
+$\mu$ by $b$:
+
+- **Physician**: $e$ is Restore Health, Restore Magicka, or Restore Stamina
+- **Poisoner**: the mixture is a poison (`isPoison`) and $e$ is harmful (`harmful(e)`)
+- **Benefactor**: the mixture is **not** a poison and $e$ is **not** harmful
 
 $$
-\text{Physician active} \wedge e \in \\{\text{Restore Health, Restore Magicka, Restore Stamina}\\}
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
-$$
-
-$$
-\text{isPoison} \wedge \text{Poisoner active} \wedge \text{harmful}(e)
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
-$$
-
-$$
-\lnot \text{isPoison} \wedge \text{Benefactor active} \wedge \lnot \text{harmful}(e)
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
+\mu \leftarrow \mu \cdot b
 $$
 
 ### 3.4 Applying the multiplier

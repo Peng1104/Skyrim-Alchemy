@@ -106,11 +106,12 @@ de fatores $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$, obtida de uma das duas formas:
    $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$ dos modificadores `Value`/`Magnitude`/`Duration`
    do próprio ingrediente para aquele efeito.
 
-O ingrediente vencedor é aquele que **maximiza o valor resultante do efeito**:
+O ingrediente vencedor é aquele, entre os contribuintes de $e$, que
+**maximiza o valor resultante do efeito** (onde $i$ percorre os ingredientes
+contribuintes):
 
 $$
-(f_c, f_m, f_d) = \text{arg max}_{i \in \text{contribuintes}(e)}
-\quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
+(f_c, f_m, f_d) = \text{arg max}_i \quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
 $$
 
 Se nenhum ingrediente tiver modificadores, usa-se a tripla neutra $(1, 1, 1)$.
@@ -124,14 +125,16 @@ resolução de prioridade da seção 2. O bônus fixo de todas elas é $b = 1.25
 
 ### 3.1 Classificação poção vs. veneno
 
-Antes de aplicar qualquer perícia, calcula-se o valor de **cada** efeito sem
-nenhum bônus de perícia ($\text{value}_{raw}$). O efeito dominante é o de
-maior valor bruto, e ele decide se a mistura inteira é tratada como poção ou
-veneno:
+Antes de aplicar qualquer perícia, calcula-se o valor de **cada** efeito da
+poção sem nenhum bônus de perícia ($\text{value}_{raw}$). O efeito dominante
+$e^{\ast}$ é o de maior valor bruto, e ele decide se a mistura inteira é
+tratada como poção ou veneno:
 
 $$
-e^{\ast} = \text{arg max}_{e \in \text{effects}} \quad \text{value}_{raw}(e)
-\qquad\qquad
+e^{\ast} = \text{arg max}_e \quad \text{value}_{raw}(e)
+$$
+
+$$
 \text{isPoison} = \text{harmful}(e^{\ast})
 $$
 
@@ -153,21 +156,15 @@ vira $1$, e o termo de duração vira $1$ pela regra de $D=0$ da seção 1.2).
 ### 3.3 Physician, Benefactor, Poisoner
 
 Um multiplicador $\mu$ é acumulado (independente de Purity), começando em
-$\mu = 1$:
+$\mu = 1$. Cada perícia abaixo, se estiver ativa e sua condição bater,
+multiplica $\mu$ por $b$:
+
+- **Physician**: $e$ é Restore Health, Restore Magicka ou Restore Stamina
+- **Poisoner**: a mistura é um veneno (`isPoison`) e $e$ é nocivo (`harmful(e)`)
+- **Benefactor**: a mistura **não** é um veneno e $e$ **não** é nocivo
 
 $$
-\text{Physician ativo} \wedge e \in \\{\text{Restore Health, Restore Magicka, Restore Stamina}\\}
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
-$$
-
-$$
-\text{isPoison} \wedge \text{Poisoner ativo} \wedge \text{harmful}(e)
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
-$$
-
-$$
-\lnot \text{isPoison} \wedge \text{Benefactor ativo} \wedge \lnot \text{harmful}(e)
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
+\mu \leftarrow \mu \cdot b
 $$
 
 ### 3.4 Aplicação do multiplicador

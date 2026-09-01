@@ -111,12 +111,12 @@ $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$ auf eine von zwei Arten bestimmt:
    `Value`/`Magnitude`/`Duration`-Modifikatoren der Zutat für diesen Effekt
    verwendet.
 
-Die gewinnende Zutat ist diejenige, die **den resultierenden Effektwert
-maximiert**:
+Die gewinnende Zutat ist diejenige unter den Beitragenden zu $e$, die
+**den resultierenden Effektwert maximiert** ($i$ läuft dabei über die
+beitragenden Zutaten):
 
 $$
-(f_c, f_m, f_d) = \text{arg max}_{i \in \text{Beitragende}(e)}
-\quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
+(f_c, f_m, f_d) = \text{arg max}_i \quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
 $$
 
 Hat keine Zutat Modifikatoren, wird das neutrale Tripel $(1, 1, 1)$
@@ -131,14 +131,16 @@ Bonus, $b = 1.25$ (also einen **+25%**-Multiplikator).
 
 ### 3.1 Klassifizierung Trank vs. Gift
 
-Bevor irgendein Perk angewendet wird, wird der Wert **jedes** Effekts ohne
-jeden Perk-Bonus berechnet ($\text{value}_{raw}$). Der dominante Effekt ist
-der mit dem höchsten Rohwert, und er entscheidet, ob die gesamte Mischung
-als Trank oder als Gift behandelt wird:
+Bevor irgendein Perk angewendet wird, wird der Wert **jedes** Effekts des
+Trankes ohne jeden Perk-Bonus berechnet ($\text{value}_{raw}$). Der
+dominante Effekt $e^{\ast}$ ist der mit dem höchsten Rohwert, und er
+entscheidet, ob die gesamte Mischung als Trank oder als Gift behandelt wird:
 
 $$
-e^{\ast} = \text{arg max}_{e \in \text{effects}} \quad \text{value}_{raw}(e)
-\qquad\qquad
+e^{\ast} = \text{arg max}_e \quad \text{value}_{raw}(e)
+$$
+
+$$
 \text{isPoison} = \text{harmful}(e^{\ast})
 $$
 
@@ -162,21 +164,15 @@ $D=0$-Regel aus Abschnitt 1.2 zu $1$).
 ### 3.3 Physician, Benefactor, Poisoner
 
 Ein Multiplikator $\mu$ wird akkumuliert (unabhängig von Purity), beginnend
-bei $\mu = 1$:
+bei $\mu = 1$. Jeder Perk unten multipliziert $\mu$ mit $b$, wenn er aktiv
+ist und seine Bedingung zutrifft:
+
+- **Physician**: $e$ ist Restore Health, Restore Magicka oder Restore Stamina
+- **Poisoner**: die Mischung ist ein Gift (`isPoison`) und $e$ ist schädlich (`harmful(e)`)
+- **Benefactor**: die Mischung ist **kein** Gift und $e$ ist **nicht** schädlich
 
 $$
-\text{Physician aktiv} \wedge e \in \\{\text{Restore Health, Restore Magicka, Restore Stamina}\\}
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
-$$
-
-$$
-\text{isPoison} \wedge \text{Poisoner aktiv} \wedge \text{harmful}(e)
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
-$$
-
-$$
-\lnot \text{isPoison} \wedge \text{Benefactor aktiv} \wedge \lnot \text{harmful}(e)
-\quad\Longrightarrow\quad \mu \leftarrow \mu \cdot b
+\mu \leftarrow \mu \cdot b
 $$
 
 ### 3.4 Anwendung des Multiplikators
