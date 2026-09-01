@@ -8,6 +8,9 @@ services:
       - "8001:8001"
     environment:
       - OCR_SERVICE_TOKEN=${OCR_SERVICE_TOKEN}
+      # app/ocr_client.py defaults to localhost:9000 (the CLI's un-containerized
+      # case) - override to reach `ocr` by its internal-network DNS name instead.
+      - OCR_SERVICE_URL=http://ocr:9000
     volumes:
       - ./cache:/app/cache
       - ./logs:/app/logs
@@ -21,6 +24,13 @@ services:
     security_opt:
       - no-new-privileges:true
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
     depends_on:
       ocr:
         condition: service_healthy
@@ -43,6 +53,13 @@ services:
     mem_limit: 512m
     cpus: 1.0
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:9000/health')"]
+      interval: 30s
+      timeout: 10s
+      start_period: 15s
+      retries: 3
 
 networks:
   alchemy-internal:

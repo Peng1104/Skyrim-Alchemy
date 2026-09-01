@@ -3,13 +3,12 @@ import json
 from pathlib import Path
 from typing import Iterable
 
-from PIL import Image
-
 from app.cache import INVENTORY_CACHE_DIRECTORY, SCREENSHOTS_CACHE_DIRECTORY
 from app.i18n import translate
 from app.inventory._ocr import extract_ingredients_from_image
 from app.inventory._screenshots import find_screenshot_paths
 from app.models import InventoryIngredient, InventoryMarker, ScreenshotDetail, ScreenshotStatus
+from app.ocr_client import OcrUnavailableError
 
 _MARKER_FILE = INVENTORY_CACHE_DIRECTORY / "marker.json"
 
@@ -326,14 +325,25 @@ class Inventory:
                 print(translate("reading_screenshot", id=screenshot_id))
 
                 try:
-                    img = Image.open(image_path)
+                    image_bytes = image_path.read_bytes()
+                    cached = extract_ingredients_from_image(
+                        image_bytes, image_path.name, known_names_list
+                    )
+                except OcrUnavailableError as ocr_error:
+                    # Neither the ocr container nor local Tesseract is usable -
+                    # this won't change for the rest of this run, so stop
+                    # instead of retrying (and re-printing the same error) for
+                    # every remaining screenshot. `break` (not `return`) so the
+                    # tail below still combines/saves whatever was already
+                    # OCR'd or read from cache earlier in this loop.
+                    print(translate("ocr_unavailable_error", error=ocr_error))
+                    break
                 except Exception as img_error:
                     print(translate(
                         "error_loading_image", filename=image_path.name, error=img_error
                     ))
                     continue
 
-                cached = extract_ingredients_from_image(img, known_names_list)
                 self._save_screenshot_cache(screenshot_id, cached)
                 newly_processed += 1
 

@@ -1,0 +1,43 @@
+# Standalone `ocr` service, for running the CLI (run.py) without installing
+# Tesseract on the host system.
+#
+# Unlike docker-compose.yml's `ocr` (internal-network-only, reachable only
+# from the `app` container), this one publishes the OCR port to the host so
+# the CLI - running directly on the host, not in a container - can reach it.
+#
+# Usage:
+#   export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
+#   docker compose -f docker-compose.ocr.yml up -d
+#   uv run run.py
+#
+# app/ocr_client.py's `run_ocr` (used only by the CLI) auto-detects this
+# container via a health check against OCR_SERVICE_URL (defaults to
+# http://localhost:9000, matching the port below) and uses it; if it's not
+# reachable, it falls back to a local Tesseract install; if neither is
+# available, the CLI reports a clear error instead of crashing.
+services:
+  ocr:
+    build:
+      context: ./ocr_service
+      target: prod
+    image: skyrim-ocr-service:latest
+    ports:
+      - "9000:9000"
+    environment:
+      - OCR_SERVICE_TOKEN=${OCR_SERVICE_TOKEN}
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    cpus: 1.0
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python3", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:9000/health')"]
+      interval: 30s
+      timeout: 10s
+      start_period: 15s
+      retries: 3

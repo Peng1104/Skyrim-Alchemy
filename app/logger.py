@@ -17,6 +17,7 @@ LOGGING_DIRECTORY.mkdir(exist_ok=True)
 _TERMINAL_SPACING_FIXES = {
     "🗂️ ": "🗂️  ",
     "🗑️ ": "🗑️  ",
+    "🖥️ ": "🖥️  ",
 }
 
 

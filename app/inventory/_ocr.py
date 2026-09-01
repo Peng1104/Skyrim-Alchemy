@@ -2,11 +2,10 @@
 import re
 
 import pytesseract
-from PIL import Image, ImageOps
-from pytesseract import Output
 from rapidfuzz import fuzz, process
 
 from app.models import InventoryIngredient
+from app.ocr_client import run_ocr
 
 # No trailing anchor: rows near the item tooltip get OCR'd merged with tooltip
 # text on the same line (e.g. "Tundra Cotton (91) UNKNOWN UNKNOWN") - matching
@@ -192,20 +191,23 @@ def _parse_amount(amount_text: str) -> int:
 
 
 def extract_ingredients_from_image(
-    img: Image.Image, known_names: list[str]
+    image_bytes: bytes, filename: str, known_names: list[str]
 ) -> list[InventoryIngredient]:
     """
     Run OCR on a screenshot and fuzzy-match recognized lines against known ingredient names.
 
-    Local, in-process Tesseract - used by the CLI's `Inventory.retrieve()`.
-    The API's upload path does not call this: Tesseract runs in the isolated
-    `ocr` service there instead, and `match_ocr_data` is called directly on
-    the `TesseractDataDict` that service returns.
+    Used by the CLI's `Inventory.retrieve()`. Dispatches to the `ocr`
+    container when reachable, else a local Tesseract install - see
+    `app.ocr_client.run_ocr`. The API's upload path does not call this: it
+    calls `run_remote_ocr` directly and never falls back, since it
+    deliberately never runs Tesseract in-process.
 
     Parameters
     ----------
-    img : Image.Image
-        Screenshot image to analyze.
+    image_bytes : bytes
+        Raw screenshot image bytes (PNG).
+    filename : str
+        Original filename, forwarded to the OCR service if that backend is used.
     known_names : list[str]
         Whitelist of valid ingredient names to match OCR text against.
 
@@ -213,8 +215,12 @@ def extract_ingredients_from_image(
     -------
     list[InventoryIngredient]
         Ingredients recognized with high enough confidence.
+
+    Raises
+    ------
+    OcrUnavailableError
+        If neither the `ocr` container nor a local Tesseract install is usable.
     """
-    processed = ImageOps.autocontrast(ImageOps.grayscale(img))
-    data = pytesseract.image_to_data(processed, lang="eng", output_type=Output.DICT)
+    data = run_ocr(image_bytes, filename)
 
     return match_ocr_data(data, known_names)

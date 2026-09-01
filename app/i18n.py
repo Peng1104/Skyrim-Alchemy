@@ -5,9 +5,30 @@ Every log line printed by the application goes through `translate()` instead
 of being hardcoded in a single language, so `Settings.log_language` controls
 the whole application's console output consistently.
 """
-from app.config import Language, get_settings
+from typing import TypedDict
 
-_MESSAGES: dict[str, dict[Language, str]] = {
+from app.config import get_settings
+
+
+class Translations(TypedDict):
+    """
+    One message's translation into every supported language.
+
+    Every field is required (no `NotRequired`) on purpose: adding a new
+    language means adding a field here (plus to `Language` in
+    `app/config.py`), and pyright's strict mode then flags every single
+    `_MESSAGES` entry still missing that field - turning "forgot to
+    translate a message" from a silent runtime `KeyError` (only when that
+    specific message is actually printed in that language) into a
+    type-check-time error covering the whole catalog at once.
+    """
+
+    en: str
+    pt: str
+    de: str
+
+
+_MESSAGES: dict[str, Translations] = {
     "inventory_initial_header": {
         "en": "📦 INITIAL INVENTORY:",
         "pt": "📦 INVENTÁRIO INICIAL:",
@@ -85,6 +106,42 @@ _MESSAGES: dict[str, dict[Language, str]] = {
         "en": "📸 Reading screenshot {id}...",
         "pt": "📸 Lendo captura de tela {id}...",
         "de": "📸 Screenshot {id} wird gelesen...",
+    },
+    "ocr_using_container": {
+        "en": "🐳 ocr container detected - using it for OCR.",
+        "pt": "🐳 Container ocr detectado - usando ele para o OCR.",
+        "de": "🐳 ocr-Container erkannt - wird für OCR verwendet.",
+    },
+    "ocr_using_local_tesseract": {
+        "en": "🖥️ ocr container not reachable - falling back to a local Tesseract install.",
+        "pt": "🖥️ Container ocr não encontrado - usando instalação local do Tesseract.",
+        "de": "🖥️ ocr-Container nicht erreichbar - Rückgriff auf lokale Tesseract-Installation.",
+    },
+    "ocr_container_failed_falling_back": {
+        "en": "⚠️  ocr container request failed - falling back to local Tesseract "
+              "for this screenshot.",
+        "pt": "⚠️  Requisição ao container ocr falhou - usando Tesseract local "
+              "para esta captura.",
+        "de": "⚠️  Anfrage an den ocr-Container fehlgeschlagen - Rückgriff auf lokales "
+              "Tesseract für diesen Screenshot.",
+    },
+    "ocr_unavailable": {
+        "en": "Neither the ocr container nor a local Tesseract install is available. "
+              "Start it with 'docker compose -f docker-compose.ocr.yml up -d', or "
+              "install Tesseract locally (see README's Requirements section).",
+        "pt": "Nem o container ocr nem uma instalação local do Tesseract estão "
+              "disponíveis. Inicie-o com 'docker compose -f docker-compose.ocr.yml "
+              "up -d', ou instale o Tesseract localmente (veja a seção de "
+              "Requisitos do README).",
+        "de": "Weder der ocr-Container noch eine lokale Tesseract-Installation sind "
+              "verfügbar. Starte ihn mit 'docker compose -f docker-compose.ocr.yml "
+              "up -d', oder installiere Tesseract lokal (siehe den "
+              "Voraussetzungen-Abschnitt der README).",
+    },
+    "ocr_unavailable_error": {
+        "en": "❌ {error}",
+        "pt": "❌ {error}",
+        "de": "❌ {error}",
     },
     "error_loading_image": {
         "en": "ERROR while loading {filename}: {error}",
