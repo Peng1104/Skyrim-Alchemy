@@ -17,7 +17,7 @@ For where the ingredient/effect data comes from and how it's scraped and cached,
 ## Requirements
 
 - [uv](https://docs.astral.sh/uv/) (manages Python 3.14 and dependencies)
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) installed and on `PATH` (`tesseract-ocr` + `tesseract-ocr-eng` on Debian/Ubuntu) — only needed to run outside Docker
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) installed and on `PATH` (`tesseract-ocr` + `tesseract-ocr-eng` on Debian/Ubuntu) — **not needed** if you run the OCR-only Docker container instead (see [OCR only](#ocr-only-cli-without-installing-tesseract) below); handy on Windows, where installing Tesseract is more involved than on Linux
 - A Skyrim Special Edition install via Steam (for game directory auto-detection)
 
 ## Setup
@@ -73,6 +73,41 @@ This starts two containers: `app` (the API, published on `:8001`) and `ocr`
 no published host port). `OCR_SERVICE_TOKEN` is a shared secret between the
 two, checked on every internal OCR request; generate a fresh one per
 deployment, never reuse or commit it.
+
+### OCR only (CLI without installing Tesseract)
+
+If you'd rather not install Tesseract locally to run the CLI - the common
+case on Windows - run just the `ocr` container standalone, published on the
+host this time:
+
+```bash
+export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
+docker compose -f docker-compose.ocr.yml up -d --build
+uv run run.py
+```
+
+On Windows PowerShell, `export` doesn't apply - set the env var and generate
+the token like this instead:
+
+```powershell
+$env:OCR_SERVICE_TOKEN = -join ((1..32) | ForEach-Object { '{0:x2}' -f (Get-Random -Minimum 0 -Maximum 256) })
+docker compose -f docker-compose.ocr.yml up -d --build
+uv run run.py
+```
+
+The CLI's OCR path (`app/ocr_client.py`) picks a backend automatically, in
+this order:
+
+1. **The `ocr` container**, if it answers a health check at `OCR_SERVICE_URL`
+   (defaults to `http://localhost:9000`, matching the port above).
+2. **A local Tesseract install**, if the container isn't reachable.
+3. Otherwise, it prints a clear error and stops - it never crashes with a
+   raw traceback.
+
+This choice is made once per CLI run and reused for every screenshot, so
+there's no per-screenshot overhead. `OCR_SERVICE_TOKEN` must match between
+this container and whatever your shell has exported when you run the CLI -
+same rule as the full stack above.
 
 ## Configuration
 

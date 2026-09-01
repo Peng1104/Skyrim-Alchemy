@@ -17,7 +17,7 @@ Woher die Zutaten-/Effektdaten stammen und wie sie gescrapt und zwischengespeich
 ## Voraussetzungen
 
 - [uv](https://docs.astral.sh/uv/) (verwaltet Python 3.14 und die Abhängigkeiten)
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) installiert und im `PATH` (`tesseract-ocr` + `tesseract-ocr-eng` unter Debian/Ubuntu) — nur außerhalb von Docker nötig
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) installiert und im `PATH` (`tesseract-ocr` + `tesseract-ocr-eng` unter Debian/Ubuntu) — **nicht nötig**, wenn du stattdessen den Docker-Container mit nur OCR nutzt (siehe [Nur OCR](#nur-ocr-cli-ohne-tesseract-installation) unten); praktisch unter Windows, wo die Installation von Tesseract aufwändiger ist als unter Linux
 - Eine Skyrim-Special-Edition-Installation über Steam (für die automatische Erkennung des Spielverzeichnisses)
 
 ## Einrichtung
@@ -74,6 +74,44 @@ erreichbar — kein veröffentlichter Host-Port). `OCR_SERVICE_TOKEN` ist ein
 gemeinsames Geheimnis zwischen den beiden, geprüft bei jeder internen
 OCR-Anfrage; erzeuge pro Deployment ein neues, nie wiederverwenden oder
 committen.
+
+### Nur OCR (CLI ohne Tesseract-Installation)
+
+Wenn du Tesseract nicht lokal installieren möchtest, um das CLI zu
+nutzen - der übliche Fall unter Windows - starte nur den `ocr`-Container,
+diesmal auf dem Host veröffentlicht:
+
+```bash
+export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
+docker compose -f docker-compose.ocr.yml up -d --build
+uv run run.py
+```
+
+Unter Windows PowerShell gilt `export` nicht - setze die Umgebungsvariable
+und erzeuge das Token stattdessen so:
+
+```powershell
+$env:OCR_SERVICE_TOKEN = -join ((1..32) | ForEach-Object { '{0:x2}' -f (Get-Random -Minimum 0 -Maximum 256) })
+docker compose -f docker-compose.ocr.yml up -d --build
+uv run run.py
+```
+
+Der OCR-Pfad des CLI (`app/ocr_client.py`) wählt automatisch ein Backend,
+in dieser Reihenfolge:
+
+1. **Den `ocr`-Container**, falls er auf einen Health-Check unter
+   `OCR_SERVICE_URL` antwortet (Standard `http://localhost:9000`, derselbe
+   Port wie oben).
+2. **Eine lokale Tesseract-Installation**, falls der Container nicht
+   erreichbar ist.
+3. Andernfalls gibt es eine klare Fehlermeldung aus und stoppt - nie ein
+   roher Traceback.
+
+Diese Entscheidung wird einmal pro CLI-Lauf getroffen und für jeden
+Screenshot wiederverwendet, also kein Overhead pro Screenshot.
+`OCR_SERVICE_TOKEN` muss zwischen diesem Container und dem, was deine
+Shell beim Ausführen des CLI exportiert hat, übereinstimmen - dieselbe
+Regel wie beim vollständigen Stack oben.
 
 ## Konfiguration
 
