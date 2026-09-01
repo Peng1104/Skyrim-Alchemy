@@ -260,6 +260,26 @@ def main() -> None:
             _print_screenshot_info(inventory, _resolve_id_selector(args.info, inventory))
         return
 
+    if args.delete_old is not None or args.delete_cache is not None:
+        # Standalone maintenance action, like --list/--info above - neither
+        # deletion depends on retrieve() having run first (both work purely
+        # off what's already on disk/cached from prior runs), so this must
+        # not fall through to combining screenshots and printing the full
+        # optimization result the caller didn't ask for.
+        with ConsoleCapture():
+            if args.delete_old is not None:
+                deleted = inventory.delete_processed_screenshots(
+                    _resolve_id_selector(args.delete_old, inventory)
+                )
+                print(translate("screenshots_deleted", count=len(deleted)))
+
+            if args.delete_cache is not None:
+                deleted_ids = inventory.delete_cached_screenshots(
+                    _resolve_id_selector(args.delete_cache, inventory)
+                )
+                print(translate("cache_deleted", count=len(deleted_ids)))
+        return
+
     optimizer = AlchemyOptimizer(decimal_places=3)
 
     with ConsoleCapture():
@@ -281,18 +301,6 @@ def main() -> None:
             optimizer.ingredients_data.keys(),
             min_id=min_id, max_id=max_id, refresh=args.refresh,
         )
-
-        if args.delete_old is not None:
-            deleted = inventory.delete_processed_screenshots(
-                _resolve_id_selector(args.delete_old, inventory)
-            )
-            print(translate("screenshots_deleted", count=len(deleted)))
-
-        if args.delete_cache is not None:
-            deleted_ids = inventory.delete_cached_screenshots(
-                _resolve_id_selector(args.delete_cache, inventory)
-            )
-            print(translate("cache_deleted", count=len(deleted_ids)))
 
         execute(inventory.ingredients, optimizer)
 
