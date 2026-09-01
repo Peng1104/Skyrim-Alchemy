@@ -15,8 +15,21 @@ from app.models import InventoryIngredient
 # scroll-arrow icon next to the selected row (e.g. "|)") sometimes gets OCR'd
 # onto the very start of the item column's segment, and would otherwise block
 # the match entirely since it isn't a letter.
+#
+# The apostrophe class includes both the straight quote (') and the Unicode
+# right single quotation mark (', U+2019) - Tesseract inconsistently picks
+# one or the other for the same glyph across screenshots of the same
+# ingredient (e.g. "Chicken's Egg" reads with ' in one screenshot and ' in
+# another), and only matching ' would cut the name short there, leaving the
+# amount group unmatched and silently defaulting to 1 instead of the real count.
+#
+# The amount group also accepts a leading '}' in place of a digit - Tesseract
+# occasionally misreads a leading "1" (e.g. in "(10)") as a curly brace in
+# this font, and without this the amount group fails to match at all and
+# silently falls back to 1 instead of the real count. Normalized back to "1"
+# by `_parse_amount` before parsing.
 _LINE_PATTERN = re.compile(
-    r"^[^A-Za-z]{0,10}(?P<name>[A-Za-z][A-Za-z'\- ]*[A-Za-z])(?:\s*\((?P<amount>\d+)\))?"
+    r"^[^A-Za-z]{0,10}(?P<name>[A-Za-z][A-Za-z'’\- ]*[A-Za-z])(?:\s*\((?P<amount>[}\d]\d*)\))?"
 )
 _FUZZY_SCORE_CUTOFF = 82
 _MIN_NAME_LENGTH = 3
@@ -26,6 +39,13 @@ _MIN_NAME_LENGTH = 3
 # row - these can fuzzy-match a real ingredient name by coincidence (e.g.
 # "Gold" scores 90 against "Gold Kanet") and must never be kept.
 _NOTIFICATION_KEYWORDS = ("removed", "added")
+
+# Persistent (not transient) HUD chrome text that can appear as its own OCR
+# segment with no amount and no _NOTIFICATION_KEYWORDS attached - e.g. the
+# "Carry Weight X/Y  Gold Z" bar at the bottom of the inventory screen can
+# OCR "Gold" as an isolated word, which then fuzzy-matches the real
+# ingredient "Gold Kanet" (score 90) and is wrongly counted as 1 owned.
+_UI_CHROME_NAMES = frozenset({"gold"})
 
 # Horizontal gap (in pixels) between two consecutive OCR'd words on the same
 # detected line that signals they actually belong to two unrelated UI columns
@@ -127,6 +147,9 @@ def match_ocr_data(
             # by coincidence - e.g. "ri" scoring 90 against "Briar Heart".
             continue
 
+        if name_candidate.lower() in _UI_CHROME_NAMES:
+            continue
+
         remainder = segment[match.end():].strip().lower()
 
         if any(keyword in remainder for keyword in _NOTIFICATION_KEYWORDS):
@@ -144,10 +167,28 @@ def match_ocr_data(
 
         ingredients.append(InventoryIngredient(
             name=best_match[0],
-            amount=int(amount_candidate) if amount_candidate is not None else 1,
+            amount=_parse_amount(amount_candidate) if amount_candidate is not None else 1,
         ))
 
     return ingredients
+
+
+def _parse_amount(amount_text: str) -> int:
+    """
+    Parse an OCR'd amount string into an int, correcting a known digit misread.
+
+    Parameters
+    ----------
+    amount_text : str
+        The matched amount text - digits, with a possible leading '}' in
+        place of a misread "1" (see `_LINE_PATTERN`).
+
+    Returns
+    -------
+    int
+        The parsed amount.
+    """
+    return int(amount_text.replace("}", "1"))
 
 
 def extract_ingredients_from_image(
