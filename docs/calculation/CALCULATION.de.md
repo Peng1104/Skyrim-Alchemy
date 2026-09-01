@@ -235,7 +235,7 @@ $k$ ist nach oben durch die Gesamtzahl der gescrapten Zutaten begrenzt (190
 zum Zeitpunkt dieses Schreibens — siehe
 [docs/data-sources](../data-sources/DATA_SOURCES.de.md#1-zutaten)), was
 einen theoretischen Worst Case von
-$\binom{190}{2} + \binom{190}{3} = 17{,}955 + 1{,}125{,}180 = 1{,}143{,}135$
+$\binom{190}{2} + \binom{190}{3} = 17.955 + 1.125.180 = 1.143.135$
 Kandidaten ergibt — in der Praxis nie erreicht, da kein Inventar jemals
 jede bekannte Zutat gleichzeitig enthält.
 

@@ -226,7 +226,7 @@ $k$ é limitado pelo total de ingredientes raspados (190 no momento em que
 isso foi escrito — veja
 [docs/data-sources](../data-sources/DATA_SOURCES.pt.md#1-ingredientes)),
 o que dá um pior caso teórico de
-$\binom{190}{2} + \binom{190}{3} = 17{,}955 + 1{,}125{,}180 = 1{,}143{,}135$
+$\binom{190}{2} + \binom{190}{3} = 17.955 + 1.125.180 = 1.143.135$
 candidatas — nunca alcançado na prática, já que nenhum inventário tem todo
 ingrediente conhecido ao mesmo tempo.
 
