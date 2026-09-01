@@ -14,12 +14,6 @@ RUN ["uv", "sync", "--frozen"]
 
 FROM python:3.14-slim AS prod
 
-RUN apt-get update \
- && apt-get install -y --no-install-recommends \
-      tesseract-ocr \
-      tesseract-ocr-eng \
- && rm -rf /var/lib/apt/lists/*
-
 RUN groupadd -g 30000 app && useradd -u 30000 -g app -d /app -M app
 
 WORKDIR /app

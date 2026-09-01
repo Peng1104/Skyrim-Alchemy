@@ -23,6 +23,7 @@ from app.models import (
     RecipeData,
     RecipeDetails,
 )
+from app.perks import PerkConfig
 from app.scraping import get_effects_data, get_ingredients_data
 
 
@@ -86,7 +87,8 @@ class AlchemyOptimizer:
 
         return inventory
 
-    def _generate_potions(self, inventory: dict[str, int]) -> list[PotionValue]:
+    def _generate_potions(
+            self, inventory: dict[str, int], perks: PerkConfig) -> list[PotionValue]:
         """
         Generate all possible valid potion combinations.
 
@@ -94,6 +96,8 @@ class AlchemyOptimizer:
         ----------
         inventory : dict[str, int]
             Dictionary mapping ingredient names to quantities.
+        perks : PerkConfig
+            Which alchemy perks are active for this calculation.
 
         Returns
         -------
@@ -115,7 +119,7 @@ class AlchemyOptimizer:
                 if potion:
                     valid_potions.append(PotionValue(
                         potion=potion,
-                        value=potion.value(self.decimal_places)
+                        value=potion.value(perks, self.decimal_places)
                     ))
 
                 # 3-ingredient combinations
@@ -124,7 +128,7 @@ class AlchemyOptimizer:
                     if potion:
                         valid_potions.append(PotionValue(
                             potion=potion,
-                            value=potion.value(self.decimal_places)
+                            value=potion.value(perks, self.decimal_places)
                         ))
 
         return valid_potions
@@ -365,7 +369,8 @@ class AlchemyOptimizer:
 
         return sequence
 
-    def run_optimization(self, items: list[InventoryIngredient]) -> OptimizationResult:
+    def run_optimization(
+            self, items: list[InventoryIngredient], perks: PerkConfig) -> OptimizationResult:
         """
         Run the complete optimization pipeline.
 
@@ -373,6 +378,8 @@ class AlchemyOptimizer:
         ----------
         items : list[InventoryIngredient]
             List of available ingredients with quantities.
+        perks : PerkConfig
+            Which alchemy perks are active for this calculation.
 
         Returns
         -------
@@ -383,7 +390,7 @@ class AlchemyOptimizer:
         inventory = self._convert_inventory(items)
 
         # Step 2: Generate all valid potion combinations
-        all_potions = self._generate_potions(inventory)
+        all_potions = self._generate_potions(inventory, perks)
 
         # Step 3: Optimize with PuLP
         if not all_potions:

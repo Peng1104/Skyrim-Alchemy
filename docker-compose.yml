@@ -7,12 +7,13 @@ services:
     ports:
       - "8001:8001"
     environment:
-      - GAME_DIRECTORY=/screenshots
+      - OCR_SERVICE_TOKEN=${OCR_SERVICE_TOKEN}
     volumes:
-      - ${SKYRIM_SCREENSHOTS_DIR}:/screenshots:ro
       - ./cache:/app/cache
       - ./logs:/app/logs
-      - ./config.toml:/app/config.toml:ro
+    networks:
+      - alchemy-internal
+      - default
     read_only: true
     tmpfs:
       - /tmp
@@ -20,3 +21,29 @@ services:
     security_opt:
       - no-new-privileges:true
     restart: unless-stopped
+    depends_on:
+      ocr:
+        condition: service_healthy
+
+  ocr:
+    build:
+      context: ./ocr_service
+      target: prod
+    image: skyrim-ocr-service:latest
+    environment:
+      - OCR_SERVICE_TOKEN=${OCR_SERVICE_TOKEN}
+    networks:
+      - alchemy-internal
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    cpus: 1.0
+    restart: unless-stopped
+
+networks:
+  alchemy-internal:
+    internal: true

@@ -86,16 +86,21 @@ def _line_segments(data: pytesseract.TesseractDataDict) -> list[str]:
     return segments
 
 
-def extract_ingredients_from_image(
-    img: Image.Image, known_names: list[str]
+def match_ocr_data(
+    data: pytesseract.TesseractDataDict, known_names: list[str]
 ) -> list[InventoryIngredient]:
     """
-    Run OCR on a screenshot and fuzzy-match recognized lines against known ingredient names.
+    Fuzzy-match Tesseract OCR output against known ingredient names.
+
+    Pure post-processing, independent of where the OCR itself ran - shared by
+    `extract_ingredients_from_image` (local, in-process Tesseract, used by the
+    CLI) and the API's upload path (Tesseract runs in the isolated `ocr`
+    service; this function is called on the `TesseractDataDict` it returns).
 
     Parameters
     ----------
-    img : Image.Image
-        Screenshot image to analyze.
+    data : pytesseract.TesseractDataDict
+        Output of `pytesseract.image_to_data(..., output_type=Output.DICT)`.
     known_names : list[str]
         Whitelist of valid ingredient names to match OCR text against.
 
@@ -104,9 +109,6 @@ def extract_ingredients_from_image(
     list[InventoryIngredient]
         Ingredients recognized with high enough confidence.
     """
-    processed = ImageOps.autocontrast(ImageOps.grayscale(img))
-    data = pytesseract.image_to_data(processed, lang="eng", output_type=Output.DICT)
-
     ingredients: list[InventoryIngredient] = []
 
     for segment in _line_segments(data):
@@ -146,3 +148,32 @@ def extract_ingredients_from_image(
         ))
 
     return ingredients
+
+
+def extract_ingredients_from_image(
+    img: Image.Image, known_names: list[str]
+) -> list[InventoryIngredient]:
+    """
+    Run OCR on a screenshot and fuzzy-match recognized lines against known ingredient names.
+
+    Local, in-process Tesseract - used by the CLI's `Inventory.retrieve()`.
+    The API's upload path does not call this: Tesseract runs in the isolated
+    `ocr` service there instead, and `match_ocr_data` is called directly on
+    the `TesseractDataDict` that service returns.
+
+    Parameters
+    ----------
+    img : Image.Image
+        Screenshot image to analyze.
+    known_names : list[str]
+        Whitelist of valid ingredient names to match OCR text against.
+
+    Returns
+    -------
+    list[InventoryIngredient]
+        Ingredients recognized with high enough confidence.
+    """
+    processed = ImageOps.autocontrast(ImageOps.grayscale(img))
+    data = pytesseract.image_to_data(processed, lang="eng", output_type=Output.DICT)
+
+    return match_ocr_data(data, known_names)

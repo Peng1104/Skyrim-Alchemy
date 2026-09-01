@@ -4,7 +4,7 @@ from math import floor
 
 from pydantic import BaseModel, Field
 
-from app.perks import apply_perk_modifiers, classify_mixture
+from app.perks import PerkConfig, apply_perk_modifiers, classify_mixture
 
 
 class InventoryIngredient(BaseModel):
@@ -345,12 +345,14 @@ class Potion(BaseModel):
         # rounding); the actual factors returned are unrounded.
         return max(contributing, key=lambda modifiers: effect.value(*modifiers, 6))
 
-    def value(self, decimal_places: int = 0) -> float:
+    def value(self, perks: PerkConfig, decimal_places: int = 0) -> float:
         """
         Calculate the value of the potion based on its effects.
 
         Parameters
         ----------
+        perks : PerkConfig
+            Which alchemy perks are active for this calculation.
         decimal_places : int, optional
             Number of decimal places for precision, by default 0.
 
@@ -373,7 +375,7 @@ class Potion(BaseModel):
         for effect in self.effects:
             cost_factor, magnitude_factor, duration_factor = self.get_modifiers(effect)
             magnitude_factor, duration_factor = apply_perk_modifiers(
-                effect, magnitude_factor, duration_factor, is_poison
+                effect, magnitude_factor, duration_factor, is_poison, perks
             )
             value += effect.value(cost_factor, magnitude_factor, duration_factor, decimal_places)
 

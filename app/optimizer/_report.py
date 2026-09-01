@@ -2,10 +2,14 @@
 from app.i18n import translate
 from app.models import InventoryIngredient
 from app.optimizer._engine import AlchemyOptimizer
-from app.perks import active_perk_names
+from app.perks import PerkConfig, active_perk_names, perk_config_from_settings
 
 
-def execute(items: list[InventoryIngredient], optimizer: AlchemyOptimizer | None = None):
+def execute(
+    items: list[InventoryIngredient],
+    optimizer: AlchemyOptimizer | None = None,
+    perks: PerkConfig | None = None,
+):
     """
     Perform the actual optimization and print the results.
 
@@ -16,7 +20,12 @@ def execute(items: list[InventoryIngredient], optimizer: AlchemyOptimizer | None
     optimizer : AlchemyOptimizer | None, optional
         Optimizer instance to reuse, avoiding re-scraping UESP data when the
         caller already built one. Creates a new one if not provided, by default None.
+    perks : PerkConfig | None, optional
+        Which alchemy perks are active. Defaults to the perks configured in
+        `Settings` (config.toml/env vars) when not given - this is the CLI's
+        only remaining dependency on global perk settings.
     """
+    perks = perks if perks is not None else perk_config_from_settings()
     print("=" * 100 + "\n")
     print(translate("inventory_initial_header"))
 
@@ -31,9 +40,9 @@ def execute(items: list[InventoryIngredient], optimizer: AlchemyOptimizer | None
     print("\n" + "=" * 100 + "\n")
     print(translate("starting_effects_analysis"))
 
-    perks = active_perk_names()
-    if perks:
-        print(translate("active_perks", perks=", ".join(perks)))
+    perk_names = active_perk_names(perks)
+    if perk_names:
+        print(translate("active_perks", perks=", ".join(perk_names)))
     else:
         print(translate("no_active_perks"))
 
@@ -42,7 +51,7 @@ def execute(items: list[InventoryIngredient], optimizer: AlchemyOptimizer | None
     if optimizer is None:
         optimizer = AlchemyOptimizer(decimal_places=3)
 
-    result = optimizer.run_optimization(items)
+    result = optimizer.run_optimization(items, perks)
 
     if not result.fabrication_sequence:
         print(translate("no_potions_fabricated"))
