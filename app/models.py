@@ -40,7 +40,7 @@ class ScreenshotStatus(BaseModel):
 
 
 class ScreenshotDetail(ScreenshotStatus):
-    """Model representing one screenshot's availability plus its cached ingredients, for `--info`."""
+    """Model representing one screenshot's availability plus its cached ingredients (`--info`)."""
 
     ingredients: list[InventoryIngredient] = Field(
         ..., description="This screenshot's cached OCR result, or an empty list "
