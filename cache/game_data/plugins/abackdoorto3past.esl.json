@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 311640,
+    "mtime": 1787238569.6806185
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "abackdoorto3past.esl",
+      "local_id": 26,
+      "form_id": "0A00001A",
+      "name": "Vision of Corgrad",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "abackdoorto3past.esl",
+      "local_id": 1776,
+      "form_id": "0A0006F0",
+      "name": "Void Matter",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "abackdoorto3past.esl",
+      "local_id": 25,
+      "form_id": "0A000019",
+      "name": "Conjure Light of Meridia",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "abackdoorto3past.esl",
+      "local_id": 1775,
+      "form_id": "0A0006EF",
+      "name": "Void Bolt",
+      "cost": 7.5,
+      "harmful": true
+    }
+  ]
+}

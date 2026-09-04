@@ -1,0 +1,121 @@
+{
+  "signature": {
+    "size": 244256,
+    "mtime": 1788322480.051141
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2069,
+      "form_id": "05000815",
+      "name": "Duskfang Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2073,
+      "form_id": "05000819",
+      "name": "Dawnfang Fire Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2074,
+      "form_id": "0500081A",
+      "name": "Duskfang Frost Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2093,
+      "form_id": "0500082D",
+      "name": "Dawnfang Absorb Health",
+      "cost": 0.10000000149011612,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2101,
+      "form_id": "05000835",
+      "name": "Duskfang Magicka Drain",
+      "cost": 0.10000000149011612,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2107,
+      "form_id": "0500083B",
+      "name": "Dawnfang Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 3301,
+      "form_id": "05000CE5",
+      "name": "Bloodthirst Speed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 3352,
+      "form_id": "05000D18",
+      "name": "Bloodthirst Display Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2051,
+      "form_id": "05000803",
+      "name": "Dawnfang Description Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2052,
+      "form_id": "05000804",
+      "name": "Dawnfang Kill Count Increment Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Ghost Visuals Red",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2066,
+      "form_id": "05000812",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 2068,
+      "form_id": "05000814",
+      "name": "Dawnfang Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse013-dawnfang.esl",
+      "local_id": 3350,
+      "form_id": "05000D16",
+      "name": "Ghost",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

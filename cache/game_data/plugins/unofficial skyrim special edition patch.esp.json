@@ -1,0 +1,6530 @@
+{
+  "signature": {
+    "size": 21625409,
+    "mtime": 1788312137.1990647
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3436,
+      "form_id": "07000D6C",
+      "name": "Bog Beacon",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2074,
+      "form_id": "0700081A",
+      "name": "Saltrice",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474924,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 146799,
+      "form_id": "00023D6F",
+      "name": "Pine Thrush Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 146807,
+      "form_id": "00023D77",
+      "name": "Chicken's Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 216354,
+      "form_id": "00034D22",
+      "name": "Garlic",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 318067,
+      "form_id": "0004DA73",
+      "name": "Torchbug Thorax",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 337557,
+      "form_id": "00052695",
+      "name": "Charred Skeever Hide",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441344,
+      "form_id": "0006BC00",
+      "name": "Mudcrab Chitin",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441346,
+      "form_id": "0006BC02",
+      "name": "Bear Claws",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 4.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441348,
+      "form_id": "0006BC04",
+      "name": "Sabre Cat Tooth",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441351,
+      "form_id": "0006BC07",
+      "name": "Eye of Sabre Cat",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441354,
+      "form_id": "0006BC0A",
+      "name": "Large Antlers",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474924,
+          "magnitude": 100.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441355,
+      "form_id": "0006BC0B",
+      "name": "Small Antlers",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441358,
+      "form_id": "0006BC0E",
+      "name": "Wisp Wrappings",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 441360,
+      "form_id": "0006BC10",
+      "name": "Powdered Mammoth Tusk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 457040,
+      "form_id": "0006F950",
+      "name": "Scaly Pholiota",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 518341,
+      "form_id": "0007E8C5",
+      "name": "Slaughterfish Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 518344,
+      "form_id": "0007E8C8",
+      "name": "Rock Warbler Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 546046,
+      "form_id": "000854FE",
+      "name": "Pearl",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256796,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 546048,
+      "form_id": "00085500",
+      "name": "Small Pearl",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 692625,
+      "form_id": "000A9191",
+      "name": "Beehive Husk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 723141,
+      "form_id": "000B08C5",
+      "name": "Honeycomb",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256796,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 727245,
+      "form_id": "000B18CD",
+      "name": "Human Heart",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 768342,
+      "form_id": "000BB956",
+      "name": "Orange Dartwing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 937740,
+      "form_id": "000E4F0C",
+      "name": "Blue Dartwing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 949948,
+      "form_id": "000E7EBC",
+      "name": "Hawk Beak",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12397,
+      "form_id": "0100306D",
+      "name": "Rot Scale",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12398,
+      "form_id": "0100306E",
+      "name": "Screaming Maw",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 20.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 20.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12399,
+      "form_id": "0100306F",
+      "name": "Thorn Hook",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 3.0,
+          "duration": 180.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 3.0,
+          "duration": 180.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 99255,
+      "form_id": "020183B7",
+      "name": "Chaurus Hunter Antennae",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 99835,
+      "form_id": "020185FB",
+      "name": "Poison Bloom",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 13637,
+      "form_id": "03003545",
+      "name": "Salmon Roe",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 97943,
+      "form_id": "04017E97",
+      "name": "Scathecraw",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118126,
+      "form_id": "0401CD6E",
+      "name": "Burnt Spriggan Wood",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118132,
+      "form_id": "0401CD74",
+      "name": "Ash Creep Cluster",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130933,
+      "form_id": "0401FF75",
+      "name": "Emperor Parasol Moss",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249230,
+      "form_id": "0403CD8E",
+      "name": "Felsaad Tern Feathers",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 1.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2284,
+      "form_id": "050008EC",
+      "name": "Pearlfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2285,
+      "form_id": "050008ED",
+      "name": "Pygmy Sunfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2286,
+      "form_id": "050008EE",
+      "name": "Glassfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 878919,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2287,
+      "form_id": "050008EF",
+      "name": "Goldfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2288,
+      "form_id": "050008F0",
+      "name": "Angler Larvae",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2289,
+      "form_id": "050008F1",
+      "name": "Lyretail Anthias",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2291,
+      "form_id": "050008F3",
+      "name": "Spadefish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 364883,
+      "form_id": "08059153",
+      "name": "Purple Butterfly Wing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 364885,
+      "form_id": "08059155",
+      "name": "Bliss Bug Thorax",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 1.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 613923,
+      "form_id": "08095E23",
+      "name": "Flame Stalk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2050,
+      "form_id": "07000802",
+      "name": "Bungler's Bane",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474924,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 2.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2052,
+      "form_id": "07000804",
+      "name": "Chokeweed",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2053,
+      "form_id": "07000805",
+      "name": "Coda Flower",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 3.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2054,
+      "form_id": "07000806",
+      "name": "Comberry",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 4.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 6.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2055,
+      "form_id": "07000807",
+      "name": "Congealed Putrescence",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 6.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2057,
+      "form_id": "07000809",
+      "name": "Corkbulb Root",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256795,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2058,
+      "form_id": "0700080A",
+      "name": "Daedra Silk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2060,
+      "form_id": "0700080C",
+      "name": "Hunger Tongue",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2061,
+      "form_id": "0700080D",
+      "name": "Hydnum Azure Giant Spore",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2062,
+      "form_id": "0700080E",
+      "name": "Hypha Facia",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 2.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2063,
+      "form_id": "0700080F",
+      "name": "Imp Gall",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256803,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2064,
+      "form_id": "07000810",
+      "name": "Kagouti Hide",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2065,
+      "form_id": "07000811",
+      "name": "Kresh Fiber",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2067,
+      "form_id": "07000813",
+      "name": "Luminous Russula",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2068,
+      "form_id": "07000814",
+      "name": "Marshmerrow",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2069,
+      "form_id": "07000815",
+      "name": "Minotaur Horn",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2070,
+      "form_id": "07000816",
+      "name": "Ogre's Teeth",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474927,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2071,
+      "form_id": "07000817",
+      "name": "Red Kelp Gas Bladder",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2072,
+      "form_id": "07000818",
+      "name": "Redwort Flower",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2073,
+      "form_id": "07000819",
+      "name": "Roobrush",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "_ResourcePack.esl",
+      "local_id": 208,
+      "form_id": "090000D0",
+      "name": "Aloe Vera Leaves",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2075,
+      "form_id": "0700081B",
+      "name": "Scalon Fin",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2076,
+      "form_id": "0700081C",
+      "name": "Scrib Jelly",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2077,
+      "form_id": "0700081D",
+      "name": "Scrib Jerky",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2078,
+      "form_id": "0700081E",
+      "name": "Sload Soap",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 6.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2079,
+      "form_id": "0700081F",
+      "name": "Stoneflower Petals",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474927,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2080,
+      "form_id": "07000820",
+      "name": "Void Essence",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2081,
+      "form_id": "07000821",
+      "name": "Watcher's Eye",
+      "effect_refs": [
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2082,
+      "form_id": "07000822",
+      "name": "Blind Watcher's Eye",
+      "effect_refs": [
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2083,
+      "form_id": "07000823",
+      "name": "Wisp Stalk Caps",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2084,
+      "form_id": "07000824",
+      "name": "Withering Moon",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2085,
+      "form_id": "07000825",
+      "name": "Worm's Head Cap",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2086,
+      "form_id": "07000826",
+      "name": "Daedroth Teeth",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2087,
+      "form_id": "07000827",
+      "name": "Dreugh Wax",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 5.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2088,
+      "form_id": "07000828",
+      "name": "Elytra Ichor",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2089,
+      "form_id": "07000829",
+      "name": "Fire Petal",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2090,
+      "form_id": "0700082A",
+      "name": "Flame Stalk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2091,
+      "form_id": "0700082B",
+      "name": "Fungus Stalk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2092,
+      "form_id": "0700082C",
+      "name": "Gnarl Bark",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2093,
+      "form_id": "0700082D",
+      "name": "Gold Kanet",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 5.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2094,
+      "form_id": "0700082E",
+      "name": "Hackle-Lo Leaf",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2102,
+      "form_id": "07000836",
+      "name": "Ambrosia",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 3.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2103,
+      "form_id": "07000837",
+      "name": "Lichor",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2104,
+      "form_id": "07000838",
+      "name": "Chokeberry",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 3.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2129,
+      "form_id": "07000851",
+      "name": "Heart of Order",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3426,
+      "form_id": "07000D62",
+      "name": "Alocasia Fruit",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 3.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3430,
+      "form_id": "07000D66",
+      "name": "Aster Bloom Core",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256796,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3432,
+      "form_id": "07000D68",
+      "name": "Bittergreen Petals",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3434,
+      "form_id": "07000D6A",
+      "name": "Blister Pod Cap",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 86995,
+      "form_id": "000153D3",
+      "name": "Perk Impact Stagger",
+      "cost": 0.0010000000474974513,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 93003,
+      "form_id": "00016B4B",
+      "name": "Reanimate",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 93243,
+      "form_id": "00016C3B",
+      "name": "Reanimate",
+      "cost": 0.8500000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 94496,
+      "form_id": "00017120",
+      "name": "Fortify Armor Rating",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 94497,
+      "form_id": "00017121",
+      "name": "Shadowcloak of Nocturnal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 95196,
+      "form_id": "000173DC",
+      "name": "Banish - Damage Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 107723,
+      "form_id": "0001A4CB",
+      "name": "Telekinesis Effect",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118430,
+      "form_id": "0001CE9E",
+      "name": "Bound Battleaxe",
+      "cost": 5.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118431,
+      "form_id": "0001CE9F",
+      "name": "Bound Sword",
+      "cost": 3.049999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118437,
+      "form_id": "0001CEA5",
+      "name": "Restore Health",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118439,
+      "form_id": "0001CEA7",
+      "name": "Restore Health",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118442,
+      "form_id": "0001CEAA",
+      "name": "Conjure Flame Atronach",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118443,
+      "form_id": "0001CEAB",
+      "name": "Conjure Frost Atronach",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 118444,
+      "form_id": "0001CEAC",
+      "name": "Conjure Storm Atronach",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 125549,
+      "form_id": "0001EA6D",
+      "name": "Magelight",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 125550,
+      "form_id": "0001EA6E",
+      "name": "Paralyze",
+      "cost": 450.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 125558,
+      "form_id": "0001EA76",
+      "name": "Rally",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 125561,
+      "form_id": "0001EA79",
+      "name": "Courage",
+      "cost": 0.03500000014901161,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 145825,
+      "form_id": "000239A1",
+      "name": "Staff of Magnus Effect",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 159098,
+      "form_id": "00026D7A",
+      "name": "Shadow Warrior Invisibility",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 181615,
+      "form_id": "0002C56F",
+      "name": "Elemental Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 181651,
+      "form_id": "0002C593",
+      "name": "Elemental Fury",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 199484,
+      "form_id": "00030B3C",
+      "name": "Dwarven Centurion FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 237137,
+      "form_id": "00039E51",
+      "name": "Resist Magic",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 238262,
+      "form_id": "0003A2B6",
+      "name": "Damage Magicka",
+      "cost": 2.200000047683716,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 238278,
+      "form_id": "0003A2C6",
+      "name": "Damage Stamina",
+      "cost": 1.7999999523162842,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241310,
+      "form_id": "0003AE9E",
+      "name": "Flame Cloak",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241312,
+      "form_id": "0003AEA0",
+      "name": "Frost Cloak",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241313,
+      "form_id": "0003AEA1",
+      "name": "Shock Cloak",
+      "cost": 4.099999904632568,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241841,
+      "form_id": "0003B0B1",
+      "name": "Light Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256746,
+      "form_id": "0003EAEA",
+      "name": "Resist Fire",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256747,
+      "form_id": "0003EAEB",
+      "name": "Resist Frost",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256748,
+      "form_id": "0003EAEC",
+      "name": "Resist Shock",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256789,
+      "form_id": "0003EB15",
+      "name": "Restore Health",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256790,
+      "form_id": "0003EB16",
+      "name": "Restore Stamina",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256791,
+      "form_id": "0003EB17",
+      "name": "Restore Magicka",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256795,
+      "form_id": "0003EB1B",
+      "name": "Fortify Archery",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256797,
+      "form_id": "0003EB1D",
+      "name": "Fortify Smithing",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256798,
+      "form_id": "0003EB1E",
+      "name": "Fortify Heavy Armor",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256805,
+      "form_id": "0003EB25",
+      "name": "Fortify Conjuration",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256808,
+      "form_id": "0003EB28",
+      "name": "Fortify Restoration",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256809,
+      "form_id": "0003EB29",
+      "name": "Fortify Enchanting",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256829,
+      "form_id": "0003EB3D",
+      "name": "Invisibility",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 256834,
+      "form_id": "0003EB42",
+      "name": "Damage Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 259336,
+      "form_id": "0003F508",
+      "name": "Clear Skies Effect 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 259337,
+      "form_id": "0003F509",
+      "name": "Clear Skies Effect 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 259338,
+      "form_id": "0003F50A",
+      "name": "Clear Skies Effect 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 271586,
+      "form_id": "000424E2",
+      "name": "Fortify Unarmed Damage",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 271610,
+      "form_id": "000424FA",
+      "name": "Mystic Sword",
+      "cost": 3.049999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 271615,
+      "form_id": "000424FF",
+      "name": "Mystic Battleaxe",
+      "cost": 5.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 271616,
+      "form_id": "00042500",
+      "name": "Mystic Bow",
+      "cost": 6.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 298123,
+      "form_id": "00048C8B",
+      "name": "Resist Fire",
+      "cost": 9.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 298821,
+      "form_id": "00048F45",
+      "name": "Resist Frost",
+      "cost": 9.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 299669,
+      "form_id": "00049295",
+      "name": "Resist Shock",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 299946,
+      "form_id": "000493AA",
+      "name": "Fortify Health",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 300292,
+      "form_id": "00049504",
+      "name": "Fortify Magicka",
+      "cost": 7.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 300295,
+      "form_id": "00049507",
+      "name": "Fortify Stamina",
+      "cost": 6.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 307525,
+      "form_id": "0004B145",
+      "name": "Turn Lesser Undead",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 310092,
+      "form_id": "0004BB4C",
+      "name": "Dwarven Sphere FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 316407,
+      "form_id": "0004D3F7",
+      "name": "Repel Lesser Undead",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 318371,
+      "form_id": "0004DBA3",
+      "name": "Soul Trap",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 319199,
+      "form_id": "0004DEDF",
+      "name": "Pacify",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 321854,
+      "form_id": "0004E93E",
+      "name": "Restore Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 321855,
+      "form_id": "0004E93F",
+      "name": "Restore Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 321861,
+      "form_id": "0004E945",
+      "name": "Conjure Potent Flame Atronach",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 321862,
+      "form_id": "0004E946",
+      "name": "Conjure Potent Frost Atronach",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 321863,
+      "form_id": "0004E947",
+      "name": "Conjure Potent Storm Atronach",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 323526,
+      "form_id": "0004EFC6",
+      "name": "Dwarven Spider FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 340260,
+      "form_id": "00053124",
+      "name": "Resist Magic",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 353002,
+      "form_id": "000562EA",
+      "name": "Fire breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 353003,
+      "form_id": "000562EB",
+      "name": "Fire breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 373840,
+      "form_id": "0005B450",
+      "name": "Stamina Damage",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 373842,
+      "form_id": "0005B452",
+      "name": "Soul Trap",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 381297,
+      "form_id": "0005D171",
+      "name": "Frost breath",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 383887,
+      "form_id": "0005DB8F",
+      "name": "Fire Rune",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 384347,
+      "form_id": "0005DD5B",
+      "name": "Turn Undead",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 384348,
+      "form_id": "0005DD5C",
+      "name": "Turn Greater Undead",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 384351,
+      "form_id": "0005DD5F",
+      "name": "Repel Undead",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 396705,
+      "form_id": "00060DA1",
+      "name": "AtronachFlameTrail",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 410712,
+      "form_id": "00064458",
+      "name": "Frost Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 413032,
+      "form_id": "00064D68",
+      "name": "Ethereal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 416726,
+      "form_id": "00065BD6",
+      "name": "Reanimate",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 424301,
+      "form_id": "0006796D",
+      "name": "Frost Rune",
+      "cost": 50.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 424302,
+      "form_id": "0006796E",
+      "name": "Shock Rune",
+      "cost": 55.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 433382,
+      "form_id": "00069CE6",
+      "name": "Bound Sword FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 447019,
+      "form_id": "0006D22B",
+      "name": "Banish",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 447774,
+      "form_id": "0006D51E",
+      "name": "Shock Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 457041,
+      "form_id": "0006F951",
+      "name": "Banish",
+      "cost": 8.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474912,
+      "form_id": "00073F20",
+      "name": "Fear",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474915,
+      "form_id": "00073F23",
+      "name": "Ravage Stamina",
+      "cost": 1.600000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474917,
+      "form_id": "00073F25",
+      "name": "Slow",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474918,
+      "form_id": "00073F26",
+      "name": "Ravage Health",
+      "cost": 0.4000000059604645,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474919,
+      "form_id": "00073F27",
+      "name": "Ravage Magicka",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474921,
+      "form_id": "00073F29",
+      "name": "Frenzy",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474923,
+      "form_id": "00073F2B",
+      "name": "Damage Magicka Regen",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474924,
+      "form_id": "00073F2C",
+      "name": "Damage Stamina Regen",
+      "cost": 0.30000001192092896,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474925,
+      "form_id": "00073F2D",
+      "name": "Weakness to Fire",
+      "cost": 0.6000000238418579,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474926,
+      "form_id": "00073F2E",
+      "name": "Weakness to Frost",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474927,
+      "form_id": "00073F2F",
+      "name": "Weakness to Shock",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474928,
+      "form_id": "00073F30",
+      "name": "Paralysis",
+      "cost": 500.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 474961,
+      "form_id": "00073F51",
+      "name": "Weakness to Magic",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499954,
+      "form_id": "0007A0F2",
+      "name": "Fortify Alteration",
+      "cost": 21.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499955,
+      "form_id": "0007A0F3",
+      "name": "Fortify Blocking",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499956,
+      "form_id": "0007A0F4",
+      "name": "Fortify Carry Weight",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499958,
+      "form_id": "0007A0F6",
+      "name": "Fortify Destruction",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499960,
+      "form_id": "0007A0F8",
+      "name": "Regenerate Health",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499961,
+      "form_id": "0007A0F9",
+      "name": "Fortify Heavy Armor",
+      "cost": 16.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499962,
+      "form_id": "0007A0FA",
+      "name": "Fortify Illusion",
+      "cost": 23.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499963,
+      "form_id": "0007A0FB",
+      "name": "Fortify Light Armor",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499964,
+      "form_id": "0007A0FC",
+      "name": "Fortify Lockpicking",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499965,
+      "form_id": "0007A0FD",
+      "name": "Regenerate Magicka",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499966,
+      "form_id": "0007A0FE",
+      "name": "Fortify Archery",
+      "cost": 21.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499967,
+      "form_id": "0007A0FF",
+      "name": "Fortify One-Handed",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499968,
+      "form_id": "0007A100",
+      "name": "Fortify Pickpocket",
+      "cost": 11.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499969,
+      "form_id": "0007A101",
+      "name": "Fortify Restoration",
+      "cost": 23.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499970,
+      "form_id": "0007A102",
+      "name": "Fortify Smithing",
+      "cost": 24.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499971,
+      "form_id": "0007A103",
+      "name": "Fortify Sneak",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499972,
+      "form_id": "0007A104",
+      "name": "Fortify Barter",
+      "cost": 39.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499973,
+      "form_id": "0007A105",
+      "name": "Regenerate Stamina",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499974,
+      "form_id": "0007A106",
+      "name": "Fortify Two-Handed",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 517588,
+      "form_id": "0007E5D4",
+      "name": "Conjure Storm Thrall",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 518368,
+      "form_id": "0007E8E0",
+      "name": "Reanimate Thrall",
+      "cost": 0.04500000178813934,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 521251,
+      "form_id": "0007F423",
+      "name": "AtronachStormFX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 558349,
+      "form_id": "0008850D",
+      "name": "Fortify Shouts",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 570972,
+      "form_id": "0008B65C",
+      "name": "Fortify Alchemy",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 573866,
+      "form_id": "0008C1AA",
+      "name": "Turn Greater Undead",
+      "cost": 7.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 576651,
+      "form_id": "0008CC8B",
+      "name": "Wisp FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 576976,
+      "form_id": "0008CDD0",
+      "name": "Wisp FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 579012,
+      "form_id": "0008D5C4",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 579013,
+      "form_id": "0008D5C5",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 579014,
+      "form_id": "0008D5C6",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 586743,
+      "form_id": "0008F3F7",
+      "name": "Frost Barrier",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 589889,
+      "form_id": "00090041",
+      "name": "Resist Poison",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 589890,
+      "form_id": "00090042",
+      "name": "Weakness to Poison",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 600648,
+      "form_id": "00092A48",
+      "name": "Waterbreathing",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 600663,
+      "form_id": "00092A57",
+      "name": "Muffle",
+      "cost": 105.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 604059,
+      "form_id": "0009379B",
+      "name": "Muffle",
+      "cost": 6.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 611542,
+      "form_id": "000954D6",
+      "name": "Absorb Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 615825,
+      "form_id": "00096591",
+      "name": "Extra Pockets",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 617739,
+      "form_id": "00096D0B",
+      "name": "Reanimate",
+      "cost": 1.2000000476837158,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 617740,
+      "form_id": "00096D0C",
+      "name": "Reanimate",
+      "cost": 0.8999999761581421,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 617741,
+      "form_id": "00096D0D",
+      "name": "Reanimate",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 633399,
+      "form_id": "0009AA37",
+      "name": "SprigganFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 633413,
+      "form_id": "0009AA45",
+      "name": "Spriggan Swarm",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 638155,
+      "form_id": "0009BCCB",
+      "name": "Dragon Priest FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 682555,
+      "form_id": "000A6A3B",
+      "name": "Recover Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 689451,
+      "form_id": "000A852B",
+      "name": "Draugr Glow Eyes",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 696661,
+      "form_id": "000AA155",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 696662,
+      "form_id": "000AA156",
+      "name": "Absorb Magicka",
+      "cost": 21.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 696663,
+      "form_id": "000AA157",
+      "name": "Absorb Stamina",
+      "cost": 22.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 746221,
+      "form_id": "000B62ED",
+      "name": "Restore Health Area",
+      "cost": 0.375,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 746226,
+      "form_id": "000B62F2",
+      "name": "Restore Stamina Area",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 750237,
+      "form_id": "000B729D",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 750239,
+      "form_id": "000B729F",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 750240,
+      "form_id": "000B72A0",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 752104,
+      "form_id": "000B79E8",
+      "name": "Detect Undead Enemy Exterior",
+      "cost": 37.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 752126,
+      "form_id": "000B79FE",
+      "name": "Blizzard",
+      "cost": 41.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 752181,
+      "form_id": "000B7A35",
+      "name": "Resist Magic",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755574,
+      "form_id": "000B8776",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755575,
+      "form_id": "000B8777",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755579,
+      "form_id": "000B877B",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 757552,
+      "form_id": "000B8F30",
+      "name": "Ancestor's Wrath",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 757586,
+      "form_id": "000B8F52",
+      "name": "Stagger Area Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 762639,
+      "form_id": "000BA30F",
+      "name": "Bound Sword",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 784194,
+      "form_id": "000BF742",
+      "name": "Nightmare Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 794264,
+      "form_id": "000C1E98",
+      "name": "Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 794266,
+      "form_id": "000C1E9A",
+      "name": "Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 809952,
+      "form_id": "000C5BE0",
+      "name": "Bound Battleaxe FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 809953,
+      "form_id": "000C5BE1",
+      "name": "Bound Bow FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 809995,
+      "form_id": "000C5C0B",
+      "name": "Stagger Area Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 831359,
+      "form_id": "000CAF7F",
+      "name": "Ice Wraith FX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 847360,
+      "form_id": "000CEE00",
+      "name": "Detect Life Enemy Interior",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849801,
+      "form_id": "000CF789",
+      "name": "Detect Life",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849802,
+      "form_id": "000CF78A",
+      "name": "Detect Life",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849803,
+      "form_id": "000CF78B",
+      "name": "Detect Life",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849820,
+      "form_id": "000CF79C",
+      "name": "Summon Wolves 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849827,
+      "form_id": "000CF7A3",
+      "name": "Summon Wolves 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849828,
+      "form_id": "000CF7A4",
+      "name": "Summon Wolves 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 860922,
+      "form_id": "000D22FA",
+      "name": "Lightning Storm",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 866686,
+      "form_id": "000D397E",
+      "name": "Sailor's Repose",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 878899,
+      "form_id": "000D6933",
+      "name": "Fortify Persuasion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 878919,
+      "form_id": "000D6947",
+      "name": "Fortify Persuasion",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 883103,
+      "form_id": "000D799F",
+      "name": "Soul Trap",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 887858,
+      "form_id": "000D8C32",
+      "name": "Slow Time Effect",
+      "cost": 500.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 920784,
+      "form_id": "000E0CD0",
+      "name": "Guardian Circle",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 925676,
+      "form_id": "000E1FEC",
+      "name": "Fortify Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 925679,
+      "form_id": "000E1FEF",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 933050,
+      "form_id": "000E3CBA",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 934086,
+      "form_id": "000E40C6",
+      "name": "Spell Absorption",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 934087,
+      "form_id": "000E40C7",
+      "name": "Regenerate Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 941906,
+      "form_id": "000E5F52",
+      "name": "The Lady: Recover Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 941907,
+      "form_id": "000E5F53",
+      "name": "The Lady: Recover Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 950893,
+      "form_id": "000E826D",
+      "name": "Turn Raised Undead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 950910,
+      "form_id": "000E827E",
+      "name": "Eternal Spirit",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 950911,
+      "form_id": "000E827F",
+      "name": "Force Without Effort",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 950912,
+      "form_id": "000E8280",
+      "name": "The Fire Within",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 958581,
+      "form_id": "000EA075",
+      "name": "Generic Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 964718,
+      "form_id": "000EB86E",
+      "name": "DA08 necro skeleton fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 966312,
+      "form_id": "000EBEA8",
+      "name": "DA08 necro priest fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 970749,
+      "form_id": "000ECFFD",
+      "name": "Turn Greater Undead",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 976324,
+      "form_id": "000EE5C4",
+      "name": "Fortify Stamina",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 982114,
+      "form_id": "000EFC62",
+      "name": "Speed Burst",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 987519,
+      "form_id": "000F117F",
+      "name": "Frostbite",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 987523,
+      "form_id": "000F1183",
+      "name": "Wisp FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 996299,
+      "form_id": "000F33CB",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 996300,
+      "form_id": "000F33CC",
+      "name": "Restore Stamina",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997677,
+      "form_id": "000F392D",
+      "name": "Intense Flames Fear",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997679,
+      "form_id": "000F392F",
+      "name": "Intense Flames Fear",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997680,
+      "form_id": "000F3930",
+      "name": "Intense Flames Rout",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997681,
+      "form_id": "000F3931",
+      "name": "It Burns Hysteria",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997682,
+      "form_id": "000F3932",
+      "name": "Deep Freeze Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997684,
+      "form_id": "000F3934",
+      "name": "Deep Freeze Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997685,
+      "form_id": "000F3935",
+      "name": "Deep Freeze Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 997686,
+      "form_id": "000F3936",
+      "name": "On Ice Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 999180,
+      "form_id": "000F3F0C",
+      "name": "Disintegrate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1006423,
+      "form_id": "000F5B57",
+      "name": "Drain Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1009926,
+      "form_id": "000F6906",
+      "name": "Articulation",
+      "cost": 45.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1012178,
+      "form_id": "000F71D2",
+      "name": "Magic Draugr FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1016060,
+      "form_id": "000F80FC",
+      "name": "Fireball",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1016546,
+      "form_id": "000F82E2",
+      "name": "Damage Health",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1029124,
+      "form_id": "000FB404",
+      "name": "Halldir's Soul Trap",
+      "cost": 12.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1029127,
+      "form_id": "000FB407",
+      "name": "Hag's End Soul Trap",
+      "cost": 20.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030537,
+      "form_id": "000FB989",
+      "name": "Regenerate Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030538,
+      "form_id": "000FB98A",
+      "name": "Fortify Persuasion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030541,
+      "form_id": "000FB98D",
+      "name": "Fortify Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030542,
+      "form_id": "000FB98E",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030543,
+      "form_id": "000FB98F",
+      "name": "Fortify Stamina",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030544,
+      "form_id": "000FB990",
+      "name": "Fortify Restoration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030545,
+      "form_id": "000FB991",
+      "name": "Fortify Blocking",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030546,
+      "form_id": "000FB992",
+      "name": "Fortify Shouts",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030547,
+      "form_id": "000FB993",
+      "name": "Fortify Barter",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1044023,
+      "form_id": "000FEE37",
+      "name": "Turn Greater Undead",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1044412,
+      "form_id": "000FEFBC",
+      "name": "Fire Damage",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1044828,
+      "form_id": "000FF15C",
+      "name": "Backstab",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1044830,
+      "form_id": "000FF15E",
+      "name": "Resist Poison",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1047043,
+      "form_id": "000FFA03",
+      "name": "Restore Health",
+      "cost": 0.009999999776482582,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1047044,
+      "form_id": "000FFA04",
+      "name": "Restore Magicka",
+      "cost": 0.006000000052154064,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1047045,
+      "form_id": "000FFA05",
+      "name": "Restore Stamina",
+      "cost": 0.006000000052154064,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1052256,
+      "form_id": "00100E60",
+      "name": "Resist Disease",
+      "cost": 1.600000023841858,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1055024,
+      "form_id": "00101930",
+      "name": "Frostbite",
+      "cost": 3.4000000953674316,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1055151,
+      "form_id": "001019AF",
+      "name": "Notched Pickaxe",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1055193,
+      "form_id": "001019D9",
+      "name": "Detect Life Enemy Interior",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1055195,
+      "form_id": "001019DB",
+      "name": "Detect Life Friend Interior",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1068362,
+      "form_id": "00104D4A",
+      "name": "AtronachFrost fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071266,
+      "form_id": "001058A2",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071267,
+      "form_id": "001058A3",
+      "name": "Restore Stamina",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071268,
+      "form_id": "001058A4",
+      "name": "Fortify Stamina",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071272,
+      "form_id": "001058A8",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1074711,
+      "form_id": "00106617",
+      "name": "Frost Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1080879,
+      "form_id": "00107E2F",
+      "name": "Kyne's Blessing",
+      "cost": 1.7000000476837158,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1085686,
+      "form_id": "001090F6",
+      "name": "SprigganMatronFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087022,
+      "form_id": "0010962E",
+      "name": "Fortify Alteration",
+      "cost": 30.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087023,
+      "form_id": "0010962F",
+      "name": "Fortify Conjuration",
+      "cost": 34.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087024,
+      "form_id": "00109630",
+      "name": "Regenerate Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087025,
+      "form_id": "00109631",
+      "name": "Fortify Destruction",
+      "cost": 35.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087026,
+      "form_id": "00109632",
+      "name": "Fortify Enchanting",
+      "cost": 16.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087027,
+      "form_id": "00109633",
+      "name": "Fortify Illusion",
+      "cost": 31.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087028,
+      "form_id": "00109634",
+      "name": "Fortify Restoration",
+      "cost": 33.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087029,
+      "form_id": "00109635",
+      "name": "Resist Fire",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087030,
+      "form_id": "00109636",
+      "name": "Resist Frost",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087031,
+      "form_id": "00109637",
+      "name": "Resist Magic",
+      "cost": 27.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1087032,
+      "form_id": "00109638",
+      "name": "Resist Shock",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1088892,
+      "form_id": "00109D7C",
+      "name": "Falmer Poison",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090130,
+      "form_id": "0010A252",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1092170,
+      "form_id": "0010AA4A",
+      "name": "Lingering Damage Health",
+      "cost": 12.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1094362,
+      "form_id": "0010B2DA",
+      "name": "Sovengarde effect",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1097495,
+      "form_id": "0010BF17",
+      "name": "Staff of Magnus Effect",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1098982,
+      "form_id": "0010C4E6",
+      "name": "Fortify Unarmed Damage",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1098983,
+      "form_id": "0010C4E7",
+      "name": "Claws",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1105431,
+      "form_id": "0010DE17",
+      "name": "Vampiric Strength",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1105502,
+      "form_id": "0010DE5E",
+      "name": "Lingering Damage Stamina",
+      "cost": 1.7999999523162842,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107190,
+      "form_id": "0010E4F6",
+      "name": "Kyne's Peace",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107191,
+      "form_id": "0010E4F7",
+      "name": "Kyne's Peace",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107192,
+      "form_id": "0010E4F8",
+      "name": "Kyne's Peace",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107197,
+      "form_id": "0010E4FD",
+      "name": "Aura Whisper",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107978,
+      "form_id": "0010E80A",
+      "name": "Fortify Spells",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107981,
+      "form_id": "0010E80D",
+      "name": "Fortify Destruction",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107982,
+      "form_id": "0010E80E",
+      "name": "Fortify Illusion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1107983,
+      "form_id": "0010E80F",
+      "name": "Fortify Restoration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1108143,
+      "form_id": "0010E8AF",
+      "name": "Fortify Sneak",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1109572,
+      "form_id": "0010EE44",
+      "name": "Conjure Potent Storm Atronach",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1110542,
+      "form_id": "0010F20E",
+      "name": "Recover Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1110559,
+      "form_id": "0010F21F",
+      "name": "Absorb Stamina",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1110560,
+      "form_id": "0010F220",
+      "name": "Absorb Health",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1110561,
+      "form_id": "0010F221",
+      "name": "Absorb Magicka",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1112047,
+      "form_id": "0010F7EF",
+      "name": "Thunderbolt",
+      "cost": 3.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1112140,
+      "form_id": "0010F84C",
+      "name": "Sinderion's Serendipity",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1113106,
+      "form_id": "0010FC12",
+      "name": "Conjure Dragon Priest",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1113108,
+      "form_id": "0010FC14",
+      "name": "Konahrik's Privilege",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12009,
+      "form_id": "01002EE9",
+      "name": "Resist Freezing Water",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10302,
+      "form_id": "0200283E",
+      "name": "Vampire Lord Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10477,
+      "form_id": "020028ED",
+      "name": "DeathHound FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 12499,
+      "form_id": "020030D3",
+      "name": "Summon Durnehviir",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 16208,
+      "form_id": "02003F50",
+      "name": "Sun Bane",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17818,
+      "form_id": "0200459A",
+      "name": "Mothpriest Thrall Effect 1",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17820,
+      "form_id": "0200459C",
+      "name": "Mothpriest Thrall Effect 2",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 25412,
+      "form_id": "02006344",
+      "name": "KeeperSoulSpell",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 27374,
+      "form_id": "02006AEE",
+      "name": "DLC01 Soul Cairn necro skeleton fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32443,
+      "form_id": "02007EBB",
+      "name": "Auriel's Bow Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33867,
+      "form_id": "0200844B",
+      "name": "Sun Bane",
+      "cost": 1.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35138,
+      "form_id": "02008942",
+      "name": "Soul CairnKeeperHead FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35139,
+      "form_id": "02008943",
+      "name": "SoulCairn Keep Head with Helmet",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35420,
+      "form_id": "02008A5C",
+      "name": "Stendarr's Aura",
+      "cost": 2.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35421,
+      "form_id": "02008A5D",
+      "name": "Stendarr's Aura",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35430,
+      "form_id": "02008A66",
+      "name": "Summon Ice Wolves 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35433,
+      "form_id": "02008A69",
+      "name": "Summon Werewolves 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35635,
+      "form_id": "02008B33",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 41579,
+      "form_id": "0200A26B",
+      "name": "Drain Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 41913,
+      "form_id": "0200A3B9",
+      "name": "Stendarr's Aura Light",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 47697,
+      "form_id": "0200BA51",
+      "name": "Detect Life - Predator Normal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 47699,
+      "form_id": "0200BA53",
+      "name": "Detect Life - Predator Combat",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 48589,
+      "form_id": "0200BDCD",
+      "name": "DLC01 Soul Cairn Boneman FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 49021,
+      "form_id": "0200BF7D",
+      "name": "Slow Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 50673,
+      "form_id": "0200C5F1",
+      "name": "Frost Cloak - Death Hound",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 50689,
+      "form_id": "0200C601",
+      "name": "Summon Arvak",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53703,
+      "form_id": "0200D1C7",
+      "name": "Font Absorb Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54209,
+      "form_id": "0200D3C1",
+      "name": "Reanimate",
+      "cost": 1.2000000476837158,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54865,
+      "form_id": "0200D651",
+      "name": "Mist Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59601,
+      "form_id": "0200E8D1",
+      "name": "Restore Health to Undead",
+      "cost": 3.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59603,
+      "form_id": "0200E8D3",
+      "name": "Restore Health to Undead",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 62690,
+      "form_id": "0200F4E2",
+      "name": "Conjure Gargoyle",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 63047,
+      "form_id": "0200F647",
+      "name": "Dwarven Centurion FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 64629,
+      "form_id": "0200FC75",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69003,
+      "form_id": "02010D8B",
+      "name": "Stendarr's Aura - Isran",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69312,
+      "form_id": "02010EC0",
+      "name": "Summon Durnehviir",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 70498,
+      "form_id": "02011362",
+      "name": "Fortify Marksman",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72219,
+      "form_id": "02011A1B",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72619,
+      "form_id": "02011BAB",
+      "name": "Runehammer Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72659,
+      "form_id": "02011BD3",
+      "name": "DLC01 Soul Cairn Boneman FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72660,
+      "form_id": "02011BD4",
+      "name": "DLC01 Soul Cairn necro skeleton fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 73515,
+      "form_id": "02011F2B",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 73517,
+      "form_id": "02011F2D",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 73518,
+      "form_id": "02011F2E",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 77079,
+      "form_id": "02012D17",
+      "name": "Stagger Push",
+      "cost": 0.0010000000474974513,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 80763,
+      "form_id": "02013B7B",
+      "name": "SprigganEarthMotherFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 81990,
+      "form_id": "02014046",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82330,
+      "form_id": "0201419A",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82332,
+      "form_id": "0201419C",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 84393,
+      "form_id": "020149A9",
+      "name": "Tainted Blood of the Ancients",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 85191,
+      "form_id": "02014CC7",
+      "name": "Slow - not dragons",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87212,
+      "form_id": "020154AC",
+      "name": "Crystal Drain Visual",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87833,
+      "form_id": "02015719",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87834,
+      "form_id": "0201571A",
+      "name": "Bats Effect",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87835,
+      "form_id": "0201571B",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87924,
+      "form_id": "02015774",
+      "name": "Damage Health Regen",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101462,
+      "form_id": "02018C56",
+      "name": "Detect Life - Predator Searching",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103201,
+      "form_id": "02019321",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103202,
+      "form_id": "02019322",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103203,
+      "form_id": "02019323",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 105135,
+      "form_id": "02019AAF",
+      "name": "DLC1SoulCairn Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 107297,
+      "form_id": "0201A321",
+      "name": "Mist Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 108853,
+      "form_id": "0201A935",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 108854,
+      "form_id": "0201A936",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 109109,
+      "form_id": "0201AA35",
+      "name": "Mist Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 94326,
+      "form_id": "04017076",
+      "name": "Spider Visuals Fire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96046,
+      "form_id": "0401772E",
+      "name": "Whirlwind Cloak",
+      "cost": 3.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 102103,
+      "form_id": "04018ED7",
+      "name": "Stag Prince Increment Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110234,
+      "form_id": "0401AE9A",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 114669,
+      "form_id": "0401BFED",
+      "name": "Blessing Of The Stag",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 114804,
+      "form_id": "0401C074",
+      "name": "Fortify Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 117427,
+      "form_id": "0401CAB3",
+      "name": "Spider Visuals Poison",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118276,
+      "form_id": "0401CE04",
+      "name": "Bound Dagger",
+      "cost": 1.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118277,
+      "form_id": "0401CE05",
+      "name": "Mystic Dagger",
+      "cost": 1.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 120652,
+      "form_id": "0401D74C",
+      "name": "Poison Rune",
+      "cost": 22.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122776,
+      "form_id": "0401DF98",
+      "name": "Fire/Frost Resist",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123078,
+      "form_id": "0401E0C6",
+      "name": "MiraakFakeEthereal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123525,
+      "form_id": "0401E285",
+      "name": "Absorb Spells",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123532,
+      "form_id": "0401E28C",
+      "name": "Frost Stream",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124914,
+      "form_id": "0401E7F2",
+      "name": "Lover's Insight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126365,
+      "form_id": "0401ED9D",
+      "name": "Writhing Wall Slow Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131261,
+      "form_id": "040200BD",
+      "name": "Cyclone",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131263,
+      "form_id": "040200BF",
+      "name": "Cyclone03",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 132831,
+      "form_id": "040206DF",
+      "name": "Spider Visuals Frost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 137009,
+      "form_id": "04021731",
+      "name": "Power Attacks/Damage Resistance",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 147329,
+      "form_id": "04023F81",
+      "name": "HMDaedra fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 151489,
+      "form_id": "04024FC1",
+      "name": "Absorb Health",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 159118,
+      "form_id": "04026D8E",
+      "name": "Spider Visuals Shock",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160554,
+      "form_id": "0402732A",
+      "name": "Ahzidal's Necromancy",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160559,
+      "form_id": "0402732F",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 162810,
+      "form_id": "04027BFA",
+      "name": "Ash Guardian FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 167611,
+      "form_id": "04028EBB",
+      "name": "Cyclone02",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 180893,
+      "form_id": "0402C29D",
+      "name": "Ash Spawn Body Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 181355,
+      "form_id": "0402C46B",
+      "name": "Fire Damage",
+      "cost": 6.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 181356,
+      "form_id": "0402C46C",
+      "name": "Shock Damage",
+      "cost": 7.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 181357,
+      "form_id": "0402C46D",
+      "name": "Frost Damage",
+      "cost": 6.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205487,
+      "form_id": "040322AF",
+      "name": "Poison",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215093,
+      "form_id": "04034835",
+      "name": "Seeker of Sorcery",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 218892,
+      "form_id": "0403570C",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219940,
+      "form_id": "04035B24",
+      "name": "Frostmoon Predator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222854,
+      "form_id": "04036686",
+      "name": "Ahzidal's Warding",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 233697,
+      "form_id": "040390E1",
+      "name": "Waterwalking",
+      "cost": 0.15000000596046448,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 233753,
+      "form_id": "04039119",
+      "name": "Acolyte Dragon Priest FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 235508,
+      "form_id": "040397F4",
+      "name": "Absorb Stamina",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 236829,
+      "form_id": "04039D1D",
+      "name": "Tentacle Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 238546,
+      "form_id": "0403A3D2",
+      "name": "Mora's Agony",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 241678,
+      "form_id": "0403B00E",
+      "name": "Breath of Nchuak",
+      "cost": 0.20000000298023224,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 244993,
+      "form_id": "0403BD01",
+      "name": "Resist Magic",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 244994,
+      "form_id": "0403BD02",
+      "name": "Fortify One-handed",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 244995,
+      "form_id": "0403BD03",
+      "name": "Fortify Barter",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249549,
+      "form_id": "0403CECD",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250747,
+      "form_id": "0403D37B",
+      "name": "Bound Dagger FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3089,
+      "form_id": "05000C11",
+      "name": "Drain Life",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 10438,
+      "form_id": "0A0028C6",
+      "name": "The Gift of Gab",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 10439,
+      "form_id": "0A0028C7",
+      "name": "The Gift of Gab",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 22835,
+      "form_id": "0A005933",
+      "name": "Lightning Bolt Call Storm",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 97002,
+      "form_id": "0A017AEA",
+      "name": "Prowler's Profit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 166837,
+      "form_id": "0A028BB5",
+      "name": "Fortify Persuasion",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 448698,
+      "form_id": "0A06D8BA",
+      "name": "Remove Unwanted Visuals",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 492893,
+      "form_id": "0A07855D",
+      "name": "Fortify Marksman",
+      "cost": 0.20999999344348907,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 492894,
+      "form_id": "0A07855E",
+      "name": "Fortify One-handed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 492895,
+      "form_id": "0A07855F",
+      "name": "Fortify Two-handed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 644417,
+      "form_id": "0A09D541",
+      "name": "Restore Stamina to Undead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 644418,
+      "form_id": "0A09D542",
+      "name": "Restore Stamina to Undead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 1060767,
+      "form_id": "0A102F9F",
+      "name": "Fire Rune",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 9606711,
+      "form_id": "0A929637",
+      "name": "USSEP Bullseye Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "unofficial skyrim special edition patch.esp",
+      "local_id": 9606712,
+      "form_id": "0A929638",
+      "name": "Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2115,
+      "form_id": "06000843",
+      "name": "Freezing Water Check",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2304,
+      "form_id": "06000900",
+      "name": "Reduced Speech",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2308,
+      "form_id": "06000904",
+      "name": "Gutworm",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2309,
+      "form_id": "06000905",
+      "name": "Brown Rot",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2406,
+      "form_id": "06000966",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2407,
+      "form_id": "06000967",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2408,
+      "form_id": "06000968",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2419,
+      "form_id": "06000973",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2420,
+      "form_id": "06000974",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2421,
+      "form_id": "06000975",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2559,
+      "form_id": "060009FF",
+      "name": "Reduced Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2560,
+      "form_id": "06000A00",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2561,
+      "form_id": "06000A01",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2051,
+      "form_id": "07000803",
+      "name": "Night Eye",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2066,
+      "form_id": "07000812",
+      "name": "Spell Absorption",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    }
+  ]
+}

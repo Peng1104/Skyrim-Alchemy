@@ -1,0 +1,593 @@
+{
+  "signature": {
+    "size": 224611,
+    "mtime": 1788322413.982919
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2066,
+      "form_id": "04000812",
+      "name": "Battle Fury 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2067,
+      "form_id": "04000813",
+      "name": "Battle Fury 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2068,
+      "form_id": "04000814",
+      "name": "Battle Fury 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2069,
+      "form_id": "04000815",
+      "name": "Battle Fury 4",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2070,
+      "form_id": "04000816",
+      "name": "Battle Fury 5",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2071,
+      "form_id": "04000817",
+      "name": "Command Undead",
+      "cost": 8.800000190734863,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2072,
+      "form_id": "04000818",
+      "name": "Banish/Command Undead Push",
+      "cost": 0.0010000000474974513,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2073,
+      "form_id": "04000819",
+      "name": "Banish Undead",
+      "cost": 9.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2074,
+      "form_id": "0400081A",
+      "name": "Banish - Damage Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2075,
+      "form_id": "0400081B",
+      "name": "Tomb Guardian FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2076,
+      "form_id": "0400081C",
+      "name": "Cloak Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2077,
+      "form_id": "0400081D",
+      "name": "Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2078,
+      "form_id": "0400081E",
+      "name": "Conjure Skeleton Minion",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2079,
+      "form_id": "0400081F",
+      "name": "Unsummon FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2080,
+      "form_id": "04000820",
+      "name": "Damage Stamina Regen",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2081,
+      "form_id": "04000821",
+      "name": "Conjure Tomb Guardian",
+      "cost": 13.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2082,
+      "form_id": "04000822",
+      "name": "Shade FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2083,
+      "form_id": "04000823",
+      "name": "Unsummon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2084,
+      "form_id": "04000824",
+      "name": "Summon Shade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2085,
+      "form_id": "04000825",
+      "name": "Unsummon FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2086,
+      "form_id": "04000826",
+      "name": "Necromancer's Ritual",
+      "cost": 8.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2087,
+      "form_id": "04000827",
+      "name": "Necro Ritual AOE",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2088,
+      "form_id": "04000828",
+      "name": "Restore Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2089,
+      "form_id": "04000829",
+      "name": "Reduce Attack Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2090,
+      "form_id": "0400082A",
+      "name": "Conjure Skeleton Marksman",
+      "cost": 9.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2091,
+      "form_id": "0400082B",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2092,
+      "form_id": "0400082C",
+      "name": "Conjure Sundered Shade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2093,
+      "form_id": "0400082D",
+      "name": "Soul Split",
+      "cost": 13.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2094,
+      "form_id": "0400082E",
+      "name": "Conjure Skeleton Champion",
+      "cost": 13.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2095,
+      "form_id": "0400082F",
+      "name": "Conjure Skeleton Warlock",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2096,
+      "form_id": "04000830",
+      "name": "Ancient Lich Ab",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2097,
+      "form_id": "04000831",
+      "name": "Gloomwraith FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2098,
+      "form_id": "04000832",
+      "name": "Sword FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2099,
+      "form_id": "04000833",
+      "name": "Conjure Ancient Deathpriest",
+      "cost": 70.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2100,
+      "form_id": "04000834",
+      "name": "Undying Ghost FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2101,
+      "form_id": "04000835",
+      "name": "Haunting Spirit FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2103,
+      "form_id": "04000837",
+      "name": "Tortured Shade FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2105,
+      "form_id": "04000839",
+      "name": "Steal Skills",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2106,
+      "form_id": "0400083A",
+      "name": "Empower Necromancy",
+      "cost": 34.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2107,
+      "form_id": "0400083B",
+      "name": "Conjure Bone Colossus",
+      "cost": 70.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2108,
+      "form_id": "0400083C",
+      "name": "Shock Damage Area",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2109,
+      "form_id": "0400083D",
+      "name": "Stagger Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2110,
+      "form_id": "0400083E",
+      "name": "Bone Colossus Heal Skele",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2111,
+      "form_id": "0400083F",
+      "name": "Dark Moon",
+      "cost": 7.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2112,
+      "form_id": "04000840",
+      "name": "Conjure Undying Ghost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2113,
+      "form_id": "04000841",
+      "name": "Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2114,
+      "form_id": "04000842",
+      "name": "Bone Colossus Ab",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2115,
+      "form_id": "04000843",
+      "name": "Conjure Cursed Spectre",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2116,
+      "form_id": "04000844",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2117,
+      "form_id": "04000845",
+      "name": "Poison",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2118,
+      "form_id": "04000846",
+      "name": "Soul Curse",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2119,
+      "form_id": "04000847",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2135,
+      "form_id": "04000857",
+      "name": "Poison Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2156,
+      "form_id": "0400086C",
+      "name": "Poison Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2197,
+      "form_id": "04000895",
+      "name": "Restore Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2292,
+      "form_id": "040008F4",
+      "name": "Gloomwraith FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2405,
+      "form_id": "04000965",
+      "name": "Spawn Test",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2407,
+      "form_id": "04000967",
+      "name": "Soul Curse - Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2104,
+      "form_id": "04000838",
+      "name": "Haunting Gift",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2169,
+      "form_id": "04000879",
+      "name": "Dark Moon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2311,
+      "form_id": "04000907",
+      "name": "Unsummon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2411,
+      "form_id": "0400096B",
+      "name": "Conjure Tomb Guardian",
+      "cost": 13.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2412,
+      "form_id": "0400096C",
+      "name": "Conjure Sundered Shade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2413,
+      "form_id": "0400096D",
+      "name": "Conjure Skeleton Minion",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2414,
+      "form_id": "0400096E",
+      "name": "Conjure Skeleton Warlock",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2415,
+      "form_id": "0400096F",
+      "name": "Conjure Skeleton Champion",
+      "cost": 13.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2416,
+      "form_id": "04000970",
+      "name": "Conjure Skeleton Marksman",
+      "cost": 9.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2417,
+      "form_id": "04000971",
+      "name": "Conjure Haunting Spirit",
+      "cost": 9.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2418,
+      "form_id": "04000972",
+      "name": "Conjure Cursed Spectre",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2419,
+      "form_id": "04000973",
+      "name": "Conjure Bone Colossus",
+      "cost": 70.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2420,
+      "form_id": "04000974",
+      "name": "Conjure Ancient Deathpriest",
+      "cost": 70.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2421,
+      "form_id": "04000975",
+      "name": "Conjure Undying Ghost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse003-necroarts.esl",
+      "local_id": 2064,
+      "form_id": "04000810",
+      "name": "Conjure Haunting Spirit",
+      "cost": 9.0,
+      "harmful": false
+    }
+  ]
+}

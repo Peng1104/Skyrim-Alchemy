@@ -1,0 +1,121 @@
+{
+  "signature": {
+    "size": 240474,
+    "mtime": 1788322495.234116
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2054,
+      "form_id": "04000806",
+      "name": "Ghost Visuals Fire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2055,
+      "form_id": "04000807",
+      "name": "Ghost Visuals Fire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2057,
+      "form_id": "04000809",
+      "name": "Add Perk",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2052,
+      "form_id": "04000804",
+      "name": "Add Perk",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2910,
+      "form_id": "04000B5E",
+      "name": "Kagrenac's Knowledge",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2939,
+      "form_id": "04000B7B",
+      "name": "Fortify Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2940,
+      "form_id": "04000B7C",
+      "name": "Regenerate Stamina",
+      "cost": 0.4000000059604645,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2938,
+      "form_id": "04000B7A",
+      "name": "Fortify Stamina",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 3101,
+      "form_id": "04000C1D",
+      "name": "Frost Damage",
+      "cost": 1.100000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 3102,
+      "form_id": "04000C1E",
+      "name": "Shock Damage",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 3103,
+      "form_id": "04000C1F",
+      "name": "Magicka Damage",
+      "cost": 0.800000011920929,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 3122,
+      "form_id": "04000C32",
+      "name": "Stamina Damage",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 3123,
+      "form_id": "04000C33",
+      "name": "Fire Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse008-wraithguard.esl",
+      "local_id": 2053,
+      "form_id": "04000805",
+      "name": "Ghost Visuals Fire",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

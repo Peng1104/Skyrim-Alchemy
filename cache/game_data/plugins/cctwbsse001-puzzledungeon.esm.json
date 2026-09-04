@@ -1,0 +1,322 @@
+{
+  "signature": {
+    "size": 1411214,
+    "mtime": 1788322491.6511984
+  },
+  "ingredients": [
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 105786,
+      "form_id": "05019D3A",
+      "name": "Wild Grass Pod",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2083,
+      "form_id": "05000823",
+      "name": "Weight",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2084,
+      "form_id": "05000824",
+      "name": "Frozen Breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2085,
+      "form_id": "05000825",
+      "name": "Weakness to Poison",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2086,
+      "form_id": "05000826",
+      "name": "Weakness to Fire",
+      "cost": 0.6000000238418579,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2087,
+      "form_id": "05000827",
+      "name": "Weakness to Frost",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2088,
+      "form_id": "05000828",
+      "name": "Weakness to Shock",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2089,
+      "form_id": "05000829",
+      "name": "Poison Fire",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2090,
+      "form_id": "0500082A",
+      "name": "Calm",
+      "cost": 3.9000000953674316,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2091,
+      "form_id": "0500082B",
+      "name": "Summer Staff",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2059,
+      "form_id": "0500080B",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2060,
+      "form_id": "0500080C",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2063,
+      "form_id": "0500080F",
+      "name": "Flame Cloak",
+      "cost": 3.200000047683716,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2062,
+      "form_id": "0500080E",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2064,
+      "form_id": "05000810",
+      "name": "SprigganFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2061,
+      "form_id": "0500080D",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Shock Cloak",
+      "cost": 4.099999904632568,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2066,
+      "form_id": "05000812",
+      "name": "Frost Cloak",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2067,
+      "form_id": "05000813",
+      "name": "Choking Pollen",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 936218,
+      "form_id": "050E491A",
+      "name": "Turn of the Seasons",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2068,
+      "form_id": "05000814",
+      "name": "Lingering Poison Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2069,
+      "form_id": "05000815",
+      "name": "Toxic Runoff",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2070,
+      "form_id": "05000816",
+      "name": "Dwarven Horse FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2071,
+      "form_id": "05000817",
+      "name": "Winter Staff",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2072,
+      "form_id": "05000818",
+      "name": "Summer Staff",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2073,
+      "form_id": "05000819",
+      "name": "Spring Staff",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2074,
+      "form_id": "0500081A",
+      "name": "Fortify Restoration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2075,
+      "form_id": "0500081B",
+      "name": "Autumn Staff",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2076,
+      "form_id": "0500081C",
+      "name": "Dwarven Drone Fly",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2077,
+      "form_id": "0500081D",
+      "name": "Dwarven Beam Effect",
+      "cost": 2.799999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2078,
+      "form_id": "0500081E",
+      "name": "Spring Staff",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2079,
+      "form_id": "0500081F",
+      "name": "Autumn Staff",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2080,
+      "form_id": "05000820",
+      "name": "Spider Control",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2081,
+      "form_id": "05000821",
+      "name": "Conductive Helmet",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 2082,
+      "form_id": "05000822",
+      "name": "Winter Staff",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "cctwbsse001-puzzledungeon.esm",
+      "local_id": 1600072,
+      "form_id": "05186A48",
+      "name": "Dummy Effect",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

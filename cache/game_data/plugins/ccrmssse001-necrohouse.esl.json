@@ -1,0 +1,73 @@
+{
+  "signature": {
+    "size": 393319,
+    "mtime": 1788322424.8640912
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 3306,
+      "form_id": "05000CEA",
+      "name": "Reanimate",
+      "cost": 1.2000000476837158,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 3245,
+      "form_id": "05000CAD",
+      "name": "Dummy Fake Spell",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 3335,
+      "form_id": "05000D07",
+      "name": "Fake Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 2353,
+      "form_id": "05000931",
+      "name": "Fortify Illusion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 2442,
+      "form_id": "0500098A",
+      "name": "Fortify Conjuration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 3377,
+      "form_id": "05000D31",
+      "name": "Reanimate",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 3420,
+      "form_id": "05000D5C",
+      "name": "Fortify Conjuration",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccrmssse001-necrohouse.esl",
+      "local_id": 3298,
+      "form_id": "05000CE2",
+      "name": "Ghost",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

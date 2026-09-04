@@ -1,0 +1,57 @@
+{
+  "signature": {
+    "size": 2101755,
+    "mtime": 1787238574.438839
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "aberrationsofthedwemer.esp",
+      "local_id": 3854299,
+      "form_id": "0A3ACFDB",
+      "name": "Conjure Gloam Wolf",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aberrationsofthedwemer.esp",
+      "local_id": 4970014,
+      "form_id": "0A4BD61E",
+      "name": "Shadow of Nocturnal Base",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "aberrationsofthedwemer.esp",
+      "local_id": 4970005,
+      "form_id": "0A4BD615",
+      "name": "Soul Steal",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "aberrationsofthedwemer.esp",
+      "local_id": 3854309,
+      "form_id": "0A3ACFE5",
+      "name": "Conjure Gloam Spider",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aberrationsofthedwemer.esp",
+      "local_id": 6275924,
+      "form_id": "0A5FC354",
+      "name": "Spring Heeled",
+      "cost": 3.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "aberrationsofthedwemer.esp",
+      "local_id": 3854291,
+      "form_id": "0A3ACFD3",
+      "name": "Phantom Form",
+      "cost": 2.0,
+      "harmful": false
+    }
+  ]
+}

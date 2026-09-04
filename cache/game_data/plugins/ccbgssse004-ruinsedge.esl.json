@@ -1,0 +1,65 @@
+{
+  "signature": {
+    "size": 7913,
+    "mtime": 1788322510.7889004
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2051,
+      "form_id": "05000803",
+      "name": "Reduce Carry Weight",
+      "cost": 0.15000000596046448,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2048,
+      "form_id": "05000800",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2049,
+      "form_id": "05000801",
+      "name": "Fury",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Bow Base Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2062,
+      "form_id": "0500080E",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Fear",
+      "cost": 0.4000000059604645,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse004-ruinsedge.esl",
+      "local_id": 2061,
+      "form_id": "0500080D",
+      "name": "Frost Damage",
+      "cost": 1.100000023841858,
+      "harmful": true
+    }
+  ]
+}

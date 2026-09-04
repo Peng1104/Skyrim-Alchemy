@@ -1,0 +1,305 @@
+{
+  "signature": {
+    "size": 207143,
+    "mtime": 1788322498.1697216
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2055,
+      "form_id": "05000807",
+      "name": "Akatosh's Aspect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2056,
+      "form_id": "05000808",
+      "name": "Elemental Resistance",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2057,
+      "form_id": "05000809",
+      "name": "Akatosh's Talon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2058,
+      "form_id": "0500080A",
+      "name": "Resist Fire",
+      "cost": 9.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2060,
+      "form_id": "0500080C",
+      "name": "Elemental Adaptation",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2061,
+      "form_id": "0500080D",
+      "name": "Fortify Melee Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2063,
+      "form_id": "0500080F",
+      "name": "Akatosh's Aspect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2064,
+      "form_id": "05000810",
+      "name": "Fire Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2067,
+      "form_id": "05000813",
+      "name": "Fortify Power Attacks",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2091,
+      "form_id": "0500082B",
+      "name": "Inner Spirit",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2094,
+      "form_id": "0500082E",
+      "name": "Storm Bash",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2095,
+      "form_id": "0500082F",
+      "name": "Inner Spirit Boost",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2096,
+      "form_id": "05000830",
+      "name": "Resist Frost",
+      "cost": 9.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2097,
+      "form_id": "05000831",
+      "name": "Berserk Frost",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2098,
+      "form_id": "05000832",
+      "name": "Shatter",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2099,
+      "form_id": "05000833",
+      "name": "Shattering Frost",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2100,
+      "form_id": "05000834",
+      "name": "Bear Spirit",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2101,
+      "form_id": "05000835",
+      "name": "Freeze Bash",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2069,
+      "form_id": "05000815",
+      "name": "Inner Spirit: Wolf",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2102,
+      "form_id": "05000836",
+      "name": "Inner Spirit: Wolf",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2059,
+      "form_id": "0500080B",
+      "name": "Inner Spirit: Hawk",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2103,
+      "form_id": "05000837",
+      "name": "Inner Spirit: Hawk",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2104,
+      "form_id": "05000838",
+      "name": "Inner Spirit: Bear",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2105,
+      "form_id": "05000839",
+      "name": "Inner Spirit: Bear",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2106,
+      "form_id": "0500083A",
+      "name": "Fortify Armor Rating",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2107,
+      "form_id": "0500083B",
+      "name": "Berserk",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Summon Bear Spirit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2062,
+      "form_id": "0500080E",
+      "name": "Wolf Spirit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2066,
+      "form_id": "05000812",
+      "name": "Summon Wolf Spirit",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2068,
+      "form_id": "05000814",
+      "name": "Fortify Armor",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Dragon's Oath",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2051,
+      "form_id": "05000803",
+      "name": "Resist Shock",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2052,
+      "form_id": "05000804",
+      "name": "Imperial Dragon Shield",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2053,
+      "form_id": "05000805",
+      "name": "Fire Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2054,
+      "form_id": "05000806",
+      "name": "Stop Time",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2402,
+      "form_id": "05000962",
+      "name": "Fortify Heavy Armor",
+      "cost": 16.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccffbsse001-imperialdragon.esl",
+      "local_id": 2405,
+      "form_id": "05000965",
+      "name": "Armor - Ebony",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    }
+  ]
+}

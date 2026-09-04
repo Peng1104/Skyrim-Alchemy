@@ -1,0 +1,1177 @@
+{
+  "signature": {
+    "size": 240724,
+    "mtime": 1788322512.8843045
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755574,
+      "form_id": "000B8776",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755575,
+      "form_id": "000B8777",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755577,
+      "form_id": "000B8779",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755578,
+      "form_id": "000B877A",
+      "name": "Reduced Weapon skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755579,
+      "form_id": "000B877B",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 996299,
+      "form_id": "000F33CB",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071266,
+      "form_id": "001058A2",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090123,
+      "form_id": "0010A24B",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090129,
+      "form_id": "0010A251",
+      "name": "Reduced Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090130,
+      "form_id": "0010A252",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090131,
+      "form_id": "0010A253",
+      "name": "Reduced Weapon skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090132,
+      "form_id": "0010A254",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1090133,
+      "form_id": "0010A255",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12001,
+      "form_id": "01002EE1",
+      "name": "Restore Hunger Very Small",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12002,
+      "form_id": "01002EE2",
+      "name": "Restore Hunger Small",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12003,
+      "form_id": "01002EE3",
+      "name": "Restore Hunger Medium",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12004,
+      "form_id": "01002EE4",
+      "name": "Restore Hunger Large",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12005,
+      "form_id": "01002EE5",
+      "name": "Restore Cold",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12006,
+      "form_id": "01002EE6",
+      "name": "Fortify Warmth",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165312,
+      "form_id": "040285C0",
+      "name": "Reduced Weapon Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2055,
+      "form_id": "05000807",
+      "name": "Bone Break Fever Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2056,
+      "form_id": "05000808",
+      "name": "Brain Rot Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2057,
+      "form_id": "05000809",
+      "name": "Bone Break Fever Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2058,
+      "form_id": "0500080A",
+      "name": "Brain Rot Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2095,
+      "form_id": "0500082F",
+      "name": "Weakness to Disease",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2098,
+      "form_id": "05000832",
+      "name": " Fatigue - Refreshed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2099,
+      "form_id": "05000833",
+      "name": "Reduced Magicka Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2100,
+      "form_id": "05000834",
+      "name": " Cold - Comfortable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2101,
+      "form_id": "05000835",
+      "name": "Reduced Attack Speed",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2102,
+      "form_id": "05000836",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2103,
+      "form_id": "05000837",
+      "name": "Reduced Archery",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2104,
+      "form_id": "05000838",
+      "name": "Reduced Movement Speed",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2105,
+      "form_id": "05000839",
+      "name": "Reduced Stamina Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2106,
+      "form_id": "0500083A",
+      "name": "Weakness to Fatigue",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2107,
+      "form_id": "0500083B",
+      "name": "Fortify Warmth",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2108,
+      "form_id": "0500083C",
+      "name": "Warm Area",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2109,
+      "form_id": "0500083D",
+      "name": "Cool Area",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2110,
+      "form_id": "0500083E",
+      "name": "Freezing Area",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2112,
+      "form_id": "05000840",
+      "name": "Pine Forest Freezing Area",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2113,
+      "form_id": "05000841",
+      "name": "Resist Hunger",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2115,
+      "form_id": "05000843",
+      "name": "Freezing Water Check",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2116,
+      "form_id": "05000844",
+      "name": " Hunger - Well Fed",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2117,
+      "form_id": "05000845",
+      "name": " Hunger - Satisfied",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2119,
+      "form_id": "05000847",
+      "name": "Reduced Weapon Skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2120,
+      "form_id": "05000848",
+      "name": "Reduced Block",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2121,
+      "form_id": "05000849",
+      "name": "Reduced Sneak",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2124,
+      "form_id": "0500084C",
+      "name": "Lower Carry Weight",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2126,
+      "form_id": "0500084E",
+      "name": " Fatigue - Lover's Comfort",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2127,
+      "form_id": "0500084F",
+      "name": "Damage Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2128,
+      "form_id": "05000850",
+      "name": "Raw Diet",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2129,
+      "form_id": "05000851",
+      "name": "Food Poisoning",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2134,
+      "form_id": "05000856",
+      "name": "Riding Dragon Detector Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2135,
+      "form_id": "05000857",
+      "name": " Fatigue - Rested",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2136,
+      "form_id": "05000858",
+      "name": " Fatigue - Well Rested",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2139,
+      "form_id": "0500085B",
+      "name": "Weakness to Cold",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2140,
+      "form_id": "0500085C",
+      "name": "Resist Fatigue",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2151,
+      "form_id": "05000867",
+      "name": "Cold FX Shader",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2152,
+      "form_id": "05000868",
+      "name": "Cold FX Shader",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2154,
+      "form_id": "0500086A",
+      "name": "Fall Forest Freezing Area",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2281,
+      "form_id": "050008E9",
+      "name": "Hunger Stage 0 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2282,
+      "form_id": "050008EA",
+      "name": "Hunger Stage 2 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2283,
+      "form_id": "050008EB",
+      "name": "Hunger Stage 3 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2284,
+      "form_id": "050008EC",
+      "name": "Hunger Stage 4 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2285,
+      "form_id": "050008ED",
+      "name": "Hunger Stage 5 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2286,
+      "form_id": "050008EE",
+      "name": "Fatigue Stage 1 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2287,
+      "form_id": "050008EF",
+      "name": "Fatigue Stage 2 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2288,
+      "form_id": "050008F0",
+      "name": "Fatigue Stage 3 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2289,
+      "form_id": "050008F1",
+      "name": "Fatigue Stage 4 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2290,
+      "form_id": "050008F2",
+      "name": "Fatigue Stage 5 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2291,
+      "form_id": "050008F3",
+      "name": "Cold Stage 0 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2292,
+      "form_id": "050008F4",
+      "name": "Cold Stage 1 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2293,
+      "form_id": "050008F5",
+      "name": "Cold Stage 2 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2294,
+      "form_id": "050008F6",
+      "name": "Cold Stage 3 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2295,
+      "form_id": "050008F7",
+      "name": "Cold Stage 4 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2296,
+      "form_id": "050008F8",
+      "name": "Cold Stage 5 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2297,
+      "form_id": "050008F9",
+      "name": "Damage Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2299,
+      "form_id": "050008FB",
+      "name": "Damage Magicka Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2300,
+      "form_id": "050008FC",
+      "name": "Hunger Stage 1 Imod Applicator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2302,
+      "form_id": "050008FE",
+      "name": "Damage Stamina Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2303,
+      "form_id": "050008FF",
+      "name": "Transmundane",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2304,
+      "form_id": "05000900",
+      "name": "Reduced Speech",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2305,
+      "form_id": "05000901",
+      "name": "Addled Effect Timer",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2306,
+      "form_id": "05000902",
+      "name": "Frostbitten Effect Timer",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2307,
+      "form_id": "05000903",
+      "name": "Weakened Effect Timer",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2308,
+      "form_id": "05000904",
+      "name": "Gutworm",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2309,
+      "form_id": "05000905",
+      "name": "Brown Rot",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2311,
+      "form_id": "05000907",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2312,
+      "form_id": "05000908",
+      "name": "Damage Health Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2313,
+      "form_id": "05000909",
+      "name": "Reduced Weapon Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2314,
+      "form_id": "0500090A",
+      "name": "Reduced Weapon skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2386,
+      "form_id": "05000952",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2387,
+      "form_id": "05000953",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2388,
+      "form_id": "05000954",
+      "name": " Cold - Freezing",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2389,
+      "form_id": "05000955",
+      "name": " Cold - Very Cold",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2390,
+      "form_id": "05000956",
+      "name": " Cold - Chilly",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2391,
+      "form_id": "05000957",
+      "name": " Fatigue - Debilitated",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2392,
+      "form_id": "05000958",
+      "name": " Fatigue - Weary",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2393,
+      "form_id": "05000959",
+      "name": " Fatigue - Tired",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2394,
+      "form_id": "0500095A",
+      "name": " Fatigue - Drained",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2395,
+      "form_id": "0500095B",
+      "name": " Hunger - Starving",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2396,
+      "form_id": "0500095C",
+      "name": " Hunger - Famished",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2397,
+      "form_id": "0500095D",
+      "name": " Hunger - Hungry",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2398,
+      "form_id": "0500095E",
+      "name": " Hunger - Peckish",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2399,
+      "form_id": "0500095F",
+      "name": " Cold - Numb",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2403,
+      "form_id": "05000963",
+      "name": "Negate Survival Penalty",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2405,
+      "form_id": "05000965",
+      "name": "Fortify Warmth",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2406,
+      "form_id": "05000966",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2407,
+      "form_id": "05000967",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2408,
+      "form_id": "05000968",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2409,
+      "form_id": "05000969",
+      "name": "Severe Brown Rot",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2410,
+      "form_id": "0500096A",
+      "name": "Crippling Gutworm",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2411,
+      "form_id": "0500096B",
+      "name": "Severe Gutworm",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2412,
+      "form_id": "0500096C",
+      "name": "Crippling Brown Rot",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2413,
+      "form_id": "0500096D",
+      "name": "Reduced Speech",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2414,
+      "form_id": "0500096E",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2415,
+      "form_id": "0500096F",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2416,
+      "form_id": "05000970",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2417,
+      "form_id": "05000971",
+      "name": "Reduced Weapon skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2418,
+      "form_id": "05000972",
+      "name": "Reduced Weapon skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2419,
+      "form_id": "05000973",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2420,
+      "form_id": "05000974",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2421,
+      "form_id": "05000975",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2422,
+      "form_id": "05000976",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2423,
+      "form_id": "05000977",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2424,
+      "form_id": "05000978",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2425,
+      "form_id": "05000979",
+      "name": "Reduced Weapon Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2426,
+      "form_id": "0500097A",
+      "name": "Reduced Weapon Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2427,
+      "form_id": "0500097B",
+      "name": "Reduced Speech",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2428,
+      "form_id": "0500097C",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2429,
+      "form_id": "0500097D",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2430,
+      "form_id": "0500097E",
+      "name": "Reduced Weapon skills",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2431,
+      "form_id": "0500097F",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2432,
+      "form_id": "05000980",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2433,
+      "form_id": "05000981",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2502,
+      "form_id": "050009C6",
+      "name": "Standing Moving Detector Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2514,
+      "form_id": "050009D2",
+      "name": "Addled",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2515,
+      "form_id": "050009D3",
+      "name": "Frostbitten",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2516,
+      "form_id": "050009D4",
+      "name": "Weakened",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2559,
+      "form_id": "050009FF",
+      "name": "Reduced Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2560,
+      "form_id": "05000A00",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2561,
+      "form_id": "05000A01",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2562,
+      "form_id": "05000A02",
+      "name": "Fortify Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2563,
+      "form_id": "05000A03",
+      "name": " Cold - Warm",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2564,
+      "form_id": "05000A04",
+      "name": "Resist Frost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755573,
+      "form_id": "000B8775",
+      "name": "Reduced Lockpick & Pickpocket",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccqdrsse001-survivalmode.esl",
+      "local_id": 2097,
+      "form_id": "05000831",
+      "name": "Vampire Restore Hunger Large",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

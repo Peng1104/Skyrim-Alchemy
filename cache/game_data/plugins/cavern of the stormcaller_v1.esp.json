@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 1372402,
+    "mtime": 1787238845.8036911
+  },
+  "ingredients": [
+    {
+      "owner_file": "cavern of the stormcaller_v1.esp",
+      "local_id": 414804,
+      "form_id": "06065454",
+      "name": "Strange Mushroom",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 18.0,
+          "duration": 120.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 0.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 25.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

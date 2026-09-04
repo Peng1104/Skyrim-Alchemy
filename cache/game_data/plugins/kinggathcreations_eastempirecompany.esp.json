@@ -1,0 +1,73 @@
+{
+  "signature": {
+    "size": 1210630,
+    "mtime": 1787239424.3946464
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 17302,
+      "form_id": "05004396",
+      "name": "Test Store Manager",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 25777,
+      "form_id": "050064B1",
+      "name": "Align to Ground Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 28537,
+      "form_id": "05006F79",
+      "name": "Cell Change Monitor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 1544113,
+      "form_id": "05178FB1",
+      "name": "Terrain Tester Cast Projectile",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 1564852,
+      "form_id": "0517E0B4",
+      "name": "Register for Autoloot Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 1564854,
+      "form_id": "0517E0B6",
+      "name": "Register for Autoloot Apply",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 2063220,
+      "form_id": "051F7B74",
+      "name": "Illusion Check Succeeded",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_eastempirecompany.esp",
+      "local_id": 2063222,
+      "form_id": "051F7B76",
+      "name": "Illusion Check Failed",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

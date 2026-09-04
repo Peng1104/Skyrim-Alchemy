@@ -1,0 +1,246 @@
+{
+  "signature": {
+    "size": 1252806,
+    "mtime": 1787238817.526134
+  },
+  "ingredients": [
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 10,
+      "form_id": "0700000A",
+      "name": "Black Powder",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 2626965,
+      "form_id": "07281595",
+      "name": "Conjure Dwarven Arquebusier",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3142436,
+      "form_id": "072FF324",
+      "name": "Caliver Frost breath",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 93299,
+      "form_id": "07016C73",
+      "name": "Explosive Ball Push Effect",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 998668,
+      "form_id": "070F3D0C",
+      "name": "Karnthumek's Gavel Fire FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 1541394,
+      "form_id": "07178512",
+      "name": "Ball Push Effect",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 2622871,
+      "form_id": "07280597",
+      "name": "Summon Dwarven Arquebusier 03",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 2373753,
+      "form_id": "07243879",
+      "name": "Arquebus Force Strong",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 2103517,
+      "form_id": "072018DD",
+      "name": "Arquebus Camera Shake Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3603289,
+      "form_id": "0736FB59",
+      "name": "Detect Life Friend Interior",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 2626969,
+      "form_id": "07281599",
+      "name": "Summon Dwarven Arquebusier 02",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 915718,
+      "form_id": "070DF906",
+      "name": "Karnthumek's Verdict",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3229677,
+      "form_id": "073147ED",
+      "name": "Tuning Fork",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3395714,
+      "form_id": "0733D082",
+      "name": "Unique Arquebus Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3478728,
+      "form_id": "073514C8",
+      "name": "Fire breath",
+      "cost": 3.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3478732,
+      "form_id": "073514CC",
+      "name": "Steam breath",
+      "cost": 0.20000000298023224,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3499567,
+      "form_id": "0735662F",
+      "name": "Caliver Fear",
+      "cost": 2.5999999046325684,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3520610,
+      "form_id": "0735B862",
+      "name": "Tuning Fork 2",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3603285,
+      "form_id": "0736FB55",
+      "name": "Detect Life Enemy Exterior",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3603287,
+      "form_id": "0736FB57",
+      "name": "Detect Life Enemy Interior",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 3603288,
+      "form_id": "0736FB58",
+      "name": "Detect Life Friend Exterior",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 769883,
+      "form_id": "070BBF5B",
+      "name": "Lightning Storm",
+      "cost": 0.30000001192092896,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 4200864,
+      "form_id": "074019A0",
+      "name": "Ball Push Effect",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 4621995,
+      "form_id": "074686AB",
+      "name": "CW02A_TrackerEffect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 4621996,
+      "form_id": "074686AC",
+      "name": "CW02B_TrackerEffect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 4663504,
+      "form_id": "074728D0",
+      "name": "LibraryOverseer Shock Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 4663505,
+      "form_id": "074728D1",
+      "name": "Wall of Storms",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "msjm01_arquebus.esp",
+      "local_id": 4304609,
+      "form_id": "0741AEE1",
+      "name": "Karnthumek's Gavel Power Attack",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

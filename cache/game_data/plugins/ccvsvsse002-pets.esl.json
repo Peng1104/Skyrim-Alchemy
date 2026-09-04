@@ -1,0 +1,81 @@
+{
+  "signature": {
+    "size": 186345,
+    "mtime": 1788322504.866427
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2071,
+      "form_id": "05000817",
+      "name": "Command Spider",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2072,
+      "form_id": "05000818",
+      "name": "Stagger Push",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2328,
+      "form_id": "05000918",
+      "name": "Teleport Arachnia",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2329,
+      "form_id": "05000919",
+      "name": "Teleport Skritch",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2330,
+      "form_id": "0500091A",
+      "name": "Teleport Hilda",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2331,
+      "form_id": "0500091B",
+      "name": "Teleport Sweet Roll",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2332,
+      "form_id": "0500091C",
+      "name": "Teleport Thistle",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2364,
+      "form_id": "0500093C",
+      "name": "Fortify Carry Weight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccvsvsse002-pets.esl",
+      "local_id": 2070,
+      "form_id": "05000816",
+      "name": "Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

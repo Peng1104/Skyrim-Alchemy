@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 263377,
+    "mtime": 1788322482.2736897
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse041-netchleather.esl",
+      "local_id": 2349,
+      "form_id": "0500092D",
+      "name": "Blank Effect",
+      "cost": 9.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse041-netchleather.esl",
+      "local_id": 2350,
+      "form_id": "0500092E",
+      "name": "Fast",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

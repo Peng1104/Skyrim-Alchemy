@@ -1,0 +1,2930 @@
+{
+  "signature": {
+    "size": 64664159,
+    "mtime": 1787841624.049925
+  },
+  "ingredients": [
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249230,
+      "form_id": "0203CD8E",
+      "name": "Felsaad Tern Feathers",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 1.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130933,
+      "form_id": "0201FF75",
+      "name": "Emperor Parasol Moss",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118132,
+      "form_id": "0201CD74",
+      "name": "Ash Creep Cluster",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118130,
+      "form_id": "0201CD72",
+      "name": "Netch Jelly",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 10.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118129,
+      "form_id": "0201CD71",
+      "name": "Ash Hopper Jelly",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 3.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118127,
+      "form_id": "0201CD6F",
+      "name": "Boar Tusk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256796,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118126,
+      "form_id": "0201CD6E",
+      "name": "Burnt Spriggan Wood",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118125,
+      "form_id": "0201CD6D",
+      "name": "Spawn Ash",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 1.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 2.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 97943,
+      "form_id": "02017E97",
+      "name": "Scathecraw",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 94216,
+      "form_id": "02017008",
+      "name": "Trama Root",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474927,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 93734,
+      "form_id": "02016E26",
+      "name": "Ashen Grass Pod",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474927,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123557,
+      "form_id": "0201E2A5",
+      "name": "Fire Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123532,
+      "form_id": "0201E28C",
+      "name": "Frost Stream",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123530,
+      "form_id": "0201E28A",
+      "name": "Absorb Spells",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123529,
+      "form_id": "0201E289",
+      "name": "Absorb Spells",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123525,
+      "form_id": "0201E285",
+      "name": "Absorb Spells",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123078,
+      "form_id": "0201E0C6",
+      "name": "MiraakFakeEthereal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 121814,
+      "form_id": "0201DBD6",
+      "name": "Conjure Ash Guardian",
+      "cost": 46.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 251355,
+      "form_id": "0203D5DB",
+      "name": "MQ02 Effect",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 251354,
+      "form_id": "0203D5DA",
+      "name": "Restore Health Area",
+      "cost": 0.375,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 251353,
+      "form_id": "0203D5D9",
+      "name": "Fire Storm 100",
+      "cost": 9.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 251331,
+      "form_id": "0203D5C3",
+      "name": "Lightning Storm",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 251275,
+      "form_id": "0203D58B",
+      "name": "Blank Effect",
+      "cost": 9.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250942,
+      "form_id": "0203D43E",
+      "name": "Restore Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250941,
+      "form_id": "0203D43D",
+      "name": "Restore Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250747,
+      "form_id": "0203D37B",
+      "name": "Bound Dagger FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250627,
+      "form_id": "0203D303",
+      "name": "Fortify Health",
+      "cost": 1.899999976158142,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250548,
+      "form_id": "0203D2B4",
+      "name": "Check Water",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250540,
+      "form_id": "0203D2AC",
+      "name": "Cyclone03",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250526,
+      "form_id": "0203D29E",
+      "name": "Rally Secondary",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250523,
+      "form_id": "0203D29B",
+      "name": "Mayhem",
+      "cost": 1.899999976158142,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250516,
+      "form_id": "0203D294",
+      "name": "Blizzard",
+      "cost": 20.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250515,
+      "form_id": "0203D293",
+      "name": "Fire Storm 40",
+      "cost": 32.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 250430,
+      "form_id": "0203D23E",
+      "name": "Blizzard",
+      "cost": 41.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249894,
+      "form_id": "0203D026",
+      "name": "Set WaterDamage Global",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249647,
+      "form_id": "0203CF2F",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249646,
+      "form_id": "0203CF2E",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249594,
+      "form_id": "0203CEFA",
+      "name": "Stagger Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249587,
+      "form_id": "0203CEF3",
+      "name": "Lurker Stagger Area Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249586,
+      "form_id": "0203CEF2",
+      "name": "DLC2MiraakSprintFX",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249550,
+      "form_id": "0203CECE",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249549,
+      "form_id": "0203CECD",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 249279,
+      "form_id": "0203CDBF",
+      "name": "WaterDamageShaders",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 244995,
+      "form_id": "0203BD03",
+      "name": "Fortify Barter",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 244994,
+      "form_id": "0203BD02",
+      "name": "Fortify One-handed",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 244993,
+      "form_id": "0203BD01",
+      "name": "Resist Magic",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 243017,
+      "form_id": "0203B549",
+      "name": "Mora's Curse",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 243015,
+      "form_id": "0203B547",
+      "name": "Mora's Curse",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 242671,
+      "form_id": "0203B3EF",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 241679,
+      "form_id": "0203B00F",
+      "name": "Stamina reduction",
+      "cost": 0.20000000298023224,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 241678,
+      "form_id": "0203B00E",
+      "name": "Breath of Nchuak",
+      "cost": 0.20000000298023224,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 238546,
+      "form_id": "0203A3D2",
+      "name": "Mora's Agony",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 237495,
+      "form_id": "02039FB7",
+      "name": "TelMithryn Teleport",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 237477,
+      "form_id": "02039FA5",
+      "name": "Lightning Storm",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 236838,
+      "form_id": "02039D26",
+      "name": "Miraak Mask Shout",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 236829,
+      "form_id": "02039D1D",
+      "name": "Tentacle Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 235508,
+      "form_id": "020397F4",
+      "name": "Absorb Stamina",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 235502,
+      "form_id": "020397EE",
+      "name": "Wall of Storms",
+      "cost": 14.800000190734863,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 233811,
+      "form_id": "02039153",
+      "name": "Tentacle Explosion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 233753,
+      "form_id": "02039119",
+      "name": "Acolyte Dragon Priest FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 233718,
+      "form_id": "020390F6",
+      "name": "Red Glow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 233697,
+      "form_id": "020390E1",
+      "name": "Waterwalking",
+      "cost": 0.15000000596046448,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 232158,
+      "form_id": "02038ADE",
+      "name": "Steam breath",
+      "cost": 0.20000000298023224,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 231421,
+      "form_id": "020387FD",
+      "name": "Ash Spawn Death Effect",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 229460,
+      "form_id": "02038054",
+      "name": "Soulrender Dispel",
+      "cost": 425.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 229459,
+      "form_id": "02038053",
+      "name": "Bloodscythe Armor Reduction",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 227407,
+      "form_id": "0203784F",
+      "name": "Add Apo Water Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 226261,
+      "form_id": "020373D5",
+      "name": "Hoarfrost",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 226260,
+      "form_id": "020373D4",
+      "name": "Ice Form",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224683,
+      "form_id": "02036DAB",
+      "name": "Sparks",
+      "cost": 1.9500000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224681,
+      "form_id": "02036DA9",
+      "name": "Shock Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224680,
+      "form_id": "02036DA8",
+      "name": "Poison",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224678,
+      "form_id": "02036DA6",
+      "name": "Poison Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224677,
+      "form_id": "02036DA5",
+      "name": "Frostbite",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224675,
+      "form_id": "02036DA3",
+      "name": "Frost Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224674,
+      "form_id": "02036DA2",
+      "name": "Flames",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 224672,
+      "form_id": "02036DA0",
+      "name": "Flame Target Visuals",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 223846,
+      "form_id": "02036A66",
+      "name": "Memory Recorder",
+      "cost": 1.899999976158142,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222856,
+      "form_id": "02036688",
+      "name": "Ahzidal's Vision",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222854,
+      "form_id": "02036686",
+      "name": "Ahzidal's Warding",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222852,
+      "form_id": "02036684",
+      "name": "Augmented Frost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222851,
+      "form_id": "02036683",
+      "name": "Augmented Flames",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222850,
+      "form_id": "02036682",
+      "name": "Augmented Shock",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 222744,
+      "form_id": "02036618",
+      "name": "Beast Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219943,
+      "form_id": "02035B27",
+      "name": "Frostmoon Hunt",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219942,
+      "form_id": "02035B26",
+      "name": "Frostmoon Bloodlust",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219940,
+      "form_id": "02035B24",
+      "name": "Frostmoon Predator",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219937,
+      "form_id": "02035B21",
+      "name": "Frostmoon Instinct",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219936,
+      "form_id": "02035B20",
+      "name": "Frostmoon Howl",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219933,
+      "form_id": "02035B1D",
+      "name": "Frostmoon Hunt",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 219932,
+      "form_id": "02035B1C",
+      "name": "Frostmoon Instinct",
+      "cost": 500.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 218895,
+      "form_id": "0203570F",
+      "name": "Absorb Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 218894,
+      "form_id": "0203570E",
+      "name": "Absorb Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 218892,
+      "form_id": "0203570C",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 218428,
+      "form_id": "0203553C",
+      "name": "False Summon Ash Guardian",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 218306,
+      "form_id": "020354C2",
+      "name": "Disintegrate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 216069,
+      "form_id": "02034C05",
+      "name": "Fortify Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 216068,
+      "form_id": "02034C04",
+      "name": "Fortify Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215896,
+      "form_id": "02034B58",
+      "name": "Conjure Ice Wraith",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215097,
+      "form_id": "02034839",
+      "name": "Mora's Grasp",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215094,
+      "form_id": "02034836",
+      "name": "Seeker of Shadows",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215093,
+      "form_id": "02034835",
+      "name": "Seeker of Sorcery",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215091,
+      "form_id": "02034833",
+      "name": "Seeker of Might",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 215058,
+      "form_id": "02034812",
+      "name": "Miraak Fake Shout",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 211496,
+      "form_id": "02033A28",
+      "name": "Bloodskal Strike",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 211365,
+      "form_id": "020339A5",
+      "name": "Stagger Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205487,
+      "form_id": "020322AF",
+      "name": "Poison",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205485,
+      "form_id": "020322AD",
+      "name": "Shock",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205483,
+      "form_id": "020322AB",
+      "name": "Flame",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205481,
+      "form_id": "020322A9",
+      "name": "Frost",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205470,
+      "form_id": "0203229E",
+      "name": "Spider Fire",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205467,
+      "form_id": "0203229B",
+      "name": "Spider Poison",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205464,
+      "form_id": "02032298",
+      "name": "Spider Fire",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 205461,
+      "form_id": "02032295",
+      "name": "Flame Spider",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 203605,
+      "form_id": "02031B55",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 202838,
+      "form_id": "02031856",
+      "name": "ConjureAncientsBodyArtHolder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 202836,
+      "form_id": "02031854",
+      "name": "Summon Ancients",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 202832,
+      "form_id": "02031850",
+      "name": "Miraak's Sparks",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 202819,
+      "form_id": "02031843",
+      "name": "Between",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 202817,
+      "form_id": "02031841",
+      "name": "Mora's Agony",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 202812,
+      "form_id": "0203183C",
+      "name": "Mora's Agony",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 381297,
+      "form_id": "0005D171",
+      "name": "Frost breath",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 353003,
+      "form_id": "000562EB",
+      "name": "Fire breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 353002,
+      "form_id": "000562EA",
+      "name": "Fire breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 199909,
+      "form_id": "02030CE5",
+      "name": "Fire Stream",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 199907,
+      "form_id": "02030CE3",
+      "name": "Lightning Storm",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 199903,
+      "form_id": "02030CDF",
+      "name": "Conjure High Seeker",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 199887,
+      "form_id": "02030CCF",
+      "name": "Conjure Seeker",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 199884,
+      "form_id": "02030CCC",
+      "name": "Stagger Push",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 199883,
+      "form_id": "02030CCB",
+      "name": "Reflect Attack",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 181357,
+      "form_id": "0202C46D",
+      "name": "Frost Damage",
+      "cost": 6.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 181356,
+      "form_id": "0202C46C",
+      "name": "Shock Damage",
+      "cost": 7.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 181355,
+      "form_id": "0202C46B",
+      "name": "Fire Damage",
+      "cost": 6.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 180893,
+      "form_id": "0202C29D",
+      "name": "Ash Spawn Body Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 180890,
+      "form_id": "0202C29A",
+      "name": "Ashspawn Spell",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 179495,
+      "form_id": "0202BD27",
+      "name": "Fortify Stamina Rate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 179493,
+      "form_id": "0202BD25",
+      "name": "Fortify Speech",
+      "cost": 9.999999747378752e-05,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 174777,
+      "form_id": "0202AAB9",
+      "name": "Lurker Spray",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 173913,
+      "form_id": "0202A759",
+      "name": "DragonBreathBodyArtHolder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 173782,
+      "form_id": "0202A6D6",
+      "name": "Fire Death",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 173773,
+      "form_id": "0202A6CD",
+      "name": "WaterDamageShallow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 173772,
+      "form_id": "0202A6CC",
+      "name": "WaterDamageSwimming",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 171777,
+      "form_id": "02029F01",
+      "name": "Bardic Knowledge",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 171749,
+      "form_id": "02029EE5",
+      "name": "Ice Wraith FX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 171747,
+      "form_id": "02029EE3",
+      "name": "Conjure Ice Wraith",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 171721,
+      "form_id": "02029EC9",
+      "name": "Karstaag's Will",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 170533,
+      "form_id": "02029A25",
+      "name": "Power of Apocrypha",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 169740,
+      "form_id": "0202970C",
+      "name": "Summon Karstaag",
+      "cost": 174.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 169739,
+      "form_id": "0202970B",
+      "name": "Summon Karstaag",
+      "cost": 174.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 169660,
+      "form_id": "020296BC",
+      "name": "Ash Guardian",
+      "cost": 2000.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 169624,
+      "form_id": "02029698",
+      "name": "Magical Instruments",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 167611,
+      "form_id": "02028EBB",
+      "name": "Cyclone02",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 167563,
+      "form_id": "02028E8B",
+      "name": "Acid Spit",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 167549,
+      "form_id": "02028E7D",
+      "name": "Lurker FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 166710,
+      "form_id": "02028B36",
+      "name": "Miraak Teleport Return",
+      "cost": 0.800000011920929,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165330,
+      "form_id": "020285D2",
+      "name": "Jumping Flame Spider",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165325,
+      "form_id": "020285CD",
+      "name": "Flame Cloaked Spider",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165321,
+      "form_id": "020285C9",
+      "name": "Exploding Flame Spider",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165312,
+      "form_id": "020285C0",
+      "name": "Reduced Weapon Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165311,
+      "form_id": "020285BF",
+      "name": "Fenzy Rune - Master of the Mind",
+      "cost": 9.999999747378752e-05,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165256,
+      "form_id": "02028588",
+      "name": "Shock Barrier",
+      "cost": 1.4800000190734863,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165254,
+      "form_id": "02028586",
+      "name": "Frost Barrier",
+      "cost": 1.399999976158142,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165253,
+      "form_id": "02028585",
+      "name": "Fire Barrier",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165245,
+      "form_id": "0202857D",
+      "name": "Absorb Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165244,
+      "form_id": "0202857C",
+      "name": "Absorb Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 81065,
+      "form_id": "00013CA9",
+      "name": "Flames",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 164423,
+      "form_id": "02028247",
+      "name": "Blizzard",
+      "cost": 41.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 164407,
+      "form_id": "02028237",
+      "name": "Frost Cloak Freeze",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 164405,
+      "form_id": "02028235",
+      "name": "Frost Cloak",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 163722,
+      "form_id": "02027F8A",
+      "name": "Searing Embers",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 162810,
+      "form_id": "02027BFA",
+      "name": "Ash Guardian FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 162279,
+      "form_id": "020279E7",
+      "name": "Fake Protection",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160934,
+      "form_id": "020274A6",
+      "name": "Pack Spider",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160926,
+      "form_id": "0202749E",
+      "name": "Oil Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160913,
+      "form_id": "02027491",
+      "name": "Glowing Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160896,
+      "form_id": "02027480",
+      "name": "Spider Visuals Glowing",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160561,
+      "form_id": "02027331",
+      "name": "Ahzidal's Genius",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160559,
+      "form_id": "0202732F",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160558,
+      "form_id": "0202732E",
+      "name": "Freeze",
+      "cost": 1.399999976158142,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160556,
+      "form_id": "0202732C",
+      "name": "Ignite",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160554,
+      "form_id": "0202732A",
+      "name": "Ahzidal's Necromancy",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160551,
+      "form_id": "02027327",
+      "name": "Stagger Push",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160550,
+      "form_id": "02027326",
+      "name": "Paralyze",
+      "cost": 450.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160547,
+      "form_id": "02027323",
+      "name": "Ahzidal's Retribution",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 160250,
+      "form_id": "020271FA",
+      "name": "Shock Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 159119,
+      "form_id": "02026D8F",
+      "name": "Spider Fire",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 159118,
+      "form_id": "02026D8E",
+      "name": "Spider Visuals Shock",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 159079,
+      "form_id": "02026D67",
+      "name": "Shock Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 159060,
+      "form_id": "02026D54",
+      "name": "Spider Fire",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 159054,
+      "form_id": "02026D4E",
+      "name": "Frost Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 158858,
+      "form_id": "02026C8A",
+      "name": "Fake Protection",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157227,
+      "form_id": "0202662B",
+      "name": "Steam Hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157102,
+      "form_id": "020265AE",
+      "name": "Aggro DMG Effect",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157100,
+      "form_id": "020265AC",
+      "name": "Aggro Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157097,
+      "form_id": "020265A9",
+      "name": "Dragon Storm",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157094,
+      "form_id": "020265A6",
+      "name": "DragonStormBodyArtHolder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157092,
+      "form_id": "020265A4",
+      "name": "Dragons Breath",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 157089,
+      "form_id": "020265A1",
+      "name": "Conjure Spectral Dragon",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 156800,
+      "form_id": "02026480",
+      "name": "Dragonborn Frost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 156799,
+      "form_id": "0202647F",
+      "name": "Dragonborn Flame",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 156796,
+      "form_id": "0202647C",
+      "name": "Dragonborn Force",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 155880,
+      "form_id": "020260E8",
+      "name": "Electrified Water Hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 155879,
+      "form_id": "020260E7",
+      "name": "Electrified Water Hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 155156,
+      "form_id": "02025E14",
+      "name": "Summon Karstaag",
+      "cost": 174.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 155150,
+      "form_id": "02025E0E",
+      "name": "Miraak Teleport",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 151494,
+      "form_id": "02024FC6",
+      "name": "Health/Magicka Damage",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 151489,
+      "form_id": "02024FC1",
+      "name": "Absorb Health",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 149528,
+      "form_id": "02024818",
+      "name": "Frost Cloak",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 149523,
+      "form_id": "02024813",
+      "name": "Summon Karstaag",
+      "cost": 174.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 147329,
+      "form_id": "02023F81",
+      "name": "HMDaedra fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 137009,
+      "form_id": "02021731",
+      "name": "Power Attacks/Damage Resistance",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 137008,
+      "form_id": "02021730",
+      "name": "Dragon Aspect - Arms",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134914,
+      "form_id": "02020F02",
+      "name": "Ash breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134818,
+      "form_id": "02020EA2",
+      "name": "Fire Damage 10",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134817,
+      "form_id": "02020EA1",
+      "name": "Flames",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134815,
+      "form_id": "02020E9F",
+      "name": "Flame Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134814,
+      "form_id": "02020E9E",
+      "name": "Fire Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134806,
+      "form_id": "02020E96",
+      "name": "Ice Form",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 134803,
+      "form_id": "02020E93",
+      "name": "Paralyze",
+      "cost": 200.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 134678,
+      "form_id": "00020E16",
+      "name": "Fire breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 133476,
+      "form_id": "02020964",
+      "name": "Exploding Frost Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 133475,
+      "form_id": "02020963",
+      "name": "Poison Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 133474,
+      "form_id": "02020962",
+      "name": "Exploding Frost Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 132831,
+      "form_id": "020206DF",
+      "name": "Spider Visuals Frost",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 132824,
+      "form_id": "020206D8",
+      "name": "Jumping Frost Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 132823,
+      "form_id": "020206D7",
+      "name": "Frost Cloaked Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 132817,
+      "form_id": "020206D1",
+      "name": "Exploding Frost Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 132750,
+      "form_id": "0202068E",
+      "name": "Ash Hopper FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131787,
+      "form_id": "020202CB",
+      "name": "Calm Dragon",
+      "cost": 0.0038999998942017555,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131786,
+      "form_id": "020202CA",
+      "name": "Calm All",
+      "cost": 0.0038999998942017555,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131306,
+      "form_id": "020200EA",
+      "name": "Dragonrend Effect - Prevent Flying",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131278,
+      "form_id": "020200CE",
+      "name": "Poison",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131273,
+      "form_id": "020200C9",
+      "name": "Fast",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131272,
+      "form_id": "020200C8",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131269,
+      "form_id": "020200C5",
+      "name": "Battle Fury",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131263,
+      "form_id": "020200BF",
+      "name": "Cyclone03",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 131261,
+      "form_id": "020200BD",
+      "name": "Cyclone",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130864,
+      "form_id": "0201FF30",
+      "name": "Ash Gout",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130860,
+      "form_id": "0201FF2C",
+      "name": "Damage Carry Weight",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130859,
+      "form_id": "0201FF2B",
+      "name": "Distintegrate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130853,
+      "form_id": "0201FF25",
+      "name": "Lower Carry Weight",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130850,
+      "form_id": "0201FF22",
+      "name": "Summon Dremora Butler",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 130847,
+      "form_id": "0201FF1F",
+      "name": "Bend Will 02",
+      "cost": 0.009999999776482582,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 129429,
+      "form_id": "0201F995",
+      "name": "Unrelenting Force Strong",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 127288,
+      "form_id": "0201F138",
+      "name": "Bend Will 01",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126659,
+      "form_id": "0201EEC3",
+      "name": "Summon Dremora Merchant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126371,
+      "form_id": "0201EDA3",
+      "name": "Regenerate Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126369,
+      "form_id": "0201EDA1",
+      "name": "Regenerate Stamina",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126366,
+      "form_id": "0201ED9E",
+      "name": "Writhing Effect",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126365,
+      "form_id": "0201ED9D",
+      "name": "Writhing Wall Slow Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 126363,
+      "form_id": "0201ED9B",
+      "name": "Stop Rune",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124930,
+      "form_id": "0201E802",
+      "name": "No Falling Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124927,
+      "form_id": "0201E7FF",
+      "name": "Secret of Protection",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124924,
+      "form_id": "0201E7FC",
+      "name": "Secret of Arcana",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124921,
+      "form_id": "0201E7F9",
+      "name": "Secret of Strength",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124916,
+      "form_id": "0201E7F4",
+      "name": "Companion's Insight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124914,
+      "form_id": "0201E7F2",
+      "name": "Lover's Insight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 124910,
+      "form_id": "0201E7EE",
+      "name": "Scholar's Insight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 123257,
+      "form_id": "0201E179",
+      "name": "Beast Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122796,
+      "form_id": "0201DFAC",
+      "name": "Remove Tree",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122794,
+      "form_id": "0201DFAA",
+      "name": "Standing Stone - Tree",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122792,
+      "form_id": "0201DFA8",
+      "name": "Remove Water",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122790,
+      "form_id": "0201DFA6",
+      "name": "Remove Wind",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122787,
+      "form_id": "0201DFA3",
+      "name": "Remove Earth",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122786,
+      "form_id": "0201DFA2",
+      "name": "Conjure Werebear",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122784,
+      "form_id": "0201DFA0",
+      "name": "Bones of the Earth",
+      "cost": 250.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122781,
+      "form_id": "0201DF9D",
+      "name": "Remove Fire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122778,
+      "form_id": "0201DF9A",
+      "name": "Shout Timer",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122776,
+      "form_id": "0201DF98",
+      "name": "Fire/Frost Resist",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122775,
+      "form_id": "0201DF97",
+      "name": "Damage Resistance",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 122768,
+      "form_id": "0201DF90",
+      "name": "Dragon Aspect - Arms",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 121816,
+      "form_id": "0201DBD8",
+      "name": "Altris' Blood Ritual",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 121813,
+      "form_id": "0201DBD5",
+      "name": "Unrelenting Force Strong",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 120654,
+      "form_id": "0201D74E",
+      "name": "Ash Shell",
+      "cost": 125.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 120652,
+      "form_id": "0201D74C",
+      "name": "Poison Rune",
+      "cost": 22.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 120650,
+      "form_id": "0201D74A",
+      "name": "Poison Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118277,
+      "form_id": "0201CE05",
+      "name": "Mystic Dagger",
+      "cost": 1.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118276,
+      "form_id": "0201CE04",
+      "name": "Bound Dagger",
+      "cost": 1.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118263,
+      "form_id": "0201CDF7",
+      "name": "Conjure Ash Spawn",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 118244,
+      "form_id": "0201CDE4",
+      "name": "Blackout",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 117432,
+      "form_id": "0201CAB8",
+      "name": "Poison Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 117431,
+      "form_id": "0201CAB7",
+      "name": "Poison",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 117429,
+      "form_id": "0201CAB5",
+      "name": "Flame Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 117427,
+      "form_id": "0201CAB3",
+      "name": "Spider Visuals Poison",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 117425,
+      "form_id": "0201CAB1",
+      "name": "Poison Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 114804,
+      "form_id": "0201C074",
+      "name": "Fortify Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 114678,
+      "form_id": "0201BFF6",
+      "name": "Rage Of The Ancients",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 114675,
+      "form_id": "0201BFF3",
+      "name": "Dragon Sword Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 114669,
+      "form_id": "0201BFED",
+      "name": "Blessing Of The Stag",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 113931,
+      "form_id": "0201BD0B",
+      "name": "Damage Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110255,
+      "form_id": "0201AEAF",
+      "name": "Bloodskal Strike",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110247,
+      "form_id": "0201AEA7",
+      "name": "Bloodskal Blade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110243,
+      "form_id": "0201AEA3",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110242,
+      "form_id": "0201AEA2",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110235,
+      "form_id": "0201AE9B",
+      "name": "Lurker Slime",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 110234,
+      "form_id": "0201AE9A",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 109247,
+      "form_id": "0201AABF",
+      "name": "Ash Guardian",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 109229,
+      "form_id": "0201AAAD",
+      "name": "Cyclone",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 103966,
+      "form_id": "0201961E",
+      "name": "Detect Ash Source",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 103963,
+      "form_id": "0201961B",
+      "name": "Detect Ash Source",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 103960,
+      "form_id": "02019618",
+      "name": "Detect Ash Source",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 103733,
+      "form_id": "02019535",
+      "name": "Exploding Flame Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 103725,
+      "form_id": "0201952D",
+      "name": "Flame Cloaked Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 102103,
+      "form_id": "02018ED7",
+      "name": "Stag Prince Increment Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 101611,
+      "form_id": "02018CEB",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 101609,
+      "form_id": "02018CE9",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 101596,
+      "form_id": "02018CDC",
+      "name": "Invisibility",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 101593,
+      "form_id": "02018CD9",
+      "name": "Blessing Of The Fox",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96736,
+      "form_id": "020179E0",
+      "name": "Tame Dragon",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96735,
+      "form_id": "020179DF",
+      "name": "Bend To Will Effect - Stagger",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96606,
+      "form_id": "0201795E",
+      "name": "Zombie by Spider",
+      "cost": 1.600000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96188,
+      "form_id": "020177BC",
+      "name": "Fury",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96184,
+      "form_id": "020177B8",
+      "name": "Frenzy Rune",
+      "cost": 3500.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96179,
+      "form_id": "020177B3",
+      "name": "Paralyze 100%",
+      "cost": 200.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96174,
+      "form_id": "020177AE",
+      "name": "Ash Rune",
+      "cost": 125.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96126,
+      "form_id": "0201777E",
+      "name": "Ash Guardian",
+      "cost": 2000.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96051,
+      "form_id": "02017733",
+      "name": "Whirlwind Cloak",
+      "cost": 3.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96050,
+      "form_id": "02017732",
+      "name": "Ash Shell",
+      "cost": 75.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96048,
+      "form_id": "02017730",
+      "name": "Whirlwind Damage",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96046,
+      "form_id": "0201772E",
+      "name": "Whirlwind Cloak",
+      "cost": 3.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 96043,
+      "form_id": "0201772B",
+      "name": "Fling",
+      "cost": 200.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 94332,
+      "form_id": "0201707C",
+      "name": "Exploding Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 94329,
+      "form_id": "02017079",
+      "name": "Fire Spider Flame Trail",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 94326,
+      "form_id": "02017076",
+      "name": "Spider Visuals Fire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 93723,
+      "form_id": "02016E1B",
+      "name": "Zombie by Spider",
+      "cost": 1.600000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83405,
+      "form_id": "020145CD",
+      "name": "Creation Club Cell",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83079,
+      "form_id": "02014487",
+      "name": "Fire Hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83077,
+      "form_id": "02014485",
+      "name": "Flame Spider",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83073,
+      "form_id": "02014481",
+      "name": "Jumping Flame Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83039,
+      "form_id": "0201445F",
+      "name": "Exploding Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83035,
+      "form_id": "0201445B",
+      "name": "Poison Hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 83023,
+      "form_id": "0201444F",
+      "name": "Spider Poison",
+      "cost": 0.5,
+      "harmful": true
+    }
+  ]
+}

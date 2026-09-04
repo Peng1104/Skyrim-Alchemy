@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 54185,
+    "mtime": 1788322514.5937314
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse007-chrysamere.esl",
+      "local_id": 2048,
+      "form_id": "05000800",
+      "name": "Chrysamere",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse007-chrysamere.esl",
+      "local_id": 2049,
+      "form_id": "05000801",
+      "name": "Chrysamere",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse007-chrysamere.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Fortified Combat Healing",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse007-chrysamere.esl",
+      "local_id": 2059,
+      "form_id": "0500080B",
+      "name": "Resist Fire",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

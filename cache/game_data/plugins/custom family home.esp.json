@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 61061,
+    "mtime": 1787238683.2813046
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "custom family home.esp",
+      "local_id": 3429,
+      "form_id": "03000D65",
+      "name": "CCLA ME",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "signature": {
+    "size": 87925,
+    "mtime": 1788322514.4235942
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2128,
+      "form_id": "05000850",
+      "name": "Relics of the Crusader",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2129,
+      "form_id": "05000851",
+      "name": "Check If Armor Equipped",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2077,
+      "form_id": "0500081D",
+      "name": "Ward - Deflection",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2121,
+      "form_id": "05000849",
+      "name": "Shrine Pray Reset Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2078,
+      "form_id": "0500081E",
+      "name": "Holy Aura",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2130,
+      "form_id": "05000852",
+      "name": "Check on Equip",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccmtysse001-knightsofthenine.esl",
+      "local_id": 2113,
+      "form_id": "05000841",
+      "name": "Holy Aura",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

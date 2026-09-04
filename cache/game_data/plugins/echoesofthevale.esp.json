@@ -1,0 +1,89 @@
+{
+  "signature": {
+    "size": 4557887,
+    "mtime": 1787238851.7458096
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 7701499,
+      "form_id": "077583FB",
+      "name": "Initiate's Bulwark",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 7701501,
+      "form_id": "077583FD",
+      "name": "Initiate's Surety",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 7638983,
+      "form_id": "07748FC7",
+      "name": "Initiate's Halation",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 8869525,
+      "form_id": "07875695",
+      "name": "Auriel's Light",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 7701506,
+      "form_id": "07758402",
+      "name": "Initiate's Imposition",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 9740081,
+      "form_id": "07949F31",
+      "name": "Glowing Spider",
+      "cost": 2.299999952316284,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 7701500,
+      "form_id": "077583FC",
+      "name": "Initiate's Stride",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 7722350,
+      "form_id": "0775D56E",
+      "name": "Poison Spit",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 11077684,
+      "form_id": "07A90834",
+      "name": "Teleport Ivan",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "echoesofthevale.esp",
+      "local_id": 11077685,
+      "form_id": "07A90835",
+      "name": "Teleport Ivan",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

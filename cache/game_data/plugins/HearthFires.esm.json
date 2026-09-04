@@ -1,0 +1,442 @@
+{
+  "signature": {
+    "size": 3979105,
+    "mtime": 1787841624.0239244
+  },
+  "ingredients": [
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 61900,
+      "form_id": "0200F1CC",
+      "name": "Hawk's Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 13637,
+      "form_id": "02003545",
+      "name": "Salmon Roe",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 3124,
+      "form_id": "02000C34",
+      "name": "Vampiric Blood Rested",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 62414,
+      "form_id": "0200F3CE",
+      "name": "Shrine Base",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 62399,
+      "form_id": "0200F3BF",
+      "name": "Arcane Enchanter Recipe",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31437,
+      "form_id": "02007ACD",
+      "name": "Room 10 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31436,
+      "form_id": "02007ACC",
+      "name": "Room 7 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31435,
+      "form_id": "02007ACB",
+      "name": "Room 6 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31434,
+      "form_id": "02007ACA",
+      "name": "Room 9 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31433,
+      "form_id": "02007AC9",
+      "name": "Room 11 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31432,
+      "form_id": "02007AC8",
+      "name": "Room 8 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31431,
+      "form_id": "02007AC7",
+      "name": "Room 5 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31430,
+      "form_id": "02007AC6",
+      "name": "Room 4 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31429,
+      "form_id": "02007AC5",
+      "name": "Room 3 Layout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31427,
+      "form_id": "02007AC3",
+      "name": "Cellar",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31400,
+      "form_id": "02007AA8",
+      "name": "Room 12 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31399,
+      "form_id": "02007AA7",
+      "name": "Room 12 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31398,
+      "form_id": "02007AA6",
+      "name": "Room 11 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31397,
+      "form_id": "02007AA5",
+      "name": "Room 11 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31396,
+      "form_id": "02007AA4",
+      "name": "Room 10 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31395,
+      "form_id": "02007AA3",
+      "name": "Room 10 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31394,
+      "form_id": "02007AA2",
+      "name": "Room 9 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31393,
+      "form_id": "02007AA1",
+      "name": "Room 9 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31392,
+      "form_id": "02007AA0",
+      "name": "Room 8 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31391,
+      "form_id": "02007A9F",
+      "name": "Room 8 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31390,
+      "form_id": "02007A9E",
+      "name": "Room 7 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31389,
+      "form_id": "02007A9D",
+      "name": "Room 7Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31388,
+      "form_id": "02007A9C",
+      "name": "Room 6 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31387,
+      "form_id": "02007A9B",
+      "name": "Room 6 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31386,
+      "form_id": "02007A9A",
+      "name": "Room 5 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31385,
+      "form_id": "02007A99",
+      "name": "Room 5 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31384,
+      "form_id": "02007A98",
+      "name": "Room 4 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31383,
+      "form_id": "02007A97",
+      "name": "Room 4 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31382,
+      "form_id": "02007A96",
+      "name": "Room 3 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31381,
+      "form_id": "02007A95",
+      "name": "Room 3 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31380,
+      "form_id": "02007A94",
+      "name": "Room 1B Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31379,
+      "form_id": "02007A93",
+      "name": "Room 1B Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31378,
+      "form_id": "02007A92",
+      "name": "Room 2 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31377,
+      "form_id": "02007A91",
+      "name": "Room 2 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31376,
+      "form_id": "02007A90",
+      "name": "Room 1 Workbench Disable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 31375,
+      "form_id": "02007A8F",
+      "name": "Room 1 Workbench Enable",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 22795,
+      "form_id": "0200590B",
+      "name": "Mother's Love",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 17044,
+      "form_id": "02004294",
+      "name": "Father's Love",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 12583,
+      "form_id": "02003127",
+      "name": "Remodel Entryway - A",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 12455,
+      "form_id": "020030A7",
+      "name": "Main Hall Layout C",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 12454,
+      "form_id": "020030A6",
+      "name": "Main Hall Layout B",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 12453,
+      "form_id": "020030A5",
+      "name": "Main Hall Layout A",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "HearthFires.esm",
+      "local_id": 12450,
+      "form_id": "020030A2",
+      "name": "Small House Layout",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

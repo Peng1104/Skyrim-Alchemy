@@ -1,0 +1,49 @@
+{
+  "signature": {
+    "size": 182186,
+    "mtime": 1788322516.7079206
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse002-exoticarrows.esl",
+      "local_id": 2090,
+      "form_id": "0500082A",
+      "name": "Telekinesis Arrows",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse002-exoticarrows.esl",
+      "local_id": 3427,
+      "form_id": "05000D63",
+      "name": "Soulsteal",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse002-exoticarrows.esl",
+      "local_id": 2059,
+      "form_id": "0500080B",
+      "name": "Bound Quiver",
+      "cost": 6.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse002-exoticarrows.esl",
+      "local_id": 2110,
+      "form_id": "0500083E",
+      "name": "Telekinesis Aggro",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse002-exoticarrows.esl",
+      "local_id": 2062,
+      "form_id": "0500080E",
+      "name": "Mystic Quiver",
+      "cost": 6.75,
+      "harmful": false
+    }
+  ]
+}

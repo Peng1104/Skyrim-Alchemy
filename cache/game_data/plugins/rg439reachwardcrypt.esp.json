@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 421676,
+    "mtime": 1787238720.6153467
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "rg439reachwardcrypt.esp",
+      "local_id": 360065,
+      "form_id": "07057E81",
+      "name": "Electrocute",
+      "cost": 1.399999976158142,
+      "harmful": true
+    },
+    {
+      "owner_file": "rg439reachwardcrypt.esp",
+      "local_id": 360072,
+      "form_id": "07057E88",
+      "name": "Teleportation",
+      "cost": 5.0,
+      "harmful": false
+    }
+  ]
+}

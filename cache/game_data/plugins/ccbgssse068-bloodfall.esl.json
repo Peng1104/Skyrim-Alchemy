@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 12087,
+    "mtime": 1788322410.802666
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse068-bloodfall.esl",
+      "local_id": 2067,
+      "form_id": "05000813",
+      "name": "Stamina Damage",
+      "cost": 1.5,
+      "harmful": true
+    }
+  ]
+}

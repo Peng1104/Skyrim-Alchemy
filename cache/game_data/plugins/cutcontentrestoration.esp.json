@@ -1,0 +1,114 @@
+{
+  "signature": {
+    "size": 818876,
+    "mtime": 1787238785.103508
+  },
+  "ingredients": [
+    {
+      "owner_file": "cutcontentrestoration.esp",
+      "local_id": 3654059,
+      "form_id": "0537C1AB",
+      "name": "Snail",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165256,
+      "form_id": "04028588",
+      "name": "Shock Barrier",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165254,
+      "form_id": "04028586",
+      "name": "Frost Barrier",
+      "cost": 0.8500000238418579,
+      "harmful": true
+    },
+    {
+      "owner_file": "cutcontentrestoration.esp",
+      "local_id": 8052235,
+      "form_id": "057ADE0B",
+      "name": "Circle of Vitality",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "cutcontentrestoration.esp",
+      "local_id": 8052236,
+      "form_id": "057ADE0C",
+      "name": "Circle of Vitality",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "cutcontentrestoration.esp",
+      "local_id": 7969276,
+      "form_id": "057999FC",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 690376,
+      "form_id": "000A88C8",
+      "name": "Summon Subjugated Ghost",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dragonborn.esm",
+      "local_id": 165253,
+      "form_id": "04028585",
+      "name": "Fire Barrier",
+      "cost": 0.6499999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 746217,
+      "form_id": "000B62E9",
+      "name": "Circle of Vitality",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cutcontentrestoration.esp",
+      "local_id": 7969278,
+      "form_id": "057999FE",
+      "name": "Regenerate Magicka",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    }
+  ]
+}

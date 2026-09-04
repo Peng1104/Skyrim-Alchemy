@@ -1,0 +1,161 @@
+{
+  "signature": {
+    "size": 455251,
+    "mtime": 1787238844.42704
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 26,
+      "form_id": "0900001A",
+      "name": "Crazed Arachnomancer",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 27,
+      "form_id": "0900001B",
+      "name": "Spider Poison",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 28,
+      "form_id": "0900001C",
+      "name": "Venom's Embrace",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 29,
+      "form_id": "0900001D",
+      "name": "Exsanguinate",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 30,
+      "form_id": "0900001E",
+      "name": "Dawn's Light",
+      "cost": 22.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 31,
+      "form_id": "0900001F",
+      "name": "Frost Damage",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 32,
+      "form_id": "09000020",
+      "name": "Shock Damage",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 33,
+      "form_id": "09000021",
+      "name": "Tail of Numinex",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 34,
+      "form_id": "09000022",
+      "name": "Ring of Potema",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 35,
+      "form_id": "09000023",
+      "name": "Price of Power",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 36,
+      "form_id": "09000024",
+      "name": "Storm's Rage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 37,
+      "form_id": "09000025",
+      "name": "Venom's Embrace",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 38,
+      "form_id": "09000026",
+      "name": "Combustion",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 39,
+      "form_id": "09000027",
+      "name": "Glaciation",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 40,
+      "form_id": "09000028",
+      "name": "Tempest",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 41,
+      "form_id": "09000029",
+      "name": "Combustion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 42,
+      "form_id": "0900002A",
+      "name": "Glaciation",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 43,
+      "form_id": "0900002B",
+      "name": "Tempest",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalvaults.esp",
+      "local_id": 44,
+      "form_id": "0900002C",
+      "name": "Weakness to Poison",
+      "cost": 0.699999988079071,
+      "harmful": true
+    }
+  ]
+}

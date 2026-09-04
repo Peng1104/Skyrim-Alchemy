@@ -1,0 +1,249 @@
+{
+  "signature": {
+    "size": 3817999,
+    "mtime": 1787238481.8484988
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3356496,
+      "form_id": "05333750",
+      "name": "Fire Storm 65",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 233863,
+      "form_id": "05039187",
+      "name": "Lullian Harquebus Reload MGEF",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 1217810,
+      "form_id": "05129512",
+      "name": "Candlelight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 1637691,
+      "form_id": "0518FD3B",
+      "name": "Steam Breath",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 2626419,
+      "form_id": "05281373",
+      "name": "Stop Trying To Read Effect Names",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 2626421,
+      "form_id": "05281375",
+      "name": "Winding Acceleration",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 2626426,
+      "form_id": "0528137A",
+      "name": "Fireball",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 4570473,
+      "form_id": "0545BD69",
+      "name": "Fill Bottle",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 4570474,
+      "form_id": "0545BD6A",
+      "name": "Fill Bottle",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 4670983,
+      "form_id": "05474607",
+      "name": "Watchman Glow Eyes",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 233859,
+      "form_id": "05039183",
+      "name": "Familyman Boss checker",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3544352,
+      "form_id": "05361520",
+      "name": "Archeron Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3544348,
+      "form_id": "0536151C",
+      "name": "Archeron Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 2793369,
+      "form_id": "052A9F99",
+      "name": "Light Beam",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 2835111,
+      "form_id": "052B42A7",
+      "name": "Magnusian Bolt",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 2960110,
+      "form_id": "052D2AEE",
+      "name": "Lullian Ping",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3085252,
+      "form_id": "052F13C4",
+      "name": "Ping",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3356494,
+      "form_id": "0533374E",
+      "name": "Fire Storm 100",
+      "cost": 9.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3356497,
+      "form_id": "05333751",
+      "name": "Fire Storm 25",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3439917,
+      "form_id": "05347D2D",
+      "name": "Fire Storm 100",
+      "cost": 9.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3544351,
+      "form_id": "0536151F",
+      "name": "Archeron Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3544353,
+      "form_id": "05361521",
+      "name": "Archeron Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3585911,
+      "form_id": "0536B777",
+      "name": "Firebolt",
+      "cost": 1.2000000476837158,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3609851,
+      "form_id": "053714FB",
+      "name": "Restore Health",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3627614,
+      "form_id": "05375A5E",
+      "name": "Unwound Titan Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3627756,
+      "form_id": "05375AEC",
+      "name": "Reveal Archeron",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 3837221,
+      "form_id": "053A8D25",
+      "name": "Frost breath",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 4169938,
+      "form_id": "053FA0D2",
+      "name": "Lightball",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 4378530,
+      "form_id": "0542CFA2",
+      "name": "Lullian Shield Effect",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "wheelsoflull.esp",
+      "local_id": 4378532,
+      "form_id": "0542CFA4",
+      "name": "Assert Laws",
+      "cost": 2.0,
+      "harmful": true
+    }
+  ]
+}

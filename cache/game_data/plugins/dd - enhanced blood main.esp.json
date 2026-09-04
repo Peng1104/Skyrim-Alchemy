@@ -1,0 +1,73 @@
+{
+  "signature": {
+    "size": 96808,
+    "mtime": 1787238707.15469
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 127524,
+      "form_id": "0401F224",
+      "name": "Bug fix Blood Drop",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 138560,
+      "form_id": "04021D40",
+      "name": "Bleeding effects NPC Bug",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 144081,
+      "form_id": "040232D1",
+      "name": "Bleeding effects NPC Bleed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 150981,
+      "form_id": "04024DC5",
+      "name": "Bleeding effects NPC ROBOT",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 231917,
+      "form_id": "040389ED",
+      "name": "Blood Cloaking Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 231919,
+      "form_id": "040389EF",
+      "name": "Blood Applying Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 208906,
+      "form_id": "0403300A",
+      "name": "Bleeding effects NPC",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dd - enhanced blood main.esp",
+      "local_id": 262257,
+      "form_id": "04040071",
+      "name": "Blood Applying Effect Update",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

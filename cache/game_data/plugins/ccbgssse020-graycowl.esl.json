@@ -1,0 +1,81 @@
+{
+  "signature": {
+    "size": 70659,
+    "mtime": 1788322449.8433874
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2052,
+      "form_id": "05000804",
+      "name": "Detect Life Enemy Exterior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2053,
+      "form_id": "05000805",
+      "name": "Detect Life Enemy Interior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2054,
+      "form_id": "05000806",
+      "name": "Detect Life Friend Interior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2159,
+      "form_id": "0500086F",
+      "name": "Clan Ice-Blade Enchantment",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2165,
+      "form_id": "05000875",
+      "name": "Detect Life Guard Exterior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2055,
+      "form_id": "05000807",
+      "name": "Detect Life Friend Exterior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2056,
+      "form_id": "05000808",
+      "name": "Detect Life Base",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2173,
+      "form_id": "0500087D",
+      "name": "Detect Life Follower",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse020-graycowl.esl",
+      "local_id": 2057,
+      "form_id": "05000809",
+      "name": "Detect Life Base",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "signature": {
+    "size": 73494,
+    "mtime": 1787238695.9408169
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 10455,
+      "form_id": "010028D7",
+      "name": "Paralyze",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 10454,
+      "form_id": "010028D6",
+      "name": "Frost Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 10453,
+      "form_id": "010028D5",
+      "name": "Release Monarch",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7674,
+      "form_id": "01001DFA",
+      "name": "Apotheosis Fire",
+      "cost": 3.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7687,
+      "form_id": "01001E07",
+      "name": "Conjure Frost Monarch",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7675,
+      "form_id": "01001DFB",
+      "name": "Apotheosis Frost",
+      "cost": 3.549999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7677,
+      "form_id": "01001DFD",
+      "name": "Paralyze",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7678,
+      "form_id": "01001DFE",
+      "name": "Frost Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 17361,
+      "form_id": "010043D1",
+      "name": "Teleportation",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7676,
+      "form_id": "01001DFC",
+      "name": "Apotheosis Shock",
+      "cost": 3.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 9073,
+      "form_id": "01002371",
+      "name": "Charge Cost",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 9071,
+      "form_id": "0100236F",
+      "name": "Charge Cost",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 25709,
+      "form_id": "0100646D",
+      "name": "Conjure Frost Monarch",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 25708,
+      "form_id": "0100646C",
+      "name": "Conjure Frost Monarch",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 25706,
+      "form_id": "0100646A",
+      "name": "Charge Cost",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 25703,
+      "form_id": "01006467",
+      "name": "Release Monarch",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 25711,
+      "form_id": "0100646F",
+      "name": "Ice Guardian",
+      "cost": 30.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 27091,
+      "form_id": "010069D3",
+      "name": "Conjure Frost Monarch",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 9069,
+      "form_id": "0100236D",
+      "name": "Release Monarch",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 7688,
+      "form_id": "01001E08",
+      "name": "Release Monarch",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "icebladeofthemonarch.esp",
+      "local_id": 10457,
+      "form_id": "010028D9",
+      "name": "Conjure Frost Monarch",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    }
+  ]
+}

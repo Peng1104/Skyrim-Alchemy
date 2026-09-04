@@ -1,0 +1,505 @@
+{
+  "signature": {
+    "size": 711788,
+    "mtime": 1787238659.0645785
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 87,
+      "form_id": "08000057",
+      "name": "Thorny Reach",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 88,
+      "form_id": "08000058",
+      "name": "Poisonous Barb",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 89,
+      "form_id": "08000059",
+      "name": "Poisonous Swarm",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 90,
+      "form_id": "0800005A",
+      "name": "Fury of the North",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 91,
+      "form_id": "0800005B",
+      "name": "Fury of the North",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 92,
+      "form_id": "0800005C",
+      "name": "Ice Shards",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 93,
+      "form_id": "0800005D",
+      "name": "Lightning Arc",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 94,
+      "form_id": "0800005E",
+      "name": "Fire Blast",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 95,
+      "form_id": "0800005F",
+      "name": "Fury of the Dragon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 96,
+      "form_id": "08000060",
+      "name": "Fury of the Dragon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 97,
+      "form_id": "08000061",
+      "name": "Fury of the Storms",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 98,
+      "form_id": "08000062",
+      "name": "Fury of the Storms",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 99,
+      "form_id": "08000063",
+      "name": "The Unleashed",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 100,
+      "form_id": "08000064",
+      "name": "SoulGemDaggerNPCME",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 101,
+      "form_id": "08000065",
+      "name": "Spreading Spores",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 102,
+      "form_id": "08000066",
+      "name": "PoisonCloudME",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 103,
+      "form_id": "08000067",
+      "name": "Poison Cloud",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 104,
+      "form_id": "08000068",
+      "name": "Poison Proj",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 105,
+      "form_id": "08000069",
+      "name": "Spreading Spores",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 106,
+      "form_id": "0800006A",
+      "name": "Spore Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 107,
+      "form_id": "0800006B",
+      "name": "Fire hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 108,
+      "form_id": "0800006C",
+      "name": "Conjure Familiar",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 109,
+      "form_id": "0800006D",
+      "name": "Frost hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 110,
+      "form_id": "0800006E",
+      "name": "Sunlight hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 111,
+      "form_id": "0800006F",
+      "name": "Sunlight Rune",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 112,
+      "form_id": "08000070",
+      "name": "Sunlight Rune",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 113,
+      "form_id": "08000071",
+      "name": "Sunlight Rune",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 114,
+      "form_id": "08000072",
+      "name": "Sunlight Rune",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 115,
+      "form_id": "08000073",
+      "name": "Sunlight Rune",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 116,
+      "form_id": "08000074",
+      "name": "Sunlight Rune",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 117,
+      "form_id": "08000075",
+      "name": "Shock hazard",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 118,
+      "form_id": "08000076",
+      "name": "Master Blacksmith",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 119,
+      "form_id": "08000077",
+      "name": "Fury of the Sun",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 120,
+      "form_id": "08000078",
+      "name": "Fury of the Sun",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 121,
+      "form_id": "08000079",
+      "name": "Heartfire Mead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 122,
+      "form_id": "0800007A",
+      "name": "Evergreen Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 123,
+      "form_id": "0800007B",
+      "name": "Magesbane Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 124,
+      "form_id": "0800007C",
+      "name": "Fireblood Mead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 125,
+      "form_id": "0800007D",
+      "name": "Ironhide Mead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 126,
+      "form_id": "0800007E",
+      "name": "Elderflow Mead",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 127,
+      "form_id": "0800007F",
+      "name": "Warborn Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 128,
+      "form_id": "08000080",
+      "name": "Ironwall Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 129,
+      "form_id": "08000081",
+      "name": "Warborn Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 130,
+      "form_id": "08000082",
+      "name": "Sorcerer's Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 131,
+      "form_id": "08000083",
+      "name": "Forgefire Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 132,
+      "form_id": "08000084",
+      "name": "Sunblossom Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 133,
+      "form_id": "08000085",
+      "name": "Sunblossom Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 134,
+      "form_id": "08000086",
+      "name": "Magnusblood Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 135,
+      "form_id": "08000087",
+      "name": "Warborn Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 136,
+      "form_id": "08000088",
+      "name": "Sorcerer's Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 137,
+      "form_id": "08000089",
+      "name": "Sorcerer's Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 138,
+      "form_id": "0800008A",
+      "name": "Sorcerer's Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 139,
+      "form_id": "0800008B",
+      "name": "Sorcerer's Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 140,
+      "form_id": "0800008C",
+      "name": "Forgefire Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 141,
+      "form_id": "0800008D",
+      "name": "Forgefire Mead",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 142,
+      "form_id": "0800008E",
+      "name": "Oakenarm ",
+      "cost": 0.15000000596046448,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 143,
+      "form_id": "0800008F",
+      "name": "Bearheart Mead",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 144,
+      "form_id": "08000090",
+      "name": "Soul Trap",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 145,
+      "form_id": "08000091",
+      "name": "WindfuryME",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 146,
+      "form_id": "08000092",
+      "name": "Windfury Proj",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 147,
+      "form_id": "08000093",
+      "name": "Bloodlust",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "capitalships.esl",
+      "local_id": 148,
+      "form_id": "08000094",
+      "name": "Bloodlust",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

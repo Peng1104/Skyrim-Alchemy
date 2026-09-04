@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 488390,
+    "mtime": 1787238782.2355468
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "stendarrsbeaconenhancedrv4sse.esp",
+      "local_id": 1643758,
+      "form_id": "041914EE",
+      "name": "Dark Poison Talons",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

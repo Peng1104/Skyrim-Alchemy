@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 422743,
+    "mtime": 1788322431.6896145
+  },
+  "ingredients": [
+    {
+      "owner_file": "cceejsse005-cave.esm",
+      "local_id": 272993,
+      "form_id": "05042A61",
+      "name": "Nightshade",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

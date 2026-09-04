@@ -1,0 +1,137 @@
+{
+  "signature": {
+    "size": 1701580,
+    "mtime": 1787238853.569846
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1692573,
+      "form_id": "0319D39D",
+      "name": "Fortify Light Armor",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1692572,
+      "form_id": "0319D39C",
+      "name": "Fortify Heavy Armor",
+      "cost": 16.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1692571,
+      "form_id": "0319D39B",
+      "name": "Fortify Persuasion",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1315955,
+      "form_id": "03141473",
+      "name": "Resurrect OnUnload",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 350563,
+      "form_id": "03055963",
+      "name": "Satisfaction",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 584482,
+      "form_id": "0308EB22",
+      "name": "Boss Invisibility",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1692574,
+      "form_id": "0319D39E",
+      "name": "Fortify One-Handed",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1854864,
+      "form_id": "031C4D90",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1865003,
+      "form_id": "031C752B",
+      "name": "Untouchable",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1793986,
+      "form_id": "031B5FC2",
+      "name": "Invisibility Chance",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1783841,
+      "form_id": "031B3821",
+      "name": "Invisibility Chance",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 278614,
+      "form_id": "03044056",
+      "name": "Influential Influence",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1692575,
+      "form_id": "0319D39F",
+      "name": "Fortify Two-Handed",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 615050,
+      "form_id": "0309628A",
+      "name": "Independent Business",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1682430,
+      "form_id": "0319ABFE",
+      "name": "Head for Business",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "life of crime.esp",
+      "local_id": 1682428,
+      "form_id": "0319ABFC",
+      "name": "Bloodthirsty Business",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

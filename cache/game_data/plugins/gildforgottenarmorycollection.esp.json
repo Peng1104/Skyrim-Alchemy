@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 305213,
+    "mtime": 1787238746.916101
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "gildforgottenarmorycollection.esp",
+      "local_id": 29599,
+      "form_id": "0200739F",
+      "name": "Forgotten Forge Teleport",
+      "cost": 1.0,
+      "harmful": false
+    }
+  ]
+}

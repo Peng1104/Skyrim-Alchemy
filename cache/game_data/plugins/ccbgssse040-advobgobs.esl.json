@@ -1,0 +1,74 @@
+{
+  "signature": {
+    "size": 316111,
+    "mtime": 1788322473.659892
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse040-advobgobs.esl",
+      "local_id": 2098,
+      "form_id": "05000832",
+      "name": "Steel-Blue Entoloma",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "ccbgssse040-advobgobs.esl",
+      "local_id": 2095,
+      "form_id": "0500082F",
+      "name": "Spear Summon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse040-advobgobs.esl",
+      "local_id": 3025,
+      "form_id": "05000BD1",
+      "name": "Dummy Spear Effect",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse040-advobgobs.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Slow Weapon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse040-advobgobs.esl",
+      "local_id": 2066,
+      "form_id": "05000812",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

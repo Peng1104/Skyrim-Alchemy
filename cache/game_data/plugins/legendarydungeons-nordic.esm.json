@@ -1,0 +1,49 @@
+{
+  "signature": {
+    "size": 1493327,
+    "mtime": 1787238479.7984715
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "legendarydungeons-nordic.esm",
+      "local_id": 641520,
+      "form_id": "0609C9F0",
+      "name": "House Eater",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-nordic.esm",
+      "local_id": 1866660,
+      "form_id": "061C7BA4",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-nordic.esm",
+      "local_id": 2137129,
+      "form_id": "06209C29",
+      "name": "Vampiric Alchemy",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-nordic.esm",
+      "local_id": 2157885,
+      "form_id": "0620ED3D",
+      "name": "Frost Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-nordic.esm",
+      "local_id": 2157889,
+      "form_id": "0620ED41",
+      "name": "Ice Form",
+      "cost": 1.0,
+      "harmful": true
+    }
+  ]
+}

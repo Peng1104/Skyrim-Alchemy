@@ -1,0 +1,82 @@
+{
+  "signature": {
+    "size": 180899,
+    "mtime": 1788322512.6107008
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse003-zombies.esl",
+      "local_id": 2060,
+      "form_id": "0500080C",
+      "name": "Mort Flesh",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "ccbgssse003-zombies.esl",
+      "local_id": 2049,
+      "form_id": "05000801",
+      "name": "Summon Foul Zombie",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse003-zombies.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Summon Malignant Zombie",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse003-zombies.esl",
+      "local_id": 2051,
+      "form_id": "05000803",
+      "name": "Summon Putrid Zombie",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse003-zombies.esl",
+      "local_id": 2132,
+      "form_id": "05000854",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse003-zombies.esl",
+      "local_id": 2048,
+      "form_id": "05000800",
+      "name": "Summon Zombie",
+      "cost": 15.0,
+      "harmful": false
+    }
+  ]
+}

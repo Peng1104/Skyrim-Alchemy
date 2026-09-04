@@ -1,0 +1,2266 @@
+{
+  "signature": {
+    "size": 25884488,
+    "mtime": 1787841624.0389247
+  },
+  "ingredients": [
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10872,
+      "form_id": "02002A78",
+      "name": "Yellow Mountain Flower",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474924,
+          "magnitude": 100.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 99835,
+      "form_id": "020185FB",
+      "name": "Poison Bloom",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 99255,
+      "form_id": "020183B7",
+      "name": "Chaurus Hunter Antennae",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 45207,
+      "form_id": "0200B097",
+      "name": "Gleamblossom",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 22970,
+      "form_id": "020059BA",
+      "name": "Ancestor Moth Wing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 85223,
+      "form_id": "02014CE7",
+      "name": "Script Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 85191,
+      "form_id": "02014CC7",
+      "name": "Slow - not dragons",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241313,
+      "form_id": "0003AEA1",
+      "name": "Shock Cloak",
+      "cost": 4.099999904632568,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241312,
+      "form_id": "0003AEA0",
+      "name": "Frost Cloak",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241310,
+      "form_id": "0003AE9E",
+      "name": "Flame Cloak",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 83287,
+      "form_id": "02014557",
+      "name": "Null Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 79890,
+      "form_id": "02013812",
+      "name": "Restore Health",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 77081,
+      "form_id": "02012D19",
+      "name": "Mist Form Muffle",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 77079,
+      "form_id": "02012D17",
+      "name": "Stagger Push",
+      "cost": 0.0010000000474974513,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 75446,
+      "form_id": "020126B6",
+      "name": "Night Cloak",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 75445,
+      "form_id": "020126B5",
+      "name": "Bats Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 74425,
+      "form_id": "020122B9",
+      "name": "Restore Health Area",
+      "cost": 0.375,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 74152,
+      "form_id": "020121A8",
+      "name": "Conjure Dwarven Spider",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 74150,
+      "form_id": "020121A6",
+      "name": "Conjure Dwarven Sphere",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 74147,
+      "form_id": "020121A3",
+      "name": "Conjure Dwarven Spider",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 73518,
+      "form_id": "02011F2E",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 73517,
+      "form_id": "02011F2D",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 73515,
+      "form_id": "02011F2B",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72956,
+      "form_id": "02011CFC",
+      "name": "Werewolf Gorging Health Restore",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72660,
+      "form_id": "02011BD4",
+      "name": "DLC01 Soul Cairn necro skeleton fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72659,
+      "form_id": "02011BD3",
+      "name": "DLC01 Soul Cairn Boneman FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72111,
+      "form_id": "020119AF",
+      "name": "Bats Control",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72087,
+      "form_id": "02011997",
+      "name": "Bats Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 70498,
+      "form_id": "02011362",
+      "name": "Fortify Marksman",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69583,
+      "form_id": "02010FCF",
+      "name": "Damage Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69582,
+      "form_id": "02010FCE",
+      "name": "Damage Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69581,
+      "form_id": "02010FCD",
+      "name": "Damage Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69579,
+      "form_id": "02010FCB",
+      "name": "Serana's Soul Trap",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69577,
+      "form_id": "02010FC9",
+      "name": "Damage Health Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69576,
+      "form_id": "02010FC8",
+      "name": "Damage Magicka Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69575,
+      "form_id": "02010FC7",
+      "name": "Damage Stamina Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69574,
+      "form_id": "02010FC6",
+      "name": "Weakened Soul",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69312,
+      "form_id": "02010EC0",
+      "name": "Summon Durnehviir",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69143,
+      "form_id": "02010E17",
+      "name": "Vampire Death Bleeding",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69137,
+      "form_id": "02010E11",
+      "name": "Vampire Death Bleeding",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69003,
+      "form_id": "02010D8B",
+      "name": "Stendarr's Aura - Isran",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 68856,
+      "form_id": "02010CF8",
+      "name": "Eject Player Push",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 64629,
+      "form_id": "0200FC75",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 63047,
+      "form_id": "0200F647",
+      "name": "Dwarven Centurion FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 62690,
+      "form_id": "0200F4E2",
+      "name": "Conjure Gargoyle",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 62687,
+      "form_id": "0200F4DF",
+      "name": "Reanimate",
+      "cost": 0.949999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 62681,
+      "form_id": "0200F4D9",
+      "name": "Amulet Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 62680,
+      "form_id": "0200F4D8",
+      "name": "Amulet Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 62414,
+      "form_id": "0200F3CE",
+      "name": "VQ03 Calm Mothpriest",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 323526,
+      "form_id": "0004EFC6",
+      "name": "Dwarven Spider FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59603,
+      "form_id": "0200E8D3",
+      "name": "Restore Health to Undead",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59601,
+      "form_id": "0200E8D1",
+      "name": "Restore Health to Undead",
+      "cost": 3.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59369,
+      "form_id": "0200E7E9",
+      "name": "Magicka Draining Claws",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59368,
+      "form_id": "0200E7E8",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59351,
+      "form_id": "0200E7D7",
+      "name": "Bloody Grip Cloak Effect",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59345,
+      "form_id": "0200E7D1",
+      "name": "Drain Health",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59314,
+      "form_id": "0200E7B2",
+      "name": "Blood Plague",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 59312,
+      "form_id": "0200E7B0",
+      "name": "Blood Cloak Effect",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 58974,
+      "form_id": "0200E65E",
+      "name": "Harkon Conjuration Delay",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 58964,
+      "form_id": "0200E654",
+      "name": "Bats Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 55639,
+      "form_id": "0200D957",
+      "name": "Auriel's Shield Knockback High",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 55637,
+      "form_id": "0200D955",
+      "name": "Auriel's Shield Knockback Mid",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 55634,
+      "form_id": "0200D952",
+      "name": "Auriel's Shield Knockback Low",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 579013,
+      "form_id": "0008D5C5",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54883,
+      "form_id": "0200D663",
+      "name": "Wayshrine Casting Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54866,
+      "form_id": "0200D652",
+      "name": "Pacify",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54865,
+      "form_id": "0200D651",
+      "name": "Mist Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53804,
+      "form_id": "0200D22C",
+      "name": "Drain Effect To Look For Targets",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53709,
+      "form_id": "0200D1CD",
+      "name": "Font Absorb Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53705,
+      "form_id": "0200D1C9",
+      "name": "Font Absorb Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53703,
+      "form_id": "0200D1C7",
+      "name": "Font Absorb Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53701,
+      "form_id": "0200D1C5",
+      "name": "Harkon's Invulnerability.",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 52571,
+      "form_id": "0200CD5B",
+      "name": "Revert to Human",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26916,
+      "form_id": "02006924",
+      "name": "Increment Updater",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26812,
+      "form_id": "020068BC",
+      "name": "Increased Speed",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26811,
+      "form_id": "020068BB",
+      "name": "Slow Cloak Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26810,
+      "form_id": "020068BA",
+      "name": "Slow Cloak Effect",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26807,
+      "form_id": "020068B7",
+      "name": "Slow Time Effect",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26805,
+      "form_id": "020068B5",
+      "name": "Bats Damage",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26803,
+      "form_id": "020068B3",
+      "name": "Bats Knockdown",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26800,
+      "form_id": "020068B0",
+      "name": "Bats Knockdown",
+      "cost": 4.099999904632568,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26501,
+      "form_id": "02006785",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 26500,
+      "form_id": "02006784",
+      "name": "Auriels Bow Beam Effects",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 25412,
+      "form_id": "02006344",
+      "name": "KeeperSoulSpell",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 20833,
+      "form_id": "02005161",
+      "name": "Armor - Wisp Cloak",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 20795,
+      "form_id": "0200513B",
+      "name": "GargoyleMeleeArtHolderGreen",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 20787,
+      "form_id": "02005133",
+      "name": "GargoyleMeleeArtHolder",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17968,
+      "form_id": "02004630",
+      "name": "Lightning Bolt Call Storm",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17852,
+      "form_id": "020045BC",
+      "name": "Conjure Boneman",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17851,
+      "form_id": "020045BB",
+      "name": "Conjure Mistman",
+      "cost": 27.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17845,
+      "form_id": "020045B5",
+      "name": "Conjure Wrathman",
+      "cost": 42.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17820,
+      "form_id": "0200459C",
+      "name": "Mothpriest Thrall Effect 2",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17818,
+      "form_id": "0200459A",
+      "name": "Mothpriest Thrall Effect 1",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 16815,
+      "form_id": "020041AF",
+      "name": "Fear",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 16208,
+      "form_id": "02003F50",
+      "name": "Sun Bane",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 11094,
+      "form_id": "02002B56",
+      "name": "Chaurus Hunter Ambush FX",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10972,
+      "form_id": "02002ADC",
+      "name": "Soul Cairn Soul Wisp FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10723,
+      "form_id": "020029E3",
+      "name": "Regenerate Stamina",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10721,
+      "form_id": "020029E1",
+      "name": "Regenerate Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10667,
+      "form_id": "020029AB",
+      "name": "Immolate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10645,
+      "form_id": "02002995",
+      "name": "Chaurus effect",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10477,
+      "form_id": "020028ED",
+      "name": "DeathHound FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 109266,
+      "form_id": "0201AAD2",
+      "name": "Reduced Stamina Regen",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 109264,
+      "form_id": "0201AAD0",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 109109,
+      "form_id": "0201AA35",
+      "name": "Mist Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 109107,
+      "form_id": "0201AA33",
+      "name": "Soul Rend Stagger Push",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 108855,
+      "form_id": "0201A937",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 108854,
+      "form_id": "0201A936",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 108853,
+      "form_id": "0201A935",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 107297,
+      "form_id": "0201A321",
+      "name": "Mist Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 107277,
+      "form_id": "0201A30D",
+      "name": "Supernatural Reflexes",
+      "cost": 500.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 106888,
+      "form_id": "0201A188",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 106887,
+      "form_id": "0201A187",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 106862,
+      "form_id": "0201A16E",
+      "name": "Summon Undead From Soul Cairn",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 106861,
+      "form_id": "0201A16D",
+      "name": "Summon Undead From Soul Cairn",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 106857,
+      "form_id": "0201A169",
+      "name": "Summon Undead From Soul Cairn",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 105628,
+      "form_id": "02019C9C",
+      "name": "Bats Effect",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 105135,
+      "form_id": "02019AAF",
+      "name": "DLC1SoulCairn Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103205,
+      "form_id": "02019325",
+      "name": "Damage Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103203,
+      "form_id": "02019323",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103202,
+      "form_id": "02019322",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 103201,
+      "form_id": "02019321",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 102132,
+      "form_id": "02018EF4",
+      "name": "Blood Ingestion",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101468,
+      "form_id": "02018C5C",
+      "name": "Vigilant Charmed Effect",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101466,
+      "form_id": "02018C5A",
+      "name": "DLC Sun Eclipse Self Spell",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101464,
+      "form_id": "02018C58",
+      "name": "Detect Life - Predator Searching",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101463,
+      "form_id": "02018C57",
+      "name": "Detect Life - Predator Combat",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101462,
+      "form_id": "02018C56",
+      "name": "Detect Life - Predator Searcing",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101461,
+      "form_id": "02018C55",
+      "name": "Detect Life - Predator Normal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101460,
+      "form_id": "02018C54",
+      "name": "Detect Life - Predator Normal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101459,
+      "form_id": "02018C53",
+      "name": "Detect Life - Predator Combat",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 101458,
+      "form_id": "02018C52",
+      "name": "Detect Life - Predator Searching",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 92422,
+      "form_id": "02016906",
+      "name": "Conjure Gargoyle",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 92276,
+      "form_id": "02016874",
+      "name": "Soul Wait for Death FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 91798,
+      "form_id": "02016696",
+      "name": "Sun Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 91797,
+      "form_id": "02016695",
+      "name": "Increment Updater",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 91792,
+      "form_id": "02016690",
+      "name": "Health Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 90066,
+      "form_id": "02015FD2",
+      "name": "DLCWerewolf Fear Howl 1",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 90065,
+      "form_id": "02015FD1",
+      "name": "DLC Werewolf Fear Howl 2",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 90064,
+      "form_id": "02015FD0",
+      "name": "DLC Werewolf Fear Howl 3",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849816,
+      "form_id": "000CF798",
+      "name": "Werewolf Fear Howl 3",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849815,
+      "form_id": "000CF797",
+      "name": "Werewolf Fear Howl 2",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849814,
+      "form_id": "000CF796",
+      "name": "Werewolf Fear Howl 1",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 90054,
+      "form_id": "02015FC6",
+      "name": "Vampire Float ArtHolder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 89156,
+      "form_id": "02015C44",
+      "name": "Forgemaster Flame Cloak",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 89153,
+      "form_id": "02015C41",
+      "name": "Forgemaster Fire Breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 89147,
+      "form_id": "02015C3B",
+      "name": "Forgemaster Fireball",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87924,
+      "form_id": "02015774",
+      "name": "Damage Health Regen",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87835,
+      "form_id": "0201571B",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87834,
+      "form_id": "0201571A",
+      "name": "Bats Effect",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87833,
+      "form_id": "02015719",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87828,
+      "form_id": "02015714",
+      "name": "Soul Rend Stagger Push",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87825,
+      "form_id": "02015711",
+      "name": "Sun Damage - Blessed",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87824,
+      "form_id": "02015710",
+      "name": "Sun Damage - Blessed",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87212,
+      "form_id": "020154AC",
+      "name": "Crystal Drain Visual",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 87062,
+      "form_id": "02015416",
+      "name": "big light thing",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 86844,
+      "form_id": "0201533C",
+      "name": "Massive Fire Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 86843,
+      "form_id": "0201533B",
+      "name": "Steam Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 86842,
+      "form_id": "0201533A",
+      "name": "Lingering Steam Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 86841,
+      "form_id": "02015339",
+      "name": "Lingering Fire Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 86840,
+      "form_id": "02015338",
+      "name": "Emitter Steam Blast",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 86839,
+      "form_id": "02015337",
+      "name": "Steam Construct Healing",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 85445,
+      "form_id": "02014DC5",
+      "name": "Protect Soul",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 84394,
+      "form_id": "020149AA",
+      "name": "Tainted Blood Withdrawals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 84393,
+      "form_id": "020149A9",
+      "name": "Tainted Blood of the Ancients",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82722,
+      "form_id": "02014322",
+      "name": "Lightning Bolt Call Storm",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82610,
+      "form_id": "020142B2",
+      "name": "Aetherial Summons",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82607,
+      "form_id": "020142AF",
+      "name": "Pacify",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82606,
+      "form_id": "020142AE",
+      "name": "Null Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82603,
+      "form_id": "020142AB",
+      "name": "Null Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82333,
+      "form_id": "0201419D",
+      "name": "Blood of the Ancients",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82332,
+      "form_id": "0201419C",
+      "name": "Drain Magicka",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 82330,
+      "form_id": "0201419A",
+      "name": "Drain Stamina",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 81990,
+      "form_id": "02014046",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 933050,
+      "form_id": "000E3CBA",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 80767,
+      "form_id": "02013B7F",
+      "name": "Spriggan Variant Swarm Spray",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 80763,
+      "form_id": "02013B7B",
+      "name": "SprigganEarthMotherFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 80158,
+      "form_id": "0201391E",
+      "name": "DLC1RedwaterSkoomaScriptEffect",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72625,
+      "form_id": "02011BB1",
+      "name": "RuneShield Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72619,
+      "form_id": "02011BAB",
+      "name": "Runehammer Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 72219,
+      "form_id": "02011A1B",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69840,
+      "form_id": "020110D0",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69636,
+      "form_id": "02011004",
+      "name": "Chaurus Spit",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 69620,
+      "form_id": "02010FF4",
+      "name": "Vortex Effect",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 68224,
+      "form_id": "02010A80",
+      "name": "Detect Life - Empath Combat Exterior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 68223,
+      "form_id": "02010A7F",
+      "name": "Detect Life - Empath Combat Interior",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54210,
+      "form_id": "0200D3C2",
+      "name": "Master's Gaze",
+      "cost": 3.9000000953674316,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54209,
+      "form_id": "0200D3C1",
+      "name": "Reanimate",
+      "cost": 1.2000000476837158,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54208,
+      "form_id": "0200D3C0",
+      "name": "Corpse Curse",
+      "cost": 450.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 54207,
+      "form_id": "0200D3BF",
+      "name": "Reanimate",
+      "cost": 0.949999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53985,
+      "form_id": "0200D2E1",
+      "name": "Soul Rend Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53429,
+      "form_id": "0200D0B5",
+      "name": "Sabre Cat Glow FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53425,
+      "form_id": "0200D0B1",
+      "name": "Deer Glow FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53159,
+      "form_id": "0200CFA7",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53158,
+      "form_id": "0200CFA6",
+      "name": "Etherealize",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53153,
+      "form_id": "0200CFA1",
+      "name": "Conjure Dwarven Spider",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53152,
+      "form_id": "0200CFA0",
+      "name": "Conjure Dwarven Sphere",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53151,
+      "form_id": "0200CF9F",
+      "name": "Conjure Dwarven Sphere",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 53150,
+      "form_id": "0200CF9E",
+      "name": "Conjure Dwarven Spider",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 52752,
+      "form_id": "0200CE10",
+      "name": "DLC Sun Attacks Self Spell",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 50702,
+      "form_id": "0200C60E",
+      "name": "DLC Sun Attacks Area Spell",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 50689,
+      "form_id": "0200C601",
+      "name": "Summon Arvak",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 656231,
+      "form_id": "000A0367",
+      "name": "Spectral Assassin",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 50673,
+      "form_id": "0200C5F1",
+      "name": "Frost Cloak - Death Hound",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 49146,
+      "form_id": "0200BFFA",
+      "name": "Raise Dead Script Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 49144,
+      "form_id": "0200BFF8",
+      "name": "Soul Rend Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 49021,
+      "form_id": "0200BF7D",
+      "name": "Slow Effect",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 134678,
+      "form_id": "00020E16",
+      "name": "Fire breath",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 49010,
+      "form_id": "0200BF72",
+      "name": "Vampire Mesmerize",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 48589,
+      "form_id": "0200BDCD",
+      "name": "DLC01 Soul Cairn Boneman FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 47699,
+      "form_id": "0200BA53",
+      "name": "Detect Life - Predator Combat",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 47697,
+      "form_id": "0200BA51",
+      "name": "Detect Life - Predator Normal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849803,
+      "form_id": "000CF78B",
+      "name": "Detect Life",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849802,
+      "form_id": "000CF78A",
+      "name": "Detect Life",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849801,
+      "form_id": "000CF789",
+      "name": "Detect Life",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 44725,
+      "form_id": "0200AEB5",
+      "name": "Auriels Bow Beam Effects",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 41913,
+      "form_id": "0200A3B9",
+      "name": "Stendarr's Aura Light",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 41579,
+      "form_id": "0200A26B",
+      "name": "Drain Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1074069,
+      "form_id": "00106395",
+      "name": "Werewolf Victim Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 40256,
+      "form_id": "02009D40",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 37790,
+      "form_id": "0200939E",
+      "name": "Soul Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 36414,
+      "form_id": "02008E3E",
+      "name": "Vampiric Blood Rested",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35635,
+      "form_id": "02008B33",
+      "name": "Drain Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35633,
+      "form_id": "02008B31",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35632,
+      "form_id": "02008B30",
+      "name": "Drain Effect To Look For Targets",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35435,
+      "form_id": "02008A6B",
+      "name": "Summon Werewolves 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35434,
+      "form_id": "02008A6A",
+      "name": "Summon Werewolves 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35433,
+      "form_id": "02008A69",
+      "name": "Summon Werewolves 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35432,
+      "form_id": "02008A68",
+      "name": "Summon Ice Wolves 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35431,
+      "form_id": "02008A67",
+      "name": "Summon Ice Wolves 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35430,
+      "form_id": "02008A66",
+      "name": "Summon Ice Wolves 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35421,
+      "form_id": "02008A5D",
+      "name": "Stendarr's Aura",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35420,
+      "form_id": "02008A5C",
+      "name": "Stendarr's Aura",
+      "cost": 2.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849828,
+      "form_id": "000CF7A4",
+      "name": "Summon Wolves 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849827,
+      "form_id": "000CF7A3",
+      "name": "Summon Wolves 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 849820,
+      "form_id": "000CF79C",
+      "name": "Summon Wolves 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35139,
+      "form_id": "02008943",
+      "name": "SoulCairn Keep Head with Helmet",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 35138,
+      "form_id": "02008942",
+      "name": "Soul CairnKeeperHead FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33870,
+      "form_id": "0200844E",
+      "name": "Drain Effect To Look For Targets",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33867,
+      "form_id": "0200844B",
+      "name": "Sun Bane",
+      "cost": 1.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33866,
+      "form_id": "0200844A",
+      "name": "Drain Vitality - Stamina",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33865,
+      "form_id": "02008449",
+      "name": "Drain Vitality - Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33864,
+      "form_id": "02008448",
+      "name": "Drain Vitality - Magicka",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33862,
+      "form_id": "02008446",
+      "name": "Script AI Flying Effect",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 33861,
+      "form_id": "02008445",
+      "name": "Script AI Effect",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32445,
+      "form_id": "02007EBD",
+      "name": "Vampiric Grip",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32443,
+      "form_id": "02007EBB",
+      "name": "Auriel's Bow Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32442,
+      "form_id": "02007EBA",
+      "name": "Unequip Spells In Melee Mode",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32432,
+      "form_id": "02007EB0",
+      "name": "Sparks",
+      "cost": 1.9500000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32430,
+      "form_id": "02007EAE",
+      "name": "Soul Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32153,
+      "form_id": "02007D99",
+      "name": "Healer Check Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 32151,
+      "form_id": "02007D97",
+      "name": "Healer Effect To Look For Targets",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 31925,
+      "form_id": "02007CB5",
+      "name": "Soul Tear Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 31924,
+      "form_id": "02007CB4",
+      "name": "Soul Tear Reanimate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 31923,
+      "form_id": "02007CB3",
+      "name": "Soul Tear Trap",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 29152,
+      "form_id": "020071E0",
+      "name": "Sun Damage",
+      "cost": 0.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755576,
+      "form_id": "000B8778",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 27374,
+      "form_id": "02006AEE",
+      "name": "DLC01 Soul Cairn necro skeleton fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 22946,
+      "form_id": "020059A2",
+      "name": "Poison Talons",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 22944,
+      "form_id": "020059A0",
+      "name": "Regenerate Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 18572,
+      "form_id": "0200488C",
+      "name": "Reflecting Shield Effect",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 17219,
+      "form_id": "02004343",
+      "name": "Ice Form For SnowElf",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 14328,
+      "form_id": "020037F8",
+      "name": "Trap Sunlight",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 14316,
+      "form_id": "020037EC",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 12499,
+      "form_id": "020030D3",
+      "name": "Summon Durnehviir",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10302,
+      "form_id": "0200283E",
+      "name": "Vampire Lord Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Dawnguard.esm",
+      "local_id": 10300,
+      "form_id": "0200283C",
+      "name": "Vampire Lord",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

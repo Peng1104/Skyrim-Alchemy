@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 63274,
+    "mtime": 1787238547.144821
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "vclssse005_pouches.esm",
+      "local_id": 85085,
+      "form_id": "0A014C5D",
+      "name": "Wabbajack",
+      "cost": 150.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "vclssse005_pouches.esm",
+      "local_id": 85087,
+      "form_id": "0A014C5F",
+      "name": "Fortify Carry Weight",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "vclssse005_pouches.esm",
+      "local_id": 168118,
+      "form_id": "0A0290B6",
+      "name": "Battle Cry",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "vclssse005_pouches.esm",
+      "local_id": 168120,
+      "form_id": "0A0290B8",
+      "name": "Fortify Carry Weight",
+      "cost": 20.0,
+      "harmful": false
+    }
+  ]
+}

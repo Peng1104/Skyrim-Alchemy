@@ -1,0 +1,122 @@
+{
+  "signature": {
+    "size": 499020,
+    "mtime": 1788322442.58264
+  },
+  "ingredients": [
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 3855,
+      "form_id": "05000F0F",
+      "name": "Ironwood Fruit",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 3974,
+      "form_id": "05000F86",
+      "name": "Healing Salts",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 2638,
+      "form_id": "05000A4E",
+      "name": "Courier Check",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 2640,
+      "form_id": "05000A50",
+      "name": "Bittercup Effect",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 3923,
+      "form_id": "05000F53",
+      "name": "Damage Stamina Regen",
+      "cost": 0.30000001192092896,
+      "harmful": true
+    },
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 3979,
+      "form_id": "05000F8B",
+      "name": "Soup Check",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 3986,
+      "form_id": "05000F92",
+      "name": "Soup Check",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "cckrtsse001_altar.esl",
+      "local_id": 3296,
+      "form_id": "05000CE0",
+      "name": "Master Transmute",
+      "cost": 150.0,
+      "harmful": false
+    }
+  ]
+}

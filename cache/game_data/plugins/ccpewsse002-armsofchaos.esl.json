@@ -1,0 +1,193 @@
+{
+  "signature": {
+    "size": 141394,
+    "mtime": 1788322484.5983183
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Absorb Stamina",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2051,
+      "form_id": "05000803",
+      "name": "Paralyze",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2053,
+      "form_id": "05000805",
+      "name": "Frost Damage",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2054,
+      "form_id": "05000806",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2055,
+      "form_id": "05000807",
+      "name": "Shock Damage",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2056,
+      "form_id": "05000808",
+      "name": "Fire Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Conjure Lurker",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2100,
+      "form_id": "05000834",
+      "name": "Conjure Dremora Lord",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2086,
+      "form_id": "05000826",
+      "name": "Conjure Flame Atronach",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2110,
+      "form_id": "0500083E",
+      "name": "Conjure Frost Atronach",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2131,
+      "form_id": "05000853",
+      "name": "Master Over Chaos",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2132,
+      "form_id": "05000854",
+      "name": "Waters of Oblivion",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2123,
+      "form_id": "0500084B",
+      "name": "Conjure Daedra",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2048,
+      "form_id": "05000800",
+      "name": "Absorb Magicka",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2136,
+      "form_id": "05000858",
+      "name": "Rout",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2141,
+      "form_id": "0500085D",
+      "name": "Frenzy",
+      "cost": 1.600000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2153,
+      "form_id": "05000869",
+      "name": "Pacify",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2154,
+      "form_id": "0500086A",
+      "name": "Mind of Chaos",
+      "cost": 0.20000000298023224,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2199,
+      "form_id": "05000897",
+      "name": "Fury",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2198,
+      "form_id": "05000896",
+      "name": "Fear",
+      "cost": 0.4000000059604645,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2200,
+      "form_id": "05000898",
+      "name": "Calm",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2203,
+      "form_id": "0500089B",
+      "name": "Calm",
+      "cost": 3.9000000953674316,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccpewsse002-armsofchaos.esl",
+      "local_id": 2049,
+      "form_id": "05000801",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    }
+  ]
+}

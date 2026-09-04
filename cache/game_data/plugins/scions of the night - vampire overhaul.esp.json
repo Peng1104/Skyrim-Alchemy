@@ -1,0 +1,577 @@
+{
+  "signature": {
+    "size": 95846,
+    "mtime": 1787238946.731756
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 81,
+      "form_id": "04000051",
+      "name": "Weakness to Fire",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 82,
+      "form_id": "04000052",
+      "name": "Resist Poison",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 83,
+      "form_id": "04000053",
+      "name": "Resist Disease",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2051,
+      "form_id": "04000803",
+      "name": "Crimson Blast",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2053,
+      "form_id": "04000805",
+      "name": "Blood Bolt",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2055,
+      "form_id": "04000807",
+      "name": "Blood Cloak",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 6,
+      "form_id": "04000006",
+      "name": "Sun Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 8,
+      "form_id": "04000008",
+      "name": "Sun Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 34,
+      "form_id": "04000022",
+      "name": "Compel",
+      "cost": 67.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 42,
+      "form_id": "0400002A",
+      "name": "Vampire Bite",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 50,
+      "form_id": "04000032",
+      "name": "Domination",
+      "cost": 1052.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2844,
+      "form_id": "04000B1C",
+      "name": "Blood Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2845,
+      "form_id": "04000B1D",
+      "name": "Crimson Blast",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2846,
+      "form_id": "04000B1E",
+      "name": "Crimson River",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2847,
+      "form_id": "04000B1F",
+      "name": "Exsanguinate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2848,
+      "form_id": "04000B20",
+      "name": "Blood Storm",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2849,
+      "form_id": "04000B21",
+      "name": "Blood Siphon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2058,
+      "form_id": "0400080A",
+      "name": "Blood Rune",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2061,
+      "form_id": "0400080D",
+      "name": "Blood Siphon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2063,
+      "form_id": "0400080F",
+      "name": "Blood Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2074,
+      "form_id": "0400081A",
+      "name": "Blood Siphon",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2075,
+      "form_id": "0400081B",
+      "name": "Blood Bolt",
+      "cost": 350.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2076,
+      "form_id": "0400081C",
+      "name": "Blood Rune",
+      "cost": 2000.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2077,
+      "form_id": "0400081D",
+      "name": "Blood Cloak",
+      "cost": 1.100000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2078,
+      "form_id": "0400081E",
+      "name": "Crimson Blast",
+      "cost": 1240.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2079,
+      "form_id": "0400081F",
+      "name": "Crimson River",
+      "cost": 70.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2080,
+      "form_id": "04000820",
+      "name": "Exsanguinate",
+      "cost": 3010.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2081,
+      "form_id": "04000821",
+      "name": "Blood Storm",
+      "cost": 6200.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2321,
+      "form_id": "04000911",
+      "name": "Crimson River",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2324,
+      "form_id": "04000914",
+      "name": "Exsanguinate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2328,
+      "form_id": "04000918",
+      "name": "Blood Storm",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2625,
+      "form_id": "04000A41",
+      "name": "Fledgling Vampire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2631,
+      "form_id": "04000A47",
+      "name": "Blooded Vampire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2632,
+      "form_id": "04000A48",
+      "name": "Mistwalker Vampire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2633,
+      "form_id": "04000A49",
+      "name": "Nightwalker Vampire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2634,
+      "form_id": "04000A4A",
+      "name": "Master Vampire",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2813,
+      "form_id": "04000AFD",
+      "name": "Blood Siphon",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2814,
+      "form_id": "04000AFE",
+      "name": "Blood Bolt",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2815,
+      "form_id": "04000AFF",
+      "name": "Crimson Blast",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2816,
+      "form_id": "04000B00",
+      "name": "Crimson River",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2817,
+      "form_id": "04000B01",
+      "name": "Exsanguinate",
+      "cost": 3.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2818,
+      "form_id": "04000B02",
+      "name": "Vampiric Strength",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2841,
+      "form_id": "04000B19",
+      "name": "Blood Siphon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2842,
+      "form_id": "04000B1A",
+      "name": "Blood Bolt",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2843,
+      "form_id": "04000B1B",
+      "name": "Blood Rune",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2850,
+      "form_id": "04000B22",
+      "name": "Blood Bolt",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2851,
+      "form_id": "04000B23",
+      "name": "Blood Rune",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2852,
+      "form_id": "04000B24",
+      "name": "Blood Cloak",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2853,
+      "form_id": "04000B25",
+      "name": "Crimson Blast",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2854,
+      "form_id": "04000B26",
+      "name": "Crimson River",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2855,
+      "form_id": "04000B27",
+      "name": "Exsanguinate",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2856,
+      "form_id": "04000B28",
+      "name": "Blood Storm",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2907,
+      "form_id": "04000B5B",
+      "name": "Vampiric Invisibility",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2908,
+      "form_id": "04000B5C",
+      "name": "Reanimate",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2909,
+      "form_id": "04000B5D",
+      "name": "Reanimate",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 2910,
+      "form_id": "04000B5E",
+      "name": "Night Eye",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3237,
+      "form_id": "04000CA5",
+      "name": "Vampiric Hunger: Sated",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3238,
+      "form_id": "04000CA6",
+      "name": "Vampiric Hunger: Hungry",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3239,
+      "form_id": "04000CA7",
+      "name": "Vampiric Hunger: Ravenous",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3240,
+      "form_id": "04000CA8",
+      "name": "Vampiric Hunger: Starving",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3938,
+      "form_id": "04000F62",
+      "name": "Sun Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3939,
+      "form_id": "04000F63",
+      "name": "Undead Healing",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3940,
+      "form_id": "04000F64",
+      "name": "Mend Flesh",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3941,
+      "form_id": "04000F65",
+      "name": "Unholy Vitality",
+      "cost": 0.800000011920929,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3952,
+      "form_id": "04000F70",
+      "name": "Beguile",
+      "cost": 153.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3954,
+      "form_id": "04000F72",
+      "name": "Mesmerize",
+      "cost": 209.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3956,
+      "form_id": "04000F74",
+      "name": "Subjugate",
+      "cost": 316.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3957,
+      "form_id": "04000F75",
+      "name": "Domination",
+      "cost": 1052.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3973,
+      "form_id": "04000F85",
+      "name": "Static Veil",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3974,
+      "form_id": "04000F86",
+      "name": "Lesser Veil",
+      "cost": 46.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "scions of the night - vampire overhaul.esp",
+      "local_id": 3975,
+      "form_id": "04000F87",
+      "name": "Greater Veil",
+      "cost": 62.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 655627,
+    "mtime": 1787238722.6377952
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "harrapap.esp",
+      "local_id": 6,
+      "form_id": "06000006",
+      "name": "Boethiah's Trials Teleport",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "signature": {
+    "size": 410703,
+    "mtime": 1787238569.1885228
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 1,
+      "form_id": "0A000001",
+      "name": "Steam Current",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 2,
+      "form_id": "0A000002",
+      "name": "Conjure Guardian of Air",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 3,
+      "form_id": "0A000003",
+      "name": "Phantom Form",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 4,
+      "form_id": "0A000004",
+      "name": "Conjure Battleaxe",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 5,
+      "form_id": "0A000005",
+      "name": "Abbey's Mystery",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 6,
+      "form_id": "0A000006",
+      "name": "Holy Light Beam",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "abackdoor2thepast.esl",
+      "local_id": 7,
+      "form_id": "0A000007",
+      "name": "Wind Cloak",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

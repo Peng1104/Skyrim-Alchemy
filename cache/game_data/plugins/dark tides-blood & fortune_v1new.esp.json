@@ -1,0 +1,73 @@
+{
+  "signature": {
+    "size": 1625691,
+    "mtime": 1787238850.7617898
+  },
+  "ingredients": [
+    {
+      "owner_file": "dark tides-blood & fortune_v1new.esp",
+      "local_id": 2929709,
+      "form_id": "062CB42D",
+      "name": "Demonic Heart of Vahlrog",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 150.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 65.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 15.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 10.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dark tides-blood & fortune_v1new.esp",
+      "local_id": 3574962,
+      "form_id": "06368CB2",
+      "name": "Powerful Taproot",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 6.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 30.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 20.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 35.0,
+          "duration": 0.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

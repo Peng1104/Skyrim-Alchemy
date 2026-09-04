@@ -1,0 +1,73 @@
+{
+  "signature": {
+    "size": 1710588,
+    "mtime": 1787238852.27082
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 3963060,
+      "form_id": "063C78B4",
+      "name": "Dwarven Specter FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 745586,
+      "form_id": "060B6072",
+      "name": "Poison Damage",
+      "cost": 0.800000011920929,
+      "harmful": true
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 2157871,
+      "form_id": "0620ED2F",
+      "name": "Mhuvnak's Ward",
+      "cost": 27.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 1845610,
+      "form_id": "061C296A",
+      "name": "Ghost Visuals No Alpha",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 2428107,
+      "form_id": "06250CCB",
+      "name": "Dwarven Sphere FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 2428106,
+      "form_id": "06250CCA",
+      "name": "Dwarven Centurion FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 2157873,
+      "form_id": "0620ED31",
+      "name": "Mhuvnak's Insight",
+      "cost": 27.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "legendarydungeons-dwemer.esp",
+      "local_id": 2157872,
+      "form_id": "0620ED30",
+      "name": "Mhuvnak's Fury",
+      "cost": 27.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 380436,
+    "mtime": 1787238806.5501864
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "coinmaster.esp",
+      "local_id": 132058,
+      "form_id": "080203DA",
+      "name": "Increased income",
+      "cost": 5.0,
+      "harmful": false
+    }
+  ]
+}

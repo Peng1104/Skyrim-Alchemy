@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 201862,
+    "mtime": 1788322506.1292102
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse035-petnhound.esl",
+      "local_id": 2064,
+      "form_id": "05000810",
+      "name": "Teleport Nix-Hound",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse035-petnhound.esl",
+      "local_id": 2069,
+      "form_id": "05000815",
+      "name": "Scrounger Effect",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

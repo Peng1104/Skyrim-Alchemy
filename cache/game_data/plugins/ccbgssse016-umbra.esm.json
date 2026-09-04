@@ -1,0 +1,33 @@
+{
+  "signature": {
+    "size": 471115,
+    "mtime": 1788322482.4900417
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse016-umbra.esm",
+      "local_id": 51249,
+      "form_id": "0200C831",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse016-umbra.esm",
+      "local_id": 7231,
+      "form_id": "02001C3F",
+      "name": "Summon Images",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse016-umbra.esm",
+      "local_id": 7245,
+      "form_id": "02001C4D",
+      "name": "Umbra Soul Form",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "signature": {
+    "size": 17984,
+    "mtime": 1788322410.2352529
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse069-contest.esl",
+      "local_id": 2084,
+      "form_id": "05000824",
+      "name": "Fists of Randagulf",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse069-contest.esl",
+      "local_id": 2088,
+      "form_id": "05000828",
+      "name": "Spider Spit",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse069-contest.esl",
+      "local_id": 2087,
+      "form_id": "05000827",
+      "name": "Spider Bite",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse069-contest.esl",
+      "local_id": 2083,
+      "form_id": "05000823",
+      "name": "Fortify Two-Handed",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse069-contest.esl",
+      "local_id": 2093,
+      "form_id": "0500082D",
+      "name": "Fortify Blocking",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse069-contest.esl",
+      "local_id": 2092,
+      "form_id": "0500082C",
+      "name": "Fortify Unarmed Damage",
+      "cost": 15.0,
+      "harmful": false
+    }
+  ]
+}

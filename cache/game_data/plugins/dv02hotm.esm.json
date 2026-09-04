@@ -1,0 +1,1698 @@
+{
+  "signature": {
+    "size": 20564557,
+    "mtime": 1787238965.9911623
+  },
+  "ingredients": [
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 711374,
+      "form_id": "0A0ADACE",
+      "name": "Bloodcrab Chitin",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256792,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 1047336,
+      "form_id": "0A0FFB28",
+      "name": "Oozing Bloodroot",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 10.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 15.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 15.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 15.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 1047338,
+      "form_id": "0A0FFB2A",
+      "name": "Dry Bloodroot",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 6.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 1943065,
+      "form_id": "0A1DA619",
+      "name": "Blood Crystal",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326148,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 6.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 15.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2522371,
+      "form_id": "0A267D03",
+      "name": "Void Plasm",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326148,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2522373,
+      "form_id": "0A267D05",
+      "name": "Namira's Bile",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 8.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326148,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 10935771,
+          "magnitude": 5.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2522375,
+      "form_id": "0A267D07",
+      "name": "Voidmother Silk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2522377,
+      "form_id": "0A267D09",
+      "name": "Void Core",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 10935771,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326148,
+          "magnitude": 5.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326150,
+          "magnitude": 5.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2522379,
+      "form_id": "0A267D0B",
+      "name": "Void Ash",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2589093,
+      "form_id": "0A2781A5",
+      "name": "Bloodberry",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 4.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4219042,
+      "form_id": "0A4060A2",
+      "name": "Parasite Eggs",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4373431,
+      "form_id": "0A42BBB7",
+      "name": "Voriplasmic Bloodroot",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 6.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4463639,
+      "form_id": "0A441C17",
+      "name": "Coagulant Voriplasm Essence",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5349215,
+      "form_id": "0A519F5F",
+      "name": "Mutant Bloodroot",
+      "effect_refs": [
+        {
+          "effect_owner_file": "dv02hotm.esm",
+          "effect_local_id": 6326146,
+          "magnitude": 6.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6072880,
+      "form_id": "0A5CAA30",
+      "name": "Crimson Dartwing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6495985,
+      "form_id": "0A631EF1",
+      "name": "Voriplasm Essence",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9172934,
+      "form_id": "0A8BF7C6",
+      "name": "Mosquito Legs",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256795,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "ccqdrsse001-survivalmode.esl",
+          "effect_local_id": 2097,
+          "magnitude": 3.0,
+          "duration": 0.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 251300,
+      "form_id": "0A03D5A4",
+      "name": "Ghost fx",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 1470922,
+      "form_id": "0A1671CA",
+      "name": "Ghost fx",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 1513806,
+      "form_id": "0A17194E",
+      "name": "Attach ash on death script",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 1771133,
+      "form_id": "0A1B067D",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2007364,
+      "form_id": "0A1EA144",
+      "name": "Conjure Crystal Crab",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2007366,
+      "form_id": "0A1EA146",
+      "name": "Summon Khrys",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2007367,
+      "form_id": "0A1EA147",
+      "name": "Conjure Shade",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2007368,
+      "form_id": "0A1EA148",
+      "name": "Conjure Voidmother",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2286282,
+      "form_id": "0A22E2CA",
+      "name": "Damage Stamina Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2286283,
+      "form_id": "0A22E2CB",
+      "name": "Damage Health Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2502512,
+      "form_id": "0A262F70",
+      "name": "Summon Audrey",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 2784598,
+      "form_id": "0A2A7D56",
+      "name": "Conjure Void Breach",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3015095,
+      "form_id": "0A2E01B7",
+      "name": "Damaged by light Per Second",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3176764,
+      "form_id": "0A30793C",
+      "name": "Spider Spit",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3176766,
+      "form_id": "0A30793E",
+      "name": "Glowing Spider FX attach",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3557233,
+      "form_id": "0A364771",
+      "name": "Anomaly fx",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3558506,
+      "form_id": "0A364C6A",
+      "name": "Voidlight",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3630528,
+      "form_id": "0A3765C0",
+      "name": "Conjure Shadow Wraith",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 3753315,
+      "form_id": "0A394563",
+      "name": "Reduced Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4234215,
+      "form_id": "0A409BE7",
+      "name": "increment counter on death script",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341348,
+      "form_id": "0A423E64",
+      "name": "Dark Core",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341357,
+      "form_id": "0A423E6D",
+      "name": "Absorb Magicka",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341361,
+      "form_id": "0A423E71",
+      "name": "Voidcrystal",
+      "cost": 1.75,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341376,
+      "form_id": "0A423E80",
+      "name": "Glittering Sphere",
+      "cost": 12.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341386,
+      "form_id": "0A423E8A",
+      "name": "Starquake",
+      "cost": 7.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341387,
+      "form_id": "0A423E8B",
+      "name": "Voidshards",
+      "cost": 5.75,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341391,
+      "form_id": "0A423E8F",
+      "name": "Void Damage",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341396,
+      "form_id": "0A423E94",
+      "name": "Dark Heart",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341398,
+      "form_id": "0A423E96",
+      "name": "Dark Constellation",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341400,
+      "form_id": "0A423E98",
+      "name": "Void Agony",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341402,
+      "form_id": "0A423E9A",
+      "name": "Hungering Void",
+      "cost": 1.600000023841858,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341406,
+      "form_id": "0A423E9E",
+      "name": "Void Damage",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341407,
+      "form_id": "0A423E9F",
+      "name": "Void Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341411,
+      "form_id": "0A423EA3",
+      "name": "Riftgate Teleport",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341412,
+      "form_id": "0A423EA4",
+      "name": "Riftgate",
+      "cost": 350.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341414,
+      "form_id": "0A423EA6",
+      "name": "Greater Riftgate",
+      "cost": 550.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341416,
+      "form_id": "0A423EA8",
+      "name": "Riftgate Teleport",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341417,
+      "form_id": "0A423EA9",
+      "name": "Rapture",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341419,
+      "form_id": "0A423EAB",
+      "name": "Banish Into Infinity",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341421,
+      "form_id": "0A423EAD",
+      "name": "Star-Cursed",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341425,
+      "form_id": "0A423EB1",
+      "name": "Devoured From Within",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341426,
+      "form_id": "0A423EB2",
+      "name": "Nami-Rage",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341427,
+      "form_id": "0A423EB3",
+      "name": "Hatred",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341429,
+      "form_id": "0A423EB5",
+      "name": "Hatred - Hidden Magicka Drain",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341431,
+      "form_id": "0A423EB7",
+      "name": "Coldlight",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341432,
+      "form_id": "0A423EB8",
+      "name": "Star-Cursed",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341434,
+      "form_id": "0A423EBA",
+      "name": "DEATH!!!!!!!!!!!",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341436,
+      "form_id": "0A423EBC",
+      "name": "Black Rot",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341437,
+      "form_id": "0A423EBD",
+      "name": "Void Rot",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341439,
+      "form_id": "0A423EBF",
+      "name": "Sun-Eater",
+      "cost": 45.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4341442,
+      "form_id": "0A423EC2",
+      "name": "Voidstrike",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4471087,
+      "form_id": "0A44392F",
+      "name": "Attach ash on death script",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4493777,
+      "form_id": "0A4491D1",
+      "name": "Place icy explosion on death",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4493781,
+      "form_id": "0A4491D5",
+      "name": "Place icy explosion on death",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4493783,
+      "form_id": "0A4491D7",
+      "name": "Attach ash on death script",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4623926,
+      "form_id": "0A468E36",
+      "name": "Set alpha on load mgef",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4665558,
+      "form_id": "0A4730D6",
+      "name": "Summon Vix",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4729506,
+      "form_id": "0A482AA2",
+      "name": "Attach ash on death script",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4835908,
+      "form_id": "0A49CA44",
+      "name": "Enable linked ref on death if present",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4946188,
+      "form_id": "0A4B790C",
+      "name": "Fortify Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 4975814,
+      "form_id": "0A4BECC6",
+      "name": "Fortify Unarmed",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5392993,
+      "form_id": "0A524A61",
+      "name": "Return to Dry Sands Village",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5436797,
+      "form_id": "0A52F57D",
+      "name": "DA08 necro skeleton fx with disintegration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5480578,
+      "form_id": "0A53A082",
+      "name": "Fire Damage",
+      "cost": 0.20000000298023224,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5721581,
+      "form_id": "0A574DED",
+      "name": "Magic Damage",
+      "cost": 0.20000000298023224,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5784362,
+      "form_id": "0A58432A",
+      "name": "Return to Rootwatch",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5827950,
+      "form_id": "0A58ED6E",
+      "name": "Slow",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 5885866,
+      "form_id": "0A59CFAA",
+      "name": "Ward - Greater",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6017196,
+      "form_id": "0A5BD0AC",
+      "name": "Poison Spray",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6067329,
+      "form_id": "0A5C9481",
+      "name": "DA08 necro skeleton fx without disintegration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6320778,
+      "form_id": "0A60728A",
+      "name": "Crystal Nova",
+      "cost": 7.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6320781,
+      "form_id": "0A60728D",
+      "name": "Freeze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6320783,
+      "form_id": "0A60728F",
+      "name": "Voidform",
+      "cost": 525.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6320794,
+      "form_id": "0A60729A",
+      "name": "Rootcutter",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6320796,
+      "form_id": "0A60729C",
+      "name": "Rootcutter",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6326146,
+      "form_id": "0A608782",
+      "name": "Bleed Damage",
+      "cost": 7.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6326148,
+      "form_id": "0A608784",
+      "name": "Damage Armor",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6326150,
+      "form_id": "0A608786",
+      "name": "Weakness to Magic",
+      "cost": 7.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 6759672,
+      "form_id": "0A6724F8",
+      "name": "Spider Spit",
+      "cost": 0.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 7251351,
+      "form_id": "0A6EA597",
+      "name": "increment counter on death script",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 7427724,
+      "form_id": "0A71568C",
+      "name": "Return to Gravetender Village",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8202707,
+      "form_id": "0A7D29D3",
+      "name": "Return to the Forest Shack",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8202708,
+      "form_id": "0A7D29D4",
+      "name": "Return to Twisted Root Cave",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8486068,
+      "form_id": "0A817CB4",
+      "name": "increment counter on death script",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8529866,
+      "form_id": "0A8227CA",
+      "name": "Conjure Drowned",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8529871,
+      "form_id": "0A8227CF",
+      "name": "Conjure Voriplasm",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8529876,
+      "form_id": "0A8227D4",
+      "name": "Conjure Bloodcrab",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8529877,
+      "form_id": "0A8227D5",
+      "name": "Conjure Void Colossus",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8529885,
+      "form_id": "0A8227DD",
+      "name": "Conjure Iceblood Sculptor",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8817446,
+      "form_id": "0A868B26",
+      "name": "Conjure Voskrona",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8971623,
+      "form_id": "0A88E567",
+      "name": "Conjure Sar-m'Athra",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 8989542,
+      "form_id": "0A892B66",
+      "name": "Weakness to Disease",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9011305,
+      "form_id": "0A898069",
+      "name": "Conjure Grand Reaper",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9011309,
+      "form_id": "0A89806D",
+      "name": "Fortify Health Regeneration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9011310,
+      "form_id": "0A89806E",
+      "name": "Fortify Magicka Regeneration",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9011312,
+      "form_id": "0A898070",
+      "name": "Eliminate Magicka",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9011313,
+      "form_id": "0A898071",
+      "name": "Eliminate Magicka Regen",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9011323,
+      "form_id": "0A89807B",
+      "name": "increment counter on death script",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9081397,
+      "form_id": "0A8A9235",
+      "name": "Conjure Hollow Guardian",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9383995,
+      "form_id": "0A8F303B",
+      "name": "Summon voriplasmic corpse on enter combat",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 9457582,
+      "form_id": "0A904FAE",
+      "name": "Conjure Harrowing Reaper",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10093416,
+      "form_id": "0A9A0368",
+      "name": "Harrowing Reaper fx",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10520808,
+      "form_id": "0AA088E8",
+      "name": "Conjure Argonian Skeleton",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10583327,
+      "form_id": "0AA17D1F",
+      "name": "increment counter on death script",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10675486,
+      "form_id": "0AA2E51E",
+      "name": "Voidcrystal",
+      "cost": 1.75,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10675487,
+      "form_id": "0AA2E51F",
+      "name": "Voidshards",
+      "cost": 5.75,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10762047,
+      "form_id": "0AA4373F",
+      "name": "Glittering Sphere",
+      "cost": 12.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10762048,
+      "form_id": "0AA43740",
+      "name": "Star-Cursed",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10935771,
+      "form_id": "0AA6DDDB",
+      "name": "Void Damage",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992924,
+      "form_id": "0AA7BD1C",
+      "name": "Bleed Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992930,
+      "form_id": "0AA7BD22",
+      "name": "Brittle",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992934,
+      "form_id": "0AA7BD26",
+      "name": "Vampiric Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992938,
+      "form_id": "0AA7BD2A",
+      "name": "Devouring Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992940,
+      "form_id": "0AA7BD2C",
+      "name": "Void Blast",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992944,
+      "form_id": "0AA7BD30",
+      "name": "Conjure Void Breach",
+      "cost": 3.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992946,
+      "form_id": "0AA7BD32",
+      "name": "Poison Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992947,
+      "form_id": "0AA7BD33",
+      "name": "Damage Weapon",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992953,
+      "form_id": "0AA7BD39",
+      "name": "Brittle",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992957,
+      "form_id": "0AA7BD3D",
+      "name": "Dark Heart",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992959,
+      "form_id": "0AA7BD3F",
+      "name": "Self Cast Tick Ab",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992961,
+      "form_id": "0AA7BD41",
+      "name": "Self Cast Tick Ab",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992963,
+      "form_id": "0AA7BD43",
+      "name": "Ethereal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992965,
+      "form_id": "0AA7BD45",
+      "name": "Regenerate Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992966,
+      "form_id": "0AA7BD46",
+      "name": "Frost Damage",
+      "cost": 4.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992967,
+      "form_id": "0AA7BD47",
+      "name": "Bleed Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992971,
+      "form_id": "0AA7BD4B",
+      "name": "Frost Damage",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992972,
+      "form_id": "0AA7BD4C",
+      "name": "Bleed Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992976,
+      "form_id": "0AA7BD50",
+      "name": "Lunacy",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992977,
+      "form_id": "0AA7BD51",
+      "name": "Bleed Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992978,
+      "form_id": "0AA7BD52",
+      "name": "Frost Damage",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992980,
+      "form_id": "0AA7BD54",
+      "name": "Fadeout",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992982,
+      "form_id": "0AA7BD56",
+      "name": "Self Cast Tick Ab",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992984,
+      "form_id": "0AA7BD58",
+      "name": "Fortify Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992991,
+      "form_id": "0AA7BD5F",
+      "name": "Conjure Shade",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 10992993,
+      "form_id": "0AA7BD61",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11014213,
+      "form_id": "0AA81045",
+      "name": "Cleanup script for script-added NPCS",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11087343,
+      "form_id": "0AA92DEF",
+      "name": "Conjure Scorpion",
+      "cost": 26.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11270576,
+      "form_id": "0AABF9B0",
+      "name": "Teleport Pet: Zhan'zha the Hyena",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11292007,
+      "form_id": "0AAC4D67",
+      "name": "Scorpion Venom",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11717459,
+      "form_id": "0AB2CB53",
+      "name": "Void Drain",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11717460,
+      "form_id": "0AB2CB54",
+      "name": "Void Tendrils",
+      "cost": 0.800000011920929,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11777979,
+      "form_id": "0AB3B7BB",
+      "name": "Return to the Church of the Old Blood",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv02hotm.esm",
+      "local_id": 11799592,
+      "form_id": "0AB40C28",
+      "name": "Ghost fx",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

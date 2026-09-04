@@ -1,0 +1,33 @@
+{
+  "signature": {
+    "size": 309470,
+    "mtime": 1787238796.4725163
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ceejsse004_lair.esp",
+      "local_id": 18,
+      "form_id": "09000012",
+      "name": "Shock Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ceejsse004_lair.esp",
+      "local_id": 19,
+      "form_id": "09000013",
+      "name": "Absorb Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ceejsse004_lair.esp",
+      "local_id": 20,
+      "form_id": "09000014",
+      "name": "Night Stalker's Shroud",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

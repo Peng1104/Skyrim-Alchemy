@@ -1,0 +1,217 @@
+{
+  "signature": {
+    "size": 45414,
+    "mtime": 1788322517.1292708
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2053,
+      "form_id": "02000805",
+      "name": "Shock Bolt Storm",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2054,
+      "form_id": "02000806",
+      "name": "Storm Lightning",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2055,
+      "form_id": "02000807",
+      "name": "Unbounded Storms",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2057,
+      "form_id": "02000809",
+      "name": "Unbounded Freeze",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2060,
+      "form_id": "0200080C",
+      "name": "Unbounded Flames",
+      "cost": 8.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2067,
+      "form_id": "02000813",
+      "name": "Unbounded Freeze",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2078,
+      "form_id": "0200081E",
+      "name": "Unbounded Frostbite",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2110,
+      "form_id": "0200083E",
+      "name": "Sparks",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2112,
+      "form_id": "02000840",
+      "name": "Elemental Flare",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2113,
+      "form_id": "02000841",
+      "name": "Resist Frost",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2114,
+      "form_id": "02000842",
+      "name": "Regenerate Health",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2115,
+      "form_id": "02000843",
+      "name": "Pride of Hirstaang",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2116,
+      "form_id": "02000844",
+      "name": "Elemental Flare",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2117,
+      "form_id": "02000845",
+      "name": "Elemental Flare",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2118,
+      "form_id": "02000846",
+      "name": "Elemental Flare",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2119,
+      "form_id": "02000847",
+      "name": "Fenrik's Welcome",
+      "cost": 250.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2120,
+      "form_id": "02000848",
+      "name": "Orum's Aquatic Escape",
+      "cost": 75.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2121,
+      "form_id": "02000849",
+      "name": "Mara's Wrath",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2122,
+      "form_id": "0200084A",
+      "name": "Absorb Health",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2123,
+      "form_id": "0200084B",
+      "name": "Turn Undead Fear",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2124,
+      "form_id": "0200084C",
+      "name": "Absorb Health",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2125,
+      "form_id": "0200084D",
+      "name": "Absorb Health",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 2126,
+      "form_id": "0200084E",
+      "name": "Absorb Health",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 3426,
+      "form_id": "02000D62",
+      "name": "Paralysis Rune",
+      "cost": 220.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 3562,
+      "form_id": "02000DEA",
+      "name": "Water Breathing",
+      "cost": 31.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse014-spellpack01.esl",
+      "local_id": 3563,
+      "form_id": "02000DEB",
+      "name": "Night Eye",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

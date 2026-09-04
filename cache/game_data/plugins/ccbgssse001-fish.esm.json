@@ -1,0 +1,394 @@
+{
+  "signature": {
+    "size": 1425176,
+    "mtime": 1788322449.3454874
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2283,
+      "form_id": "050008EB",
+      "name": "Angelfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256795,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2288,
+      "form_id": "050008F0",
+      "name": "Angler Larvae",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2284,
+      "form_id": "050008EC",
+      "name": "Pearlfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2291,
+      "form_id": "050008F3",
+      "name": "Spadefish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2286,
+      "form_id": "050008EE",
+      "name": "Glassfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 878919,
+          "magnitude": 1.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2285,
+      "form_id": "050008ED",
+      "name": "Pygmy Sunfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2290,
+      "form_id": "050008F2",
+      "name": "Juvenile Mudcrab",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2289,
+      "form_id": "050008F1",
+      "name": "Lyretail Anthias",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 4.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2287,
+      "form_id": "050008EF",
+      "name": "Goldfish",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 1043524,
+      "form_id": "050FEC44",
+      "name": "Crab Flaming Pot Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2067,
+      "form_id": "05000813",
+      "name": "Argonian Fishing Rod Description",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 793868,
+      "form_id": "050C1D0C",
+      "name": "Summon Rain Description",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3069,
+      "form_id": "05000BFD",
+      "name": "Fast",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3089,
+      "form_id": "05000C11",
+      "name": "Drain Life",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3849,
+      "form_id": "05000F09",
+      "name": "Charm Mudcrabs",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3070,
+      "form_id": "05000BFE",
+      "name": "Hide",
+      "cost": 24.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3091,
+      "form_id": "05000C13",
+      "name": "Drain Effect To Look For Targets",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 959932,
+      "form_id": "050EA5BC",
+      "name": "Catapult Projectile Effect",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Alik'ri Fishing Rod Description",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 2066,
+      "form_id": "05000812",
+      "name": "Dwarven Fishing Rod Description",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse001-fish.esm",
+      "local_id": 3848,
+      "form_id": "05000F08",
+      "name": "Charm Mudcrab Hit",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "signature": {
+    "size": 46547,
+    "mtime": 1787238721.0416512
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 3445,
+      "form_id": "01000D75",
+      "name": "Healing",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 6,
+      "form_id": "01000006",
+      "name": "Change Location",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 35,
+      "form_id": "01000023",
+      "name": "Light Armor Effect 4",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 25,
+      "form_id": "01000019",
+      "name": "Heavy Armor Effect 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 27,
+      "form_id": "0100001B",
+      "name": "Heavy Armor Effect 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 28,
+      "form_id": "0100001C",
+      "name": "Heavy Armor Effect 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 29,
+      "form_id": "0100001D",
+      "name": "Heavy Armor Effect 4",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 32,
+      "form_id": "01000020",
+      "name": "Light Armor Effect 1",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 33,
+      "form_id": "01000021",
+      "name": "Light Armor Effect 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 34,
+      "form_id": "01000022",
+      "name": "Light Armor Effect 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 45,
+      "form_id": "0100002D",
+      "name": "-- Practice Makes Perfect Configuration --",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 2048,
+      "form_id": "01000800",
+      "name": "Weapons Sheathed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "practice makes perfect.esp",
+      "local_id": 2135,
+      "form_id": "01000857",
+      "name": "Conjure Training Spirit",
+      "cost": 10.5,
+      "harmful": false
+    }
+  ]
+}

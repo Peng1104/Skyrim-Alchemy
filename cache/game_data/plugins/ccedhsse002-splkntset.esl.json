@@ -1,0 +1,73 @@
+{
+  "signature": {
+    "size": 160351,
+    "mtime": 1788322484.0230677
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccedhsse002-splkntset.esl",
+      "local_id": 2141,
+      "form_id": "0500085D",
+      "name": "Simon Rodayne's Heart",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccedhsse002-splkntset.esl",
+      "local_id": 2139,
+      "form_id": "0500085B",
+      "name": "Corrupted Human Heart",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

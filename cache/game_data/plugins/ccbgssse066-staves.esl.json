@@ -1,0 +1,89 @@
+{
+  "signature": {
+    "size": 272311,
+    "mtime": 1788322422.0360463
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2085,
+      "form_id": "05000825",
+      "name": "Not user facing",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2078,
+      "form_id": "0500081E",
+      "name": "Summon Ancestor Ghost",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2077,
+      "form_id": "0500081D",
+      "name": "Summon Ancestor Ghost",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2076,
+      "form_id": "0500081C",
+      "name": "Summon Ancestor Ghost",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2075,
+      "form_id": "0500081B",
+      "name": "Summon Ancestor Ghost",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Summon Ancestor Ghost",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2086,
+      "form_id": "05000826",
+      "name": "Elemental Damage",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2117,
+      "form_id": "05000845",
+      "name": "Not user facing",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2116,
+      "form_id": "05000844",
+      "name": "Wall of Frost and Flames",
+      "cost": 12.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse066-staves.esl",
+      "local_id": 2084,
+      "form_id": "05000824",
+      "name": "Not user facing",
+      "cost": 1.9500000476837158,
+      "harmful": true
+    }
+  ]
+}

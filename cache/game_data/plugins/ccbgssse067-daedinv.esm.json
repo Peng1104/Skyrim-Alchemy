@@ -1,0 +1,226 @@
+{
+  "signature": {
+    "size": 1179531,
+    "mtime": 1788322431.1531918
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 150549,
+      "form_id": "05024C15",
+      "name": "Spiddal Stick",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 4.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 4.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 150545,
+      "form_id": "05024C11",
+      "name": "Harrada",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 4.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 4.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 150547,
+      "form_id": "05024C13",
+      "name": "Bloodgrass",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1488839,
+      "form_id": "0516B7C7",
+      "name": "Conjure Dremora Lord",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1509710,
+      "form_id": "0517094E",
+      "name": "Banish",
+      "cost": 9.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1509712,
+      "form_id": "05170950",
+      "name": "Summon Dremora Cooldown (no translate)",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1530560,
+      "form_id": "05175AC0",
+      "name": "Fire Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1864560,
+      "form_id": "051C7370",
+      "name": "Blank",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 2114840,
+      "form_id": "05204518",
+      "name": "Lich Death Effect No Translate",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 2939,
+      "form_id": "05000B7B",
+      "name": "Mythic Dawn No Translate",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 2888,
+      "form_id": "05000B48",
+      "name": "Daedric Fire FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 2915,
+      "form_id": "05000B63",
+      "name": "Summon Daedric Horse",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1342870,
+      "form_id": "05147D96",
+      "name": "Conjure Ayleid Lich",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 568046,
+      "form_id": "0508AAEE",
+      "name": "Scroll of Oblivion",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1447150,
+      "form_id": "051614EE",
+      "name": "Fire Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1342873,
+      "form_id": "05147D99",
+      "name": "Drain Stamina",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1467994,
+      "form_id": "0516665A",
+      "name": "Summon Dremora",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse067-daedinv.esm",
+      "local_id": 1969188,
+      "form_id": "051E0C24",
+      "name": "InvisibilityNoTranslate",
+      "cost": 100.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 6725,
+    "mtime": 1787238387.5225875
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "khopesh.esl",
+      "local_id": 2048,
+      "form_id": "02000800",
+      "name": "Fire Damage",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "khopesh.esl",
+      "local_id": 2049,
+      "form_id": "02000801",
+      "name": "Khopesh",
+      "cost": 1.2000000476837158,
+      "harmful": false
+    }
+  ]
+}

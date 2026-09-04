@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 485046,
+    "mtime": 1788322411.155465
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccvsvsse004-beafarmer.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Ghost Death FX",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 78483,
+    "mtime": 1787237998.7551224
+  },
+  "ingredients": [
+    {
+      "owner_file": "_ResourcePack.esl",
+      "local_id": 208,
+      "form_id": "030000D0",
+      "name": "Aloe Vera Leaves",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 2.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

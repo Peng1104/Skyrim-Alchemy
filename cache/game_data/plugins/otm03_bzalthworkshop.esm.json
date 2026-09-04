@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 864478,
+    "mtime": 1787238658.7359486
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "otm03_bzalthworkshop.esm",
+      "local_id": 1138199,
+      "form_id": "06115E17",
+      "name": "Bzalth Follower Unconscious FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "otm03_bzalthworkshop.esm",
+      "local_id": 1096705,
+      "form_id": "0610BC01",
+      "name": "Conjure Bzalth's Swarmer II",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "otm03_bzalthworkshop.esm",
+      "local_id": 1096706,
+      "form_id": "0610BC02",
+      "name": "Conjure Bzalth's Swarmer III",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "otm03_bzalthworkshop.esm",
+      "local_id": 1096702,
+      "form_id": "0610BBFE",
+      "name": "Conjure Bzalth's Swarmer I",
+      "cost": 15.0,
+      "harmful": false
+    }
+  ]
+}

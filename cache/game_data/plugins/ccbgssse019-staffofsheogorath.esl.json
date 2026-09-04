@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 172972,
+    "mtime": 1788322514.886563
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse019-staffofsheogorath.esl",
+      "local_id": 2055,
+      "form_id": "05000807",
+      "name": "Fork of Horripilation",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse019-staffofsheogorath.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Paralyze",
+      "cost": 450.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse019-staffofsheogorath.esl",
+      "local_id": 2057,
+      "form_id": "05000809",
+      "name": "Fork of Horripilation",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse019-staffofsheogorath.esl",
+      "local_id": 2089,
+      "form_id": "05000829",
+      "name": "Staff of Sheogorath Paralysis",
+      "cost": 125.0,
+      "harmful": true
+    }
+  ]
+}

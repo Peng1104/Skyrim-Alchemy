@@ -1,0 +1,81 @@
+{
+  "signature": {
+    "size": 113076,
+    "mtime": 1788322509.3112109
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2053,
+      "form_id": "03000805",
+      "name": "Resist Magic",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2054,
+      "form_id": "03000806",
+      "name": "Resist Poison",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2055,
+      "form_id": "03000807",
+      "name": "Lord's Mail (Cursed)",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2056,
+      "form_id": "03000808",
+      "name": "Lord's Mail",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2057,
+      "form_id": "03000809",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2058,
+      "form_id": "0300080A",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2048,
+      "form_id": "03000800",
+      "name": "Lord's Mail Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2050,
+      "form_id": "03000802",
+      "name": "Lord's Mail Absorb Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse021-lordsmail.esl",
+      "local_id": 2059,
+      "form_id": "0300080B",
+      "name": "Reduced Magicka",
+      "cost": 5.0,
+      "harmful": true
+    }
+  ]
+}

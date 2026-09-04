@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 114743,
+    "mtime": 1788322449.51507
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse038-bowofshadows.esl",
+      "local_id": 2049,
+      "form_id": "05000801",
+      "name": "Fast",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse038-bowofshadows.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Invisibility",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse038-bowofshadows.esl",
+      "local_id": 2060,
+      "form_id": "0500080C",
+      "name": "Invisibility",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse038-bowofshadows.esl",
+      "local_id": 2048,
+      "form_id": "05000800",
+      "name": "Bow of Shadows Magic Effect",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

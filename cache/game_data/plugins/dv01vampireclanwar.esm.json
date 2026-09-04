@@ -1,0 +1,722 @@
+{
+  "signature": {
+    "size": 4156519,
+    "mtime": 1787238551.1934843
+  },
+  "ingredients": [
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 417218,
+      "form_id": "0A065DC2",
+      "name": "Coldblood Teeth",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 417237,
+      "form_id": "0A065DD5",
+      "name": "Chilled Vampire Dust",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1144242,
+      "form_id": "0A1175B2",
+      "name": "Superheated Fire Salts",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1165094,
+      "form_id": "0A11C726",
+      "name": "Filtered Dwarven Oil",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1726835,
+      "form_id": "0A1A5973",
+      "name": "Defiled Human Heart",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 2.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 755576,
+      "form_id": "000B8778",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 625068,
+      "form_id": "0A0989AC",
+      "name": "Reduced Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 666544,
+      "form_id": "0A0A2BB0",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1144165,
+      "form_id": "0A117565",
+      "name": "Return to Cronvangr Hall",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1144167,
+      "form_id": "0A117567",
+      "name": "Return to Quarra Lair",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208674,
+      "form_id": "0A127162",
+      "name": "Armor - Silverflesh",
+      "cost": 0.23399999737739563,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208675,
+      "form_id": "0A127163",
+      "name": "Resist Disease - Hidden",
+      "cost": 0.5019999742507935,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208676,
+      "form_id": "0A127164",
+      "name": "Resist Magic - Hidden",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208677,
+      "form_id": "0A127165",
+      "name": "Crushing Grip",
+      "cost": 1.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208678,
+      "form_id": "0A127166",
+      "name": "Tick Tock",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208684,
+      "form_id": "0A12716C",
+      "name": "Stagger Pull",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208685,
+      "form_id": "0A12716D",
+      "name": "Vampiric Fury",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208686,
+      "form_id": "0A12716E",
+      "name": "Writhing Infestation",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208687,
+      "form_id": "0A12716F",
+      "name": "Protection of Stendarr",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208688,
+      "form_id": "0A127170",
+      "name": "Brutality of the Quarra",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208689,
+      "form_id": "0A127171",
+      "name": "Secrecy of the Spider",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208690,
+      "form_id": "0A127172",
+      "name": "Absorb Attack Damage - Hidden",
+      "cost": 180.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208691,
+      "form_id": "0A127173",
+      "name": "Absorb Attack Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208692,
+      "form_id": "0A127174",
+      "name": "Stagger Area Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208693,
+      "form_id": "0A127175",
+      "name": "Fortify Sneak",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208694,
+      "form_id": "0A127176",
+      "name": "Fortify Health",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208695,
+      "form_id": "0A127177",
+      "name": "Fortify Stamina",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208696,
+      "form_id": "0A127178",
+      "name": "Fortify Magicka",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208697,
+      "form_id": "0A127179",
+      "name": "Vampiric Fury",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208698,
+      "form_id": "0A12717A",
+      "name": "Fortify Melee Damage - Hidden",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208699,
+      "form_id": "0A12717B",
+      "name": "Sun Damage",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208701,
+      "form_id": "0A12717D",
+      "name": "Sun Damage",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208702,
+      "form_id": "0A12717E",
+      "name": "Disintegrate Undead",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208703,
+      "form_id": "0A12717F",
+      "name": "Vampiric Fury - Master of the Mind",
+      "cost": 9.999999747378752e-05,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208704,
+      "form_id": "0A127180",
+      "name": "Vampiric Fury - Master of the Mind",
+      "cost": 9.999999747378752e-05,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208705,
+      "form_id": "0A127181",
+      "name": "Fast",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1208706,
+      "form_id": "0A127182",
+      "name": "Blinding Eclipse",
+      "cost": 1.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1498025,
+      "form_id": "0A16DBA9",
+      "name": "Shielded From Sunlight",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 1646409,
+      "form_id": "0A191F49",
+      "name": "Purify",
+      "cost": 0.02500000037252903,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 3206004,
+      "form_id": "0A30EB74",
+      "name": "Autocast Silverflesh",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 3206005,
+      "form_id": "0A30EB75",
+      "name": "Autocast Blinding Eclipse",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 3539658,
+      "form_id": "0A3602CA",
+      "name": "Ghost FX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 3747280,
+      "form_id": "0A392DD0",
+      "name": "Conjure Spectral Spider",
+      "cost": 18.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 3975575,
+      "form_id": "0A3CA997",
+      "name": "Cure Disease",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 4432237,
+      "form_id": "0A43A16D",
+      "name": "Fast Sneaking - Hidden",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 4888872,
+      "form_id": "0A4A9928",
+      "name": "Detect Undead Enemy Exterior",
+      "cost": 37.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 4888873,
+      "form_id": "0A4A9929",
+      "name": "Detect Undead Enemy Interior",
+      "cost": 37.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 4888874,
+      "form_id": "0A4A992A",
+      "name": "Detect Undead Friend Exterior",
+      "cost": 37.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 4888875,
+      "form_id": "0A4A992B",
+      "name": "Detect Undead Friend Interior",
+      "cost": 37.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 4888877,
+      "form_id": "0A4A992D",
+      "name": "Gaze of the Order",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 5697777,
+      "form_id": "0A56F0F1",
+      "name": "Drain Health",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 6008921,
+      "form_id": "0A5BB059",
+      "name": "Sun Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 6345728,
+      "form_id": "0A60D400",
+      "name": "Attach Disintegrate Script",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 8094035,
+      "form_id": "0A7B8153",
+      "name": "Fast",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 8094036,
+      "form_id": "0A7B8154",
+      "name": "Phase Jitters",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 8094037,
+      "form_id": "0A7B8155",
+      "name": "Cryptic Power",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 8874084,
+      "form_id": "0A876864",
+      "name": "Blood Ingestion",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755424,
+      "form_id": "0A94DB20",
+      "name": "Spectral Poison",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755429,
+      "form_id": "0A94DB25",
+      "name": "Sun Damage",
+      "cost": 0.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755431,
+      "form_id": "0A94DB27",
+      "name": "Drain Magicka",
+      "cost": 0.75,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755434,
+      "form_id": "0A94DB2A",
+      "name": "Sun Damage",
+      "cost": 0.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755435,
+      "form_id": "0A94DB2B",
+      "name": "Drain Magicka",
+      "cost": 1.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755438,
+      "form_id": "0A94DB2E",
+      "name": "Bleed Damage",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755441,
+      "form_id": "0A94DB31",
+      "name": "Poison Damage",
+      "cost": 30.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755444,
+      "form_id": "0A94DB34",
+      "name": "Spectral Poison",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755445,
+      "form_id": "0A94DB35",
+      "name": "Poison Damage",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9755448,
+      "form_id": "0A94DB38",
+      "name": "Bleed Damage",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9828813,
+      "form_id": "0A95F9CD",
+      "name": "Torpor Effect",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9839908,
+      "form_id": "0A962524",
+      "name": "Return to Stendarr's Watch",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9881499,
+      "form_id": "0A96C79B",
+      "name": "Blood Plague",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9985233,
+      "form_id": "0A985CD1",
+      "name": "Command Automaton",
+      "cost": 9.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9985234,
+      "form_id": "0A985CD2",
+      "name": "Command Spiders",
+      "cost": 9.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9985241,
+      "form_id": "0A985CD9",
+      "name": "Return to Syncope Sanctuary",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "dv01vampireclanwar.esm",
+      "local_id": 9985245,
+      "form_id": "0A985CDD",
+      "name": "Cleanup script for script-added NPCS",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

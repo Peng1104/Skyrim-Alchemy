@@ -1,0 +1,137 @@
+{
+  "signature": {
+    "size": 596252,
+    "mtime": 1787238712.7400148
+  },
+  "ingredients": [
+    {
+      "owner_file": "solitudeplayerhome.esp",
+      "local_id": 896694,
+      "form_id": "050DAEB6",
+      "name": "Hawk's Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "solitudeplayerhome.esp",
+      "local_id": 896690,
+      "form_id": "050DAEB2",
+      "name": "Pine Thrush Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 3.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "solitudeplayerhome.esp",
+      "local_id": 896686,
+      "form_id": "050DAEAE",
+      "name": "Rock Warbler Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 3.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "solitudeplayerhome.esp",
+      "local_id": 896692,
+      "form_id": "050DAEB4",
+      "name": "Chicken's Egg",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 1.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 1.0,
+          "duration": 10.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

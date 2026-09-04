@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 146017,
+    "mtime": 1788322499.4598057
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse034-mntuni.esl",
+      "local_id": 3426,
+      "form_id": "05000D62",
+      "name": "Damage Stamina",
+      "cost": 0.10000000149011612,
+      "harmful": true
+    }
+  ]
+}

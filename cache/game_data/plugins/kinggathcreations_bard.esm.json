@@ -1,0 +1,2097 @@
+{
+  "signature": {
+    "size": 6251878,
+    "mtime": 1787238596.088179
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157499,
+      "form_id": "0202673B",
+      "name": "Bleedout",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157489,
+      "form_id": "02026731",
+      "name": "Inspiration: Serenade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157488,
+      "form_id": "02026730",
+      "name": "Inspiration: Serenade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157487,
+      "form_id": "0202672F",
+      "name": "Inspiration: Serenade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157486,
+      "form_id": "0202672E",
+      "name": "Inspiration: Serenade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157485,
+      "form_id": "0202672D",
+      "name": "Inspiration: Serenade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157484,
+      "form_id": "0202672C",
+      "name": "Inspiration: Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157483,
+      "form_id": "0202672B",
+      "name": "Inspiration: Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157482,
+      "form_id": "0202672A",
+      "name": "Inspiration: Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157481,
+      "form_id": "02026729",
+      "name": "Inspiration: Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157480,
+      "form_id": "02026728",
+      "name": "Inspiration: Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157479,
+      "form_id": "02026727",
+      "name": "Inspiration: Harmony",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157478,
+      "form_id": "02026726",
+      "name": "Inspiration: Harmony",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157477,
+      "form_id": "02026725",
+      "name": "Inspiration: Harmony",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157476,
+      "form_id": "02026724",
+      "name": "Inspiration: Harmony",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157475,
+      "form_id": "02026723",
+      "name": "Inspiration: Harmony",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157466,
+      "form_id": "0202671A",
+      "name": "Likes Player Music",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157465,
+      "form_id": "02026719",
+      "name": "Hates Player Music",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157451,
+      "form_id": "0202670B",
+      "name": "Phantom Form",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157435,
+      "form_id": "020266FB",
+      "name": "Dummy Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157430,
+      "form_id": "020266F6",
+      "name": "Restore Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157429,
+      "form_id": "020266F5",
+      "name": "Restore Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157428,
+      "form_id": "020266F4",
+      "name": "Restore Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157423,
+      "form_id": "020266EF",
+      "name": "Simon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157417,
+      "form_id": "020266E9",
+      "name": "Command: Attack",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157414,
+      "form_id": "020266E6",
+      "name": "Stagger Area Attack",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157145,
+      "form_id": "020265D9",
+      "name": "Fortify Shouts",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157139,
+      "form_id": "020265D3",
+      "name": "Regenerate Ally Health",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157137,
+      "form_id": "020265D1",
+      "name": "Fortify Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 157054,
+      "form_id": "0202657E",
+      "name": "Fortify Speed",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156776,
+      "form_id": "02026468",
+      "name": "Calm",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156774,
+      "form_id": "02026466",
+      "name": "Calm",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156765,
+      "form_id": "0202645D",
+      "name": "Fool's Crown",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156763,
+      "form_id": "0202645B",
+      "name": "Disarm 3",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156761,
+      "form_id": "02026459",
+      "name": "Fool's Crown",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156662,
+      "form_id": "020263F6",
+      "name": "Sneak Detection",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156493,
+      "form_id": "0202634D",
+      "name": "Busking",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156491,
+      "form_id": "0202634B",
+      "name": "Busking",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156481,
+      "form_id": "02026341",
+      "name": "Combat Detection",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156442,
+      "form_id": "0202631A",
+      "name": "Instrument Equip",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156231,
+      "form_id": "02026247",
+      "name": "Soul Grasp",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156230,
+      "form_id": "02026246",
+      "name": "Soul Grasp",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156138,
+      "form_id": "020261EA",
+      "name": "Earthsong MGEF",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156137,
+      "form_id": "020261E9",
+      "name": "Earthsong MGEF",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 156136,
+      "form_id": "020261E8",
+      "name": "Earthsong MGEF",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155939,
+      "form_id": "02026123",
+      "name": "Sanctum's Snare",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155938,
+      "form_id": "02026122",
+      "name": "Dummy Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155606,
+      "form_id": "02025FD6",
+      "name": "Renown",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155604,
+      "form_id": "02025FD4",
+      "name": "Bend Will 02",
+      "cost": 0.009999999776482582,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155603,
+      "form_id": "02025FD3",
+      "name": "Tame Dragon",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155599,
+      "form_id": "02025FCF",
+      "name": "Break Will",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155597,
+      "form_id": "02025FCD",
+      "name": "Break Will",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155591,
+      "form_id": "02025FC7",
+      "name": "MGEF Apply Tracker",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 155590,
+      "form_id": "02025FC6",
+      "name": "Break Will",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154678,
+      "form_id": "02025C36",
+      "name": "Drain Vitality - Stamina",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154677,
+      "form_id": "02025C35",
+      "name": "Drain Vitality - Magicka",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154676,
+      "form_id": "02025C34",
+      "name": "Drain Vitality - Health",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154655,
+      "form_id": "02025C1F",
+      "name": "Fire/Frost Resist",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154654,
+      "form_id": "02025C1E",
+      "name": "Power Attacks/Damage Resistance",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154653,
+      "form_id": "02025C1D",
+      "name": "Shout Timer",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154652,
+      "form_id": "02025C1C",
+      "name": "Damage Resistance",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154651,
+      "form_id": "02025C1B",
+      "name": "Dragon Aspect - Arms",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154650,
+      "form_id": "02025C1A",
+      "name": "Dragon Aspect - Arms",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154601,
+      "form_id": "02025BE9",
+      "name": "Cyclone03",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154600,
+      "form_id": "02025BE8",
+      "name": "Cyclone02",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154599,
+      "form_id": "02025BE7",
+      "name": "Cyclone",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154598,
+      "form_id": "02025BE6",
+      "name": "Venzahkrii",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154167,
+      "form_id": "02025A37",
+      "name": "Absorb Vitality",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154164,
+      "form_id": "02025A34",
+      "name": "Absorb Vitality",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154159,
+      "form_id": "02025A2F",
+      "name": "Absorb Vitality",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154158,
+      "form_id": "02025A2E",
+      "name": "Absorb Vitality",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154157,
+      "form_id": "02025A2D",
+      "name": "Absorb Vitality",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154155,
+      "form_id": "02025A2B",
+      "name": "Absorb Vitality",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154149,
+      "form_id": "02025A25",
+      "name": "Whirlwind Cloak",
+      "cost": 3.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154146,
+      "form_id": "02025A22",
+      "name": "Whirlwind Damage",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154143,
+      "form_id": "02025A1F",
+      "name": "Unrelenting Force Weak",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154140,
+      "form_id": "02025A1C",
+      "name": "Generic Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154136,
+      "form_id": "02025A18",
+      "name": "Cyclonicist",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154099,
+      "form_id": "020259F3",
+      "name": "Channel Durnehviir",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154097,
+      "form_id": "020259F1",
+      "name": "Channel Durnehviir",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154094,
+      "form_id": "020259EE",
+      "name": "Channel Durnehviir",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154092,
+      "form_id": "020259EC",
+      "name": "Channel Durnehviir",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154089,
+      "form_id": "020259E9",
+      "name": "Dragon Incarnate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154085,
+      "form_id": "020259E5",
+      "name": "Dragon Incarnate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154084,
+      "form_id": "020259E4",
+      "name": "Dragon Incarnate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154079,
+      "form_id": "020259DF",
+      "name": "Dragon Incarnate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154076,
+      "form_id": "020259DC",
+      "name": "Battle Fervor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154071,
+      "form_id": "020259D7",
+      "name": "Battle Fervor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154068,
+      "form_id": "020259D4",
+      "name": "Battle Fervor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 154067,
+      "form_id": "020259D3",
+      "name": "Battle Fervor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 151748,
+      "form_id": "020250C4",
+      "name": "Trapped Magic",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 151747,
+      "form_id": "020250C3",
+      "name": "Trapped Magic",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 151719,
+      "form_id": "020250A7",
+      "name": "Fortify Speed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 151717,
+      "form_id": "020250A5",
+      "name": "Fortify Speed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 149677,
+      "form_id": "020248AD",
+      "name": "Shatter Spirit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 149676,
+      "form_id": "020248AC",
+      "name": "Shatter Spirit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 149675,
+      "form_id": "020248AB",
+      "name": "Shatter Spirit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 149057,
+      "form_id": "02024641",
+      "name": "Kill Actor",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 149048,
+      "form_id": "02024638",
+      "name": "Sanctuary",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 148988,
+      "form_id": "020245FC",
+      "name": "Summon Sledrig",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 147709,
+      "form_id": "020240FD",
+      "name": "Draugr Glow Eyes",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 147700,
+      "form_id": "020240F4",
+      "name": "Instrument Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 147699,
+      "form_id": "020240F3",
+      "name": "Instrument Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 147698,
+      "form_id": "020240F2",
+      "name": "Instrument Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 147694,
+      "form_id": "020240EE",
+      "name": "Instrument Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 147369,
+      "form_id": "02023FA9",
+      "name": "Frostbite",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 146512,
+      "form_id": "02023C50",
+      "name": "End Quest Flute",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 146511,
+      "form_id": "02023C4F",
+      "name": "End Quest Lute",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 146510,
+      "form_id": "02023C4E",
+      "name": "End Quest Drum",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144932,
+      "form_id": "02023624",
+      "name": "Stagger Area Attack",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144930,
+      "form_id": "02023622",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144504,
+      "form_id": "02023478",
+      "name": "Equip Chant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144503,
+      "form_id": "02023477",
+      "name": "Equip Chant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144502,
+      "form_id": "02023476",
+      "name": "Equip Chant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144501,
+      "form_id": "02023475",
+      "name": "Equip Chant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 144441,
+      "form_id": "02023439",
+      "name": "Stagger Push",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143914,
+      "form_id": "0202322A",
+      "name": "Soul Tear Trap",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143913,
+      "form_id": "02023229",
+      "name": "Soul Tear Damage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143907,
+      "form_id": "02023223",
+      "name": "Soul Rend Stagger Push",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143900,
+      "form_id": "0202321C",
+      "name": "Soul Rend Stagger Push",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143866,
+      "form_id": "020231FA",
+      "name": "Empowernent: Resilience",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143865,
+      "form_id": "020231F9",
+      "name": "Empowernent: Resilience",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143864,
+      "form_id": "020231F8",
+      "name": "Empowernent: Rage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143863,
+      "form_id": "020231F7",
+      "name": "Empowernent: Rage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143862,
+      "form_id": "020231F6",
+      "name": "Empowerment: Intensity",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143861,
+      "form_id": "020231F5",
+      "name": "Empowerment: Intensity",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143860,
+      "form_id": "020231F4",
+      "name": "Empowerment: Intensity",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143855,
+      "form_id": "020231EF",
+      "name": "Dragon's Dirge",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143851,
+      "form_id": "020231EB",
+      "name": "Diminished Presence",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143849,
+      "form_id": "020231E9",
+      "name": "Diminished Presence",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143844,
+      "form_id": "020231E4",
+      "name": "Empowernent: Resilience",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143843,
+      "form_id": "020231E3",
+      "name": "Empowernent: Rage",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143842,
+      "form_id": "020231E2",
+      "name": "Dummy Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143837,
+      "form_id": "020231DD",
+      "name": "Spiritual Connection",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143833,
+      "form_id": "020231D9",
+      "name": "Dragon's Roar",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 143831,
+      "form_id": "020231D7",
+      "name": "Stagger Area Attack",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142171,
+      "form_id": "02022B5B",
+      "name": "Self Pacify",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142166,
+      "form_id": "02022B56",
+      "name": "End Quest Lute",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142165,
+      "form_id": "02022B55",
+      "name": "End Quest Flute",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142164,
+      "form_id": "02022B54",
+      "name": "End Quest Drum",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142122,
+      "form_id": "02022B2A",
+      "name": "Volgaafsonaan, Thoughtbinder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142120,
+      "form_id": "02022B28",
+      "name": "Volgaafsonaan, Thoughtbinder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142118,
+      "form_id": "02022B26",
+      "name": "Sledrig, Dragonhunter",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142113,
+      "form_id": "02022B21",
+      "name": "Phantom Bond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142111,
+      "form_id": "02022B1F",
+      "name": "Phantom Bond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142109,
+      "form_id": "02022B1D",
+      "name": "Phantom Bond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142107,
+      "form_id": "02022B1B",
+      "name": "Spectral Shatter",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142102,
+      "form_id": "02022B16",
+      "name": "Earth Crescendo",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142098,
+      "form_id": "02022B12",
+      "name": "Earth Crescendo",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142093,
+      "form_id": "02022B0D",
+      "name": "Distort Time",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142092,
+      "form_id": "02022B0C",
+      "name": "Distort Time",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 142073,
+      "form_id": "02022AF9",
+      "name": "Damage Assistance",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141263,
+      "form_id": "020227CF",
+      "name": "Disarray",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141262,
+      "form_id": "020227CE",
+      "name": "Dispossess",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141261,
+      "form_id": "020227CD",
+      "name": "Generic Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141260,
+      "form_id": "020227CC",
+      "name": "Rejuvenating Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141259,
+      "form_id": "020227CB",
+      "name": "Army of Valor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141258,
+      "form_id": "020227CA",
+      "name": "Channel Dragon",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141257,
+      "form_id": "020227C9",
+      "name": "Ethereal Renewal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141256,
+      "form_id": "020227C8",
+      "name": "Lingering Whisper",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141255,
+      "form_id": "020227C7",
+      "name": "Animal Soulbond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141254,
+      "form_id": "020227C6",
+      "name": "Ice Lunette",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141253,
+      "form_id": "020227C5",
+      "name": "Deep Fire Breath",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141252,
+      "form_id": "020227C4",
+      "name": "Deep Frost Breath",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141251,
+      "form_id": "020227C3",
+      "name": "Kyne's Aura",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141250,
+      "form_id": "020227C2",
+      "name": "Marked for Eternity",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141249,
+      "form_id": "020227C1",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141248,
+      "form_id": "020227C0",
+      "name": "Throw Fus",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141247,
+      "form_id": "020227BF",
+      "name": "Unrelenting Echo",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141246,
+      "form_id": "020227BE",
+      "name": "Whirlwind Rush",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141245,
+      "form_id": "020227BD",
+      "name": "Elemental Haste",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 141244,
+      "form_id": "020227BC",
+      "name": "Dragonbane",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140537,
+      "form_id": "020224F9",
+      "name": "Animal Soulbond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140536,
+      "form_id": "020224F8",
+      "name": "Animal Soulbond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140535,
+      "form_id": "020224F7",
+      "name": "Unrelenting Echo",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140534,
+      "form_id": "020224F6",
+      "name": "Animal Soulbond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140533,
+      "form_id": "020224F5",
+      "name": "Sanctuary",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140531,
+      "form_id": "020224F3",
+      "name": "Animal Soulbond",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140530,
+      "form_id": "020224F2",
+      "name": "Whirlwind Rush",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140529,
+      "form_id": "020224F1",
+      "name": "Unrelenting Echo",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140528,
+      "form_id": "020224F0",
+      "name": "Generic Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140527,
+      "form_id": "020224EF",
+      "name": "Throw Fus",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140526,
+      "form_id": "020224EE",
+      "name": "Marked for Eternity",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140525,
+      "form_id": "020224ED",
+      "name": "Dispossess",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140524,
+      "form_id": "020224EC",
+      "name": "Elemental Haste",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140523,
+      "form_id": "020224EB",
+      "name": "Telepathy",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140522,
+      "form_id": "020224EA",
+      "name": "Dragonbane",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140521,
+      "form_id": "020224E9",
+      "name": "Dragonbane",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140520,
+      "form_id": "020224E8",
+      "name": "Unrelenting Force Weak",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140519,
+      "form_id": "020224E7",
+      "name": "Marked for Eternity",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 140518,
+      "form_id": "020224E6",
+      "name": "Flame Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 139603,
+      "form_id": "02022153",
+      "name": "Venzahkrii",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 139601,
+      "form_id": "02022151",
+      "name": "Monitor Venzahkrii",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138902,
+      "form_id": "02021E96",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138901,
+      "form_id": "02021E95",
+      "name": "Clear Skies Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138900,
+      "form_id": "02021E94",
+      "name": "Clear Skies Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138899,
+      "form_id": "02021E93",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138898,
+      "form_id": "02021E92",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138897,
+      "form_id": "02021E91",
+      "name": "Ethereal Renewal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138896,
+      "form_id": "02021E90",
+      "name": "Ethereal Renewal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138895,
+      "form_id": "02021E8F",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138894,
+      "form_id": "02021E8E",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138893,
+      "form_id": "02021E8D",
+      "name": "Fear",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138892,
+      "form_id": "02021E8C",
+      "name": "Kyne's Aura",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138891,
+      "form_id": "02021E8B",
+      "name": "Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138890,
+      "form_id": "02021E8A",
+      "name": "Fortify Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138889,
+      "form_id": "02021E89",
+      "name": "Clear Skies Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138888,
+      "form_id": "02021E88",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138887,
+      "form_id": "02021E87",
+      "name": "Instrument Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138886,
+      "form_id": "02021E86",
+      "name": "Regenerate Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138885,
+      "form_id": "02021E85",
+      "name": "Storm Channel",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138884,
+      "form_id": "02021E84",
+      "name": "Rejuvenating Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138883,
+      "form_id": "02021E83",
+      "name": "Call Volgaafsonaan Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138882,
+      "form_id": "02021E82",
+      "name": "Ethereal Renewal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138881,
+      "form_id": "02021E81",
+      "name": "Renown",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138880,
+      "form_id": "02021E80",
+      "name": "Dummy Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138879,
+      "form_id": "02021E7F",
+      "name": "Fortify Stamina",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138878,
+      "form_id": "02021E7E",
+      "name": "Fortify Health",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138029,
+      "form_id": "02021B2D",
+      "name": "Ethereal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138026,
+      "form_id": "02021B2A",
+      "name": "Disable Actor",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 138014,
+      "form_id": "02021B1E",
+      "name": "Phase 3",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137994,
+      "form_id": "02021B0A",
+      "name": "Ethereal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137983,
+      "form_id": "02021AFF",
+      "name": "Shatter Spirit",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137980,
+      "form_id": "02021AFC",
+      "name": "Sanctuary",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137979,
+      "form_id": "02021AFB",
+      "name": "Sanctuary",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137892,
+      "form_id": "02021AA4",
+      "name": "Inspiration: Serenade",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137891,
+      "form_id": "02021AA3",
+      "name": "Inspiration: Harmony",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 137890,
+      "form_id": "02021AA2",
+      "name": "Inspiration: Rally",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 136836,
+      "form_id": "02021684",
+      "name": "Bardic Inspiration",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 135260,
+      "form_id": "0202105C",
+      "name": "Earthsong Weak",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 135219,
+      "form_id": "02021033",
+      "name": "Earthsong Strong",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 135218,
+      "form_id": "02021032",
+      "name": "Earthsong Middle",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 135217,
+      "form_id": "02021031",
+      "name": "Earthsong Weak",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 135082,
+      "form_id": "02020FAA",
+      "name": "Fortify Shouts - VFX",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 135059,
+      "form_id": "02020F93",
+      "name": "Fortify Shouts",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 134959,
+      "form_id": "02020F2F",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130999,
+      "form_id": "0201FFB7",
+      "name": "Whirlwind Speed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130998,
+      "form_id": "0201FFB6",
+      "name": "Earthsong Strong",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130997,
+      "form_id": "0201FFB5",
+      "name": "Earthsong Middle",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130996,
+      "form_id": "0201FFB4",
+      "name": "Earthsong Drop",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130158,
+      "form_id": "0201FC6E",
+      "name": "Fortify Shouts",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130150,
+      "form_id": "0201FC66",
+      "name": "Earthsong Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130148,
+      "form_id": "0201FC64",
+      "name": "Equip Chant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 130137,
+      "form_id": "0201FC59",
+      "name": "Earthsong Weak",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126793,
+      "form_id": "0201EF49",
+      "name": "Phantom Form",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126762,
+      "form_id": "0201EF2A",
+      "name": "Reverse Sprint Effect 3",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126761,
+      "form_id": "0201EF29",
+      "name": "Reverse Sprint Effect 2",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126740,
+      "form_id": "0201EF14",
+      "name": "Equip Chant",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126713,
+      "form_id": "0201EEF9",
+      "name": "Equip Shout Set 03",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126712,
+      "form_id": "0201EEF8",
+      "name": "Equip Shout Set 02",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126711,
+      "form_id": "0201EEF7",
+      "name": "Equip Shout Set 01",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126709,
+      "form_id": "0201EEF5",
+      "name": "Shield Slot Effect",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 2050,
+      "form_id": "02000802",
+      "name": "Terrain Tester Cast Projectile",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 64275,
+      "form_id": "0200FB13",
+      "name": "Reverse Sprint Effect 1",
+      "cost": 50.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 85021,
+      "form_id": "02014C1D",
+      "name": "Shout 01 Ready",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 105762,
+      "form_id": "02019D22",
+      "name": "Shout 02 Ready",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 105768,
+      "form_id": "02019D28",
+      "name": "Shout 03 Ready",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 105779,
+      "form_id": "02019D33",
+      "name": "Equip Chant",
+      "cost": 30.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 105780,
+      "form_id": "02019D34",
+      "name": "Equip Chant",
+      "cost": 30.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 105781,
+      "form_id": "02019D35",
+      "name": "Equip Chant",
+      "cost": 30.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "kinggathcreations_bard.esm",
+      "local_id": 126529,
+      "form_id": "0201EE41",
+      "name": "Shout Reset",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

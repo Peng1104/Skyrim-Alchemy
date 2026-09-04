@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 399976,
+    "mtime": 1788322501.3357782
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "cceejsse002-tower.esl",
+      "local_id": 4059,
+      "form_id": "05000FDB",
+      "name": "Tower Ghost",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

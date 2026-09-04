@@ -1,0 +1,65 @@
+{
+  "signature": {
+    "size": 350634,
+    "mtime": 1788312198.694262
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 2,
+      "form_id": "05000002",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 3,
+      "form_id": "05000003",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 4,
+      "form_id": "05000004",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 5,
+      "form_id": "05000005",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 6,
+      "form_id": "05000006",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 7,
+      "form_id": "05000007",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spectralhorse.esp",
+      "local_id": 8,
+      "form_id": "05000008",
+      "name": "Summon Myrkvar",
+      "cost": 19.0,
+      "harmful": false
+    }
+  ]
+}

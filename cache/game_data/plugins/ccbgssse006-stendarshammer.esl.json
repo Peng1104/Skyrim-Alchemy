@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 4539,
+    "mtime": 1788322515.5108554
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccbgssse006-stendarshammer.esl",
+      "local_id": 2056,
+      "form_id": "03000808",
+      "name": "Smite Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse006-stendarshammer.esl",
+      "local_id": 2057,
+      "form_id": "03000809",
+      "name": "Reduced Stamina",
+      "cost": 5.0,
+      "harmful": true
+    }
+  ]
+}

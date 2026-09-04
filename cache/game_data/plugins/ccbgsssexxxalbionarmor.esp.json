@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 452142,
+    "mtime": 1787238724.3382494
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 978777,
+      "form_id": "000EEF59",
+      "name": "Fortify Speechcraft",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgsssexxxalbionarmor.esp",
+      "local_id": 998508,
+      "form_id": "050F3C6C",
+      "name": "Fortify Speechcraft",
+      "cost": 5.0,
+      "harmful": false
+    }
+  ]
+}

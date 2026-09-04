@@ -1,0 +1,1674 @@
+{
+  "signature": {
+    "size": 37476,
+    "mtime": 1788322503.1573951
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2078,
+      "form_id": "0500081E",
+      "name": "Sload Soap",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 6.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2079,
+      "form_id": "0500081F",
+      "name": "Stoneflower Petals",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474927,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2080,
+      "form_id": "05000820",
+      "name": "Void Essence",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2081,
+      "form_id": "05000821",
+      "name": "Watcher's Eye",
+      "effect_refs": [
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2082,
+      "form_id": "05000822",
+      "name": "Blind Watcher's Eye",
+      "effect_refs": [
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2083,
+      "form_id": "05000823",
+      "name": "Wisp Stalk Caps",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2084,
+      "form_id": "05000824",
+      "name": "Withering Moon",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2085,
+      "form_id": "05000825",
+      "name": "Worm's Head Cap",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256801,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2086,
+      "form_id": "05000826",
+      "name": "Daedroth Teeth",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2087,
+      "form_id": "05000827",
+      "name": "Dreugh Wax",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 5.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2088,
+      "form_id": "05000828",
+      "name": "Elytra Ichor",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2089,
+      "form_id": "05000829",
+      "name": "Fire Petal",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2090,
+      "form_id": "0500082A",
+      "name": "Flame Stalk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2091,
+      "form_id": "0500082B",
+      "name": "Fungus Stalk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3430,
+      "form_id": "05000D66",
+      "name": "Aster Bloom Core",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256796,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3434,
+      "form_id": "05000D6A",
+      "name": "Blister Pod Cap",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3432,
+      "form_id": "05000D68",
+      "name": "Bittergreen Petals",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3436,
+      "form_id": "05000D6C",
+      "name": "Bog Beacon",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 3426,
+      "form_id": "05000D62",
+      "name": "Alocasia Fruit",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 3.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2094,
+      "form_id": "0500082E",
+      "name": "Hackle-Lo Leaf",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2093,
+      "form_id": "0500082D",
+      "name": "Gold Kanet",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256797,
+          "magnitude": 5.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2050,
+      "form_id": "05000802",
+      "name": "Bungler's Bane",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474924,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 2.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2052,
+      "form_id": "05000804",
+      "name": "Chokeweed",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474926,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2104,
+      "form_id": "05000838",
+      "name": "Chokeberry",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 3.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2103,
+      "form_id": "05000837",
+      "name": "Lichor",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2102,
+      "form_id": "05000836",
+      "name": "Ambrosia",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 3.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2053,
+      "form_id": "05000805",
+      "name": "Coda Flower",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474919,
+          "magnitude": 3.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2054,
+      "form_id": "05000806",
+      "name": "Comberry",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 4.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 6.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2055,
+      "form_id": "05000807",
+      "name": "Congealed Putrescence",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256805,
+          "magnitude": 6.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2092,
+      "form_id": "0500082C",
+      "name": "Gnarl Bark",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2057,
+      "form_id": "05000809",
+      "name": "Corkbulb Root",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256795,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2058,
+      "form_id": "0500080A",
+      "name": "Daedra Silk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2059,
+      "form_id": "0500080B",
+      "name": "Daedra Venin",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474918,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256806,
+          "magnitude": 6.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2066,
+          "magnitude": 50.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2060,
+      "form_id": "0500080C",
+      "name": "Hunger Tongue",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2061,
+      "form_id": "0500080D",
+      "name": "Hydnum Azure Giant Spore",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2118,
+          "magnitude": 0.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2062,
+      "form_id": "0500080E",
+      "name": "Hypha Facia",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589890,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474921,
+          "magnitude": 1.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 3.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 237137,
+          "magnitude": 2.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2063,
+      "form_id": "0500080F",
+      "name": "Imp Gall",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256803,
+          "magnitude": 2.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2064,
+      "form_id": "05000810",
+      "name": "Kagouti Hide",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "ccbgssse037-curios.esl",
+          "effect_local_id": 2051,
+          "magnitude": 0.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256748,
+          "magnitude": 4.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2065,
+      "form_id": "05000811",
+      "name": "Kresh Fiber",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 50.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256800,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2129,
+      "form_id": "05000851",
+      "name": "Heart of Order",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256793,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256794,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2067,
+      "form_id": "05000813",
+      "name": "Luminous Russula",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105502,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 2.0,
+          "duration": 30.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2068,
+      "form_id": "05000814",
+      "name": "Marshmerrow",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256769,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238278,
+          "magnitude": 4.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2069,
+      "form_id": "05000815",
+      "name": "Minotaur Horn",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2070,
+      "form_id": "05000816",
+      "name": "Ogre's Teeth",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474927,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 589889,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2071,
+      "form_id": "05000817",
+      "name": "Red Kelp Gas Bladder",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2073,
+      "form_id": "05000819",
+      "name": "Roobrush",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474961,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256802,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2072,
+      "form_id": "05000818",
+      "name": "Redwort Flower",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2075,
+      "form_id": "0500081B",
+      "name": "Scalon Fin",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256834,
+          "magnitude": 3.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1105503,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474923,
+          "magnitude": 100.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2074,
+      "form_id": "0500081A",
+      "name": "Saltrice",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256760,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474924,
+          "magnitude": 100.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2076,
+      "form_id": "0500081C",
+      "name": "Scrib Jelly",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 6.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1088221,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 714530,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 6.0,
+          "duration": 300.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2077,
+      "form_id": "0500081D",
+      "name": "Scrib Jerky",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256761,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 2.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 240685,
+          "magnitude": 0.0,
+          "duration": 8.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2066,
+      "form_id": "05000812",
+      "name": "Spell Absorption",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2051,
+      "form_id": "05000803",
+      "name": "Night Eye",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2130,
+      "form_id": "05000852",
+      "name": "Apple Poisoning",
+      "cost": 12.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse037-curios.esl",
+      "local_id": 2118,
+      "form_id": "05000846",
+      "name": "Light",
+      "cost": 0.5,
+      "harmful": false
+    }
+  ]
+}

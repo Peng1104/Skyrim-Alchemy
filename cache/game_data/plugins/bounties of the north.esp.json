@@ -1,0 +1,97 @@
+{
+  "signature": {
+    "size": 766769,
+    "mtime": 1787238714.0232964
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 542377,
+      "form_id": "030846A9",
+      "name": "Script For Priest Part 2",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 532188,
+      "form_id": "03081EDC",
+      "name": "Script For CatTamer",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 359790,
+      "form_id": "03057D6E",
+      "name": "Battle Cry",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 33068,
+      "form_id": "0300812C",
+      "name": "Cult Leader Teleport",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 104247,
+      "form_id": "03019737",
+      "name": "Clown Invisibility",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 339466,
+      "form_id": "03052E0A",
+      "name": "Bleeding Damage",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 359788,
+      "form_id": "03057D6C",
+      "name": "Script For Champion",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 369938,
+      "form_id": "0305A512",
+      "name": "Script For Ghosts",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 369953,
+      "form_id": "0305A521",
+      "name": "Script For Priest",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 532229,
+      "form_id": "03081F05",
+      "name": "Script For Troll",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "bounties of the north.esp",
+      "local_id": 532181,
+      "form_id": "03081ED5",
+      "name": "Script For Seer",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

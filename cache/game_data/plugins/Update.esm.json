@@ -1,0 +1,562 @@
+{
+  "signature": {
+    "size": 19121864,
+    "mtime": 1787841633.49122
+  },
+  "ingredients": [
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 723141,
+      "form_id": "000B08C5",
+      "name": "Honeycomb",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256796,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256799,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12399,
+      "form_id": "0100306F",
+      "name": "Thorn Hook",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 3.0,
+          "duration": 180.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 3.0,
+          "duration": 180.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12398,
+      "form_id": "0100306E",
+      "name": "Screaming Maw",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 20.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256804,
+          "magnitude": 5.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 1.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 20.0,
+          "duration": 10.0
+        }
+      ]
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12397,
+      "form_id": "0100306D",
+      "name": "Rot Scale",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 1092170,
+          "magnitude": 1.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 5.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1030546,
+      "form_id": "000FB992",
+      "name": "Fortify Shouts",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1061277,
+      "form_id": "0010319D",
+      "name": "Marked for Death - Armor",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1061276,
+      "form_id": "0010319C",
+      "name": "Marked for Death - Health",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12510,
+      "form_id": "010030DE",
+      "name": "HorseArmorEssentialNoTranslate",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12488,
+      "form_id": "010030C8",
+      "name": "Fortify Health No Translate",
+      "cost": 7.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071266,
+      "form_id": "001058A2",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12064,
+      "form_id": "01002F20",
+      "name": "Muffle Pet",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12009,
+      "form_id": "01002EE9",
+      "name": "Resist Freezing Water",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12006,
+      "form_id": "01002EE6",
+      "name": "Fortify Warmth",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12005,
+      "form_id": "01002EE5",
+      "name": "Restore Cold",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12004,
+      "form_id": "01002EE4",
+      "name": "Restore Hunger Large",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12003,
+      "form_id": "01002EE3",
+      "name": "Restore Hunger Medium",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12002,
+      "form_id": "01002EE2",
+      "name": "Restore Hunger Small",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 12001,
+      "form_id": "01002EE1",
+      "name": "Restore Hunger Very Small",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1071267,
+      "form_id": "001058A3",
+      "name": "Restore Stamina",
+      "cost": 0.75,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1104236,
+      "form_id": "0010D96C",
+      "name": "Lover's Comfort",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1104235,
+      "form_id": "0010D96B",
+      "name": "Well Rested",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1104232,
+      "form_id": "0010D968",
+      "name": "Rested",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 941917,
+      "form_id": "000E5F5D",
+      "name": "The Steed Stone",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 757552,
+      "form_id": "000B8F30",
+      "name": "Ancestor's Wrath",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 622306,
+      "form_id": "00097EE2",
+      "name": "J'zargo's Flame Cloak",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 241310,
+      "form_id": "0003AE9E",
+      "name": "Flame Cloak",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2518,
+      "form_id": "010009D6",
+      "name": "White Phial Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1113559,
+      "form_id": "0010FDD7",
+      "name": "Ancient Knowledge",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1097495,
+      "form_id": "0010BF17",
+      "name": "Staff of Magnus Effect",
+      "cost": 3.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 145825,
+      "form_id": "000239A1",
+      "name": "Staff of Magnus Effect",
+      "cost": 1.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 945652,
+      "form_id": "000E6DF4",
+      "name": "Esbern's Potion",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 831788,
+      "form_id": "000CB12C",
+      "name": "Call of the Wild",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 933642,
+      "form_id": "000E3F0A",
+      "name": "Call Storm",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 933641,
+      "form_id": "000E3F09",
+      "name": "Call Storm",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 876161,
+      "form_id": "000D5E81",
+      "name": "Call Storm",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 494497,
+      "form_id": "00078BA1",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 494495,
+      "form_id": "00078B9F",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 494493,
+      "form_id": "00078B9D",
+      "name": "Clear Skies",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 635462,
+      "form_id": "0009B246",
+      "name": "Wabbajack",
+      "cost": 150.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 145757,
+      "form_id": "0002395D",
+      "name": "Dismaying Shout",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 145756,
+      "form_id": "0002395C",
+      "name": "Dismaying Shout",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 145753,
+      "form_id": "00023959",
+      "name": "Dismaying Shout",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2117,
+      "form_id": "01000845",
+      "name": "Conjure Storm Thrall",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2116,
+      "form_id": "01000844",
+      "name": "Conjure Frost Thrall",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2115,
+      "form_id": "01000843",
+      "name": "Conjure Flame Thrall",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2114,
+      "form_id": "01000842",
+      "name": "Conjure Storm Atronach",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2113,
+      "form_id": "01000841",
+      "name": "Conjure Frost Atronach",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Update.esm",
+      "local_id": 2112,
+      "form_id": "01000840",
+      "name": "Conjure Flame Atronach",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 1106830,
+      "form_id": "0010E38E",
+      "name": "Summon Dremora",
+      "cost": 30.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 570972,
+      "form_id": "0008B65C",
+      "name": "Fortify Alchemy",
+      "cost": 17.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499973,
+      "form_id": "0007A105",
+      "name": "Regenerate Stamina",
+      "cost": 10.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499970,
+      "form_id": "0007A102",
+      "name": "Fortify Smithing",
+      "cost": 24.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499965,
+      "form_id": "0007A0FD",
+      "name": "Regenerate Magicka",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 499960,
+      "form_id": "0007A0F8",
+      "name": "Regenerate Health",
+      "cost": 20.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 300295,
+      "form_id": "00049507",
+      "name": "Fortify Stamina",
+      "cost": 6.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 300292,
+      "form_id": "00049504",
+      "name": "Fortify Magicka",
+      "cost": 7.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 299946,
+      "form_id": "000493AA",
+      "name": "Fortify Health",
+      "cost": 7.5,
+      "harmful": false
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "Restore Stamina": {
+    "name": "Restore Stamina",
+    "cost": 0.6000000238418579,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB16"
+  },
+  "Damage Stamina Regen": {
+    "name": "Damage Stamina Regen",
+    "cost": 0.30000001192092896,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F2C"
+  },
+  "Ravage Health": {
+    "name": "Ravage Health",
+    "cost": 0.4000000059604645,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F26"
+  },
+  "Resist Frost": {
+    "name": "Resist Frost",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EAEB"
+  },
+  "Weakness to Frost": {
+    "name": "Weakness to Frost",
+    "cost": 0.5,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F2E"
+  },
+  "Fortify Sneak": {
+    "name": "Fortify Sneak",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB22"
+  },
+  "Weakness to Poison": {
+    "name": "Weakness to Poison",
+    "cost": 1.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00090042"
+  },
+  "Fortify Restoration": {
+    "name": "Fortify Restoration",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB28"
+  },
+  "Damage Health": {
+    "name": "Damage Health",
+    "cost": 3.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB42"
+  },
+  "Fortify Alteration": {
+    "name": "Fortify Alteration",
+    "cost": 0.20000000298023224,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB24"
+  },
+  "Slow": {
+    "name": "Slow",
+    "cost": 1.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F25"
+  },
+  "Fortify Carry Weight": {
+    "name": "Fortify Carry Weight",
+    "cost": 0.15000000596046448,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB01"
+  },
+  "Damage Stamina": {
+    "name": "Damage Stamina",
+    "cost": 1.7999999523162842,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003A2C6"
+  },
+  "Fear": {
+    "name": "Fear",
+    "cost": 5.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F20"
+  },
+  "Fortify Magicka": {
+    "name": "Fortify Magicka",
+    "cost": 0.30000001192092896,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EAF8"
+  },
+  "Waterbreathing": {
+    "name": "Waterbreathing",
+    "cost": 30.0,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AC2D"
+  },
+  "Paralysis": {
+    "name": "Paralysis",
+    "cost": 500.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F30"
+  },
+  "Restore Magicka": {
+    "name": "Restore Magicka",
+    "cost": 0.6000000238418579,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB17"
+  },
+  "Weakness to Magic": {
+    "name": "Weakness to Magic",
+    "cost": 1.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F51"
+  },
+  "Fortify Illusion": {
+    "name": "Fortify Illusion",
+    "cost": 0.4000000059604645,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB27"
+  },
+  "Regenerate Magicka": {
+    "name": "Regenerate Magicka",
+    "cost": 0.10000000149011612,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB07"
+  },
+  "Lingering Damage Health": {
+    "name": "Lingering Damage Health",
+    "cost": 12.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0010AA4A"
+  },
+  "Regenerate Stamina": {
+    "name": "Regenerate Stamina",
+    "cost": 0.10000000149011612,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB08"
+  },
+  "Weakness to Fire": {
+    "name": "Weakness to Fire",
+    "cost": 0.6000000238418579,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F2D"
+  },
+  "Invisibility": {
+    "name": "Invisibility",
+    "cost": 100.0,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB3D"
+  },
+  "Resist Magic": {
+    "name": "Resist Magic",
+    "cost": 1.0,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00039E51"
+  },
+  "Fortify Block": {
+    "name": "Fortify Block",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB1C"
+  },
+  "Fortify Light Armor": {
+    "name": "Fortify Light Armor",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB1F"
+  },
+  "Ravage Stamina": {
+    "name": "Ravage Stamina",
+    "cost": 1.600000023841858,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F23"
+  },
+  "Weakness to Shock": {
+    "name": "Weakness to Shock",
+    "cost": 0.699999988079071,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F2F"
+  },
+  "Resist Poison": {
+    "name": "Resist Poison",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00090041"
+  },
+  "Fortify Destruction": {
+    "name": "Fortify Destruction",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB26"
+  },
+  "Fortify One-handed": {
+    "name": "Fortify One-handed",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB19"
+  },
+  "Resist Shock": {
+    "name": "Resist Shock",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EAEC"
+  },
+  "Resist Fire": {
+    "name": "Resist Fire",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EAEA"
+  },
+  "Fortify Conjuration": {
+    "name": "Fortify Conjuration",
+    "cost": 0.25,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB25"
+  },
+  "Lingering Damage Stamina": {
+    "name": "Lingering Damage Stamina",
+    "cost": 1.7999999523162842,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0010DE5E"
+  },
+  "Fortify Stamina": {
+    "name": "Fortify Stamina",
+    "cost": 0.30000001192092896,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EAF9"
+  },
+  "Damage Magicka": {
+    "name": "Damage Magicka",
+    "cost": 2.200000047683716,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003A2B6"
+  },
+  "Restore Health": {
+    "name": "Restore Health",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB15"
+  },
+  "Fortify Heavy Armor": {
+    "name": "Fortify Heavy Armor",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB1E"
+  },
+  "Fortify Smithing": {
+    "name": "Fortify Smithing",
+    "cost": 0.75,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB1D"
+  },
+  "Fortify Health": {
+    "name": "Fortify Health",
+    "cost": 0.3499999940395355,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EAF3"
+  },
+  "Damage Magicka Regen": {
+    "name": "Damage Magicka Regen",
+    "cost": 0.5,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F2B"
+  },
+  "Cure Disease": {
+    "name": "Cure Disease",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "000AE722"
+  },
+  "Fortify Lockpicking": {
+    "name": "Fortify Lockpicking",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB21"
+  },
+  "Fortify Pickpocket": {
+    "name": "Fortify Pickpocket",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB20"
+  },
+  "Lingering Damage Magicka": {
+    "name": "Lingering Damage Magicka",
+    "cost": 10.0,
+    "harmful": true,
+    "source_file": "Skyrim.esm",
+    "form_id": "0010DE5F"
+  },
+  "Frenzy": {
+    "name": "Frenzy",
+    "cost": 15.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F29"
+  },
+  "Regenerate Health": {
+    "name": "Regenerate Health",
+    "cost": 0.10000000149011612,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB06"
+  },
+  "Ravage Magicka": {
+    "name": "Ravage Magicka",
+    "cost": 1.0,
+    "harmful": true,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00073F27"
+  },
+  "Fortify Two-handed": {
+    "name": "Fortify Two-handed",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB1A"
+  },
+  "Fortify Archery": {
+    "name": "Fortify Archery",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB1B"
+  },
+  "Fortify Barter": {
+    "name": "Fortify Barter",
+    "cost": 2.0,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB23"
+  },
+  "Fortify Enchanting": {
+    "name": "Fortify Enchanting",
+    "cost": 0.6000000238418579,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0003EB29"
+  },
+  "Fortify Persuasion": {
+    "name": "Fortify Persuasion",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000D6947"
+  },
+  "Night Eye": {
+    "name": "Night Eye",
+    "cost": 0.75,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000803"
+  },
+  "Spell Absorption": {
+    "name": "Spell Absorption",
+    "cost": 0.10000000149011612,
+    "harmful": false,
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000812"
+  },
+  "Light": {
+    "name": "Light",
+    "cost": 0.5,
+    "harmful": false,
+    "source_file": "ccbgssse037-curios.esl",
+    "form_id": "05000846"
+  },
+  "Cure Poison": {
+    "name": "Cure Poison",
+    "cost": 0.20000000298023224,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "00109ADD"
+  },
+  "Fortify Alchemy": {
+    "name": "Fortify Alchemy",
+    "cost": 0.75,
+    "harmful": false,
+    "source_file": "Skyrim.esm",
+    "form_id": "0003EB18"
+  },
+  "Bleed Damage": {
+    "name": "Bleed Damage",
+    "cost": 7.5,
+    "harmful": true,
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A608782"
+  },
+  "Damage Armor": {
+    "name": "Damage Armor",
+    "cost": 1.0,
+    "harmful": true,
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A608784"
+  },
+  "Void Damage": {
+    "name": "Void Damage",
+    "cost": 15.0,
+    "harmful": true,
+    "source_file": "dv02hotm.esm",
+    "form_id": "0AA6DDDB"
+  },
+  "Vampire Restore Hunger Large": {
+    "name": "Vampire Restore Hunger Large",
+    "cost": 0.0,
+    "harmful": false,
+    "source_file": "ccqdrsse001-survivalmode.esl",
+    "form_id": "05000831"
+  }
+}

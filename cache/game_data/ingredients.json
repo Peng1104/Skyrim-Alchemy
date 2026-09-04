@@ -1,0 +1,5878 @@
+{
+  "Silverside Perch": {
+    "name": "Silverside Perch",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00106E1C"
+  },
+  "Abecean Longfin": {
+    "name": "Abecean Longfin",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00106E1B"
+  },
+  "River Betty": {
+    "name": "River Betty",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00106E1A"
+  },
+  "Cyrodilic Spadetail": {
+    "name": "Cyrodilic Spadetail",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00106E19"
+  },
+  "Histcarp": {
+    "name": "Histcarp",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00106E18"
+  },
+  "Human Flesh": {
+    "name": "Human Flesh",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "001016B3"
+  },
+  "Dwarven Oil": {
+    "name": "Dwarven Oil",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000F11C0"
+  },
+  "Mora Tapinella": {
+    "name": "Mora Tapinella",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000EC870"
+  },
+  "Moon Sugar": {
+    "name": "Moon Sugar",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000D8E3F"
+  },
+  "Crimson Nirnroot": {
+    "name": "Crimson Nirnroot",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 6.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 9.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000B701A"
+  },
+  "Honeycomb": {
+    "name": "Honeycomb",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000B08C5"
+  },
+  "Bee": {
+    "name": "Bee",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000A9195"
+  },
+  "Beehive Husk": {
+    "name": "Beehive Husk",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000A9191"
+  },
+  "Small Pearl": {
+    "name": "Small Pearl",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00085500"
+  },
+  "Pearl": {
+    "name": "Pearl",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000854FE"
+  },
+  "Berit's Ashes": {
+    "name": "Berit's Ashes",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000705B7"
+  },
+  "Powdered Mammoth Tusk": {
+    "name": "Powdered Mammoth Tusk",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC10"
+  },
+  "Wisp Wrappings": {
+    "name": "Wisp Wrappings",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC0E"
+  },
+  "Small Antlers": {
+    "name": "Small Antlers",
+    "effects": [
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC0B"
+  },
+  "Large Antlers": {
+    "name": "Large Antlers",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC0A"
+  },
+  "Eye of Sabre Cat": {
+    "name": "Eye of Sabre Cat",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC07"
+  },
+  "Sabre Cat Tooth": {
+    "name": "Sabre Cat Tooth",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC04"
+  },
+  "Bear Claws": {
+    "name": "Bear Claws",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 4.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC02"
+  },
+  "Mudcrab Chitin": {
+    "name": "Mudcrab Chitin",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006BC00"
+  },
+  "Chicken's Egg": {
+    "name": "Chicken's Egg",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "solitudeplayerhome.esp",
+    "form_id": "050DAEB4"
+  },
+  "Pine Thrush Egg": {
+    "name": "Pine Thrush Egg",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "solitudeplayerhome.esp",
+    "form_id": "050DAEB2"
+  },
+  "Hawk Feathers": {
+    "name": "Hawk Feathers",
+    "effects": [
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000E7ED0"
+  },
+  "Hawk Beak": {
+    "name": "Hawk Beak",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000E7EBC"
+  },
+  "Blue Dartwing": {
+    "name": "Blue Dartwing",
+    "effects": [
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000E4F0C"
+  },
+  "Torchbug Thorax": {
+    "name": "Torchbug Thorax",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0004DA73"
+  },
+  "Blisterwort": {
+    "name": "Blisterwort",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 4.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004DA25"
+  },
+  "Namira's Rot": {
+    "name": "Namira's Rot",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004DA24"
+  },
+  "Imp Stool": {
+    "name": "Imp Stool",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 3.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004DA23"
+  },
+  "White Cap": {
+    "name": "White Cap",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004DA22"
+  },
+  "Bleeding Crown": {
+    "name": "Bleeding Crown",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004DA20"
+  },
+  "Fly Amanita": {
+    "name": "Fly Amanita",
+    "effects": [
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004DA00"
+  },
+  "Jarrin Root": {
+    "name": "Jarrin Root",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 200.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0001BCBC"
+  },
+  "Orange Dartwing": {
+    "name": "Orange Dartwing",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000BB956"
+  },
+  "Creep Cluster": {
+    "name": "Creep Cluster",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000B2183"
+  },
+  "Human Heart": {
+    "name": "Human Heart",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "000B18CD"
+  },
+  "Spider Egg": {
+    "name": "Spider Egg",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Archery",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0009151B"
+  },
+  "Jazbay Grapes": {
+    "name": "Jazbay Grapes",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0006AC4A"
+  },
+  "Dragon's Tongue": {
+    "name": "Dragon's Tongue",
+    "effects": [
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Barter",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000889A2"
+  },
+  "Grass Pod": {
+    "name": "Grass Pod",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00083E64"
+  },
+  "Glowing Mushroom": {
+    "name": "Glowing Mushroom",
+    "effects": [
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0007EE01"
+  },
+  "Nordic Barnacle": {
+    "name": "Nordic Barnacle",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0007EDF5"
+  },
+  "Rock Warbler Egg": {
+    "name": "Rock Warbler Egg",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "solitudeplayerhome.esp",
+    "form_id": "050DAEAE"
+  },
+  "Slaughterfish Egg": {
+    "name": "Slaughterfish Egg",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0007E8C5"
+  },
+  "Giant Lichen": {
+    "name": "Giant Lichen",
+    "effects": [
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0007E8C1"
+  },
+  "Swamp Fungal Pod": {
+    "name": "Swamp Fungal Pod",
+    "effects": [
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0007E8B7"
+  },
+  "Purple Mountain Flower": {
+    "name": "Purple Mountain Flower",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00077E1E"
+  },
+  "Red Mountain Flower": {
+    "name": "Red Mountain Flower",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00077E1D"
+  },
+  "Blue Mountain Flower": {
+    "name": "Blue Mountain Flower",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00077E1C"
+  },
+  "Butterfly Wing": {
+    "name": "Butterfly Wing",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Barter",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000727E0"
+  },
+  "Luna Moth Wing": {
+    "name": "Luna Moth Wing",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000727DF"
+  },
+  "Blue Butterfly Wing": {
+    "name": "Blue Butterfly Wing",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000727DE"
+  },
+  "Hagraven Claw": {
+    "name": "Hagraven Claw",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Barter",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0006B689"
+  },
+  "Canis Root": {
+    "name": "Canis Root",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Archery",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0006ABCB"
+  },
+  "Deathbell": {
+    "name": "Deathbell",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000516C8"
+  },
+  "Salt Pile": {
+    "name": "Salt Pile",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00034CDF"
+  },
+  "Scaly Pholiota": {
+    "name": "Scaly Pholiota",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0006F950"
+  },
+  "Spriggan Sap": {
+    "name": "Spriggan Sap",
+    "effects": [
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00063B5F"
+  },
+  "Nirnroot": {
+    "name": "Nirnroot",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00059B86"
+  },
+  "Hanging Moss": {
+    "name": "Hanging Moss",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00057F91"
+  },
+  "Charred Skeever Hide": {
+    "name": "Charred Skeever Hide",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00052695"
+  },
+  "Juniper Berries": {
+    "name": "Juniper Berries",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Archery",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0005076E"
+  },
+  "Wheat": {
+    "name": "Wheat",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0004B0BA"
+  },
+  "Lavender": {
+    "name": "Lavender",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00045C28"
+  },
+  "Tundra Cotton": {
+    "name": "Tundra Cotton",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Barter",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003F7F8"
+  },
+  "Vampire Dust": {
+    "name": "Vampire Dust",
+    "effects": [
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD76"
+  },
+  "Glow Dust": {
+    "name": "Glow Dust",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD73"
+  },
+  "Troll Fat": {
+    "name": "Troll Fat",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD72"
+  },
+  "Taproot": {
+    "name": "Taproot",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD71"
+  },
+  "Slaughterfish Scales": {
+    "name": "Slaughterfish Scales",
+    "effects": [
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD70"
+  },
+  "Skeever Tail": {
+    "name": "Skeever Tail",
+    "effects": [
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD6F"
+  },
+  "Ice Wraith Teeth": {
+    "name": "Ice Wraith Teeth",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD6A"
+  },
+  "Hagraven Feathers": {
+    "name": "Hagraven Feathers",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD66"
+  },
+  "Giant's Toe": {
+    "name": "Giant's Toe",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD64"
+  },
+  "Ectoplasm": {
+    "name": "Ectoplasm",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD63"
+  },
+  "Briar Heart": {
+    "name": "Briar Heart",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD61"
+  },
+  "Void Salts": {
+    "name": "Void Salts",
+    "effects": [
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD60"
+  },
+  "Frost Salts": {
+    "name": "Frost Salts",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD5F"
+  },
+  "Fire Salts": {
+    "name": "Fire Salts",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD5E"
+  },
+  "Falmer Ear": {
+    "name": "Falmer Ear",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD5D"
+  },
+  "Daedra Heart": {
+    "name": "Daedra Heart",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD5B"
+  },
+  "Chaurus Eggs": {
+    "name": "Chaurus Eggs",
+    "effects": [
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0003AD56"
+  },
+  "Frost Mirriam": {
+    "name": "Frost Mirriam",
+    "effects": [
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00034D32"
+  },
+  "Elves Ear": {
+    "name": "Elves Ear",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Archery",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00034D31"
+  },
+  "Garlic": {
+    "name": "Garlic",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "00034D22"
+  },
+  "Bone Meal": {
+    "name": "Bone Meal",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "00034CDD"
+  },
+  "Nightshade": {
+    "name": "Nightshade",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "cceejsse005-cave.esm",
+    "form_id": "05042A61"
+  },
+  "Snowberries": {
+    "name": "Snowberries",
+    "effects": [
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "0001B3BD"
+  },
+  "Thistle Branch": {
+    "name": "Thistle Branch",
+    "effects": [
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Skyrim.esm",
+    "form_id": "000134AA"
+  },
+  "Thorn Hook": {
+    "name": "Thorn Hook",
+    "effects": [
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 3.0,
+        "duration": 180.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 3.0,
+        "duration": 180.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0100306F"
+  },
+  "Screaming Maw": {
+    "name": "Screaming Maw",
+    "effects": [
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 20.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 20.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0100306E"
+  },
+  "Rot Scale": {
+    "name": "Rot Scale",
+    "effects": [
+      {
+        "name": "Slow",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0100306D"
+  },
+  "Yellow Mountain Flower": {
+    "name": "Yellow Mountain Flower",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Dawnguard.esm",
+    "form_id": "02002A78"
+  },
+  "Poison Bloom": {
+    "name": "Poison Bloom",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "020185FB"
+  },
+  "Chaurus Hunter Antennae": {
+    "name": "Chaurus Hunter Antennae",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "020183B7"
+  },
+  "Gleamblossom": {
+    "name": "Gleamblossom",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "Dawnguard.esm",
+    "form_id": "0200B097"
+  },
+  "Ancestor Moth Wing": {
+    "name": "Ancestor Moth Wing",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Dawnguard.esm",
+    "form_id": "020059BA"
+  },
+  "Hawk's Egg": {
+    "name": "Hawk's Egg",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "solitudeplayerhome.esp",
+    "form_id": "050DAEB6"
+  },
+  "Salmon Roe": {
+    "name": "Salmon Roe",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "03003545"
+  },
+  "Felsaad Tern Feathers": {
+    "name": "Felsaad Tern Feathers",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 1.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0403CD8E"
+  },
+  "Emperor Parasol Moss": {
+    "name": "Emperor Parasol Moss",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0401FF75"
+  },
+  "Ash Creep Cluster": {
+    "name": "Ash Creep Cluster",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0401CD74"
+  },
+  "Netch Jelly": {
+    "name": "Netch Jelly",
+    "effects": [
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Stamina",
+        "magnitude": 10.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Dragonborn.esm",
+    "form_id": "0201CD72"
+  },
+  "Ash Hopper Jelly": {
+    "name": "Ash Hopper Jelly",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "Dragonborn.esm",
+    "form_id": "0201CD71"
+  },
+  "Boar Tusk": {
+    "name": "Boar Tusk",
+    "effects": [
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Dragonborn.esm",
+    "form_id": "0201CD6F"
+  },
+  "Burnt Spriggan Wood": {
+    "name": "Burnt Spriggan Wood",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0401CD6E"
+  },
+  "Spawn Ash": {
+    "name": "Spawn Ash",
+    "effects": [
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "Dragonborn.esm",
+    "form_id": "0201CD6D"
+  },
+  "Scathecraw": {
+    "name": "Scathecraw",
+    "effects": [
+      {
+        "name": "Ravage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "04017E97"
+  },
+  "Trama Root": {
+    "name": "Trama Root",
+    "effects": [
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "Dragonborn.esm",
+    "form_id": "02017008"
+  },
+  "Ashen Grass Pod": {
+    "name": "Ashen Grass Pod",
+    "effects": [
+      {
+        "name": "Resist Fire",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "Dragonborn.esm",
+    "form_id": "02016E26"
+  },
+  "Angelfish": {
+    "name": "Angelfish",
+    "effects": [
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Archery",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "ccbgssse001-fish.esm",
+    "form_id": "050008EB"
+  },
+  "Angler Larvae": {
+    "name": "Angler Larvae",
+    "effects": [
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008F0"
+  },
+  "Pearlfish": {
+    "name": "Pearlfish",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008EC"
+  },
+  "Spadefish": {
+    "name": "Spadefish",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008F3"
+  },
+  "Glassfish": {
+    "name": "Glassfish",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 1.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Persuasion",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008EE"
+  },
+  "Pygmy Sunfish": {
+    "name": "Pygmy Sunfish",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008ED"
+  },
+  "Juvenile Mudcrab": {
+    "name": "Juvenile Mudcrab",
+    "effects": [
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "ccbgssse001-fish.esm",
+    "form_id": "050008F2"
+  },
+  "Lyretail Anthias": {
+    "name": "Lyretail Anthias",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008F1"
+  },
+  "Goldfish": {
+    "name": "Goldfish",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "050008EF"
+  },
+  "Mort Flesh": {
+    "name": "Mort Flesh",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "ccbgssse003-zombies.esl",
+    "form_id": "0500080C"
+  },
+  "Wild Grass Pod": {
+    "name": "Wild Grass Pod",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "cctwbsse001-puzzledungeon.esm",
+    "form_id": "05019D3A"
+  },
+  "Sload Soap": {
+    "name": "Sload Soap",
+    "effects": [
+      {
+        "name": "Resist Fire",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 6.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700081E"
+  },
+  "Stoneflower Petals": {
+    "name": "Stoneflower Petals",
+    "effects": [
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700081F"
+  },
+  "Void Essence": {
+    "name": "Void Essence",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000820"
+  },
+  "Watcher's Eye": {
+    "name": "Watcher's Eye",
+    "effects": [
+      {
+        "name": "Night Eye",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000821"
+  },
+  "Blind Watcher's Eye": {
+    "name": "Blind Watcher's Eye",
+    "effects": [
+      {
+        "name": "Light",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000822"
+  },
+  "Wisp Stalk Caps": {
+    "name": "Wisp Stalk Caps",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000823"
+  },
+  "Withering Moon": {
+    "name": "Withering Moon",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000824"
+  },
+  "Worm's Head Cap": {
+    "name": "Worm's Head Cap",
+    "effects": [
+      {
+        "name": "Fortify Lockpicking",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Night Eye",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000825"
+  },
+  "Daedroth Teeth": {
+    "name": "Daedroth Teeth",
+    "effects": [
+      {
+        "name": "Resist Frost",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Light",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000826"
+  },
+  "Dreugh Wax": {
+    "name": "Dreugh Wax",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 5.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000827"
+  },
+  "Elytra Ichor": {
+    "name": "Elytra Ichor",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 6.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000828"
+  },
+  "Fire Petal": {
+    "name": "Fire Petal",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000829"
+  },
+  "Flame Stalk": {
+    "name": "Flame Stalk",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 6.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "08095E23"
+  },
+  "Fungus Stalk": {
+    "name": "Fungus Stalk",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 8.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700082B"
+  },
+  "Aster Bloom Core": {
+    "name": "Aster Bloom Core",
+    "effects": [
+      {
+        "name": "Resist Magic",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Block",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000D66"
+  },
+  "Blister Pod Cap": {
+    "name": "Blister Pod Cap",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Night Eye",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 6.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000D6A"
+  },
+  "Bittergreen Petals": {
+    "name": "Bittergreen Petals",
+    "effects": [
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 6.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 4.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000D68"
+  },
+  "Bog Beacon": {
+    "name": "Bog Beacon",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 4.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000D6C"
+  },
+  "Alocasia Fruit": {
+    "name": "Alocasia Fruit",
+    "effects": [
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Light",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 3.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000D62"
+  },
+  "Hackle-Lo Leaf": {
+    "name": "Hackle-Lo Leaf",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 8.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700082E"
+  },
+  "Gold Kanet": {
+    "name": "Gold Kanet",
+    "effects": [
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 3.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Smithing",
+        "magnitude": 5.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700082D"
+  },
+  "Bungler's Bane": {
+    "name": "Bungler's Bane",
+    "effects": [
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 3.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 2.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000802"
+  },
+  "Chokeweed": {
+    "name": "Chokeweed",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Restore Stamina",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 4.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000804"
+  },
+  "Chokeberry": {
+    "name": "Chokeberry",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Ravage Health",
+        "magnitude": 3.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000838"
+  },
+  "Lichor": {
+    "name": "Lichor",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000837"
+  },
+  "Ambrosia": {
+    "name": "Ambrosia",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 3.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000836"
+  },
+  "Coda Flower": {
+    "name": "Coda Flower",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Ravage Magicka",
+        "magnitude": 3.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000805"
+  },
+  "Comberry": {
+    "name": "Comberry",
+    "effects": [
+      {
+        "name": "Damage Stamina",
+        "magnitude": 4.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 6.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000806"
+  },
+  "Congealed Putrescence": {
+    "name": "Congealed Putrescence",
+    "effects": [
+      {
+        "name": "Ravage Health",
+        "magnitude": 3.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Conjuration",
+        "magnitude": 6.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000807"
+  },
+  "Gnarl Bark": {
+    "name": "Gnarl Bark",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700082C"
+  },
+  "Corkbulb Root": {
+    "name": "Corkbulb Root",
+    "effects": [
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Archery",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000809"
+  },
+  "Daedra Silk": {
+    "name": "Daedra Silk",
+    "effects": [
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      },
+      {
+        "name": "Night Eye",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 6.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700080A"
+  },
+  "Daedra Venin": {
+    "name": "Daedra Venin",
+    "effects": [
+      {
+        "name": "Ravage Health",
+        "magnitude": 3.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 6.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Spell Absorption",
+        "magnitude": 50.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "ccbgssse037-curios.esl",
+    "form_id": "0500080B"
+  },
+  "Hunger Tongue": {
+    "name": "Hunger Tongue",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700080C"
+  },
+  "Hydnum Azure Giant Spore": {
+    "name": "Hydnum Azure Giant Spore",
+    "effects": [
+      {
+        "name": "Resist Frost",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Light",
+        "magnitude": 0.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700080D"
+  },
+  "Hypha Facia": {
+    "name": "Hypha Facia",
+    "effects": [
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 3.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 2.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700080E"
+  },
+  "Imp Gall": {
+    "name": "Imp Gall",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Barter",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 2.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700080F"
+  },
+  "Kagouti Hide": {
+    "name": "Kagouti Hide",
+    "effects": [
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Night Eye",
+        "magnitude": 0.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 4.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000810"
+  },
+  "Kresh Fiber": {
+    "name": "Kresh Fiber",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000811"
+  },
+  "Heart of Order": {
+    "name": "Heart of Order",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify One-handed",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000851"
+  },
+  "Luminous Russula": {
+    "name": "Luminous Russula",
+    "effects": [
+      {
+        "name": "Lingering Damage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 8.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000813"
+  },
+  "Marshmerrow": {
+    "name": "Marshmerrow",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 4.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000814"
+  },
+  "Minotaur Horn": {
+    "name": "Minotaur Horn",
+    "effects": [
+      {
+        "name": "Resist Poison",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000815"
+  },
+  "Ogre's Teeth": {
+    "name": "Ogre's Teeth",
+    "effects": [
+      {
+        "name": "Weakness to Shock",
+        "magnitude": 4.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Health",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000816"
+  },
+  "Red Kelp Gas Bladder": {
+    "name": "Red Kelp Gas Bladder",
+    "effects": [
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 8.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000817"
+  },
+  "Roobrush": {
+    "name": "Roobrush",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Sneak",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Lingering Damage Health",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 2.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000819"
+  },
+  "Redwort Flower": {
+    "name": "Redwort Flower",
+    "effects": [
+      {
+        "name": "Resist Frost",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 6.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "07000818"
+  },
+  "Scalon Fin": {
+    "name": "Scalon Fin",
+    "effects": [
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 8.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 3.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Lingering Damage Magicka",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700081B"
+  },
+  "Saltrice": {
+    "name": "Saltrice",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Stamina Regen",
+        "magnitude": 100.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 6.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700081A"
+  },
+  "Scrib Jelly": {
+    "name": "Scrib Jelly",
+    "effects": [
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 6.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Cure Poison",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 6.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700081C"
+  },
+  "Scrib Jerky": {
+    "name": "Scrib Jerky",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 6.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 2.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 8.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "0700081D"
+  },
+  "Steel-Blue Entoloma": {
+    "name": "Steel-Blue Entoloma",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "ccbgssse040-advobgobs.esl",
+    "form_id": "05000832"
+  },
+  "Simon Rodayne's Heart": {
+    "name": "Simon Rodayne's Heart",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "ccedhsse002-splkntset.esl",
+    "form_id": "0500085D"
+  },
+  "Corrupted Human Heart": {
+    "name": "Corrupted Human Heart",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "ccedhsse002-splkntset.esl",
+    "form_id": "0500085B"
+  },
+  "Spiddal Stick": {
+    "name": "Spiddal Stick",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 4.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 4.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Restore Stamina",
+        "magnitude": 2.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "ccbgssse067-daedinv.esm",
+    "form_id": "05024C15"
+  },
+  "Harrada": {
+    "name": "Harrada",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 4.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 4.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      }
+    ],
+    "source_file": "ccbgssse067-daedinv.esm",
+    "form_id": "05024C11"
+  },
+  "Bloodgrass": {
+    "name": "Bloodgrass",
+    "effects": [
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "ccbgssse067-daedinv.esm",
+    "form_id": "05024C13"
+  },
+  "Purple Butterfly Wing": {
+    "name": "Purple Butterfly Wing",
+    "effects": [
+      {
+        "name": "Regenerate Health",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "08059153"
+  },
+  "Bliss Bug Thorax": {
+    "name": "Bliss Bug Thorax",
+    "effects": [
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "08059155"
+  },
+  "Green Butterfly Wing": {
+    "name": "Green Butterfly Wing",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      }
+    ],
+    "source_file": "ccbgssse025-advdsgs.esm",
+    "form_id": "05059151"
+  },
+  "Ironwood Fruit": {
+    "name": "Ironwood Fruit",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Stamina",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "cckrtsse001_altar.esl",
+    "form_id": "05000F0F"
+  },
+  "Healing Salts": {
+    "name": "Healing Salts",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "cckrtsse001_altar.esl",
+    "form_id": "05000F86"
+  },
+  "Aloe Vera Leaves": {
+    "name": "Aloe Vera Leaves",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 2.0
+      }
+    ],
+    "source_file": "unofficial skyrim special edition patch.esp",
+    "form_id": "090000D0"
+  },
+  "Coldblood Teeth": {
+    "name": "Coldblood Teeth",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Heavy Armor",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 3.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "dv01vampireclanwar.esm",
+    "form_id": "0A065DC2"
+  },
+  "Chilled Vampire Dust": {
+    "name": "Chilled Vampire Dust",
+    "effects": [
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Waterbreathing",
+        "magnitude": 0.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Fortify Alteration",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv01vampireclanwar.esm",
+    "form_id": "0A065DD5"
+  },
+  "Superheated Fire Salts": {
+    "name": "Superheated Fire Salts",
+    "effects": [
+      {
+        "name": "Weakness to Frost",
+        "magnitude": 3.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "dv01vampireclanwar.esm",
+    "form_id": "0A1175B2"
+  },
+  "Filtered Dwarven Oil": {
+    "name": "Filtered Dwarven Oil",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv01vampireclanwar.esm",
+    "form_id": "0A11C726"
+  },
+  "Defiled Human Heart": {
+    "name": "Defiled Human Heart",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "dv01vampireclanwar.esm",
+    "form_id": "0A1A5973"
+  },
+  "Bloodcrab Chitin": {
+    "name": "Bloodcrab Chitin",
+    "effects": [
+      {
+        "name": "Frenzy",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Fortify Alchemy",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A0ADACE"
+  },
+  "Oozing Bloodroot": {
+    "name": "Oozing Bloodroot",
+    "effects": [
+      {
+        "name": "Bleed Damage",
+        "magnitude": 10.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 15.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 15.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 15.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A0FFB28"
+  },
+  "Dry Bloodroot": {
+    "name": "Dry Bloodroot",
+    "effects": [
+      {
+        "name": "Bleed Damage",
+        "magnitude": 6.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A0FFB2A"
+  },
+  "Blood Crystal": {
+    "name": "Blood Crystal",
+    "effects": [
+      {
+        "name": "Damage Armor",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Bleed Damage",
+        "magnitude": 6.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 15.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A1DA619"
+  },
+  "Void Plasm": {
+    "name": "Void Plasm",
+    "effects": [
+      {
+        "name": "Damage Armor",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A267D03"
+  },
+  "Namira's Bile": {
+    "name": "Namira's Bile",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 8.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Armor",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Void Damage",
+        "magnitude": 5.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A267D05"
+  },
+  "Voidmother Silk": {
+    "name": "Voidmother Silk",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Light Armor",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Carry Weight",
+        "magnitude": 4.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Resist Magic",
+        "magnitude": 1.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A267D07"
+  },
+  "Void Core": {
+    "name": "Void Core",
+    "effects": [
+      {
+        "name": "Void Damage",
+        "magnitude": 5.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Damage Armor",
+        "magnitude": 5.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 5.0,
+        "duration": 10.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A267D09"
+  },
+  "Void Ash": {
+    "name": "Void Ash",
+    "effects": [
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Damage Magicka Regen",
+        "magnitude": 100.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 5.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A267D0B"
+  },
+  "Bloodberry": {
+    "name": "Bloodberry",
+    "effects": [
+      {
+        "name": "Bleed Damage",
+        "magnitude": 4.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 50.0,
+        "duration": 5.0
+      },
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A2781A5"
+  },
+  "Parasite Eggs": {
+    "name": "Parasite Eggs",
+    "effects": [
+      {
+        "name": "Weakness to Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 3.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Invisibility",
+        "magnitude": 0.0,
+        "duration": 4.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A4060A2"
+  },
+  "Voriplasmic Bloodroot": {
+    "name": "Voriplasmic Bloodroot",
+    "effects": [
+      {
+        "name": "Bleed Damage",
+        "magnitude": 6.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A42BBB7"
+  },
+  "Coagulant Voriplasm Essence": {
+    "name": "Coagulant Voriplasm Essence",
+    "effects": [
+      {
+        "name": "Bleed Damage",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A441C17"
+  },
+  "Mutant Bloodroot": {
+    "name": "Mutant Bloodroot",
+    "effects": [
+      {
+        "name": "Bleed Damage",
+        "magnitude": 6.0,
+        "duration": 1.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A519F5F"
+  },
+  "Crimson Dartwing": {
+    "name": "Crimson Dartwing",
+    "effects": [
+      {
+        "name": "Resist Shock",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Pickpocket",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 1.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A5CAA30"
+  },
+  "Voriplasm Essence": {
+    "name": "Voriplasm Essence",
+    "effects": [
+      {
+        "name": "Restore Magicka",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Destruction",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 1.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A631EF1"
+  },
+  "Mosquito Legs": {
+    "name": "Mosquito Legs",
+    "effects": [
+      {
+        "name": "Fortify Archery",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Resist Poison",
+        "magnitude": 2.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Restore Health",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Vampire Restore Hunger Large",
+        "magnitude": 3.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dv02hotm.esm",
+    "form_id": "0A8BF7C6"
+  },
+  "Margarine": {
+    "name": "Margarine",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 2.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 2.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Slow",
+        "magnitude": 10.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 2.0,
+        "duration": 20.0
+      }
+    ],
+    "source_file": "aetherspire.esp",
+    "form_id": "051639DE"
+  },
+  "Wheat Milk": {
+    "name": "Wheat Milk",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 12.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 8.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Restoration",
+        "magnitude": 10.0,
+        "duration": 20.0
+      },
+      {
+        "name": "Fortify Enchanting",
+        "magnitude": 2.0,
+        "duration": 20.0
+      }
+    ],
+    "source_file": "aetherspire.esp",
+    "form_id": "051639DA"
+  },
+  "Strange Mushroom": {
+    "name": "Strange Mushroom",
+    "effects": [
+      {
+        "name": "Paralysis",
+        "magnitude": 0.0,
+        "duration": 8.0
+      },
+      {
+        "name": "Fortify Health",
+        "magnitude": 18.0,
+        "duration": 120.0
+      },
+      {
+        "name": "Cure Disease",
+        "magnitude": 0.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Magicka",
+        "magnitude": 25.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "cavern of the stormcaller_v1.esp",
+    "form_id": "06065454"
+  },
+  "Snail": {
+    "name": "Snail",
+    "effects": [
+      {
+        "name": "Resist Fire",
+        "magnitude": 3.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Fortify Two-handed",
+        "magnitude": 4.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Frenzy",
+        "magnitude": 1.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      }
+    ],
+    "source_file": "cutcontentrestoration.esp",
+    "form_id": "0537C1AB"
+  },
+  "Demonic Heart of Vahlrog": {
+    "name": "Demonic Heart of Vahlrog",
+    "effects": [
+      {
+        "name": "Restore Health",
+        "magnitude": 150.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fortify Stamina",
+        "magnitude": 65.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Damage Magicka",
+        "magnitude": 15.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Fear",
+        "magnitude": 10.0,
+        "duration": 30.0
+      }
+    ],
+    "source_file": "dark tides-blood & fortune_v1new.esp",
+    "form_id": "062CB42D"
+  },
+  "Powerful Taproot": {
+    "name": "Powerful Taproot",
+    "effects": [
+      {
+        "name": "Weakness to Magic",
+        "magnitude": 6.0,
+        "duration": 30.0
+      },
+      {
+        "name": "Fortify Illusion",
+        "magnitude": 30.0,
+        "duration": 60.0
+      },
+      {
+        "name": "Regenerate Magicka",
+        "magnitude": 20.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Restore Magicka",
+        "magnitude": 35.0,
+        "duration": 0.0
+      }
+    ],
+    "source_file": "dark tides-blood & fortune_v1new.esp",
+    "form_id": "06368CB2"
+  },
+  "Black Powder": {
+    "name": "Black Powder",
+    "effects": [
+      {
+        "name": "Damage Health",
+        "magnitude": 2.0,
+        "duration": 4.0
+      },
+      {
+        "name": "Weakness to Fire",
+        "magnitude": 5.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "msjm01_arquebus.esp",
+    "form_id": "0700000A"
+  },
+  "Frozen Bee": {
+    "name": "Frozen Bee",
+    "effects": [
+      {
+        "name": "Restore Stamina",
+        "magnitude": 5.0,
+        "duration": 0.0
+      },
+      {
+        "name": "Ravage Stamina",
+        "magnitude": 2.0,
+        "duration": 10.0
+      },
+      {
+        "name": "Regenerate Stamina",
+        "magnitude": 5.0,
+        "duration": 300.0
+      },
+      {
+        "name": "Resist Frost",
+        "magnitude": 8.0,
+        "duration": 60.0
+      }
+    ],
+    "source_file": "whitewind player home.esp",
+    "form_id": "0301300B"
+  }
+}

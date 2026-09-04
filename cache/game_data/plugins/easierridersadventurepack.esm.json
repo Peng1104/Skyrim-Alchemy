@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 2952307,
+    "mtime": 1787238584.4219947
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "easierridersadventurepack.esm",
+      "local_id": 5053697,
+      "form_id": "074D1D01",
+      "name": "Absorb Automaton Stamina",
+      "cost": 22.0,
+      "harmful": true
+    }
+  ]
+}

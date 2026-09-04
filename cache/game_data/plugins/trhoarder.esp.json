@@ -1,0 +1,25 @@
+{
+  "signature": {
+    "size": 344686,
+    "mtime": 1787238797.2764935
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "trhoarder.esp",
+      "local_id": 35,
+      "form_id": "05000023",
+      "name": "Summon Portal Spirit",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "trhoarder.esp",
+      "local_id": 1235,
+      "form_id": "050004D3",
+      "name": "Locate Me",
+      "cost": 15.0,
+      "harmful": false
+    }
+  ]
+}

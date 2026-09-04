@@ -1,0 +1,89 @@
+{
+  "signature": {
+    "size": 649485,
+    "mtime": 1788322440.4303417
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1041876,
+      "form_id": "050FE5D4",
+      "name": "Trueflame SELF",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1062615,
+      "form_id": "051036D7",
+      "name": "Shock Damage",
+      "cost": 14.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1560439,
+      "form_id": "0517CF77",
+      "name": "Damage Health Regeneration",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1062619,
+      "form_id": "051036DB",
+      "name": "Hopesfire SELF",
+      "cost": 14.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 3236,
+      "form_id": "05000CA4",
+      "name": "Puzzle Effect",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 2120530,
+      "form_id": "05205B52",
+      "name": "Fortify Heavy Armor",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1373754,
+      "form_id": "0514F63A",
+      "name": "Slow",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 2084,
+      "form_id": "05000824",
+      "name": "Faction Effect",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1249314,
+      "form_id": "05131022",
+      "name": "Damage Health",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccasvsse001-almsivi.esm",
+      "local_id": 1021135,
+      "form_id": "050F94CF",
+      "name": "Fire Damage",
+      "cost": 0.8999999761581421,
+      "harmful": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "signature": {
+    "size": 344109,
+    "mtime": 1787238665.730121
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "maar01_silentmoonsweapons.esp",
+      "local_id": 28256,
+      "form_id": "06006E60",
+      "name": "Fire Damage",
+      "cost": 5.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "maar01_silentmoonsweapons.esp",
+      "local_id": 785612,
+      "form_id": "060BFCCC",
+      "name": "Silent Flames",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "maar01_silentmoonsweapons.esp",
+      "local_id": 805936,
+      "form_id": "060C4C30",
+      "name": "Drain Health Silent Moons",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "maar01_silentmoonsweapons.esp",
+      "local_id": 1114096,
+      "form_id": "0610FFF0",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "maar01_silentmoonsweapons.esp",
+      "local_id": 1134856,
+      "form_id": "06115108",
+      "name": "Silent Ward - Deflection",
+      "cost": 0.699999988079071,
+      "harmful": false
+    }
+  ]
+}

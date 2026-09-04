@@ -1,0 +1,1065 @@
+{
+  "signature": {
+    "size": 341197,
+    "mtime": 1787238547.562001
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 21,
+      "form_id": "05000015",
+      "name": "Fire Blast",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 22,
+      "form_id": "05000016",
+      "name": "Fortify Speed",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 23,
+      "form_id": "05000017",
+      "name": "Waterwalking",
+      "cost": 31.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 24,
+      "form_id": "05000018",
+      "name": "Deep Freeze Paralyze",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 25,
+      "form_id": "05000019",
+      "name": "Fortify Stamina",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 26,
+      "form_id": "0500001A",
+      "name": "Cure Disease",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 27,
+      "form_id": "0500001B",
+      "name": "Fortify Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 28,
+      "form_id": "0500001C",
+      "name": "Fortify Magicka",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 29,
+      "form_id": "0500001D",
+      "name": "Overheat",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 30,
+      "form_id": "0500001E",
+      "name": "Shock Fingers",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 31,
+      "form_id": "0500001F",
+      "name": "Wither Hands",
+      "cost": 1.399999976158142,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 32,
+      "form_id": "05000020",
+      "name": "Immobilize",
+      "cost": 450.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 33,
+      "form_id": "05000021",
+      "name": "Feather",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 34,
+      "form_id": "05000022",
+      "name": "Cure Poison",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 35,
+      "form_id": "05000023",
+      "name": "Conjure Mudcrab",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 36,
+      "form_id": "05000024",
+      "name": "Conjure Netch",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 37,
+      "form_id": "05000025",
+      "name": "Conjure Jumping Spider",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 40,
+      "form_id": "05000028",
+      "name": "Conjure Bear",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 41,
+      "form_id": "05000029",
+      "name": "Magicka Shield",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 42,
+      "form_id": "0500002A",
+      "name": "Conjure Skeever",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 43,
+      "form_id": "0500002B",
+      "name": "Conjure Giant Mudcrab",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 44,
+      "form_id": "0500002C",
+      "name": "Spectral Arrow",
+      "cost": 1.2000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 20,
+      "form_id": "05000014",
+      "name": "Shock Cloak",
+      "cost": 4.099999904632568,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 38,
+      "form_id": "05000026",
+      "name": "Frost Cloak",
+      "cost": 3.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 39,
+      "form_id": "05000027",
+      "name": "Flame Cloak",
+      "cost": 3.200000047683716,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 570,
+      "form_id": "0500023A",
+      "name": "Conjure Vale Deer",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 569,
+      "form_id": "05000239",
+      "name": "Conjure Vale Saber Cat",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 568,
+      "form_id": "05000238",
+      "name": "Conjure Spriggan",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 559,
+      "form_id": "0500022F",
+      "name": "Toxic Swarm",
+      "cost": 2.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 552,
+      "form_id": "05000228",
+      "name": "Poison Blast",
+      "cost": 2.299999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 564,
+      "form_id": "05000234",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 584,
+      "form_id": "05000248",
+      "name": "Kynareth's Breath",
+      "cost": 0.04500000178813934,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 583,
+      "form_id": "05000247",
+      "name": "Star Flare",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 605,
+      "form_id": "0500025D",
+      "name": "Shadowball",
+      "cost": 3.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 606,
+      "form_id": "0500025E",
+      "name": "Restore Health",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 607,
+      "form_id": "0500025F",
+      "name": "Greater Magicka Shield",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 608,
+      "form_id": "05000260",
+      "name": "Mystic Guidance",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 609,
+      "form_id": "05000261",
+      "name": "Paralyze",
+      "cost": 450.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 610,
+      "form_id": "05000262",
+      "name": "Beast of Burden",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 611,
+      "form_id": "05000263",
+      "name": "Ease Burden",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 612,
+      "form_id": "05000264",
+      "name": "Devour Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 613,
+      "form_id": "05000265",
+      "name": "Leech Health",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 10,
+      "form_id": "0500000A",
+      "name": "Conjure Rabbit",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 762,
+      "form_id": "050002FA",
+      "name": "Expert Unlock",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 763,
+      "form_id": "050002FB",
+      "name": "Unlock FX",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 764,
+      "form_id": "050002FC",
+      "name": "Master Unlock",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 765,
+      "form_id": "050002FD",
+      "name": "Adept Unlock",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 11,
+      "form_id": "0500000B",
+      "name": "Grasp of Terror",
+      "cost": 3.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 766,
+      "form_id": "050002FE",
+      "name": "Apprentice Unlock",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 767,
+      "form_id": "050002FF",
+      "name": "Novice Unlock",
+      "cost": 170.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 768,
+      "form_id": "05000300",
+      "name": "Greater Soul Trap",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 769,
+      "form_id": "05000301",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 770,
+      "form_id": "05000302",
+      "name": "Etherealize",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 12,
+      "form_id": "0500000C",
+      "name": "Soothing Touch",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 771,
+      "form_id": "05000303",
+      "name": "Pulsar",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 772,
+      "form_id": "05000304",
+      "name": "Necromantic Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 773,
+      "form_id": "05000305",
+      "name": "Conjure Werewolf",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 774,
+      "form_id": "05000306",
+      "name": "Necromantic Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 13,
+      "form_id": "0500000D",
+      "name": "Heroism",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 14,
+      "form_id": "0500000E",
+      "name": "Alchemistry",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 775,
+      "form_id": "05000307",
+      "name": "RitualHealBodyArtHolder",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 776,
+      "form_id": "05000308",
+      "name": "Materialize Golden Apple",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 777,
+      "form_id": "05000309",
+      "name": "Materialize Wine",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 778,
+      "form_id": "0500030A",
+      "name": "Materialize Apple",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 779,
+      "form_id": "0500030B",
+      "name": "Materialize Plate",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 780,
+      "form_id": "0500030C",
+      "name": "Materialize Bowl",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 781,
+      "form_id": "0500030D",
+      "name": "Materialize Goblet",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 782,
+      "form_id": "0500030E",
+      "name": "Materialize Bread",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 783,
+      "form_id": "0500030F",
+      "name": "Materialize Platter",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 784,
+      "form_id": "05000310",
+      "name": "Materialize Sweet Roll",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 785,
+      "form_id": "05000311",
+      "name": "Poison Cloak",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 786,
+      "form_id": "05000312",
+      "name": "Ebony Mail Poison Damage",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 15,
+      "form_id": "0500000F",
+      "name": "Shadow",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 787,
+      "form_id": "05000313",
+      "name": "Star Stream",
+      "cost": 0.699999988079071,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 788,
+      "form_id": "05000314",
+      "name": "Conjure Dire Wolf",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 789,
+      "form_id": "05000315",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 790,
+      "form_id": "05000316",
+      "name": "Darkness Shroud",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 791,
+      "form_id": "05000317",
+      "name": "Wizardic Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 792,
+      "form_id": "05000318",
+      "name": "Wizardic Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 793,
+      "form_id": "05000319",
+      "name": "Muffle",
+      "cost": 6.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 794,
+      "form_id": "0500031A",
+      "name": "Hail Shards",
+      "cost": 3.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 795,
+      "form_id": "0500031B",
+      "name": "Conjure Ash Hopper",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 796,
+      "form_id": "0500031C",
+      "name": "Decoy Apparition",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 797,
+      "form_id": "0500031D",
+      "name": "Conjure Frost Troll",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 798,
+      "form_id": "0500031E",
+      "name": "Divine Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 799,
+      "form_id": "0500031F",
+      "name": "Divine Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 800,
+      "form_id": "05000320",
+      "name": "Obliterative Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 801,
+      "form_id": "05000321",
+      "name": "Mesmering Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 802,
+      "form_id": "05000322",
+      "name": "Mesmering Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 803,
+      "form_id": "05000323",
+      "name": "Obliterative Aspect",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 804,
+      "form_id": "05000324",
+      "name": "Greater Soul Trap",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 16,
+      "form_id": "05000010",
+      "name": "Unrelenting Rage",
+      "cost": 1.600000023841858,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 805,
+      "form_id": "05000325",
+      "name": "Wraith FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 806,
+      "form_id": "05000326",
+      "name": "Remote Manipulation",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 18,
+      "form_id": "05000012",
+      "name": "Icy Wind",
+      "cost": 1.7000000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 807,
+      "form_id": "05000327",
+      "name": "Conjure Gloom Wraith",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 17,
+      "form_id": "05000011",
+      "name": "Seductive Gaze",
+      "cost": 3.9000000953674316,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1035,
+      "form_id": "0500040B",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1036,
+      "form_id": "0500040C",
+      "name": "Celestial Chest",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 19,
+      "form_id": "05000013",
+      "name": "Thunder Beam",
+      "cost": 1.9500000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1037,
+      "form_id": "0500040D",
+      "name": "Drain Stamina",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1038,
+      "form_id": "0500040E",
+      "name": "Drain Magicka",
+      "cost": 1.5,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1039,
+      "form_id": "0500040F",
+      "name": "Possess Brave Humanoid",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1040,
+      "form_id": "05000410",
+      "name": "Celestial Steal",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1041,
+      "form_id": "05000411",
+      "name": "Celestial Chest",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1042,
+      "form_id": "05000412",
+      "name": "Celestial Pillage",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1043,
+      "form_id": "05000413",
+      "name": "Celestial Loot",
+      "cost": 15.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1044,
+      "form_id": "05000414",
+      "name": "Ore Vision",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1045,
+      "form_id": "05000415",
+      "name": "Possess Greater Creature",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1046,
+      "form_id": "05000416",
+      "name": "Possess Lesser Creature",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1047,
+      "form_id": "05000417",
+      "name": "Greater Combustion",
+      "cost": 0.25,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1048,
+      "form_id": "05000418",
+      "name": "Possess Weak Humanoid",
+      "cost": 1.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1049,
+      "form_id": "05000419",
+      "name": "Miner's Beam",
+      "cost": 1.9500000476837158,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1050,
+      "form_id": "0500041A",
+      "name": "Hypnosis",
+      "cost": 0.0038999998942017555,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1051,
+      "form_id": "0500041B",
+      "name": "Feather Fall",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1052,
+      "form_id": "0500041C",
+      "name": "Command Creature",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "Skyrim.esm",
+      "local_id": 934096,
+      "form_id": "000E40D0",
+      "name": "Command Animal",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1053,
+      "form_id": "0500041D",
+      "name": "Polymorph Chicken",
+      "cost": 150.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1054,
+      "form_id": "0500041E",
+      "name": "Recall",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1055,
+      "form_id": "0500041F",
+      "name": "Mark",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1056,
+      "form_id": "05000420",
+      "name": "Daedric Translation",
+      "cost": 25.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1057,
+      "form_id": "05000421",
+      "name": "Polymorph Troll",
+      "cost": 150.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1058,
+      "form_id": "05000422",
+      "name": "Polymorph Wolf",
+      "cost": 150.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1059,
+      "form_id": "05000423",
+      "name": "Polymorph Hagraven",
+      "cost": 150.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1060,
+      "form_id": "05000424",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1061,
+      "form_id": "05000425",
+      "name": "Restore Health",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1062,
+      "form_id": "05000426",
+      "name": "Sun Bane",
+      "cost": 1.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1063,
+      "form_id": "05000427",
+      "name": "Sun Bane",
+      "cost": 1.25,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1064,
+      "form_id": "05000428",
+      "name": "Turn Greater Undead",
+      "cost": 2.799999952316284,
+      "harmful": true
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1065,
+      "form_id": "05000429",
+      "name": "Ward - Greater",
+      "cost": 0.699999988079071,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1066,
+      "form_id": "0500042A",
+      "name": "Ward - Lesser",
+      "cost": 0.6000000238418579,
+      "harmful": false
+    },
+    {
+      "owner_file": "spelltomecrafting.esl",
+      "local_id": 1067,
+      "form_id": "0500042B",
+      "name": "Sun Bane",
+      "cost": 1.25,
+      "harmful": true
+    }
+  ]
+}

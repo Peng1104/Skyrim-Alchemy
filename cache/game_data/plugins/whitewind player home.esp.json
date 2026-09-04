@@ -1,0 +1,41 @@
+{
+  "signature": {
+    "size": 438660,
+    "mtime": 1787238706.7604575
+  },
+  "ingredients": [
+    {
+      "owner_file": "whitewind player home.esp",
+      "local_id": 77835,
+      "form_id": "0301300B",
+      "name": "Frozen Bee",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256790,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474915,
+          "magnitude": 2.0,
+          "duration": 10.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 8.0,
+          "duration": 60.0
+        }
+      ]
+    }
+  ],
+  "effects": []
+}

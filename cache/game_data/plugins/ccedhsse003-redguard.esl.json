@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "size": 151347,
+    "mtime": 1788322423.5811267
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccedhsse003-redguard.esl",
+      "local_id": 2263,
+      "form_id": "020008D7",
+      "name": "Bleeding Damage",
+      "cost": 0.0,
+      "harmful": true
+    }
+  ]
+}

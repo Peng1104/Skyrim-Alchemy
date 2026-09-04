@@ -1,0 +1,274 @@
+{
+  "signature": {
+    "size": 812873,
+    "mtime": 1788322471.4978557
+  },
+  "ingredients": [
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 364883,
+      "form_id": "05059153",
+      "name": "Purple Butterfly Wing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256774,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256775,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256776,
+          "magnitude": 5.0,
+          "duration": 300.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474928,
+          "magnitude": 0.0,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 364885,
+      "form_id": "05059155",
+      "name": "Bliss Bug Thorax",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 3.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256746,
+          "magnitude": 3.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256798,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256807,
+          "magnitude": 1.0,
+          "duration": 60.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 613923,
+      "form_id": "05095E23",
+      "name": "Flame Stalk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 6.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256747,
+          "magnitude": 4.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474925,
+          "magnitude": 4.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 6.0
+        }
+      ]
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 364881,
+      "form_id": "05059151",
+      "name": "Green Butterfly Wing",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256791,
+          "magnitude": 5.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474912,
+          "magnitude": 1.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 5.0,
+          "duration": 30.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256829,
+          "magnitude": 0.0,
+          "duration": 4.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 1796380,
+      "form_id": "051B691C",
+      "name": "SprigganFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 759177,
+      "form_id": "050B9589",
+      "name": "Mystic Venom",
+      "cost": 10.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 1796384,
+      "form_id": "051B6920",
+      "name": "Noop Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 2158,
+      "form_id": "0500086E",
+      "name": "Conjure Golden Saint Archer",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 779927,
+      "form_id": "050BE697",
+      "name": "Elytra Bite",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 572442,
+      "form_id": "0508BC1A",
+      "name": "Teleport Pet: Manic Elytra Nymph",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 551698,
+      "form_id": "05086B12",
+      "name": "Conjure Dark Seducer Warrior",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 800709,
+      "form_id": "050C37C5",
+      "name": "Boss Channel Effect",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 551699,
+      "form_id": "05086B13",
+      "name": "Conjure Golden Saint Warrior",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 572443,
+      "form_id": "0508BC1B",
+      "name": "Teleport Pet: Demented Elytra Nymph",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 593180,
+      "form_id": "05090D1C",
+      "name": "Saints Seducers FX",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 2175,
+      "form_id": "0500087F",
+      "name": "Conjure Golden Saint Warrior",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 1671792,
+      "form_id": "05198270",
+      "name": "Disrobing",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 2157,
+      "form_id": "0500086D",
+      "name": "Conjure Dark Seducer Archer",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 1692668,
+      "form_id": "0519D3FC",
+      "name": "Conjure Staada",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 2570,
+      "form_id": "05000A0A",
+      "name": "Conjure Dark Seducer Warrior",
+      "cost": 10.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccbgssse025-advdsgs.esm",
+      "local_id": 1796379,
+      "form_id": "051B691B",
+      "name": "SprigganFX Ability",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}

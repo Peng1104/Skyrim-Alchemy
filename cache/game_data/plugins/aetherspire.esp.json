@@ -1,0 +1,482 @@
+{
+  "signature": {
+    "size": 1664197,
+    "mtime": 1787238807.6479418
+  },
+  "ingredients": [
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 1456606,
+      "form_id": "051639DE",
+      "name": "Margarine",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 2.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 2.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 474917,
+          "magnitude": 10.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 238262,
+          "magnitude": 2.0,
+          "duration": 20.0
+        }
+      ]
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 1456602,
+      "form_id": "051639DA",
+      "name": "Wheat Milk",
+      "effect_refs": [
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256789,
+          "magnitude": 12.0,
+          "duration": 0.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256755,
+          "magnitude": 8.0,
+          "duration": 60.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256808,
+          "magnitude": 10.0,
+          "duration": 20.0
+        },
+        {
+          "effect_owner_file": "Skyrim.esm",
+          "effect_local_id": 256809,
+          "magnitude": 2.0,
+          "duration": 20.0
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4530657,
+      "form_id": "054521E1",
+      "name": "Resist Magic",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4530658,
+      "form_id": "054521E2",
+      "name": "Resist Frost",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 6481419,
+      "form_id": "0562E60B",
+      "name": "Fortify Unarmed",
+      "cost": 22.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 6502209,
+      "form_id": "05633741",
+      "name": "Waterwalking",
+      "cost": 0.15000000596046448,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 6502214,
+      "form_id": "05633746",
+      "name": "Fortify Speed",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 6605975,
+      "form_id": "0564CC97",
+      "name": "Absorb Magicka",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 6626716,
+      "form_id": "05651D9C",
+      "name": "Fortify Speed",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 7083241,
+      "form_id": "056C14E9",
+      "name": "Assassin Training",
+      "cost": 0.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 7083247,
+      "form_id": "056C14EF",
+      "name": "Athlete Training",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 7083252,
+      "form_id": "056C14F4",
+      "name": "Brawler Training",
+      "cost": 15.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 7083257,
+      "form_id": "056C14F9",
+      "name": "Trader Training",
+      "cost": 2.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 7083259,
+      "form_id": "056C14FB",
+      "name": "Mystic Training",
+      "cost": 0.10000000149011612,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 7083261,
+      "form_id": "056C14FD",
+      "name": "Guardian Training",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 8100261,
+      "form_id": "057B99A5",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 8349499,
+      "form_id": "057F673B",
+      "name": "Aetherspire Recall",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 99,
+      "form_id": "05000063",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 100,
+      "form_id": "05000064",
+      "name": "Bound Battleaxe FX",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 104,
+      "form_id": "05000068",
+      "name": "Morkuldin's Justice",
+      "cost": 5.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 101,
+      "form_id": "05000065",
+      "name": "Waterwalking",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 102,
+      "form_id": "05000066",
+      "name": "Slow Time",
+      "cost": 500.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 103,
+      "form_id": "05000067",
+      "name": "Fortify Speed",
+      "cost": 40.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 105,
+      "form_id": "05000069",
+      "name": "Conjure Dwarven Balista",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 8806178,
+      "form_id": "05865F22",
+      "name": "Perk Impact Stagger",
+      "cost": 0.0010000000474974513,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 8806175,
+      "form_id": "05865F1F",
+      "name": "Snowball",
+      "cost": 1.399999976158142,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 106,
+      "form_id": "0500006A",
+      "name": "Knockback Effect",
+      "cost": 2.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 688190,
+      "form_id": "050A803E",
+      "name": "Ghost Visuals",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 107,
+      "form_id": "0500006B",
+      "name": "Etherealize",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 108,
+      "form_id": "0500006C",
+      "name": "Soul Trap",
+      "cost": 25.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 109,
+      "form_id": "0500006D",
+      "name": "Absorb Health",
+      "cost": 40.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 110,
+      "form_id": "0500006E",
+      "name": "Resist Damage",
+      "cost": 19.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 1622823,
+      "form_id": "0518C327",
+      "name": "Gussied up",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 8951501,
+      "form_id": "058896CD",
+      "name": "Fortify Unarmed",
+      "cost": 1.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 8993077,
+      "form_id": "05893935",
+      "name": "Fortify Shouts",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 2827920,
+      "form_id": "052B2690",
+      "name": "Trained Endurance",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 2744539,
+      "form_id": "0529E0DB",
+      "name": "Disarm",
+      "cost": 0.0,
+      "harmful": true
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 9034582,
+      "form_id": "0589DB56",
+      "name": "Summon Staby",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 2827908,
+      "form_id": "052B2684",
+      "name": "Trained Fatigue",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 9055325,
+      "form_id": "058A2C5D",
+      "name": "Summon Staby",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 2827921,
+      "form_id": "052B2691",
+      "name": "Trained Resilience",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 9055324,
+      "form_id": "058A2C5C",
+      "name": "Summon Staby",
+      "cost": 22.5,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 9325451,
+      "form_id": "058E4B8B",
+      "name": "Castle Recall",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 9346191,
+      "form_id": "058E9C8F",
+      "name": "Castle Recall",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4073283,
+      "form_id": "053E2743",
+      "name": "Duelist Training",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 9533040,
+      "form_id": "05917670",
+      "name": "Fortify Health",
+      "cost": 0.3499999940395355,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4198651,
+      "form_id": "054010FB",
+      "name": "Invisibility",
+      "cost": 100.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4073284,
+      "form_id": "053E2744",
+      "name": "Berserker Training",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4094070,
+      "form_id": "053E7876",
+      "name": "Archer Training",
+      "cost": 5.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4530656,
+      "form_id": "054521E0",
+      "name": "Fortify Magicka",
+      "cost": 0.30000001192092896,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4530654,
+      "form_id": "054521DE",
+      "name": "Fortify Carry Weight",
+      "cost": 0.15000000596046448,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 4530655,
+      "form_id": "054521DF",
+      "name": "Fortify Health",
+      "cost": 0.3499999940395355,
+      "harmful": false
+    },
+    {
+      "owner_file": "aetherspire.esp",
+      "local_id": 10196958,
+      "form_id": "059B97DE",
+      "name": "Thrall Reset",
+      "cost": 5.5,
+      "harmful": false
+    }
+  ]
+}

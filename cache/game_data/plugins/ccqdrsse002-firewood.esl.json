@@ -1,0 +1,33 @@
+{
+  "signature": {
+    "size": 264689,
+    "mtime": 1788322508.3783374
+  },
+  "ingredients": [],
+  "effects": [
+    {
+      "owner_file": "ccqdrsse002-firewood.esl",
+      "local_id": 2084,
+      "form_id": "05000824",
+      "name": "Swimming Check",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse002-firewood.esl",
+      "local_id": 3427,
+      "form_id": "05000D63",
+      "name": "Build Camp",
+      "cost": 0.0,
+      "harmful": false
+    },
+    {
+      "owner_file": "ccqdrsse002-firewood.esl",
+      "local_id": 2086,
+      "form_id": "05000826",
+      "name": "In City Check",
+      "cost": 0.0,
+      "harmful": false
+    }
+  ]
+}
