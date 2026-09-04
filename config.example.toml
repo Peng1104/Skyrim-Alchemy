@@ -1,6 +1,11 @@
 # The directory used to get the game print screens from
 game_directory = "C:/SteamLibrary/steamapps/common/Skyrim Special Edition"
 
+# Explicit path to the active-plugins list (a Mod Organizer 2 profile's
+# plugins.txt, or the native Skyrim Plugins.txt). Auto-detected when omitted
+# set this only if auto-detection picks the wrong MO2 profile/instance.
+# plugins_txt_path = "C:/Modding/MO2/profiles/Default/plugins.txt"
+
 # Console log language: "en", "pt", or "de". Defaults to "en" if omitted.
 log_language = "en"
 

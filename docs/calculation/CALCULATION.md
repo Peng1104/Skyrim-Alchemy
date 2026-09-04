@@ -6,7 +6,7 @@ potions given the available inventory. The reference implementation lives in
 `app/models.py` (`Effect.value`, `Potion.value`), `app/perks.py` (perk
 bonuses), and `app/optimizer/_engine.py` (ILP).
 
-The project only optimizes for gold value — but that also maximizes the
+The project only optimizes for gold value, but that also maximizes the
 **Alchemy XP** gained from brewing the potions. Per
 [UESP](https://en.uesp.net/wiki/Skyrim:Alchemy#Gaining_Skill_XP), the XP
 gained from brewing a potion is **proportional to its gold value** (the game
@@ -16,42 +16,37 @@ the fabrication sequence returned by this optimizer — which maximizes
 $\sum \text{value}(r)$ — is, for the same reason, also the sequence that
 maximizes accumulated Alchemy XP, without needing a separate XP model.
 
-## 1. Base value of an effect
+## 1. Effect cost and an ingredient's absolute magnitude/duration
 
-Each alchemy effect (`Effect`) has three base attributes, scraped from UESP:
+Each alchemy effect (`Effect`) has two attributes, read directly from the
+game's own `MGEF` binary record (see
+[docs/data-sources/DATA_SOURCES.md](../data-sources/DATA_SOURCES.md)) — there
+is no "base magnitude" or "base duration" stored anywhere for an effect
+itself:
 
-- $C$ — `cost` (base cost)
-- $M_0$ — `magnitude` (base magnitude)
-- $D_0$ — `duration` (base duration, in seconds)
+- $C$ — `cost` (`MGEF.DATA`'s Base Cost field)
+- `harmful` — whether the effect is Hostile/Detrimental (`MGEF.DATA`'s flag
+  bits), used in section 3 to classify a potion vs. a poison
 
-Ingredients provide multiplicative factors that adjust these values before
-the final cost calculation:
+Magnitude and duration are not properties of the effect at all — they belong
+to each **ingredient**, exactly as the game stores them: every ingredient's
+`INGR` record carries up to 4 `EFIT` entries (12 bytes each — Magnitude,
+Area, Duration), one per effect it produces, read verbatim into that
+ingredient's `IngredientEffect.magnitude`/`.duration`. There is no shared
+"base" that every ingredient's value is a multiplier of — each ingredient's
+$(M, D)$ pair is already absolute.
 
-- $f_c$ — cost factor (`cost_factor`, the `Value` modifier)
-- $f_m$ — magnitude factor (`magnitude_factor`, the `Magnitude` modifier)
-- $f_d$ — duration factor (`duration_factor`, the `Duration` modifier)
+### 1.1 Effect cost
 
-Each factor is $1$ when the ingredient has no matching modifier.
-
-### 1.1 Effective magnitude and duration
-
-$$
-M = M_0 \cdot f_m
-\qquad\qquad
-D = D_0 \cdot f_d
-$$
-
-### 1.2 Effect cost
-
-The game treats "instant" effects ($D_0 < 1$, no real duration, e.g. Restore
+The game treats "instant" effects ($D < 1$, no real duration, e.g. Restore
 Health) differently from effects that have a duration:
 
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \qquad \text{if } D_0 < 1
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \qquad \text{if } D < 1
 $$
 
 $$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D) \qquad \text{if } D_0 \ge 1
+\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D) \qquad \text{if } D \ge 1
 $$
 
 where the duration term $T(D)$ is:
@@ -64,58 +59,59 @@ $$
 T(D) = 1 \qquad \text{if } D = 0
 $$
 
-> $D = 0$ only happens when the **Purity** perk zeroes out the duration
-> factor of an effect that would normally have a duration; in that case the
-> duration term is dropped entirely (neutral factor) instead of zeroing out
-> the whole cost.
+> $D = 0$ only happens when the **Purity** perk zeroes out an effect's
+> duration (section 3.2); in that case the duration term is dropped entirely
+> (neutral factor) instead of zeroing out the whole cost.
 
-### 1.3 Applying the cost factor
+This is `Effect.value(magnitude, duration, decimal_places)` in `app/models.py`.
 
-$$
-\text{value}(effect) = \text{cost}(effect) \cdot f_c
-$$
-
-### 1.4 Rounding
+### 1.2 Rounding
 
 The final value is truncated (not rounded) to the configured number of
 decimal places ($p$, `decimal_places`, default $p=3$ during optimization and
 $p=0$ for display):
 
 $$
-\text{value}_p(effect) = \frac{\big\lfloor \text{value}(effect) \cdot 10^{p} \big\rfloor}{10^{p}}
+\text{value}_p(effect; M, D) = \frac{\big\lfloor \text{value}(effect; M, D) \cdot 10^{p} \big\rfloor}{10^{p}}
 $$
 
-With $p = 0$ this is equivalent to $\lfloor \text{value}(effect) \rfloor$.
+With $p = 0$ this is equivalent to $\lfloor \text{value}(effect; M, D) \rfloor$.
 
-## 2. Resolving priority between ingredients
+## 2. Resolving the winning ingredient in a potion
 
 A potion is only valid if at least **2 ingredients share a single effect**
 (see section 4). When two or more ingredients contribute to the same effect,
-the game **does not sum or average** their factors — it uses only the
-factors of the single highest-priority ingredient and discards the rest.
+the game **does not sum or average** their $(M, D)$ pairs — it uses only the
+single ingredient whose contribution produces the highest value, and
+discards the rest.
 
-For each ingredient $i$ that contributes to effect $e$, define the factor
-triple $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$, obtained one of two ways:
-
-1. **Explicit priority** (`Effect.priority_overrides`): some effects (e.g.
-   *Damage Health*) have their own table on
-   [UESP's effects list](https://en.uesp.net/wiki/Skyrim:Alchemy_Effects)
-   listing non-standard magnitude/duration ratios per ingredient (e.g.
-   *River Betty*). In that case $f_c^{(i)} = 1$ and $(f_m^{(i)}, f_d^{(i)})$
-   come from the table.
-2. **Standard modifiers**: when there's no override, use
-   $(f_c^{(i)}, f_m^{(i)}, f_d^{(i)})$ from the ingredient's own
-   `Value`/`Magnitude`/`Duration` modifiers for that effect.
-
-The winning ingredient is the one, among the contributors to $e$, that
-**maximizes the resulting effect value** (where $i$ ranges over the
-contributing ingredients):
+For each ingredient $i$ that contributes to effect $e$ in a given potion, its
+`IngredientEffect` already carries its own absolute $(M^{(i)}, D^{(i)})$ —
+read straight from that ingredient's `EFIT`, no lookup or override table
+involved. The winning ingredient is the one, among the potion's contributors
+to $e$, that **maximizes the resulting effect value**:
 
 $$
-(f_c, f_m, f_d) = \text{arg max}_i \quad \text{value}\big(e; f_c^{(i)}, f_m^{(i)}, f_d^{(i)}\big)
+(M, D) = \text{arg max}_i \quad \text{value}\big(e; M^{(i)}, D^{(i)}\big)
 $$
 
-If no ingredient has modifiers, the neutral triple $(1, 1, 1)$ is used.
+This is `Potion.get_winning_effect(effect)` in `app/models.py`. It is
+resolved **fresh for every potion** — it is not a global, precomputed
+priority ranking over the whole ingredient catalog. Applying "highest value
+wins" as a global ranking (independent of which specific 2–3 ingredients are
+in the potion) was tried and rejected: it always favored Creation Club
+ingredients, which the game deliberately balances stronger than their
+vanilla counterparts, and would have silently substituted them into potions
+that never actually contain them.
+
+This was verified against
+[UESP's own Priority/Gold Mult table for Damage Health](https://en.uesp.net/wiki/Skyrim:Damage_Health):
+computing $\text{value}(e; M^{(i)}, D^{(i)})$ for each of the 7 documented
+ingredient tiers and ranking by that value reproduces UESP's own priority
+order exactly, including the case where an ingredient with a shorter,
+instant duration (Nirnroot) still outranks one with a larger magnitude but a
+real duration (River Betty) — the formula, not an editorial ranking, decides
+the winner.
 
 ## 3. Perk bonuses
 
@@ -143,18 +139,18 @@ $$
 
 If **Purity** is active and an effect's "polarity" doesn't match the
 mixture's (a harmful effect inside a beneficial potion, or a beneficial
-effect inside a poison), that effect's magnitude and duration are zeroed
-out:
+effect inside a poison), that effect's magnitude and duration (the winning
+$(M, D)$ from section 2) are zeroed out:
 
 $$
 \text{harmful}(e) \ne \text{isPoison}
 \quad\Longrightarrow\quad
-f_m \leftarrow 0,\quad f_d \leftarrow 0
+M \leftarrow 0,\quad D \leftarrow 0
 $$
 
 This collapses the effect to its minimum base cost (the $\max(M^{1.1}, 1)$
 term becomes $1$, and the duration term becomes $1$ per the $D=0$ rule from
-section 1.2).
+section 1.1).
 
 ### 3.3 Physician, Benefactor, Poisoner
 
@@ -178,15 +174,16 @@ effects that have no meaningful magnitude
 scales **duration** instead:
 
 $$
-(f_m, f_d) \leftarrow (f_m, f_d \cdot \mu) \qquad \text{if } e \text{ is in that set}
+(M, D) \leftarrow (M, D \cdot \mu) \qquad \text{if } e \text{ is in that set}
 $$
 
 $$
-(f_m, f_d) \leftarrow (f_m \cdot \mu, f_d) \qquad \text{otherwise}
+(M, D) \leftarrow (M \cdot \mu, D) \qquad \text{otherwise}
 $$
 
-The resulting $(f_m, f_d)$ replace the ones from section 2 in the effect's
-final calculation (section 1).
+This is `apply_perk_modifiers` in `app/perks.py`. The resulting $(M, D)$
+replace the winning ones from section 2 in the effect's final calculation
+(section 1).
 
 ## 4. Potion validity
 
@@ -203,8 +200,8 @@ A combination of $n \in \\{2, 3\\}$ ingredients only forms a valid potion
 ## 5. Total potion value
 
 A potion's value is the **sum** of the values of all of its shared effects,
-each already adjusted for ingredient priority (section 2) and perks
-(section 3):
+each already resolved to its winning ingredient (section 2) and adjusted for
+perks (section 3):
 
 $$
 \text{value}(potion) = \sum_{e \in \text{effects}(potion)} \text{value}_p(e)
@@ -222,13 +219,14 @@ solves the following integer linear program with PuLP/CBC.
 
 The candidate generation step (`_generate_potions`) only combines the
 **distinct ingredient types actually in the inventory**, not every
-ingredient UESP knows about — so for $k$ distinct types on hand, it builds
+ingredient in the game-data cache — so for $k$ distinct types on hand, it builds
 up to $\binom{k}{2} + \binom{k}{3}$ candidate potions before validity
 filtering and deduplication trim that down. $k$ is bounded above by the
-total number of scraped ingredients (190 as of this writing — see
-[docs/data-sources](../data-sources/DATA_SOURCES.en.md#1-ingredients)),
+total number of ingredients in the game-data cache (218 as of this
+writing — see
+[docs/data-sources](../data-sources/DATA_SOURCES.md#1-ingredients)),
 giving a theoretical worst case of
-$\binom{190}{2} + \binom{190}{3} = 17{,}955 + 1{,}125{,}180 = 1{,}143{,}135$
+$\binom{218}{2} + \binom{218}{3} = 23{,}653 + 1{,}703{,}016 = 1{,}726{,}669$
 candidates — never reached in practice, since no single inventory holds
 every known ingredient at once.
 

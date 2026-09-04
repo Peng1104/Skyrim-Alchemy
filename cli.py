@@ -4,6 +4,7 @@ from collections.abc import Iterable
 from pathlib import Path
 
 from app.config import get_settings
+from app.game_data import scan_game_data
 from app.i18n import translate
 from app.inventory import Inventory
 from app.logger import ConsoleCapture, delete_logs
@@ -329,10 +330,15 @@ def main() -> None:
                 print(translate("logs_deleted", count=len(deleted_logs)))
         return
 
-    optimizer = AlchemyOptimizer(decimal_places=3)
-
     with ConsoleCapture():
         print(translate("analyzing_inventory"))
+
+        scan_game_data(
+            settings.game_directory,
+            plugins_txt_override=settings.plugins_txt_path,
+            force=args.refresh,
+        )
+        optimizer = AlchemyOptimizer(decimal_places=3)
 
         min_id = args.min
         max_id = args.max

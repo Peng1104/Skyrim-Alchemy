@@ -1,0 +1,3 @@
+"""Minimal local stub for `sse_plugin_interface.datatypes` (see `plugin.pyi`)."""
+
+class RawString(str): ...

@@ -11,6 +11,8 @@ from pulp import (  # type: ignore
     lpSum,
 )
 
+from app.game_data import load_cached_game_data
+
 # Local package modules (application)
 from app.i18n import translate
 from app.models import (
@@ -24,7 +26,6 @@ from app.models import (
     RecipeDetails,
 )
 from app.perks import PerkConfig
-from app.scraping import get_effects_data, get_ingredients_data
 
 
 class AlchemyOptimizer:
@@ -58,8 +59,7 @@ class AlchemyOptimizer:
             Number of decimal places for value calculations, by default 3.
         """
         self.decimal_places = decimal_places
-        self.effects_data = get_effects_data()
-        self.ingredients_data = get_ingredients_data()
+        self.ingredients_data, self.effects_data = load_cached_game_data()
         self.missing_ingredients: list[str] = []
 
     def _convert_inventory(self, items: list[InventoryIngredient]) -> dict[str, int]:

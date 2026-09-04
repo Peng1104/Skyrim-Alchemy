@@ -368,6 +368,40 @@ _MESSAGES: dict[str, Translations] = {
         "pt": "Mostra esta mensagem de ajuda e sai.",
         "de": "Zeigt diese Hilfemeldung an und beendet sich.",
     },
+    "game_data_scan_no_plugins_txt": {
+        "en": "🧩 No active-plugins list (Plugins.txt) found - the game-data "
+              "cache could not be refreshed.",
+        "pt": "🧩 Nenhuma lista de plugins ativos (Plugins.txt) encontrada - "
+              "o cache de dados do jogo não pôde ser atualizado.",
+        "de": "🧩 Keine Liste aktiver Plugins (Plugins.txt) gefunden - der "
+              "Spieldaten-Cache konnte nicht aktualisiert werden.",
+    },
+    "game_data_scan_no_changes": {
+        "en": "🧩 No plugin changes detected ({count} ingredient(s) cached).",
+        "pt": "🧩 Nenhuma mudança de plugin detectada ({count} ingrediente(s) "
+              "em cache).",
+        "de": "🧩 Keine Plugin-Änderungen erkannt ({count} zwischengespeicherte "
+              "Zutat(en)).",
+    },
+    "game_data_scan_complete": {
+        "en": "🧩 Game data scanned: {ingredients} ingredient(s), {effects} effect(s).",
+        "pt": "🧩 Dados do jogo escaneados: {ingredients} ingrediente(s), "
+              "{effects} efeito(s).",
+        "de": "🧩 Spieldaten gescannt: {ingredients} Zutat(en), {effects} Effekt(e).",
+    },
+    "game_data_scan_plugin_unreadable": {
+        "en": "⚠️  Could not read plugin {filename} - skipped.",
+        "pt": "⚠️  Não foi possível ler o plugin {filename} - ignorado.",
+        "de": "⚠️  Plugin {filename} konnte nicht gelesen werden - übersprungen.",
+    },
+    "game_data_ingredient_unresolved": {
+        "en": "⚠️  Could not resolve the display name of ingredient {edid} in "
+              "{filename} - skipped.",
+        "pt": "⚠️  Não foi possível resolver o nome de exibição do ingrediente "
+              "{edid} em {filename} - ignorado.",
+        "de": "⚠️  Der Anzeigename der Zutat {edid} in {filename} konnte nicht "
+              "aufgelöst werden - übersprungen.",
+    },
 }
 
 

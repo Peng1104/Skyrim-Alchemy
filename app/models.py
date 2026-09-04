@@ -1,5 +1,4 @@
 """Module containing the data models for the Skyrim inventory app."""
-from enum import StrEnum
 from math import floor
 
 from pydantic import BaseModel, Field
@@ -28,6 +27,97 @@ class InventoryMarker(BaseModel):
                           "for a default (no explicit --min/--max) run.")
 
 
+class ModPluginSignature(BaseModel):
+    """Model representing one plugin's cache-invalidation signature."""
+
+    size: int = Field(..., description="The plugin file's size in bytes, at scan time.")
+    mtime: float = Field(..., description="The plugin file's last-modified time, at scan time.")
+
+
+class RawEffectRef(BaseModel):
+    """
+    One `EFID`+`EFIT` entry from an ingredient record, not yet effect-name resolved.
+
+    The effect it refers to can be defined in a completely different plugin
+    than the ingredient itself - resolving its display name requires the
+    full, cross-plugin canonical index (see `app.game_data._scan`), so it's
+    deferred to the merge step. Everything here, in contrast, only depends
+    on the owning ingredient's own plugin (`resolve_form_id` against that
+    plugin's own masters), which is what makes `RawIngredientRecord` safe to
+    cache and reuse across scans without re-reading that plugin.
+    """
+
+    effect_owner_file: str = Field(
+        ..., description="Canonical defining-plugin filename of the referenced effect.")
+    effect_local_id: int = Field(
+        ..., description="Canonical local FormID of the referenced effect within "
+                          "effect_owner_file.")
+    magnitude: float = Field(..., description="This ingredient's own EFIT magnitude.")
+    duration: float = Field(..., description="This ingredient's own EFIT duration.")
+
+
+class RawIngredientRecord(BaseModel):
+    """
+    One `INGR` record's own canonical identity and already-resolved data.
+
+    Everything here comes from the record's own plugin alone (display name
+    resolution, FormID canonicalization) - independent of every other
+    plugin in the load order, and independent of which plugin ultimately
+    wins the override for this record's canonical identity. That's what
+    makes it safe to cache per plugin and reuse across scans: as long as
+    the defining plugin's own bytes haven't changed, this snapshot doesn't
+    need to be rebuilt, no matter what else in the load order did change.
+    """
+
+    owner_file: str = Field(..., description="Canonical defining-plugin filename.")
+    local_id: int = Field(..., description="Canonical local FormID within owner_file.")
+    form_id: str = Field(..., description="Full FormID (hex string) as read from this "
+                                           "specific plugin's own record.")
+    name: str = Field(..., description="Resolved display name (FULL).")
+    effect_refs: list[RawEffectRef] = Field(
+        ..., description="This record's own EFID+EFIT entries, effect names not yet "
+                          "resolved (see RawEffectRef).")
+
+
+class RawEffectRecord(BaseModel):
+    """
+    One `MGEF` record's own canonical identity and already-resolved data.
+
+    Same rationale as `RawIngredientRecord` - everything here is intrinsic
+    to the record's own defining plugin, so it's safe to cache per plugin.
+    """
+
+    owner_file: str = Field(..., description="Canonical defining-plugin filename.")
+    local_id: int = Field(..., description="Canonical local FormID within owner_file.")
+    form_id: str = Field(..., description="Full FormID (hex string) as read from this "
+                                           "specific plugin's own record.")
+    name: str = Field(..., description="Resolved display name (FULL).")
+    cost: float = Field(..., description="MGEF.DATA Base Cost.")
+    harmful: bool = Field(..., description="MGEF.DATA Hostile/Detrimental flag bits.")
+
+
+class PluginGameDataSnapshot(BaseModel):
+    """
+    Everything one plugin itself contributes to the game-data scan.
+
+    Cacheable independently of every other plugin in the load order - none
+    of this depends on load order or on any other plugin's content, only on
+    this plugin's own bytes (tracked via `signature`). This is what makes
+    an incremental rescan possible: a plugin whose signature hasn't changed
+    since the last scan can reuse its cached snapshot verbatim, skipping
+    the actual binary/BSA parsing - only the (cheap, in-memory) merge step
+    that resolves overrides and effect-name cross-references across the
+    whole load order needs to run every time.
+    """
+
+    signature: ModPluginSignature = Field(
+        ..., description="This plugin's cache-invalidation signature at snapshot time.")
+    ingredients: list[RawIngredientRecord] = Field(
+        ..., description="Every INGR record this plugin itself defines or overrides.")
+    effects: list[RawEffectRecord] = Field(
+        ..., description="Every MGEF record this plugin itself defines or overrides.")
+
+
 class ScreenshotStatus(BaseModel):
     """Model representing one screenshot ID's availability, for `--list`."""
 
@@ -47,71 +137,18 @@ class ScreenshotDetail(ScreenshotStatus):
                           "if it has no cache yet (has_cache is False).")
 
 
-class Modifier(StrEnum):
-    """Enum representing the type of modifier for an ingredient."""
-
-    MAGNITUDE = "Magnitude"
-    VALUE = "Value"
-    DURATION = "Duration"
-
-
 class IngredientEffect(BaseModel):
-    """Model representing an effect of a Skyrim ingredient."""
+    """Model representing an effect of a Skyrim ingredient, with its own real EFIT values."""
 
     name: str = Field(..., description="Name of the effect")
-    modifiers: dict[Modifier, float] | None = Field(
-        ..., description="List of modifiers associated with the effect")
-
-    def cost_factor(self) -> float:
-        """
-        Get the cost factor for the effect based on its modifiers.
-
-        Returns
-        -------
-        float
-            The cost factor, or 1.0 if no cost modifier is present.
-        """
-        if not self.modifiers:
-            return 1.0
-
-        factor = self.modifiers.get(  # pylint: disable=no-member
-            Modifier.VALUE, None)
-
-        return factor if factor is not None else 1.0
-
-    def magnitude_factor(self) -> float:
-        """
-        Get the magnitude factor for the effect based on its modifiers.
-
-        Returns
-        -------
-        float
-            The magnitude factor, or 1.0 if no magnitude modifier is present.
-        """
-        if not self.modifiers:
-            return 1.0
-
-        factor = self.modifiers.get(  # pylint: disable=no-member
-            Modifier.MAGNITUDE, None)
-
-        return factor if factor is not None else 1.0
-
-    def duration_factor(self) -> float:
-        """
-        Get the duration factor for the effect based on its modifiers.
-
-        Returns
-        -------
-        float
-            The duration factor, or 1.0 if no duration modifier is present.
-        """
-        if not self.modifiers:
-            return 1.0
-
-        factor = self.modifiers.get(  # pylint: disable=no-member
-            Modifier.DURATION, None)
-
-        return factor if factor is not None else 1.0
+    magnitude: float = Field(
+        ..., description="This ingredient's own EFIT magnitude for the effect - a real, "
+                          "absolute value read directly from the ingredient's own binary "
+                          "record, not a ratio against any shared 'base' (no such base "
+                          "exists in the game's data - see app.models.Effect).")
+    duration: float = Field(
+        ..., description="This ingredient's own EFIT duration for the effect - same as "
+                          "magnitude, a real absolute value, not a ratio.")
 
 
 class Ingredient(BaseModel):
@@ -120,31 +157,48 @@ class Ingredient(BaseModel):
     name: str = Field(..., description="Name of the ingredient")
     effects: list[IngredientEffect] = Field(
         ..., description="List of effects associated with the ingredient")
+    source_file: str = Field(
+        ..., description="Plugin filename that defines this ingredient's authoritative "
+                          "(post-override) version, e.g. 'Skyrim.esm'. Informational only "
+                          "- never used in any calculation.")
+    form_id: str = Field(
+        ..., description="This ingredient's full FormID (hex string, e.g. '0006BC02'), "
+                          "as defined in source_file. Informational only.")
 
 
 class Effect(BaseModel):
-    """Model representing an effect of a Skyrim ingredient."""
+    """
+    Model representing a Skyrim magic effect.
+
+    Only holds what's actually a real property of the effect itself, per the
+    `MGEF` record's own `DATA` subrecord: `cost` (Base Cost, byte offset 4)
+    and `harmful` (the Hostile/Detrimental flag bits). There is deliberately
+    no `magnitude`/`duration` here - those aren't properties of the effect at
+    all, they belong to each ingredient's own `EFIT` (see `IngredientEffect`).
+    """
 
     name: str = Field(..., description="Name of the effect")
-    cost: float = Field(..., description="The base cost of the effect")
-    magnitude: float = Field(...,
-                             description="The base magnitude of the effect")
-    duration: float = Field(..., description="The base duration of the effect")
+    cost: float = Field(..., description="The effect's base cost (MGEF.DATA Base Cost)")
     harmful: bool = Field(
         default=False,
-        description="Whether this is a harmful (poison-type) effect, per UESP's "
-                    "EffectNeg/EffectPos row classification.",
+        description="Whether this is a harmful (poison-type) effect, per the MGEF.DATA "
+                    "Flags' Hostile or Detrimental bit.",
     )
-    priority_overrides: dict[str, tuple[float, float]] = Field(
-        default_factory=dict,
-        description="Maps ingredient name to (magnitude_ratio, duration_ratio) for "
-                    "ingredients with non-standard strength for this effect (e.g. "
-                    "River Betty for Damage Health). See app.scraping._effect_priorities.",
-    )
+    source_file: str = Field(
+        ..., description="Plugin filename that defines this effect's authoritative "
+                          "(post-override) version, e.g. 'Skyrim.esm'. Informational only "
+                          "- never used in any calculation.")
+    form_id: str = Field(
+        ..., description="This effect's full FormID (hex string, e.g. '00073F2B'), as "
+                          "defined in source_file. Informational only.")
 
     def base_value(self, decimal_places: int = 0) -> float:
         """
-        Calculate the base value of the effect based on its cost, magnitude, and duration.
+        Calculate a reference value for this effect, at magnitude=1/instant duration.
+
+        Only meaningful as a rough magnitude-free comparison point (e.g. for
+        ranking newly-discovered effects) - real potion values always go
+        through `value()` with the winning ingredient's actual magnitude/duration.
 
         Parameters
         ----------
@@ -154,28 +208,21 @@ class Effect(BaseModel):
         Returns
         -------
         float
-            The base value of the effect with specified decimal precision.
+            The effect's value at magnitude=1, duration=0 (instant).
         """
-        return self.value(1, 1, 1, decimal_places)
+        return self.value(1.0, 0.0, decimal_places)
 
-    def value(
-        self,
-        cost_factor: float,
-        magnitude_factor: float,
-        duration_factor: float,
-        decimal_places: int = 0
-    ) -> float:
+    def value(self, magnitude: float, duration: float, decimal_places: int = 0) -> float:
         """
-        Calculate the value of the effect based on its cost, magnitude, and duration.
+        Calculate the effect's value for a given (absolute) magnitude and duration.
 
         Parameters
         ----------
-        cost_factor : float
-            Factor to adjust the cost.
-        magnitude_factor : float
-            Factor to adjust the magnitude.
-        duration_factor : float
-            Factor to adjust the duration.
+        magnitude : float
+            The effective magnitude to value (the winning ingredient's own
+            EFIT magnitude, already perk-adjusted by the caller if applicable).
+        duration : float
+            The effective duration to value, same provenance as magnitude.
         decimal_places : int, optional
             Number of decimal places for precision, by default 0.
 
@@ -184,22 +231,16 @@ class Effect(BaseModel):
         float
             Calculated value of the effect with specified decimal precision.
         """
-        magnitude = self.magnitude * magnitude_factor
-
-        if self.duration < 1:
+        if duration < 1:
             cost = self.cost * max(magnitude**1.1, 1)
 
         else:
-            duration = self.duration * duration_factor
-            # A perk (Purity) can drive duration_factor to 0 even for effects that
+            # A perk (Purity) can drive duration to 0 even for effects that
             # normally have a duration; when that happens the duration term drops
             # out entirely (factor 1) instead of zeroing the whole cost.
             duration_term = (duration / 10) ** 1.1 if duration > 0 else 1.0
 
             cost = self.cost * max(magnitude**1.1, 1) * duration_term
-
-        if cost_factor != 1:
-            cost = cost * cost_factor
 
         if decimal_places == 0:
             return floor(cost)
@@ -292,58 +333,47 @@ class Potion(BaseModel):
 
         return True
 
-    def get_modifiers(self, effect: Effect) -> tuple[float, float, float]:
+    def get_winning_effect(self, effect: Effect) -> tuple[float, float]:
         """
-        Get the modifiers for a specific effect, from its single highest-priority ingredient.
+        Get the (magnitude, duration) of a shared effect's single winning ingredient.
 
-        When ingredients have non-standard (modified) strengths for a shared
-        effect, the game does not combine their modifiers independently - it
-        uses the cost/magnitude/duration triple from a single "priority"
-        ingredient and discards the others entirely (see `effect.priority_overrides`,
-        scraped from the effect's own UESP page). For ingredients with no such
-        override, falls back to the "Value"-icon modifiers from the ingredients
-        page. Priority is resolved by picking whichever contributing ingredient
-        produces the highest resulting effect value: e.g. for Damage Health,
-        River Betty outranks Nirnroot, so a potion combining both uses only
-        River Betty's modifiers.
+        When ingredients have different strengths for a shared effect, the
+        game does not combine their EFIT values - it uses only the single
+        ingredient whose (magnitude, duration), run through the value
+        formula, produces the highest value, discarding the rest (verified
+        empirically against UESP's own per-effect "Priority"/"Gold Mult"
+        tables, e.g. Skyrim:Damage_Health - Jarrin Root's magnitude=200
+        outranks River Betty's magnitude=5, and Nirnroot's instant duration=0
+        outranks several higher-magnitude timed ingredients because the
+        value formula's duration term collapses for instant effects). This
+        is resolved fresh, per potion, directly from each contributing
+        ingredient's own real EFIT data - there is no separate "priority
+        table" to look up.
 
         Parameters
         ----------
         effect : Effect
-            The effect to find modifiers for.
+            The effect to resolve.
 
         Returns
         -------
-        tuple[float, float, float]
-            The (cost_factor, magnitude_factor, duration_factor) of the
-            single highest-priority contributing ingredient, or (1.0, 1.0, 1.0)
-            if every contributing ingredient is standard (unmodified).
+        tuple[float, float]
+            The winning ingredient's (magnitude, duration), or (0.0, 0.0) if
+            no ingredient in this potion actually has this effect.
         """
-        contributing: list[tuple[float, float, float]] = []
-
-        for ingredient in self.ingredients:
-            for ing_effect in ingredient.effects:
-                if ing_effect.name != effect.name:
-                    continue
-
-                override = effect.priority_overrides.get(ingredient.name)
-
-                if override is not None:
-                    magnitude_ratio, duration_ratio = override
-                    contributing.append((1.0, magnitude_ratio, duration_ratio))
-                else:
-                    contributing.append((
-                        ing_effect.cost_factor(),
-                        ing_effect.magnitude_factor(),
-                        ing_effect.duration_factor(),
-                    ))
+        contributing: list[tuple[float, float]] = [
+            (ing_effect.magnitude, ing_effect.duration)
+            for ingredient in self.ingredients
+            for ing_effect in ingredient.effects
+            if ing_effect.name == effect.name
+        ]
 
         if not contributing:
-            return (1.0, 1.0, 1.0)
+            return (0.0, 0.0)
 
         # High decimal_places here is just for ranking precision (avoids ties from
-        # rounding); the actual factors returned are unrounded.
-        return max(contributing, key=lambda modifiers: effect.value(*modifiers, 6))
+        # rounding); the actual (magnitude, duration) returned are unrounded.
+        return max(contributing, key=lambda md: effect.value(*md, 6))
 
     def value(self, perks: PerkConfig, decimal_places: int = 0) -> float:
         """
@@ -367,17 +397,17 @@ class Potion(BaseModel):
             return value
 
         raw_values = {
-            effect.name: effect.value(*self.get_modifiers(effect), decimal_places)
+            effect.name: effect.value(*self.get_winning_effect(effect), decimal_places)
             for effect in self.effects
         }
         is_poison = classify_mixture(self.effects, raw_values)
 
         for effect in self.effects:
-            cost_factor, magnitude_factor, duration_factor = self.get_modifiers(effect)
-            magnitude_factor, duration_factor = apply_perk_modifiers(
-                effect, magnitude_factor, duration_factor, is_poison, perks
+            magnitude, duration = self.get_winning_effect(effect)
+            magnitude, duration = apply_perk_modifiers(
+                effect, magnitude, duration, is_poison, perks
             )
-            value += effect.value(cost_factor, magnitude_factor, duration_factor, decimal_places)
+            value += effect.value(magnitude, duration, decimal_places)
 
         return value
 

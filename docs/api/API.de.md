@@ -16,6 +16,14 @@ Netzwerk erreichbar und verlangt zusätzlich einen Shared-Secret-Header
 (siehe [2.3](#23-interne-authentifizierung)). Nichts außerhalb des
 Compose-Netzwerks kann ihn direkt aufrufen.
 
+`app` baut seinen `AlchemyOptimizer` (und liest die Zutaten-/Effekt-
+Datenbank) einmalig beim Start des Prozesses auf — er scannt niemals selbst
+`.esm`/`.esp`/`.esl`-Dateien. Falls `cache/game_data/` noch nicht durch
+einen CLI-Lauf mit `--refresh` gegen eine lokale Skyrim-Installation befüllt
+wurde, startet `app` gar nicht erst — mit einer klaren Fehlermeldung, statt
+Anfragen gegen eine leere Datenbank zu bedienen — siehe
+[docs/data-sources/DATA_SOURCES.de.md §3](../data-sources/DATA_SOURCES.de.md#3-caching).
+
 ## 1. `app`-Service (öffentlich)
 
 ### 1.1 `GET /health`
@@ -30,28 +38,7 @@ Liveness-/Readiness-Check.
 { "status": "ok" }
 ```
 
-### 1.2 `DELETE /cache/pages`
-
-Löscht jede zwischengespeicherte UESP-HTML-Seite unter `cache/pages/` und
-verwirft die im Speicher gehaltene `AlchemyOptimizer`-Instanz
-(`get_optimizer.cache_clear()`). Der nächste Aufruf von
-`/optimize/screenshots` scrapt Zutaten-, Effekt- und
-Effekt-Prioritätsdaten wieder von Grund auf — siehe
-[docs/data-sources/DATA_SOURCES.de.md §3](../data-sources/DATA_SOURCES.de.md#3-caching).
-
-**Anfrage**: keine Parameter.
-
-**Antwort** `200 OK`
-
-```json
-{ "deleted": 3 }
-```
-
-| Feld | Typ | Beschreibung |
-| :--- | :--- | :--- |
-| `deleted` | `int` | Anzahl der gelöschten zwischengespeicherten HTML-Dateien. |
-
-### 1.3 `POST /optimize/screenshots`
+### 1.2 `POST /optimize/screenshots`
 
 Der Haupt-Endpunkt: führt OCR auf einem oder mehreren hochgeladenen
 Inventar-Screenshots aus und liefert die optimale
@@ -126,7 +113,7 @@ für die genaue Herleitung von `value` und der gewählten Rezepte.
 | Status | Body | Ursache |
 | :--- | :--- | :--- |
 | `400` | `{"detail": "No files uploaded."}` | `files` war leer. |
-| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | Der Upload-Batch hat die Validierung nicht bestanden (Tabelle in §1.3). |
+| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | Der Upload-Batch hat die Validierung nicht bestanden (Tabelle in §1.2). |
 | `413` | `{"detail": {"filename": "...", "reason": "too_large"}}` | Eine Datei überschritt 15 MiB. |
 | `502` | `{"detail": "<Nachricht vom ocr-Service>"}` | Der interne `ocr`-Aufruf ist fehlgeschlagen (`OcrServiceError`) — z. B. nicht erreichbar, Timeout, oder er selbst hat einen Fehler zurückgegeben. |
 
@@ -234,11 +221,8 @@ curl -X POST http://localhost:8001/optimize/screenshots \
   -F "files=@ScreenShot1.png" \
   -F "perk_physician=true" \
   -F "perk_benefactor=true"
-
-# UESP-Scraping-Cache leeren
-curl -X DELETE http://localhost:8001/cache/pages
 ```
 
 (Port `8001` entspricht dem Standard-Mapping von
-`docker-compose.yml`/`run.py` für `app` — an das tatsächliche Deployment
+`docker-compose.yml`/`cli.py` für `app` — an das tatsächliche Deployment
 anpassen.)

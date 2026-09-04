@@ -1,4 +1,4 @@
-# Standalone `ocr` service, for running the CLI (run.py) without installing
+# Standalone `ocr` service, for running the CLI (cli.py) without installing
 # Tesseract on the host system.
 #
 # Unlike docker-compose.yml's `ocr` (internal-network-only, reachable only
@@ -8,7 +8,7 @@
 # Usage:
 #   export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
 #   docker compose -f docker-compose.ocr.yml up -d
-#   uv run run.py
+#   uv run cli.py
 #
 # app/ocr_client.py's `run_ocr` (used only by the CLI) auto-detects this
 # container via a health check against OCR_SERVICE_URL (defaults to

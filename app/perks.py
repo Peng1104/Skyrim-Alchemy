@@ -127,8 +127,8 @@ def classify_mixture(effects: list["Effect"], raw_values: dict[str, float]) -> b
 
 def apply_perk_modifiers(
     effect: "Effect",
-    magnitude_factor: float,
-    duration_factor: float,
+    magnitude: float,
+    duration: float,
     is_poison: bool,
     perks: PerkConfig,
 ) -> tuple[float, float]:
@@ -139,10 +139,11 @@ def apply_perk_modifiers(
     ----------
     effect : Effect
         The effect being adjusted.
-    magnitude_factor : float
-        Magnitude factor from ingredient modifiers, before perks.
-    duration_factor : float
-        Duration factor from ingredient modifiers, before perks.
+    magnitude : float
+        The winning ingredient's magnitude for this effect, before perks
+        (see `Potion.get_winning_effect`).
+    duration : float
+        The winning ingredient's duration for this effect, before perks.
     is_poison : bool
         Whether the overall mixture was classified as a poison (see `classify_mixture`).
     perks : PerkConfig
@@ -151,7 +152,7 @@ def apply_perk_modifiers(
     Returns
     -------
     tuple[float, float]
-        The perk-adjusted (magnitude_factor, duration_factor).
+        The perk-adjusted (magnitude, duration).
     """
     if perks.purity and effect.harmful != is_poison:
         # Purity: harmful effect in a potion, or beneficial effect in a poison -
@@ -169,6 +170,6 @@ def apply_perk_modifiers(
         multiplier *= _PERK_BONUS
 
     if effect.name in _DURATION_SCALING_EFFECTS:
-        return magnitude_factor, duration_factor * multiplier
+        return magnitude, duration * multiplier
 
-    return magnitude_factor * multiplier, duration_factor
+    return magnitude * multiplier, duration

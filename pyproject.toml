@@ -1,6 +1,6 @@
 [project]
 name = "skyrim-alchemy-optimizer"
-version = "1.0.0"
+version = "2.0.0"
 description = "Skyrim alchemy potion optimizer using inventory screenshots and linear programming"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
@@ -12,12 +12,12 @@ dependencies = [
     "pydantic-settings",
     "pillow",
     "requests",
-    "beautifulsoup4",
-    "lxml",
     "pulp",
     "pytesseract",
     "python-multipart",
     "rapidfuzz",
+    "sse-plugin-interface>=1.0.1",
+    "sse-bsa>=1.1.0",
 ]
 
 [build-system]
@@ -37,7 +37,7 @@ select = ["E", "F", "I", "D"]
 convention = "numpy"
 
 [tool.pyright]
-include = ["app", "run.py"]
+include = ["app", "cli.py"]
 stubPath = "typings"
 typeCheckingMode = "strict"
 pythonVersion = "3.14"

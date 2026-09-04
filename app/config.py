@@ -6,7 +6,7 @@ from `config.toml`. `game_directory` falls back to an auto-detected Skyrim
 Special Edition install path (see `app.steam`) when unset; `log_language`
 defaults to `"en"`.
 
-These settings are only ever read by the CLI (`run.py`) - the API never
+These settings are only ever read by the CLI (`cli.py`) - the API never
 touches `Settings` at all, and its one secret (`OCR_SERVICE_TOKEN`) is read
 directly from the environment in `app/ocr_client.py`/`ocr_service/main.py`,
 never through this class. Environment variable / `.env` support was
@@ -47,6 +47,16 @@ class Settings(BaseSettings):
     log_language: Language = Field(
         default="en",
         description="Language for console log messages: 'en', 'pt', or 'de'.",
+    )
+
+    plugins_txt_path: str | None = Field(
+        default=None,
+        description="Explicit path to the active-plugins list (a Mod Organizer 2 "
+                    "profile's plugins.txt, or the native Skyrim Plugins.txt). "
+                    "Auto-detected when unset - tries every MO2 profile under any "
+                    "Steam library's Proton compatdata for this game, then the "
+                    "native Plugins.txt location. Set this explicitly if "
+                    "auto-detection picks the wrong MO2 profile/instance.",
     )
 
     perk_physician: bool = Field(

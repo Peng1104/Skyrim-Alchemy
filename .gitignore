@@ -9,4 +9,5 @@ __pycache__
 
 # Application logs and cache
 logs/
-cache/
+cache/*
+!cache/game_data/

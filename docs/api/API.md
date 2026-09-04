@@ -15,6 +15,14 @@ reachable only from `app` over the internal network, and additionally
 requires a shared-secret header (see [2.3](#23-internal-authentication)).
 Nothing outside the Compose network can call it directly.
 
+`app` builds its `AlchemyOptimizer` (and reads the ingredient/effect
+database) once, at process startup — it never scans `.esm`/`.esp`/`.esl`
+files itself. If `cache/game_data/` hasn't been populated yet by running the
+CLI with `--refresh` against a local Skyrim install, `app` fails to start
+at all, with a clear error, rather than serving requests against an empty
+database — see
+[docs/data-sources/DATA_SOURCES.md §3](../data-sources/DATA_SOURCES.md#3-caching).
+
 ## 1. `app` service (public)
 
 ### 1.1 `GET /health`
@@ -29,27 +37,7 @@ Liveness/readiness check.
 { "status": "ok" }
 ```
 
-### 1.2 `DELETE /cache/pages`
-
-Deletes every cached UESP HTML page under `cache/pages/` and drops the
-in-memory `AlchemyOptimizer` instance (`get_optimizer.cache_clear()`). The
-next `/optimize/screenshots` call re-scrapes ingredients, effects, and
-per-effect priority data from scratch — see
-[docs/data-sources/DATA_SOURCES.en.md §3](../data-sources/DATA_SOURCES.en.md#3-caching).
-
-**Request**: no parameters.
-
-**Response** `200 OK`
-
-```json
-{ "deleted": 3 }
-```
-
-| Field | Type | Description |
-| :--- | :--- | :--- |
-| `deleted` | `int` | Number of cached HTML files removed. |
-
-### 1.3 `POST /optimize/screenshots`
+### 1.2 `POST /optimize/screenshots`
 
 The main endpoint: OCRs one or more uploaded inventory screenshots and
 returns the optimal potion fabrication sequence for the resulting
@@ -114,7 +102,7 @@ is rejected, none of the files are processed.
 | `fabrication_sequence[].value` | `float` | Gold value of one potion of this recipe. |
 | `remaining_ingredients` | `object<string, int>` | Ingredient name → quantity left over after fabrication. |
 
-See [docs/calculation/CALCULATION.en.md](../calculation/CALCULATION.en.md)
+See [docs/calculation/CALCULATION.md](../calculation/CALCULATION.md)
 for exactly how `value` and the chosen recipes are derived.
 
 **Error responses**
@@ -122,7 +110,7 @@ for exactly how `value` and the chosen recipes are derived.
 | Status | Body | Cause |
 | :--- | :--- | :--- |
 | `400` | `{"detail": "No files uploaded."}` | `files` was empty. |
-| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | Upload batch failed validation (§1.3 table). |
+| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | Upload batch failed validation (§1.2 table). |
 | `413` | `{"detail": {"filename": "...", "reason": "too_large"}}` | A file exceeded 15 MiB. |
 | `502` | `{"detail": "<message from the ocr service>"}` | The internal `ocr` service call failed (`OcrServiceError`) — e.g. unreachable, timed out, or itself returned an error. |
 
@@ -190,7 +178,7 @@ column, all arrays the same length (one entry per detected text box):
 
 `app/inventory/_ocr.py` / `app/ocr_client.py` consume this shape to
 reconstruct ingredient names and quantities; see
-[docs/calculation/CALCULATION.en.md](../calculation/CALCULATION.en.md) for
+[docs/calculation/CALCULATION.md](../calculation/CALCULATION.md) for
 how OCR output is turned into `InventoryIngredient`s.
 
 **Error responses**
@@ -227,10 +215,7 @@ curl -X POST http://localhost:8001/optimize/screenshots \
   -F "files=@ScreenShot1.png" \
   -F "perk_physician=true" \
   -F "perk_benefactor=true"
-
-# Clear the UESP scraping cache
-curl -X DELETE http://localhost:8001/cache/pages
 ```
 
-(Port `8001` assumes the default `docker-compose.yml`/`run.py` mapping for
+(Port `8001` assumes the default `docker-compose.yml`/`cli.py` mapping for
 `app` — adjust to your actual deployment.)

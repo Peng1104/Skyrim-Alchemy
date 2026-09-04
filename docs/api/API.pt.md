@@ -15,6 +15,14 @@ só é alcançável a partir do `app` pela rede interna, e ainda exige um
 cabeçalho de segredo compartilhado (ver [2.3](#23-autenticacao-interna)).
 Nada fora da rede do Compose consegue chamá-lo diretamente.
 
+O `app` constrói o `AlchemyOptimizer` (e lê o banco de ingredientes/efeitos)
+uma única vez, no início do processo — ele nunca escaneia arquivos
+`.esm`/`.esp`/`.esl` diretamente. Se `cache/game_data/` ainda não tiver sido
+populado por uma execução do CLI com `--refresh` contra uma instalação
+local do Skyrim, o `app` falha ao iniciar completamente, com um erro claro,
+em vez de atender requisições contra um banco vazio — ver
+[docs/data-sources/DATA_SOURCES.pt.md §3](../data-sources/DATA_SOURCES.pt.md#3-caching).
+
 ## 1. Serviço `app` (público)
 
 ### 1.1 `GET /health`
@@ -29,28 +37,7 @@ Checagem de liveness/readiness.
 { "status": "ok" }
 ```
 
-### 1.2 `DELETE /cache/pages`
-
-Apaga todas as páginas HTML da UESP em cache dentro de `cache/pages/` e
-descarta a instância em memória do `AlchemyOptimizer`
-(`get_optimizer.cache_clear()`). A próxima chamada a
-`/optimize/screenshots` raspa novamente ingredientes, efeitos e dados de
-prioridade por efeito do zero — ver
-[docs/data-sources/DATA_SOURCES.pt.md §3](../data-sources/DATA_SOURCES.pt.md#3-caching).
-
-**Requisição**: sem parâmetros.
-
-**Resposta** `200 OK`
-
-```json
-{ "deleted": 3 }
-```
-
-| Campo | Tipo | Descrição |
-| :--- | :--- | :--- |
-| `deleted` | `int` | Número de arquivos HTML em cache removidos. |
-
-### 1.3 `POST /optimize/screenshots`
+### 1.2 `POST /optimize/screenshots`
 
 O endpoint principal: faz OCR de um ou mais screenshots de inventário
 enviados e retorna a sequência ótima de fabricação de poções para os
@@ -124,7 +111,7 @@ para saber exatamente como `value` e as receitas escolhidas são derivados.
 | Status | Corpo | Causa |
 | :--- | :--- | :--- |
 | `400` | `{"detail": "No files uploaded."}` | `files` veio vazio. |
-| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | O lote de upload falhou na validação (tabela da §1.3). |
+| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | O lote de upload falhou na validação (tabela da §1.2). |
 | `413` | `{"detail": {"filename": "...", "reason": "too_large"}}` | Um arquivo excedeu 15 MiB. |
 | `502` | `{"detail": "<mensagem do serviço ocr>"}` | A chamada ao serviço interno `ocr` falhou (`OcrServiceError`) — ex: inacessível, timeout, ou ele mesmo retornou erro. |
 
@@ -230,10 +217,7 @@ curl -X POST http://localhost:8001/optimize/screenshots \
   -F "files=@ScreenShot1.png" \
   -F "perk_physician=true" \
   -F "perk_benefactor=true"
-
-# Limpar o cache de scraping da UESP
-curl -X DELETE http://localhost:8001/cache/pages
 ```
 
-(A porta `8001` assume o mapeamento padrão do `docker-compose.yml`/`run.py`
+(A porta `8001` assume o mapeamento padrão do `docker-compose.yml`/`cli.py`
 para o `app` — ajuste conforme o seu deployment real.)

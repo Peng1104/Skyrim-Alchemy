@@ -2,17 +2,17 @@
 
 🌐 [English](README.md) · [Português](README.pt.md) · [Deutsch](README.de.md)
 
-Liest dein Skyrim-Inventar aus In-Game-Screenshots (per lokalem OCR), scrapt Zutaten-/Effektdaten von UESP und nutzt ganzzahlige lineare Programmierung (PuLP), um die wertvollsten Tränke zu berechnen, die du brauen kannst — und wie viele von jedem.
+Liest dein Skyrim-Inventar aus In-Game-Screenshots (per lokalem OCR), liest Zutaten-/Effektdaten direkt aus den Plugins deines eigenen Spiels und nutzt ganzzahlige lineare Programmierung (PuLP), um die wertvollsten Tränke zu berechnen, die du brauen kannst — und wie viele von jedem.
 
 ## So funktioniert es
 
-1. **Screenshots**: `Druck`/`Print Screen` drücken, während die Zutatenliste im Spiel geöffnet ist. Skyrim speichert `ScreenShot<N>.png` direkt im Installationsordner des Spiels.
-2. **OCR**: jeder Screenshot wird mit Tesseract gelesen, und der erkannte Text wird per Fuzzy-Matching mit der echten, von UESP gescrapten Zutatenliste abgeglichen (korrigiert OCR-Tippfehler, filtert UI-Rauschen).
+1. **Screenshots**: `Druck`/`Print Screen` drücken, während die Zutatenliste im Spiel geöffnet ist. Skyrim speichert `ScreenShot<N>.png` direkt im Installationsordner des Spiels — oder, unter Mod Organizer 2, stattdessen im `overwrite/Root`-Ordner dieser Instanz (MO2 virtualisiert die Schreibvorgänge des Spiels); beide Orte werden automatisch durchsucht.
+2. **OCR**: jeder Screenshot wird mit Tesseract gelesen, und der erkannte Text wird per Fuzzy-Matching mit der echten, aus deinen aktiven Plugins gelesenen Zutatenliste abgeglichen (korrigiert OCR-Tippfehler, filtert UI-Rauschen).
 3. **Optimierung**: anhand deiner Inventarmengen findet ein ILP-Solver die Kombination aus 2–3-Zutaten-Tränken, die den Gesamtgoldwert maximiert.
 
 Die genaue Mathematik hinter der Gold-/Wertberechnung und dem Optimierer steht in [docs/calculation/CALCULATION.de.md](docs/calculation/CALCULATION.de.md).
 
-Woher die Zutaten-/Effektdaten stammen und wie sie gescrapt und zwischengespeichert werden, steht in [docs/data-sources/DATA_SOURCES.de.md](docs/data-sources/DATA_SOURCES.de.md).
+Woher die Zutaten-/Effektdaten stammen und wie sie gelesen und zwischengespeichert werden, steht in [docs/data-sources/DATA_SOURCES.de.md](docs/data-sources/DATA_SOURCES.de.md).
 
 ## Voraussetzungen
 
@@ -32,16 +32,16 @@ cp config.example.toml config.toml   # optional - siehe Konfiguration unten
 ### CLI
 
 ```bash
-uv run run.py                    # kombiniert die gesamte Screenshot-Historie
-uv run run.py --min 2 --max 5    # kombiniert nur die Screenshots 2 bis 5
-uv run run.py -r                 # (--refresh) ignoriert den OCR-Cache und liest jeden gefundenen Screenshot neu ein
-uv run run.py -p                 # (--delete-png) löscht jedes Screenshot-PNG, das bereits ein zwischengespeichertes OCR-Ergebnis hat, und beendet sich
-uv run run.py -p 0-5             # ...oder nur die Screenshots 0 bis 5
-uv run run.py -c                 # (--delete-cache) löscht jedes zwischengespeicherte OCR-Ergebnis (behält die PNGs), und beendet sich
-uv run run.py -L                 # (--delete-logs) löscht jedes gespeicherte Lauf-Protokoll unter logs/ (außer dem dieses Laufs), und beendet sich
-uv run run.py -l                 # (--list) listet jede bekannte Screenshot-ID (Bild-/Cache-Verfügbarkeit) auf und beendet sich
-uv run run.py -i                 # (--info) zeigt die zwischengespeicherten Zutaten jedes Screenshots an und beendet sich
-uv run run.py -i 2,4-6           # ...oder nur die Screenshots 2, 4, 5 und 6
+uv run cli.py                    # kombiniert die gesamte Screenshot-Historie
+uv run cli.py --min 2 --max 5    # kombiniert nur die Screenshots 2 bis 5
+uv run cli.py -r                 # (--refresh) ignoriert den OCR-Cache und liest jeden gefundenen Screenshot neu ein
+uv run cli.py -p                 # (--delete-png) löscht jedes Screenshot-PNG, das bereits ein zwischengespeichertes OCR-Ergebnis hat, und beendet sich
+uv run cli.py -p 0-5             # ...oder nur die Screenshots 0 bis 5
+uv run cli.py -c                 # (--delete-cache) löscht jedes zwischengespeicherte OCR-Ergebnis (behält die PNGs), und beendet sich
+uv run cli.py -L                 # (--delete-logs) löscht jedes gespeicherte Lauf-Protokoll unter logs/ (außer dem dieses Laufs), und beendet sich
+uv run cli.py -l                 # (--list) listet jede bekannte Screenshot-ID (Bild-/Cache-Verfügbarkeit) auf und beendet sich
+uv run cli.py -i                 # (--info) zeigt die zwischengespeicherten Zutaten jedes Screenshots an und beendet sich
+uv run cli.py -i 2,4-6           # ...oder nur die Screenshots 2, 4, 5 und 6
 ```
 
 `--delete-png`, `--delete-cache` und `--info` akzeptieren einen optionalen
@@ -85,7 +85,7 @@ diesmal auf dem Host veröffentlicht:
 ```bash
 export OCR_SERVICE_TOKEN=$(openssl rand -hex 32)
 docker compose -f docker-compose.ocr.yml up -d --build
-uv run run.py
+uv run cli.py
 ```
 
 Unter Windows PowerShell gilt `export` nicht - setze die Umgebungsvariable
@@ -94,7 +94,7 @@ und erzeuge das Token stattdessen so:
 ```powershell
 $env:OCR_SERVICE_TOKEN = -join ((1..32) | ForEach-Object { '{0:x2}' -f (Get-Random -Minimum 0 -Maximum 256) })
 docker compose -f docker-compose.ocr.yml up -d --build
-uv run run.py
+uv run cli.py
 ```
 
 Der OCR-Pfad des CLI (`app/ocr_client.py`) wählt automatisch ein Backend,
@@ -116,14 +116,15 @@ Regel wie beim vollständigen Stack oben.
 
 ## Konfiguration
 
-`config.toml`-Einstellungen (`game_directory`, `log_language`, die Perks)
-werden nur vom CLI verwendet — die API liest sie überhaupt nicht, sie haben
-also keine Auswirkung auf `docker compose up`. Auflösungsreihenfolge: Init >
-`config.toml` > Standardwert.
+`config.toml`-Einstellungen (`game_directory`, `plugins_txt_path`,
+`log_language`, die Perks) werden nur vom CLI verwendet — die API liest sie
+überhaupt nicht, sie haben also keine Auswirkung auf `docker compose up`.
+Auflösungsreihenfolge: Init > `config.toml` > Standardwert.
 
 | `config.toml`-Schlüssel | Standard | Beschreibung |
 | :--- | :--- | :--- |
 | `game_directory` | automatisch über Steam erkannt | Pfad zur Skyrim-Installation (wo Screenshots gespeichert werden) |
+| `plugins_txt_path` | automatisch erkannt | Expliziter Pfad zur Liste aktiver Plugins (die `plugins.txt` eines MO2-Profils, oder die native `Plugins.txt`) |
 | `log_language` | `en` | Konsolen-Log-Sprache: `en`, `pt` oder `de` |
 | `perk_physician` | `false` | +25% Stärke bei Heilung/Magicka/Ausdauer wiederherstellen |
 | `perk_benefactor` | `false` | +25% auf wohltätige Effekte, bei Tränken, die von einem wohltätigen Effekt dominiert werden |
@@ -132,20 +133,22 @@ also keine Auswirkung auf `docker compose up`. Auflösungsreihenfolge: Init >
 
 `game_directory` wird automatisch erkannt, indem die `libraryfolders.vdf` des Steam-Clients gelesen wird (deckt zusätzliche Bibliotheken auf anderen Laufwerken ab), unter Windows, Linux und macOS. Setze es explizit in `config.toml`, wenn du kein Steam nutzt oder die automatische Erkennung die falsche Installation wählt.
 
+`plugins_txt_path` wird automatisch erkannt, indem jedes Mod-Organizer-2-Profil unter dem Proton-Compatdata-Präfix dieses Spiels in jeder Steam-Bibliothek durchprobiert wird, dann der native (Nicht-MO2-)Ort der `Plugins.txt` für das aktuelle Betriebssystem. Setze es explizit, wenn du mehrere MO2-Instanzen/-Profile nutzt und die automatische Erkennung die falsche wählt.
+
 Die Alchemie-Fertigkeit, der Alchemist-Perk, Fortify-Alchemy-Ausrüstung und Seeker of Shadows werden **nicht modelliert** — sie skalieren jeden Effekt gleichmäßig, ändern also nicht, welches Rezept bevorzugt wird, sondern nur die absoluten Goldwerte.
 
 ## Cache
 
-Alles, was gescrapt oder per OCR verarbeitet wird, wird unter `cache/` zwischengespeichert, sodass wiederholte Läufe nie Netzwerkaufrufe oder OCR wiederholen:
+Alles, was aus Plugins gelesen oder per OCR verarbeitet wird, wird unter `cache/` zwischengespeichert, sodass wiederholte Läufe nie einen Plugin-Scan oder OCR wiederholen:
 
 ```
 cache/
-├── pages/         UESP-HTML-Seiten (Zutaten, Effekte, Prioritätsdaten pro Effekt)
+├── game_data/     Zutaten-/Effekt-Datenbank, gelesen aus deinen aktiven Plugins (siehe docs/data-sources/DATA_SOURCES.de.md)
 ├── screenshots/   Eine JSON-Datei pro OCR-Ergebnis eines Screenshots (<id>.json)
 └── inventory/     marker.json - Buchführung über den zuletzt kombinierten Screenshot-Bereich
 ```
 
-Lösche `cache/pages/` (oder rufe `DELETE /cache/pages` auf), um nach Änderungen der UESP-Daten ein frisches Scraping zu erzwingen. Lösche `cache/screenshots/<id>.json` (oder führe mit `--refresh` aus), um für einen bestimmten Screenshot ein erneutes OCR zu erzwingen.
+Die CLI mit `--refresh` (`-r`) ausführen, um nach dem Installieren/Entfernen/Neuordnen von Mods einen frischen Plugin-Scan zu erzwingen — `cache/game_data/` wird sonst nicht angerührt. Lösche `cache/screenshots/<id>.json` (oder führe mit `--refresh` aus), um für einen bestimmten Screenshot ein erneutes OCR zu erzwingen.
 
 ## Entwicklung
 
