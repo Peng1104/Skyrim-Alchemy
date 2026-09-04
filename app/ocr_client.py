@@ -15,7 +15,7 @@ import io
 import os
 import shutil
 from functools import lru_cache
-from typing import Literal
+from typing import Literal, TypedDict
 
 import pytesseract
 import requests
@@ -23,6 +23,28 @@ from PIL import Image, ImageOps
 from pytesseract import Output
 
 from app.i18n import translate
+
+
+class TesseractOcrResult(TypedDict):
+    """
+    Both OCR passes run against one screenshot.
+
+    `binarized` is the primary pass (autocontrast + hard black/white
+    threshold - recovers low-contrast rows rendered over a busy background,
+    see `_BINARIZE_THRESHOLD`). `plain` is autocontrast only, with no
+    threshold - kept as a second pass because binarizing occasionally
+    corrupts a word that was perfectly legible without it (e.g. "Troll" was
+    misread as "Teal" only after binarization, dropping "Troll Fat (3)"
+    below the fuzzy-match cutoff entirely). Callers should treat `binarized`
+    as authoritative and only pull additional names from `plain` that
+    `binarized` missed - see `app.inventory._ocr.merge_ocr_matches`.
+
+    Duplicated from `ocr_service/main.py`'s identical definition - kept in
+    sync across the isolated container boundary, same as `_BINARIZE_THRESHOLD`.
+    """
+
+    binarized: pytesseract.TesseractDataDict
+    plain: pytesseract.TesseractDataDict
 
 # Base URL of the isolated `ocr` service, no path. Defaults to the CLI's
 # un-containerized case - `localhost` with the port `docker-compose.ocr.yml`
@@ -94,9 +116,9 @@ def is_local_tesseract_available() -> bool:
     return shutil.which("tesseract") is not None
 
 
-def run_remote_ocr(image_bytes: bytes, filename: str) -> pytesseract.TesseractDataDict:
+def run_remote_ocr(image_bytes: bytes, filename: str) -> TesseractOcrResult:
     """
-    Send image bytes to the isolated OCR service and return its structured OCR output.
+    Send image bytes to the isolated OCR service and return both its OCR passes.
 
     Parameters
     ----------
@@ -107,8 +129,8 @@ def run_remote_ocr(image_bytes: bytes, filename: str) -> pytesseract.TesseractDa
 
     Returns
     -------
-    TesseractDataDict
-        The OCR service's structured OCR output.
+    TesseractOcrResult
+        The OCR service's structured OCR output, both passes.
 
     Raises
     ------
@@ -150,9 +172,9 @@ def _binarize_pixel(value: int) -> int:
     return 255 if value > _BINARIZE_THRESHOLD else 0
 
 
-def _run_local_tesseract(image_bytes: bytes) -> pytesseract.TesseractDataDict:
+def _run_local_tesseract(image_bytes: bytes) -> TesseractOcrResult:
     """
-    Run Tesseract in-process against raw image bytes.
+    Run Tesseract in-process against raw image bytes, both passes.
 
     Parameters
     ----------
@@ -161,8 +183,8 @@ def _run_local_tesseract(image_bytes: bytes) -> pytesseract.TesseractDataDict:
 
     Returns
     -------
-    TesseractDataDict
-        Tesseract's structured OCR output.
+    TesseractOcrResult
+        Tesseract's structured OCR output, both passes.
     """
     with Image.open(io.BytesIO(image_bytes)) as img:
         processed = ImageOps.autocontrast(ImageOps.grayscale(img))
@@ -174,7 +196,14 @@ def _run_local_tesseract(image_bytes: bytes) -> pytesseract.TesseractDataDict:
         # whole overload set as partially Unknown under strict mode.
         binarized = Image.eval(processed, _binarize_pixel)
 
-        return pytesseract.image_to_data(binarized, lang="eng", output_type=Output.DICT)
+        return {
+            "binarized": pytesseract.image_to_data(
+                binarized, lang="eng", output_type=Output.DICT
+            ),
+            "plain": pytesseract.image_to_data(
+                processed, lang="eng", output_type=Output.DICT
+            ),
+        }
 
 
 @lru_cache
@@ -209,7 +238,7 @@ def _resolve_ocr_backend() -> _OcrBackend:
     raise OcrUnavailableError(translate("ocr_unavailable"))
 
 
-def run_ocr(image_bytes: bytes, filename: str) -> pytesseract.TesseractDataDict:
+def run_ocr(image_bytes: bytes, filename: str) -> TesseractOcrResult:
     """
     Run OCR via the `ocr` container when reachable, else a local Tesseract install.
 
@@ -225,8 +254,9 @@ def run_ocr(image_bytes: bytes, filename: str) -> pytesseract.TesseractDataDict:
 
     Returns
     -------
-    TesseractDataDict
-        Tesseract's structured OCR output, from whichever backend ran.
+    TesseractOcrResult
+        Tesseract's structured OCR output, both passes, from whichever
+        backend ran.
 
     Raises
     ------

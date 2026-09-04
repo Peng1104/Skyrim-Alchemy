@@ -243,6 +243,42 @@ def _parse_amount(amount_text: str) -> int:
     return int(amount_text.replace("}", "1"))
 
 
+def merge_ocr_matches(
+    primary: list[InventoryIngredient],
+    supplementary: list[InventoryIngredient],
+) -> list[InventoryIngredient]:
+    """
+    Merge two OCR passes' matches, additively - `primary` always wins.
+
+    Every ingredient `primary` (the binarized pass) already recognized is
+    kept exactly as-is, untouched. Only names present in `supplementary`
+    (the plain, non-binarized pass) but absent from `primary` are added -
+    this recovers a word that binarization corrupted (e.g. "Troll" ->
+    "Teal", dropping "Troll Fat" below the fuzzy-match cutoff) without ever
+    letting the plain pass override an amount the binarized pass already
+    got right elsewhere on the same screenshot.
+
+    Parameters
+    ----------
+    primary : list[InventoryIngredient]
+        Matches from the binarized pass - authoritative.
+    supplementary : list[InventoryIngredient]
+        Matches from the plain (autocontrast-only) pass - only used to fill
+        in names `primary` missed entirely.
+
+    Returns
+    -------
+    list[InventoryIngredient]
+        `primary`'s entries, plus any `supplementary` entry whose name
+        isn't already among them.
+    """
+    primary_names = {ingredient.name for ingredient in primary}
+
+    return primary + [
+        ingredient for ingredient in supplementary if ingredient.name not in primary_names
+    ]
+
+
 def extract_ingredients_from_image(
     image_bytes: bytes,
     filename: str,
@@ -256,7 +292,8 @@ def extract_ingredients_from_image(
     container when reachable, else a local Tesseract install - see
     `app.ocr_client.run_ocr`. The API's upload path does not call this: it
     calls `run_remote_ocr` directly and never falls back, since it
-    deliberately never runs Tesseract in-process.
+    deliberately never runs Tesseract in-process (but applies the same
+    two-pass merge itself - see `app/api.py`).
 
     Parameters
     ----------
@@ -281,6 +318,9 @@ def extract_ingredients_from_image(
     OcrUnavailableError
         If neither the `ocr` container nor a local Tesseract install is usable.
     """
-    data = run_ocr(image_bytes, filename)
+    result = run_ocr(image_bytes, filename)
 
-    return match_ocr_data(data, known_names, known_effect_names)
+    primary = match_ocr_data(result["binarized"], known_names, known_effect_names)
+    supplementary = match_ocr_data(result["plain"], known_names, known_effect_names)
+
+    return merge_ocr_matches(primary, supplementary)
