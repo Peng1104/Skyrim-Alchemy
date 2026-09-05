@@ -248,9 +248,9 @@ def merge_ocr_matches(
     supplementary: list[InventoryIngredient],
 ) -> list[InventoryIngredient]:
     """
-    Merge two OCR passes' matches, additively - `primary` always wins,
-    except for its own default-amount fallback.
+    Merge two OCR passes' matches, additively.
 
+    `primary` always wins, except for its own default-amount fallback.
     Every ingredient `primary` (the binarized pass) already recognized with
     an explicit amount is kept exactly as-is, untouched. Names present in
     `supplementary` (the plain, non-binarized pass) but absent from
