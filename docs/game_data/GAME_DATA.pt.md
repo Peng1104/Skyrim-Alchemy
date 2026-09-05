@@ -1,111 +1,93 @@
 # Scan de dados do jogo: resolução de override e risco de colisão de nome
 
-Este documento descreve como `app/game_data/` resolve overrides entre
-plugins, e uma limitação específica e conhecida que decorre disso: dois
-registros **não relacionados** que coincidem de resolver pro mesmo nome de
-exibição não são ambos mantidos — os dicionários que este projeto constrói
-são indexados por nome, então um deles é descartado silenciosamente. A
-implementação de referência é `app/game_data/_scan.py` (`_scan_plugin`,
-`_merge_snapshots`).
+Este documento descreve como o scan de dados do jogo resolve overrides
+entre plugins, e uma limitação específica e conhecida que decorre disso.
+Dois registros não relacionados que coincidem de resolver pro mesmo nome
+de exibição não ficam ambos guardados: os dicionários finais que este
+projeto constrói são indexados por nome, então um deles é derrubado
+silenciosamente.
 
-## 1. Como os overrides são resolvidos
+## 1. Como overrides são resolvidos
 
-O scan acontece em dois estágios (veja
-[DATA_SOURCES.pt.md §3.1](../data-sources/DATA_SOURCES.pt.md#31-scan-incremental)
-pra visão completa do cache incremental). `_scan_plugin` processa os
-próprios registros `INGR`/`MGEF` de um plugin isoladamente, calculando a
-identidade canônica `(owner_file, local_id)` de cada registro via
-`resolve_form_id` (`app/game_data/_plugin_records.py`), aplicado contra a
-própria lista de masters daquele plugin — essa etapa nunca olha pra nenhum
-outro plugin, o que é justamente o que torna seu resultado (um
-`PluginGameDataSnapshot`) seguro de cachear por plugin.
+O scan acontece em dois estágios, descritos por completo nos documentos
+[Plugin Cache](../cache/plugin/PLUGIN_CACHE.md) e
+[Ingredient Cache](../cache/ingredients/INGREDIENTS_CACHE.md).
 
-`_merge_snapshots(load_order, snapshots)` então percorre a load order ativa
-inteira **uma vez** — masters vanilla, depois conteúdo de Creation Club
-listado no `Skyrim.ccc`, depois os plugins ativos do `Plugins.txt`, nessa
-ordem exata (veja
-[DATA_SOURCES.pt.md §1.3](../data-sources/DATA_SOURCES.pt.md#13-creation-club-e-skyrimccc))
-— e indexa todo registro de um tipo por essa mesma identidade canônica.
-Quando um plugin mais tarde na load order define um registro com a mesma
-identidade canônica de um que um plugin anterior já indexou (um override
-genuíno — o plugin posterior lista o anterior como master e reutiliza seu
-FormID), a entrada posterior **substitui** a anterior no índice. Quando toda
-a load order já foi percorrida, cada chave no índice guarda só sua versão
-final e autoritativa — exatamente como o próprio motor do jogo resolve
-overrides, e exatamente por que `Ingredient`/`Effect.source_file` reporta o
-plugin que atualmente *vence* para aquele FormID, não necessariamente o que
-o introduziu originalmente (veja
-[DATA_SOURCES.pt.md §1.1](../data-sources/DATA_SOURCES.pt.md#11-resolução-de-override)).
+1. Os próprios registros de ingrediente e efeito mágico de cada plugin
+   são primeiro parseados isoladamente, calculando a identidade
+   canônica de cada registro: qual plugin de fato o define, e um id
+   numérico que permanece estável independente de qual outro plugin
+   está referenciando. Essa etapa nunca olha pra nenhum outro plugin, o
+   que é o que torna seu resultado seguro pra cachear por plugin.
+2. A load order ativa inteira é então percorrida uma vez, masters
+   vanilla, depois conteúdo de Creation Club, depois a própria lista de
+   plugins ativos do usuário, nessa ordem exata, e todo registro de um
+   tipo é indexado por essa mesma identidade canônica. Quando um plugin
+   mais tarde na load order define um registro com a mesma identidade
+   canônica que um plugin anterior já indexou, um override genuíno onde
+   o plugin mais tarde lista o anterior como master e reusa seu
+   registro, a entrada mais tarde substitui a anterior no índice.
 
-Essa parte é precisa em relação a FormID: não é possível confundir um
-override genuíno com um registro novo não relacionado, ou vice-versa,
-porque a identidade canônica é derivada da matemática real de FormID
-relativa à lista de masters que o próprio jogo usa — e continua precisa
-independente de quantos plugins foram reaproveitados do cache vs.
-reprocessados no `_scan_plugin`, já que as identidades canônicas de um
-snapshot em cache foram calculadas exatamente da mesma forma da última vez
-que os bytes daquele plugin foram de fato lidos.
+No momento em que a load order inteira foi percorrida, toda entrada no
+índice guarda só sua versão final e autoritativa, exatamente como o
+próprio motor do jogo resolve overrides, e exatamente por que o plugin
+de origem registrado de um ingrediente ou efeito é o que atualmente
+vence, não necessariamente o que originalmente o introduziu.
 
-## 2. Onde a precisão de FormID para: os dicionários finais são indexados por nome
+Essa parte do processo é exata. Não é possível que um override genuíno
+seja confundido com um registro novo não relacionado, ou o contrário,
+porque a identidade canônica é derivada da mesma numeração relativa à
+lista de masters que o próprio jogo usa, e permanece exata não importa
+quantos plugins tenham sido reusados do cache versus recém-parseados, já
+que as próprias identidades canônicas de um plugin em cache foram
+calculadas do mesmo jeito na última vez que os bytes daquele plugin
+foram de fato lidos.
 
-A segunda metade de `_merge_snapshots` transforma o índice indexado por
-FormID nos `dict[str, Ingredient]`/`dict[str, Effect]` que o resto do
-projeto usa, indexados pelo **nome de exibição resolvido** de cada
-registro — é aqui que a precisão de FormID deixa de valer. Se dois
-registros com identidades canônicas genuinamente diferentes e não
-relacionadas (nenhuma relação de override entre eles) coincidem de resolver
-pra string de exibição idêntica, só um deles sobrevive no dicionário final;
-a própria atribuição de `dict` do Python sobrescreve silenciosamente o
-outro. A ordem de iteração sobre o índice segue a ordem de inserção durante
-o merge (posição na load order, agrupada por arquivo master), então na
-prática **quem for processado por último naquela passagem vence** — não
-necessariamente quem é semanticamente "correto" ou o override mais recente;
-é puramente uma colisão de nome, independente do mecanismo de override da
-seção 1.
+## 2. Onde a exatidão para: os dicionários finais são indexados por nome
 
-## 3. Um caso real encontrado durante o desenvolvimento
+| Etapa | Indexado por | Livre de colisão? |
+| :--- | :--- | :--- |
+| O índice construído na seção 1 | Identidade canônica | Sim |
+| Os bancos finais de ingredientes e efeitos | Nome de exibição resolvido | Não |
 
-Efeitos são o caso que este projeto de fato observou, não uma hipótese. No
-início, `effects` era construído a partir de **todo** `MGEF` no índice
-incondicionalmente (espelhando como `ingredients` é construído a partir de
-todo `INGR`). Isso produzia 1525 efeitos — bem mais do que a alquimia tem —
-e uma checagem pontual de "Damage Health" mostrava `cost=5.0,
-source_file='Dragonborn.esm'` em vez do correto `cost=3.0,
-source_file='Skyrim.esm'`. A causa: `Dragonborn.esm` define um `MGEF`
-genuinamente não relacionado, só-de-quest (`DLC2TTR4aAbDamageHealth`,
-usado por uma habilidade de quest com script, nada a ver com alquimia),
-cujo texto `FULL` *também* coincide de resolver pra "Damage Health" —
-mesma string, FormID completamente diferente, nenhuma relação de override.
-Como `Dragonborn.esm` é processado depois de `Skyrim.esm` na load order,
-seu `MGEF` não relacionado sobrescreveu silenciosamente a entrada do efeito
-de alquimia real.
+Se dois registros com identidades canônicas genuinamente diferentes e
+não relacionadas, sem relação de override entre eles, coincidem de
+resolver pra string de exibição idêntica, só um deles sobrevive no
+resultado final. O outro é sobrescrito silenciosamente.
 
-A correção **não** foi um detector de colisão de nome — foi restringir o
-que vira um `Effect` logo de cara: `_merge_snapshots` só adiciona um
-`MGEF` ao dict `effects` quando o `EFID` de algum ingrediente de fato o
-referencia, o que exclui a vasta maioria dos registros `MGEF`
-(encantamentos, habilidades de quest, etc.) antes mesmo de chegarem ao
-dicionário indexado por nome. Isso derrubou a contagem de efeitos de 1525
-pra 63 e corrigiu o caso do Damage Health. Isso **não** elimina o risco
-geral da seção 2 — só remove a fonte específica e grande de falsos
-positivos que vinha de incluir registros `MGEF` irrelevantes. Dois efeitos
-*diferentes*, ambos referenciados por ingredientes (ou dois ingredientes
-diferentes), que coincidentemente compartilham um nome ainda são possíveis,
-só que bem mais raros.
+Qual deles vence é determinado puramente pela ordem de processamento
+durante essa passada, na prática qualquer um que seja processado por
+último, não necessariamente o que é semanticamente correto ou o
+sobrescrito mais recentemente. É puramente uma colisão de nome,
+independente do mecanismo de override descrito na seção 1.
 
-## 4. Mitigação atual: nenhuma automática — cruze `form_id` manualmente
+O banco de efeitos só inclui efeitos mágicos de fato referenciados por
+algum ingrediente, excluindo a vasta maioria dos registros de efeito
+mágico no jogo, encantamentos, habilidades de missão, e por aí vai,
+antes deles sequer chegarem no dicionário indexado por nome. Isso reduz
+substancialmente a exposição ao risco acima, já que a maioria dos
+efeitos mágicos nunca vira candidata a colisão pra começo de conversa,
+mas não o elimina: dois efeitos diferentes referenciados por
+ingredientes, ou dois ingredientes diferentes, ainda podem
+coincidentemente compartilhar um nome.
 
-Não existe código que detecte "dois FormIDs diferentes e não relacionados
-resolveram pro mesmo nome" e sinalize isso — uma duplicata descartada é
-silenciosa, igual antes desta refatoração. Como `Ingredient`/`Effect`
-agora carregam `source_file` e `form_id` (veja
-[DATA_SOURCES.pt.md §1](../data-sources/DATA_SOURCES.pt.md#1-ingredientes)),
-a forma prática de investigar uma colisão suspeita mudou: procure o
-`form_id` da entrada em `cache/game_data/ingredients.json`/`effects.json`
-e cruze com o xEdit ou a documentação do próprio mod — se o FormID não
-bater com o que você esperava pra aquele nome, o registro de um plugin
-diferente venceu a colisão de nome. Reordenar os plugins afetados no Mod
-Organizer 2 (ou no `Plugins.txt` nativo) e rodar de novo com `--refresh`
-muda qual registro vence o nome, como solução alternativa — o mesmo de
-antes, mas agora verificável via `form_id` em vez de só inferido a partir
-de entradas ausentes.
+## 3. Mitigação atual: cross-referenciar o FormID manualmente
+
+Não existe detecção automática pra duas identidades diferentes e não
+relacionadas resolvendo pro mesmo nome. Uma duplicata derrubada é
+silenciosa. Investigar uma colisão suspeita é um processo manual de três
+passos:
+
+1. Procure o FormID da entrada no cache de ingredientes ou efeitos. Todo
+   ingrediente e efeito carrega seu plugin vencedor e FormID; veja a
+   seção 1 do documento [fontes de dados](../data-sources/DATA_SOURCES.md).
+2. Cross-referencie esse FormID contra o
+   [xEdit](https://github.com/TES5Edit/TES5Edit), a ferramenta da
+   comunidade pra ler e editar plugins que também documenta o layout de
+   struct real de todo tipo de registro, ou a própria documentação do
+   mod. Se não bater com o que era esperado pra aquele nome, o registro
+   de um plugin diferente venceu a colisão de nome.
+3. Reordene os plugins afetados na load order e rescaneie. Isso muda
+   qual registro vence o nome, como solução alternativa, o mesmo de
+   antes, mas agora verificável através do FormID em vez de só inferido
+   de uma entrada faltando.

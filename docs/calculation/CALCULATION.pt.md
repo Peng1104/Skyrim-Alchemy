@@ -1,75 +1,77 @@
 # Cálculo de valor de poções e otimização
 
 Este documento descreve como o projeto calcula o valor em **ouro** de um
-efeito, de uma poção, e como o solver escolhe a combinação de poções mais
-lucrativa dado o inventário disponível. A implementação de referência está em
-`app/models.py` (`Effect.value`, `Potion.value`), `app/perks.py` (bônus de
-perícia) e `app/optimizer/_engine.py` (ILP).
+efeito e de uma poção, e como o solver escolhe a combinação de poções mais
+lucrativa dado o inventário disponível.
 
-O projeto otimiza apenas o valor em ouro — mas isso também maximiza o
-**XP de Alquimia** ganho ao fabricar as poções. Segundo a
+O projeto só otimiza pra valor em ouro, mas isso também maximiza o **XP de
+Alquimia** ganho ao fabricar as poções. Segundo a
 [UESP](https://en.uesp.net/wiki/Skyrim:Alchemy#Gaining_Skill_XP), o XP
-ganho ao fabricar uma poção é **proporcional ao seu valor em ouro**
-(o jogo não documenta a constante exata de proporcionalidade, mas a relação é
-monotônica: poção mais cara $\Rightarrow$ mais XP). Ou seja, a sequência de
-fabricação retornada por este otimizador — que maximiza $\sum \text{value}(r)$
-— é, pela mesma razão, a sequência que também maximiza o XP de Alquimia
-acumulado, sem precisar de um modelo de XP separado.
+ganho ao fabricar uma poção é **proporcional ao seu valor em ouro** (o jogo
+não documenta a constante de proporcionalidade exata, mas a relação é
+monotônica: uma poção mais cara $\Rightarrow$ mais XP). Em outras
+palavras, a sequência de fabricação retornada por este otimizador, que
+maximiza $\sum \text{value}(r)$, é, pelo mesmo motivo, também a sequência
+que maximiza o XP de Alquimia acumulado.
 
-## 1. Custo de um efeito e a magnitude/duração absoluta do ingrediente
+## 1. Atributos de Efeito e Ingrediente
 
-Cada efeito de alquimia (`Effect`) tem dois atributos, lidos diretamente do
-próprio registro binário `MGEF` do jogo (veja
-[docs/data-sources/DATA_SOURCES.pt.md](../data-sources/DATA_SOURCES.pt.md)) —
-não existe "magnitude base" nem "duração base" armazenada em lugar nenhum
-para o efeito em si:
+### 1.1 Valor e tipo do efeito
 
-- $C$ — `cost` (o campo Base Cost do `MGEF.DATA`)
-- `harmful` — se o efeito é Hostile/Detrimental (os bits de flag do
-  `MGEF.DATA`), usado na seção 3 para classificar poção vs. veneno
+Cada efeito de alquimia (`Effect`) tem dois atributos, lidos direto do
+próprio registro binário
+[`MGEF`](https://en.uesp.net/wiki/Skyrim_Mod:Mod_File_Format/MGEF) do jogo
+(veja [docs/data-sources/DATA_SOURCES.md](../data-sources/DATA_SOURCES.md)):
 
-Magnitude e duração não são propriedade do efeito de forma nenhuma — elas
-pertencem a cada **ingrediente**, exatamente como o jogo as armazena: o
-registro `INGR` de cada ingrediente carrega até 4 entradas `EFIT` (12 bytes
-cada — Magnitude, Area, Duration), uma por efeito que ele produz, lidas
-literalmente em `IngredientEffect.magnitude`/`.duration` daquele ingrediente.
-Não existe nenhuma "base" compartilhada da qual o valor de cada ingrediente
-seria um múltiplo — o par $(M, D)$ de cada ingrediente já é absoluto.
+- $V_{base}$: o `value` base do efeito (campo Base Cost do `MGEF.DATA`)
+- `harmful`: se o efeito é Hostile/Detrimental (bits de flag do
+  `MGEF.DATA`), usado na seção 4.1 pra classificar uma poção contra um
+  veneno
 
-### 1.1 Custo do efeito
+### 1.2 Ingrediente
 
-O jogo trata efeitos "instantâneos" ($D < 1$, sem duração real, ex.: Restore
-Health) de forma diferente de efeitos com duração:
+Cada ingrediente tem até 4 (`IngredientEffect`), lidos direto do próprio
+registro binário
+[`INGR`](https://en.uesp.net/wiki/Skyrim_Mod:Mod_File_Format/INGR) do jogo
+(veja [docs/data-sources/DATA_SOURCES.md](../data-sources/DATA_SOURCES.md)).
+Cada `IngredientEffect` contém dois atributos:
 
-$$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \qquad \text{se } D < 1
-$$
+- $M$: a `magnitude` do efeito, o quão forte é a versão deste ingrediente
+  pra esse efeito.
+- $D$: a `duration` do efeito, quanto tempo dura a versão deste
+  ingrediente.
 
-$$
-\text{cost}(effect) = C \cdot \max\big(M^{1.1}, 1\big) \cdot T(D) \qquad \text{se } D \ge 1
-$$
+## 2. Valor da Poção
 
-onde o termo de duração $T(D)$ é:
+### 2.1 Valor do efeito
 
-$$
-T(D) = \left(\dfrac{D}{10}\right)^{1.1} \qquad \text{se } D > 0
-$$
+Segundo o próprio formato de registro
+[`INGR`](https://en.uesp.net/wiki/Skyrim_Mod:Mod_File_Format/INGR) do jogo
+(a própria nota de auto-cálculo do `EFIT`), o valor de um efeito é:
 
 $$
-T(D) = 1 \qquad \text{se } D = 0
+\text{V}(\text{effect,ingredientEffect}) = V_{base} \cdot \left(\dfrac{M' \cdot D'}{10}\right)^{1.1}
 $$
 
-> $D = 0$ só ocorre quando a perícia **Purity** zera a duração de um efeito
-> (seção 3.2); nesse caso o termo de duração é descartado (fator neutro) em
-> vez de anular o custo inteiro.
+onde $M' = \max(M, 1)$, e $D' = D$ se $D > 0$, senão $D' = 10$ (uma
+`Magnitude < 1` é tratada como `1`, e uma `Duration` de `0` como `10`).
+De forma equivalente, já que a exponenciação distribui sobre um produto:
 
-Isso é `Effect.value(magnitude, duration, decimal_places)` em `app/models.py`.
+$$
+\text{V}(\text{effect,ingredientEffect}) = V_{base} \cdot M'^{1.1} \cdot \left(\dfrac{D'}{10}\right)^{1.1}
+$$
 
-### 1.2 Arredondamento
+`Duration` é sempre um número inteiro (o campo Duration do `EFIT` é um
+`uint32`), então $D > 0 \iff D \ge 1$: a substituição $D' = 10$ só se
+aplica exatamente quando $D = 0$. Não existe piso pra $1 \le D < 10$: uma
+duração curta, mas não nula, reduz de fato o valor abaixo do que a
+magnitude sozinha daria.
 
-O valor final é truncado (não arredondado) para o número de casas decimais
-configurado ($p$, `decimal_places`, padrão $p=3$ na otimização e $p=0$ para
-exibição):
+### 2.2 Arredondamento
+
+O valor final é truncado (não arredondado) pro número configurado de
+casas decimais ($p$, `decimal_places`, padrão $p=3$ durante a otimização
+e $p=0$ pra exibição):
 
 $$
 \text{value}_p(effect; M, D) = \frac{\big\lfloor \text{value}(effect; M, D) \cdot 10^{p} \big\rfloor}{10^{p}}
@@ -77,56 +79,41 @@ $$
 
 Com $p = 0$ isso equivale a $\lfloor \text{value}(effect; M, D) \rfloor$.
 
-## 2. Resolução do ingrediente vencedor em uma poção
+## 3. Resolvendo o IngredientEffect vencedor numa poção
 
-Uma poção só é válida se pelo menos **2 ingredientes compartilham um mesmo
-efeito** (ver seção 4). Quando dois ou mais ingredientes contribuem para o
-mesmo efeito, o jogo **não soma nem faz a média** de seus pares $(M, D)$ —
-ele usa apenas o ingrediente cuja contribuição produz o maior valor, e
-descarta os demais.
-
-Para cada ingrediente $i$ que contribui com o efeito $e$ numa poção
-específica, seu `IngredientEffect` já carrega seu próprio par absoluto
-$(M^{(i)}, D^{(i)})$ — lido diretamente do `EFIT` daquele ingrediente, sem
-nenhuma tabela de consulta ou override envolvida. O ingrediente vencedor é
-aquele, entre os contribuintes da poção para $e$, que **maximiza o valor
-resultante do efeito**:
+Uma poção só é válida se pelo menos **2 ingredientes compartilham um
+único efeito** (veja a seção 6). Para cada efeito $e$, o jogo só usa o
+`IngredientEffect` de um dos ingredientes: o que maximiza a fórmula da
+seção 2. Dado $S_e$, o conjunto dos pares $(M_i, D_i)$ contribuídos por
+cada ingrediente da poção que tem o efeito $e$:
 
 $$
-(M, D) = \text{arg max}_i \quad \text{value}\big(e; M^{(i)}, D^{(i)}\big)
+(M^{\ast}, D^{\ast}) = \underset{(M_i,\, D_i) \,\in\, S_e}{\text{arg max}} \quad \text{value}_{6}(e; M_i, D_i)
 $$
 
-Isso é `Potion.get_winning_effect(effect)` em `app/models.py`. É resolvido
-**do zero para cada poção** — não é um ranking de prioridade global e
-pré-computado sobre todo o catálogo de ingredientes. Aplicar "maior valor
-vence" como um ranking global (independente de quais 2-3 ingredientes
-específicos estão na poção) foi tentado e rejeitado: sempre favorecia
-ingredientes da Creation Club, que o jogo deliberadamente equilibra mais
-fortes que seus equivalentes vanilla, e teria silenciosamente substituído
-eles em poções que na verdade nunca os contêm.
+Se nenhum ingrediente da poção tiver de fato o efeito $e$, $(M^{\ast},
+D^{\ast}) = (0, 0)$.
 
-Isso foi validado contra a
-[própria tabela de Priority/Gold Mult da UESP para Damage Health](https://en.uesp.net/wiki/Skyrim:Damage_Health):
-calcular $\text{value}(e; M^{(i)}, D^{(i)})$ para cada um dos 7 níveis de
-ingrediente documentados e ordenar por esse valor reproduz exatamente a
-ordem de prioridade da própria UESP, incluindo o caso em que um ingrediente
-com duração instantânea mais curta (Nirnroot) ainda supera um com magnitude
-maior mas duração real (River Betty) — é a fórmula, não um ranking
-editorial, que decide o vencedor.
+Verificado contra as próprias tabelas de Priority/Gold Mult da UESP, por
+efeito:
 
-## 3. Bônus de perícia (perks)
+- **Damage Health**: Jarrin Root ($M = 200$) supera River Betty ($M = 5$).
+- A duração instantânea do Nirnroot ($D = 0$) supera diversos
+  ingredientes de magnitude maior, mas com duração real, pro mesmo efeito.
 
-Perícias opcionais (`app/config.py`: `perk_physician`, `perk_benefactor`,
-`perk_poisoner`, `perk_purity`) ajustam magnitude/duração **depois** da
-resolução de prioridade da seção 2. O bônus fixo de todas elas é $b = 1.25$
-(ou seja, um multiplicador de **+25%**).
+## 4. Bônus de perks
 
-### 3.1 Classificação poção vs. veneno
+Perks opcionais (`Physician`, `Benefactor`, `Poisoner`, `Purity`) ajustam
+magnitude/duration **depois** da resolução de prioridade da seção 3.
+Todos compartilham o mesmo bônus fixo, $b = 1.25$ (ou seja, um
+multiplicador de **+25%**).
 
-Antes de aplicar qualquer perícia, calcula-se o valor de **cada** efeito da
-poção sem nenhum bônus de perícia ($\text{value}_{raw}$). O efeito dominante
-$e^{\ast}$ é o de maior valor bruto, e ele decide se a mistura inteira é
-tratada como poção ou veneno:
+### 4.1 Classificação poção vs. veneno
+
+Antes de aplicar qualquer perk, o valor de **todo** efeito da poção é
+calculado sem nenhum bônus de perk ($\text{value}_{raw}$). O efeito
+dominante $e^{\ast}$ é o de maior valor bruto, e é ele que decide se a
+mistura inteira é tratada como poção ou veneno:
 
 $$
 e^{\ast} = \text{arg max}_e \quad \text{value}_{raw}(e)
@@ -136,42 +123,40 @@ $$
 \text{isPoison} = \text{harmful}(e^{\ast})
 $$
 
-### 3.2 Purity
+### 4.2 Purity
 
-Se **Purity** está ativa e a "polaridade" do efeito não bate com a da mistura
-(efeito nocivo dentro de uma poção benéfica, ou efeito benéfico dentro de um
-veneno), magnitude e duração daquele efeito (o par $(M, D)$ vencedor da
-seção 2) são zeradas:
+Se **Purity** está ativo e a "polaridade" de um efeito não bate com a da
+mistura (um efeito harmful dentro de uma poção benéfica, ou um efeito
+benéfico dentro de um veneno), esse efeito é removido da mistura por
+completo: não contribui nada pro valor total da poção (seção 7), e nunca
+chega na fórmula da seção 2:
 
 $$
 \text{harmful}(e) \ne \text{isPoison}
 \quad\Longrightarrow\quad
-M \leftarrow 0,\quad D \leftarrow 0
+e \notin \text{effects}(potion) \text{ (para fins de valor)}
 $$
 
-Isso colapsa o efeito ao seu custo base mínimo (o termo $\max(M^{1.1}, 1)$
-vira $1$, e o termo de duração vira $1$ pela regra de $D=0$ da seção 1.1).
-
-### 3.3 Physician, Benefactor, Poisoner
+### 4.3 Physician, Benefactor, Poisoner
 
 Um multiplicador $\mu$ é acumulado (independente de Purity), começando em
-$\mu = 1$. Cada perícia abaixo, se estiver ativa e sua condição bater,
-multiplica $\mu$ por $b$:
+$\mu = 1$. Cada perk abaixo, se ativo e sua condição bater, multiplica
+$\mu$ por $b$:
 
 - **Physician**: $e$ é Restore Health, Restore Magicka ou Restore Stamina
-- **Poisoner**: a mistura é um veneno (`isPoison`) e $e$ é nocivo (`harmful(e)`)
-- **Benefactor**: a mistura **não** é um veneno e $e$ **não** é nocivo
+- **Poisoner**: a mistura é um veneno (`isPoison`) e $e$ é harmful (`harmful(e)`)
+- **Benefactor**: a mistura **não** é um veneno e $e$ **não** é harmful
 
 $$
 \mu \leftarrow \mu \cdot b
 $$
 
-### 3.4 Aplicação do multiplicador
+### 4.4 Aplicando o multiplicador
 
-Para a maioria dos efeitos o multiplicador escala a **magnitude**. Para um
-conjunto fixo de efeitos que não têm magnitude significativa
-($\\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\\}$), o jogo escala
-a **duração** em vez disso:
+Pra maioria dos efeitos o multiplicador escala a **magnitude**. Pra um
+conjunto fixo de efeitos sem magnitude significativa
+($\\{\text{Invisibility, Paralysis, Slow, Waterbreathing}\\}$), o jogo
+escala a **duration** em vez disso:
 
 $$
 (M, D) \leftarrow (M, D \cdot \mu) \qquad \text{se } e \text{ está nesse conjunto}
@@ -181,74 +166,131 @@ $$
 (M, D) \leftarrow (M \cdot \mu, D) \qquad \text{caso contrário}
 $$
 
-Isso é `apply_perk_modifiers` em `app/perks.py`. Os $(M, D)$ resultantes
-substituem os vencedores da seção 2 no cálculo final do efeito (seção 1).
+O $(M, D)$ resultante substitui o vencedor da seção 3 no cálculo final do
+efeito (seção 2).
 
-## 4. Validade de uma poção
+## 5. Fatores deliberadamente não modelados
 
-Uma combinação de $n \in \\{2, 3\\}$ ingredientes só forma uma poção válida
-(`Potion.valid`) se **todas** as regras abaixo forem satisfeitas:
+A magnitude com que o efeito de uma poção fabricada de fato termina, no
+jogo, não é simplesmente o valor de `EFIT` do ingrediente: o jogo a
+recalcula no momento da fabricação a partir do skill, dos perks e do
+equipamento do personagem, por esta fórmula (a mesma struct/propriedade
+de onde este projeto já lê `BaseMag`, no `EFIT` do registro
+[`INGR`](https://en.uesp.net/wiki/Skyrim_Mod:Mod_File_Format/INGR)):
+
+$$
+\text{Result} = \text{fAlchemyIngredientInitMult} \cdot \text{BaseMag} \cdot \text{SkillMult}
+\cdot \text{Alchemist} \cdot \text{Benefactor} \cdot \text{Physician} \cdot \text{Poisoner}
+\cdot \text{Enchantments} \cdot \text{SeekerOfShadows}
+$$
+
+onde `fAlchemyIngredientInitMult` $= 4$ (configuração fixa do jogo),
+`SkillMult` $= 1 + (\text{fAlchemySkillFactor} - 1) \cdot \text{Skill}/100$
+com `fAlchemySkillFactor` $= 1.5$ (então `SkillMult` varia de $1.0$ no
+skill de Alchemy $0$ até $1.5$ no skill $100$), `Alchemist` varia de
+$1.0$ (sem perk) a $2.0$ (rank 5), `Enchantments` é $1.0$ mais a soma de
+qualquer equipamento Fortify Alchemy equipado, e `SeekerOfShadows` é
+$1.1$ quando esse poder do Dragonborn está ativo (se o resultado sair
+negativo, ele volta pro `BaseMag` puro: um clamp defensivo, não um caso
+real de jogo, já que todo fator aqui é positivo).
+
+$M$ neste documento (seção 1.2) é exatamente `BaseMag`; este projeto para
+por aí e nunca calcula `Result`. `Benefactor`/`Physician`/`Poisoner`
+**são** modelados (seção 4), só que aplicados depois da própria fórmula
+de valor deste projeto (seção 2) em vez de dobrados dentro de `Result`
+antes; matematicamente é o mesmo $\times 1.25$ de qualquer jeito. O resto
+desta fórmula, `fAlchemyIngredientInitMult`, `SkillMult`, `Alchemist`,
+`Enchantments` e `SeekerOfShadows`, é deixado de fora deliberadamente:
+
+- Cada um é um multiplicador **uniforme**: o mesmo valor se aplica a todo
+  efeito de toda poção, independente de qual efeito seja ou quais
+  ingredientes estejam envolvidos (diferente de
+  `Benefactor`/`Physician`/`Poisoner`/`Purity`, que são condicionais ao
+  efeito específico e à polaridade da mistura).
+- Um multiplicador uniforme $k$ sobre $M$ (ou sobre $D$, pros efeitos que
+  escalam duration da seção 4.4) escala a fórmula de valor da seção 2
+  pela mesma constante $k^{1.1}$ pra **todo** efeito, e portanto escala
+  $\text{value}(potion)$ por essa mesma constante pra **toda** poção
+  candidata (seção 7).
+- Multiplicar o valor de toda candidata pela mesma constante positiva não
+  pode mudar qual delas é a maior; a sequência ótima de fabricação do ILP
+  (seção 8) sai **idêntica** com ou sem esses fatores.
+
+A consequência real única: os valores em ouro que este projeto reporta
+são um **piso**: skill de Alchemy $0$, sem ranks de `Alchemist`, sem
+equipamento Fortify Alchemy, `Seeker of Shadows` inativo; não o que um
+personagem específico, já desenvolvido, realmente veria no jogo. Essa é
+uma escolha deliberada: modelar esses fatores só reescalaria todo número
+pela mesma constante, ao custo de precisar do skill/perks/equipamento
+exatos do jogador como entrada extra, sem nenhuma mudança em quais
+poções são recomendadas.
+
+## 6. Validade da poção
+
+Uma combinação de $n \in \\{2, 3\\}$ ingredientes só forma uma poção
+válida se **todas** as regras abaixo valerem:
 
 1. $2 \le n \le 3$
 2. O conjunto de efeitos compartilhados não é vazio
-3. Cada efeito $e$ da poção aparece em pelo menos 2 dos ingredientes:
+3. Cada efeito $e$ na poção aparece em pelo menos 2 dos ingredientes:
    $\forall e \in \text{effects} : \big|\\{i : e \in \text{effects}(i)\\}\big| \ge 2$
-4. Cada ingrediente compartilha pelo menos um efeito com outro ingrediente da
-   mesma poção (nenhum ingrediente "solto")
+4. Cada ingrediente compartilha pelo menos um efeito com outro
+   ingrediente da mesma poção (sem ingrediente "solto")
 
-## 5. Valor total de uma poção
+## 7. Valor total da poção
 
 O valor de uma poção é a **soma** dos valores de todos os seus efeitos
-compartilhados, cada um já resolvido para seu ingrediente vencedor (seção 2)
-e ajustado por perícias (seção 3):
+compartilhados, cada um já resolvido pro seu ingrediente vencedor (seção
+3) e ajustado pelos perks (seção 4):
 
 $$
 \text{value}(potion) = \sum_{e \in \text{effects}(potion)} \text{value}_p(e)
 $$
 
-## 6. Otimização (programação linear inteira)
+## 8. Otimização (programação linear inteira)
 
 Dado o inventário $\text{amount}(g)$ de cada ingrediente $g$, o motor
-(`app/optimizer/_engine.py`) gera **todas** as combinações válidas de 2 e 3
-ingredientes a partir dos itens em posse, calcula $\text{value}(potion)$ para
-cada uma (seções 1–5), remove duplicatas mantendo a de maior valor, e resolve
-o seguinte problema de programação linear inteira com PuLP/CBC.
+gera **toda** combinação válida de 2 e 3 ingredientes a partir dos itens
+disponíveis, calcula $\text{value}(potion)$ pra cada uma (seções 1 a 7),
+deduplica mantendo o maior valor, e resolve o seguinte programa linear
+inteiro com PuLP/CBC.
 
-### 6.1 Quantidade de combinações
+### 8.1 Contagem de combinações
 
-A etapa de geração de candidatas (`_generate_potions`) só combina os
-**tipos de ingrediente distintos que estão de fato no inventário**, não
-todo ingrediente presente no cache de dados do jogo — então, para $k$ tipos
-distintos em posse, ela monta até $\binom{k}{2} + \binom{k}{3}$ poções
-candidatas, antes da filtragem de validade e da remoção de duplicatas
-reduzirem esse número. $k$ é limitado pelo total de ingredientes no cache de
-dados do jogo (218 no momento em que isso foi escrito — veja
-[docs/data-sources](../data-sources/DATA_SOURCES.pt.md#1-ingredientes)),
-o que dá um pior caso teórico de
-$\binom{218}{2} + \binom{218}{3} = 23.653 + 1.703.016 = 1.726.669$
-candidatas — nunca alcançado na prática, já que nenhum inventário tem todo
-ingrediente conhecido ao mesmo tempo.
+A etapa de geração de candidatas só combina os **tipos de ingrediente
+distintos que de fato estão no inventário**, então pra $k$ tipos
+distintos disponíveis, ela constrói até $\binom{k}{2} + \binom{k}{3}$
+poções candidatas antes que a filtragem de validade e a deduplicação
+reduzam esse número. $k$ é limitado por cima pelo total de ingredientes
+no cache de dados do jogo (218 no momento desta escrita, veja
+[docs/data-sources](../data-sources/DATA_SOURCES.md#1-ingredientes)),
+dando um pior caso teórico de
+$\binom{218}{2} + \binom{218}{3} = 23{,}653 + 1{,}703{,}016 = 1{,}726{,}669$
+candidatas; nunca alcançado na prática, já que nenhum inventário sozinho
+tem todo ingrediente conhecido ao mesmo tempo.
 
-**Variáveis de decisão** — para cada receita única $r$, $x_r \in \mathbb{Z}_{\ge 0}$
-é o número de vezes que ela será fabricada.
+**Variáveis de decisão**: pra cada receita única $r$, $x_r \in
+\mathbb{Z}_{\ge 0}$ é o número de vezes que ela será fabricada.
 
-**Função objetivo** (maximizar valor total):
+**Função objetivo** (maximizar o valor total):
 
 $$
 \max \sum_{r} x_r \cdot \text{value}(r)
 $$
 
-**Restrições** — para cada ingrediente $g$ do inventário, a soma de unidades
-consumidas por todas as receitas não pode exceder a quantidade disponível:
+**Restrições**: pra cada ingrediente $g$ no inventário, as unidades
+consumidas em todas as receitas não podem passar da quantidade
+disponível:
 
 $$
 \forall g : \sum_{r} x_r \cdot \text{count}(g, r) \le \text{amount}(g)
 $$
 
-onde $\text{count}(g, r)$ é o número de unidades do ingrediente $g$ que a
-receita $r$ consome (1 ou 2, já que uma poção usa no máximo 3 ingredientes
-distintos).
+$\text{count}(g, r) = 1$ se a receita $r$ usa o ingrediente $g$, senão
+$\text{count}(g, r) = 0$ e o termo simplesmente some da soma pra $g$; uma
+receita é uma **combinação** de tipos de ingrediente distintos (seção 6),
+então ela nunca repete o mesmo ingrediente.
 
-A solução ótima $\\{x_r\\}$ define a sequência de fabricação
-(`fabrication_sequence`), ordenada por valor decrescente, e os ingredientes
-sobrando são o inventário inicial menos o consumido pela solução.
+A solução ótima $\\{x_r\\}$ define a sequência de fabricação, ordenada
+por valor decrescente, e os ingredientes restantes são o inventário
+inicial menos o que a solução consumiu.

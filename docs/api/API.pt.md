@@ -1,79 +1,77 @@
 # Referência da API HTTP
 
-Este documento descreve todos os endpoints HTTP expostos pelo projeto: o
-serviço público **app** (`app/api.py`, `FastAPI(title="Skyrim Alchemy
-Optimizer")`) e o serviço interno **ocr** (`ocr_service/main.py`,
-`FastAPI(title="Skyrim OCR Service")`). Também há uma Swagger UI interativa
-em `/docs` de cada serviço enquanto ele estiver rodando.
+Este documento descreve todo endpoint HTTP exposto pelo projeto: o
+serviço público app, e o serviço interno-apenas ocr. A Swagger UI
+interativa também está disponível no próprio caminho `/docs` de cada
+serviço enquanto ele está rodando.
 
 ```
-Cliente ──HTTP──▶ app (porta publicada) ──rede Docker interna──▶ ocr (sem porta publicada)
+Cliente --HTTP--> app (porta publicada) --rede interna--> ocr (sem porta publicada)
 ```
 
-O serviço `ocr` não tem porta publicada no host em `docker-compose.yml` —
-só é alcançável a partir do `app` pela rede interna, e ainda exige um
-cabeçalho de segredo compartilhado (ver [2.3](#23-autenticacao-interna)).
-Nada fora da rede do Compose consegue chamá-lo diretamente.
+O serviço ocr não tem nenhuma porta publicada pro host. Só é alcançável
+a partir do serviço app pela rede interna, e adicionalmente exige um
+header de segredo compartilhado, descrito na seção 2.3. Nada fora dessa
+rede interna consegue chamá-lo diretamente.
 
-O `app` constrói o `AlchemyOptimizer` (e lê o banco de ingredientes/efeitos)
-uma única vez, no início do processo — ele nunca escaneia arquivos
-`.esm`/`.esp`/`.esl` diretamente. Se `cache/game_data/` ainda não tiver sido
-populado por uma execução do CLI com `--refresh` contra uma instalação
-local do Skyrim, o `app` falha ao iniciar completamente, com um erro claro,
-em vez de atender requisições contra um banco vazio — ver
-[docs/data-sources/DATA_SOURCES.pt.md §3](../data-sources/DATA_SOURCES.pt.md#3-caching).
+O serviço app constrói seu otimizador, e carrega o banco de
+ingredientes e efeitos, uma única vez, na inicialização do processo.
+Ele nunca escaneia arquivos de plugin ou de arquivo empacotado por
+conta própria. Se o cache de dados do jogo ainda não foi populado, o
+serviço app falha em iniciar de jeito nenhum, com um erro claro, em vez
+de servir requisições contra um banco vazio. Veja a seção 3 do
+documento [fontes de dados](../data-sources/DATA_SOURCES.md).
 
-## 1. Serviço `app` (público)
+## 1. Serviço app (público)
 
-### 1.1 `GET /health`
+### 1.1 GET /health
 
-Checagem de liveness/readiness.
+Checagem de liveness e readiness.
 
-**Requisição**: sem parâmetros.
+Requisição: sem parâmetros.
 
-**Resposta** `200 OK`
+Resposta `200 OK`
 
 ```json
 { "status": "ok" }
 ```
 
-### 1.2 `POST /optimize/screenshots`
+### 1.2 POST /optimize/screenshots
 
-O endpoint principal: faz OCR de um ou mais screenshots de inventário
-enviados e retorna a sequência ótima de fabricação de poções para os
+O endpoint principal. Roda OCR em uma ou mais screenshots de inventário
+enviadas e retorna a sequência ótima de fabricação de poções pros
 ingredientes resultantes.
 
-O Tesseract nunca roda neste processo — cada arquivo enviado é validado
-aqui (magic bytes, tamanho, quantidade) e depois seus bytes brutos são
-encaminhados para o serviço isolado `ocr` (§2.2) pela rede Docker interna.
-As perks vêm estritamente do corpo da requisição, nunca de configurações
-globais/CLI, então requisições concorrentes com perks diferentes nunca
-interferem entre si.
+O OCR em si nunca roda neste processo. Cada arquivo enviado é validado
+aqui, por magic bytes, tamanho e contagem, e então seus bytes brutos
+são encaminhados pro serviço ocr isolado, seção 2.2, pela rede interna.
+Perks são pegos estritamente do corpo da requisição, nunca de nenhuma
+configuração compartilhada, então requisições concorrentes com seleções
+de perk diferentes nunca interferem entre si.
 
-**Requisição**: `multipart/form-data`
+Requisição: `multipart/form-data`
 
 | Campo | Tipo | Obrigatório | Padrão | Descrição |
 | :--- | :--- | :--- | :--- | :--- |
-| `files` | `file[]` | Sim | — | Um ou mais screenshots PNG. Quando um inventário se estende por vários screenshots com scroll, a leitura de um arquivo posterior para um ingrediente sobrescreve a de um anterior — cada screenshot mostra o total *atual* do ingrediente, não um delta (reflete a regra de merge de `Inventory.retrieve`). |
-| `perk_physician` | `bool` (campo de form) | Não | `false` | Perk Physician ativa. |
-| `perk_benefactor` | `bool` (campo de form) | Não | `false` | Perk Benefactor ativa. |
-| `perk_poisoner` | `bool` (campo de form) | Não | `false` | Perk Poisoner ativa. |
-| `perk_purity` | `bool` (campo de form) | Não | `false` | Perk Purity ativa. |
+| `files` | array de arquivo | Sim | nenhum | Uma ou mais screenshots PNG. Quando um inventário se espalha por várias screenshots roladas, a leitura de um arquivo posterior pra um dado nome de ingrediente sobrescreve uma anterior: cada screenshot mostra o total atual do ingrediente, não um delta. |
+| `perk_physician` | campo de formulário booleano | Não | `false` | Perk Physician ativo. |
+| `perk_benefactor` | campo de formulário booleano | Não | `false` | Perk Benefactor ativo. |
+| `perk_poisoner` | campo de formulário booleano | Não | `false` | Perk Poisoner ativo. |
+| `perk_purity` | campo de formulário booleano | Não | `false` | Perk Purity ativo. |
 
-Restrições de upload, aplicadas nesta ordem por
-`app/upload_validation.py` (`validate_upload_batch`) antes de qualquer
-envio ao `ocr`:
+Restrições de upload, aplicadas nesta ordem antes de qualquer coisa ser
+enviada pro serviço ocr:
 
 | Checagem | Limite | Falha |
 | :--- | :--- | :--- |
-| Quantidade de arquivos | ≤ 20 (`MAX_FILE_COUNT`) | `400`, `reason: "too_many_files"` |
-| Magic bytes | Deve ser PNG (`\x89PNG\r\n\x1a\n`) | `400`, `reason: "invalid_type"` |
-| Tamanho do arquivo | ≤ 15 MiB por arquivo (`MAX_FILE_SIZE_BYTES`) | `413`, `reason: "too_large"` |
+| Contagem de arquivos | 20 ou menos | `400`, motivo `too_many_files` |
+| Magic bytes | Deve ser PNG | `400`, motivo `invalid_type` |
+| Tamanho do arquivo | 15 MiB ou menos por arquivo | `413`, motivo `too_large` |
 
-A validação para no primeiro arquivo que falhar no lote — a requisição
-inteira é rejeitada, nenhum arquivo é processado.
+A validação para no primeiro arquivo que falhar no lote. A requisição
+inteira é rejeitada, nenhum dos arquivos é processado.
 
-**Resposta** `200 OK` — `OptimizationResult`
+Resposta `200 OK`
 
 ```json
 {
@@ -95,63 +93,62 @@ inteira é rejeitada, nenhum arquivo é processado.
 
 | Campo | Tipo | Descrição |
 | :--- | :--- | :--- |
-| `fabrication_sequence` | `RecipeDetails[]` | Poções a fabricar, em ordem. |
-| `fabrication_sequence[].order` | `int` | Posição (base 1) na sequência de fabricação. |
-| `fabrication_sequence[].count` | `int` | Quantas poções dessa receita fazer. |
-| `fabrication_sequence[].ingredients` | `string[]` | Nomes dos ingredientes usados em cada poção dessa receita. |
-| `fabrication_sequence[].effects` | `string[]` | Efeito(s) compartilhado(s) produzido(s) por essa receita. |
-| `fabrication_sequence[].value` | `float` | Valor em ouro de uma poção dessa receita. |
-| `remaining_ingredients` | `object<string, int>` | Nome do ingrediente → quantidade restante após a fabricação. |
+| `fabrication_sequence` | array | Poções a fabricar, em ordem. |
+| `fabrication_sequence[].order` | inteiro | Posição, começando em 1, na sequência de fabricação. |
+| `fabrication_sequence[].count` | inteiro | Quantas poções dessa receita fazer. |
+| `fabrication_sequence[].ingredients` | array de string | Nomes de ingrediente usados por poção dessa receita. |
+| `fabrication_sequence[].effects` | array de string | Efeitos compartilhados que essa receita produz. |
+| `fabrication_sequence[].value` | número | Valor em ouro de uma poção dessa receita. |
+| `remaining_ingredients` | objeto | Nome do ingrediente mapeado pra quantidade restante após a fabricação. |
 
-Veja [docs/calculation/CALCULATION.pt.md](../calculation/CALCULATION.pt.md)
-para saber exatamente como `value` e as receitas escolhidas são derivados.
+Veja o documento [de cálculo](../calculation/CALCULATION.md) pra
+exatamente como `value` e as receitas escolhidas são derivadas.
 
-**Respostas de erro**
+Respostas de erro:
 
 | Status | Corpo | Causa |
 | :--- | :--- | :--- |
-| `400` | `{"detail": "No files uploaded."}` | `files` veio vazio. |
-| `400` | `{"detail": {"filename": "...", "reason": "too_many_files" \| "invalid_type"}}` | O lote de upload falhou na validação (tabela da §1.2). |
-| `413` | `{"detail": {"filename": "...", "reason": "too_large"}}` | Um arquivo excedeu 15 MiB. |
-| `502` | `{"detail": "<mensagem do serviço ocr>"}` | A chamada ao serviço interno `ocr` falhou (`OcrServiceError`) — ex: inacessível, timeout, ou ele mesmo retornou erro. |
+| `400` | `{"detail": "No files uploaded."}` | O campo `files` estava vazio. |
+| `400` | `{"detail": {"filename": "...", "reason": "too_many_files ou invalid_type"}}` | Lote de upload falhou na validação, tabela da seção 1.2. |
+| `413` | `{"detail": {"filename": "...", "reason": "too_large"}}` | Um arquivo passou de 15 MiB. |
+| `502` | `{"detail": "<mensagem do serviço ocr>"}` | A chamada ao serviço ocr interno falhou: inalcançável, deu timeout, ou retornou um erro por conta própria. |
 
-## 2. Serviço `ocr` (somente interno)
+## 2. Serviço ocr (interno apenas)
 
-Não é alcançável de fora da rede do Docker Compose — não há porta
-publicada no host para ele. Documentado aqui porque
-`/optimize/screenshots` do `app` depende dele, e porque ele valida seu
-próprio input de forma independente como defesa em profundidade (não pode
-assumir que seu único chamador é o container `app` confiável).
+Não alcançável de fora da rede interna, já que nenhuma porta de host é
+publicada pra ele. Documentado aqui porque o endpoint de screenshot do
+serviço app depende dele, e porque ele valida o próprio input de forma
+independente como defesa em profundidade: não pode assumir que seu
+único chamador é o serviço app confiável.
 
-### 2.1 `GET /health`
+### 2.1 GET /health
 
-Checagem de liveness/readiness, usada pelo `HEALTHCHECK` do Docker.
-Propositalmente sem autenticação — o comando de healthcheck não tem uma
-forma fácil de fornecer o token de autenticação interno.
+Checagem de liveness e readiness, usada pelo healthcheck do container.
+Deliberadamente sem autenticação, já que o próprio healthcheck não tem
+como fornecer facilmente o token de autenticação interno.
 
-**Requisição**: sem parâmetros.
+Requisição: sem parâmetros.
 
-**Resposta** `200 OK`
+Resposta `200 OK`
 
 ```json
 { "status": "ok" }
 ```
 
-### 2.2 `POST /ocr`
+### 2.2 POST /ocr
 
-Decodifica um PNG enviado e retorna a saída estruturada do Tesseract
-(`pytesseract.image_to_data(..., output_type=Output.DICT)`).
+Decodifica um PNG enviado e retorna a saída estruturada do motor de
+OCR.
 
-**Requisição**: `multipart/form-data`
+Requisição: `multipart/form-data`
 
 | Campo | Local | Obrigatório | Descrição |
 | :--- | :--- | :--- | :--- |
-| `image` | campo de form (arquivo) | Sim | O screenshot para fazer OCR (somente PNG). |
-| `X-Internal-Auth` | cabeçalho | Sim | Segredo compartilhado; ver §2.3. |
+| `image` | campo de formulário (arquivo) | Sim | A screenshot pra fazer OCR, PNG apenas. |
+| `X-Internal-Auth` | header | Sim | Segredo compartilhado, veja a seção 2.3. |
 
-**Resposta** `200 OK` — dict bruto de `image_to_data` do Tesseract, um
-array por coluna, todos os arrays com o mesmo tamanho (uma entrada por
-caixa de texto detectada):
+Resposta `200 OK`, um array por coluna, todos os arrays do mesmo
+tamanho, uma entrada por caixa de texto detectada:
 
 ```json
 {
@@ -172,46 +169,46 @@ caixa de texto detectada):
 
 | Campo | Tipo | Descrição |
 | :--- | :--- | :--- |
-| `level` | `int[]` | Nível hierárquico do Tesseract (1 = página … 5 = palavra). |
-| `page_num` / `block_num` / `par_num` / `line_num` / `word_num` | `int[]` | Posição de cada elemento detectado na hierarquia página/bloco/parágrafo/linha/palavra do Tesseract. |
-| `left` / `top` / `width` / `height` | `int[]` | Caixa delimitadora do elemento detectado, em pixels. |
-| `conf` | `float[]` | Confiança da detecção (`-1` para níveis que não são palavra). |
-| `text` | `string[]` | Texto reconhecido (vazio para níveis que não são palavra). |
+| `level` | array de inteiro | Nível de hierarquia: 1 é página, 5 é palavra. |
+| `page_num`, `block_num`, `par_num`, `line_num`, `word_num` | arrays de inteiro | Posição de cada elemento detectado na hierarquia de página, bloco, parágrafo, linha e palavra. |
+| `left`, `top`, `width`, `height` | arrays de inteiro | Caixa delimitadora do elemento detectado, em pixels. |
+| `conf` | array de número | Confiança da detecção, `-1` pros níveis que não são palavra. |
+| `text` | array de string | Texto reconhecido, vazio pros níveis que não são palavra. |
 
-`app/inventory/_ocr.py` / `app/ocr_client.py` consomem esse formato para
-reconstruir nomes e quantidades de ingredientes; veja
-[docs/calculation/CALCULATION.pt.md](../calculation/CALCULATION.pt.md)
-para saber como a saída do OCR vira `InventoryIngredient`s.
+Essa saída é o que o leitor de inventário consome pra reconstruir nomes
+e quantidades de ingrediente. Veja o documento
+[de cálculo](../calculation/CALCULATION.md) pra como a saída do OCR
+vira um inventário de ingredientes.
 
-**Respostas de erro**
+Respostas de erro:
 
 | Status | Corpo | Causa |
 | :--- | :--- | :--- |
-| `401` | `{"detail": "Invalid or missing internal auth token."}` | Cabeçalho `X-Internal-Auth` ausente/incorreto. |
-| `413` | `{"detail": "Image exceeds maximum allowed size."}` | Imagem acima de 15 MiB (mantido sincronizado com o limite do próprio `app`). |
+| `401` | `{"detail": "Invalid or missing internal auth token."}` | Header de autenticação interno faltando ou incorreto. |
+| `413` | `{"detail": "Image exceeds maximum allowed size."}` | Imagem acima de 15 MiB, mantido em sincronia com o próprio limite do serviço app. |
 | `400` | `{"detail": "Only PNG images are accepted."}` | Os primeiros 8 bytes não são o magic number do PNG. |
-| `400` | `{"detail": "Could not decode image."}` | Magic number do PNG presente, mas o Pillow não conseguiu decodificar o arquivo (`UnidentifiedImageError`), ex: imagem truncada/corrompida. |
+| `400` | `{"detail": "Could not decode image."}` | O magic number do PNG está presente mas o arquivo não pôde ser decodificado, por exemplo uma imagem truncada ou corrompida. |
 
 ### 2.3 Autenticação interna
 
-Toda chamada a `/ocr` deve trazer um cabeçalho `X-Internal-Auth` que bata
-com a variável de ambiente `OCR_SERVICE_TOKEN`, comparado em tempo
-constante (`hmac.compare_digest`) para evitar ataques de timing. O `app`
-lê o mesmo valor de `OCR_SERVICE_TOKEN` e anexa o cabeçalho
-automaticamente (`app/ocr_client.py`) — esse token nunca precisa ser
-fornecido por um usuário final da API pública. `/health` é isento (§2.1).
+Toda chamada pra `/ocr` deve carregar um header de autenticação interno
+batendo com um valor de segredo compartilhado, comparado em tempo
+constante pra evitar ataques de timing. O serviço app lê esse mesmo
+segredo e anexa o header automaticamente, então esse token nunca
+precisa ser fornecido por um usuário final da API pública. A checagem
+de saúde, seção 2.1, é isenta.
 
-## 3. Exemplos com cURL
+## 3. Exemplos de linha de comando
 
 ```bash
 # Checagem de saúde
 curl http://localhost:8001/health
 
-# Otimizar um único screenshot, sem perks
+# Otimizar uma única screenshot, sem perks
 curl -X POST http://localhost:8001/optimize/screenshots \
   -F "files=@ScreenShot0.png"
 
-# Otimizar múltiplos screenshots com perks ativas
+# Otimizar várias screenshots com perks ativos
 curl -X POST http://localhost:8001/optimize/screenshots \
   -F "files=@ScreenShot0.png" \
   -F "files=@ScreenShot1.png" \
@@ -219,5 +216,5 @@ curl -X POST http://localhost:8001/optimize/screenshots \
   -F "perk_benefactor=true"
 ```
 
-(A porta `8001` assume o mapeamento padrão do `docker-compose.yml`/`cli.py`
-para o `app` — ajuste conforme o seu deployment real.)
+A porta 8001 assume o mapeamento padrão de deployment pro serviço app.
+Ajuste pro seu deployment real.
