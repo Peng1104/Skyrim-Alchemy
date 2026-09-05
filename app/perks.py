@@ -131,7 +131,7 @@ def apply_perk_modifiers(
     duration: float,
     is_poison: bool,
     perks: PerkConfig,
-) -> tuple[float, float]:
+) -> tuple[float, float] | None:
     """
     Apply the configured Physician/Benefactor/Poisoner/Purity bonuses to an effect.
 
@@ -151,13 +151,19 @@ def apply_perk_modifiers(
 
     Returns
     -------
-    tuple[float, float]
-        The perk-adjusted (magnitude, duration).
+    tuple[float, float] | None
+        The perk-adjusted (magnitude, duration), or None if Purity strips this
+        effect out of the potion entirely (see below) - the caller must treat
+        None as a zero contribution to the potion's value, not fall through to
+        `Effect.value(0, 0)` (which would floor to the effect's base cost
+        instead of zero, per the auto-calc formula's own `Magnitude < 1 -> 1`/
+        `Duration 0 -> 10` floors).
     """
     if perks.purity and effect.harmful != is_poison:
-        # Purity: harmful effect in a potion, or beneficial effect in a poison -
-        # its properties are set to zero (collapses to just the effect's base cost).
-        return 0.0, 0.0
+        # Purity: a harmful effect in a potion, or a beneficial effect in a
+        # poison, is removed from the mixture outright, with no compensating
+        # bonus elsewhere - it contributes nothing to the potion's value.
+        return None
 
     multiplier = 1.0
 

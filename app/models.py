@@ -404,9 +404,14 @@ class Potion(BaseModel):
 
         for effect in self.effects:
             magnitude, duration = self.get_winning_effect(effect)
-            magnitude, duration = apply_perk_modifiers(
-                effect, magnitude, duration, is_poison, perks
-            )
+            adjusted = apply_perk_modifiers(effect, magnitude, duration, is_poison, perks)
+
+            if adjusted is None:
+                # Purity stripped this effect out of the mixture entirely -
+                # it contributes nothing, not even the effect's base cost.
+                continue
+
+            magnitude, duration = adjusted
             value += effect.value(magnitude, duration, decimal_places)
 
         return value
