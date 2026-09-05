@@ -248,33 +248,59 @@ def merge_ocr_matches(
     supplementary: list[InventoryIngredient],
 ) -> list[InventoryIngredient]:
     """
-    Merge two OCR passes' matches, additively - `primary` always wins.
+    Merge two OCR passes' matches, additively - `primary` always wins,
+    except for its own default-amount fallback.
 
-    Every ingredient `primary` (the binarized pass) already recognized is
-    kept exactly as-is, untouched. Only names present in `supplementary`
-    (the plain, non-binarized pass) but absent from `primary` are added -
-    this recovers a word that binarization corrupted (e.g. "Troll" ->
-    "Teal", dropping "Troll Fat" below the fuzzy-match cutoff) without ever
-    letting the plain pass override an amount the binarized pass already
-    got right elsewhere on the same screenshot.
+    Every ingredient `primary` (the binarized pass) already recognized with
+    an explicit amount is kept exactly as-is, untouched. Names present in
+    `supplementary` (the plain, non-binarized pass) but absent from
+    `primary` are added - this recovers a word that binarization corrupted
+    (e.g. "Troll" -> "Teal", dropping "Troll Fat" below the fuzzy-match
+    cutoff).
+
+    A `primary` entry whose amount is exactly 1 is ambiguous: the game
+    itself never prints a "(1)" suffix for a single-owned item, so `amount
+    == 1` is indistinguishable from `_LINE_PATTERN` simply failing to find
+    the amount group at all (e.g. binarization thinning the bracket text
+    away, as happened for "Dragon's Tongue (9)" - the binarized pass read
+    only the name and silently defaulted to 1). If `supplementary` matched
+    the same name with an amount other than 1, that number can only have
+    come from an actual parsed "(amount)" group (1 is always the fallback,
+    never a genuine parse result other than a real single-owned item), so
+    it is trusted over `primary`'s default. A real single-owned item has no
+    bracket in the source image for either pass to find, so this can never
+    override a correct amount of 1 with a wrong one.
 
     Parameters
     ----------
     primary : list[InventoryIngredient]
-        Matches from the binarized pass - authoritative.
+        Matches from the binarized pass - authoritative except for its own
+        default-to-1 fallback.
     supplementary : list[InventoryIngredient]
-        Matches from the plain (autocontrast-only) pass - only used to fill
-        in names `primary` missed entirely.
+        Matches from the plain (autocontrast-only) pass - fills in names
+        `primary` missed entirely, and corrects `primary` amounts that
+        fell back to the default.
 
     Returns
     -------
     list[InventoryIngredient]
-        `primary`'s entries, plus any `supplementary` entry whose name
-        isn't already among them.
+        `primary`'s entries (amount corrected from `supplementary` where
+        `primary` defaulted to 1), plus any `supplementary` entry whose
+        name isn't already among them.
     """
     primary_names = {ingredient.name for ingredient in primary}
+    supplementary_by_name = {ingredient.name: ingredient for ingredient in supplementary}
 
-    return primary + [
+    corrected_primary = [
+        supplementary_by_name[ingredient.name]
+        if ingredient.amount == 1
+        and ingredient.name in supplementary_by_name
+        and supplementary_by_name[ingredient.name].amount != 1
+        else ingredient
+        for ingredient in primary
+    ]
+
+    return corrected_primary + [
         ingredient for ingredient in supplementary if ingredient.name not in primary_names
     ]
 
