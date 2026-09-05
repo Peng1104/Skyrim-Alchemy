@@ -40,6 +40,20 @@ _LINE_PATTERN = re.compile(
 _FUZZY_SCORE_CUTOFF = 82
 _MIN_NAME_LENGTH = 3
 
+# Below this length ratio (candidate length / matched name length), WRatio's
+# partial-ratio component can score a short OCR fragment above
+# `_FUZZY_SCORE_CUTOFF` purely because it happens to appear as a substring
+# somewhere *inside* a much longer name, not because it says anything close
+# to that name (e.g. the noise fragment "ewe" scores 90 against "Chokeweed"
+# because "ewe" sits inside "chok-EWE-ed", even though nothing in the source
+# image mentions that ingredient). A genuine partial read of a multi-word
+# name (e.g. only "Abecean" surviving a column cut of "Abecean Longfin")
+# is always the name's own *leading* substring, so requiring that alignment
+# below this ratio keeps the real case while rejecting mid-string
+# coincidences - see the guard right after the fuzzy match in
+# `match_ocr_data`.
+_SHORT_CANDIDATE_LENGTH_RATIO = 0.5
+
 # Words after the matched "Name (amount)" prefix that mark the segment as a
 # transient HUD message (e.g. "Gold (14) Removed") rather than an inventory
 # row - these can fuzzy-match a real ingredient name by coincidence (e.g.
@@ -170,8 +184,12 @@ def match_ocr_data(
         ingredient "Farengar's Frost Salt", above `_FUZZY_SCORE_CUTOFF`).
         Effect labels never carry a trailing "(amount)", so only checked
         when `amount_candidate` is absent - a real owned-1 ingredient row
-        also lacks the suffix, and this must not reject those. Empty by
-        default so callers that can't supply it (yet) keep prior behavior.
+        also lacks the suffix, and this must not reject those. Compared
+        with `fuzz.ratio` rather than exact equality, since Tesseract can
+        misread a letter inside the effect label itself (e.g. "Weakness to
+        Fire" -> "Weakness fo Fire") and an exact check would miss it.
+        Empty by default so callers that can't supply it (yet) keep prior
+        behavior.
 
     Returns
     -------
@@ -199,8 +217,30 @@ def match_ocr_data(
         if name_candidate.lower() in _UI_CHROME_NAMES:
             continue
 
-        if amount_candidate is None and name_candidate.lower() in known_effect_names:
-            continue
+        if amount_candidate is None and known_effect_names:
+            # Fuzzy (not exact) comparison: Tesseract can misread a letter
+            # inside the effect label itself (e.g. "Weakness to Fire" ->
+            # "Weakness fo Fire"), which would slip past an exact-match
+            # check and then go on to fuzzy-match a real ingredient by
+            # coincidence (e.g. "Fire Salts" via WRatio). `fuzz.ratio`
+            # (whole-string edit distance, not WRatio's partial-ratio
+            # boost) is used here specifically because it does NOT inflate
+            # scores for short/long length mismatches - effect labels and
+            # their OCR misreads are always close to the same length, so
+            # this stays tight without the false-positive risk WRatio would
+            # introduce (e.g. "Frost Salts" itself scores 85 against
+            # "Weakness to Frost" under WRatio, which would wrongly reject
+            # a real single-owned "Frost Salts" row - `fuzz.ratio` scores
+            # that pair only 36).
+            effect_match = process.extractOne(
+                name_candidate.lower(),
+                known_effect_names,
+                scorer=fuzz.ratio,
+                score_cutoff=_FUZZY_SCORE_CUTOFF,
+            )
+
+            if effect_match is not None:
+                continue
 
         remainder = segment[match.end():].strip().lower()
 
@@ -215,6 +255,18 @@ def match_ocr_data(
         )
 
         if best_match is None:
+            continue
+
+        matched_name = best_match[0]
+
+        if (
+            len(name_candidate) < len(matched_name) * _SHORT_CANDIDATE_LENGTH_RATIO
+            and not matched_name.lower().startswith(name_candidate.lower())
+        ):
+            # See `_SHORT_CANDIDATE_LENGTH_RATIO`'s docstring - a short
+            # candidate is only trustworthy when it's the matched name's own
+            # leading substring, not just some substring found anywhere
+            # inside it.
             continue
 
         ingredients.append(InventoryIngredient(
