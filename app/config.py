@@ -61,7 +61,8 @@ class Settings(BaseSettings):
 
     perk_physician: bool = Field(
         default=False,
-        description="Physician perk: potions AND poisons are 25% more powerful.",
+        description="Physician perk: Restore Health, Restore Magicka, and Restore "
+                    "Stamina effects are 25% more powerful, in both potions and poisons.",
     )
     perk_benefactor: bool = Field(
         default=False,
