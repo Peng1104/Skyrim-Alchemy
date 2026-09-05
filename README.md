@@ -8,11 +8,7 @@ Reads your Skyrim inventory from in-game screenshots (via local OCR), reads ingr
 
 1. **Screenshots**: press `Print Screen` while your ingredients list is open in-game. Skyrim saves `ScreenShot<N>.png` directly into the game's install folder or, under Mod Organizer 2, into that instance's `overwrite/Root` folder instead (MO2 virtualizes the game's writes); both locations are scanned automatically.
 2. **OCR**: each screenshot is read with Tesseract, and recognized text is fuzzy-matched against the real ingredient list read from your active plugins (corrects OCR typos, filters out UI noise).
-3. **Optimization**: given your inventory quantities, an ILP solver finds the combination of 2–3 ingredient potions that maximizes total gold value.
-
-For the exact math behind the gold/value calculation and the optimizer, see [docs/calculation/CALCULATION.md](docs/calculation/CALCULATION.md).
-
-For where the ingredient/effect data comes from and how it's read and cached, see [docs/data-sources/DATA_SOURCES.md](docs/data-sources/DATA_SOURCES.md).
+3. **Optimization**: given your inventory quantities, an ILP solver finds the combination of 2–3 ingredient potions that maximizes total gold value. See [docs/calculation/CALCULATION.md](docs/calculation/CALCULATION.md) for the exact math, and [docs/data-sources/DATA_SOURCES.md](docs/data-sources/DATA_SOURCES.md) (plus [docs/game_data/GAME_DATA.md](docs/game_data/GAME_DATA.md) for override resolution) for where the ingredient/effect data itself comes from.
 
 ## Requirements
 
@@ -58,9 +54,9 @@ uv run python -m app   # starts uvicorn on :8001
 ```
 
 OCR itself runs in an isolated `ocr` service (see Docker below), not in the
-API process, so that the API never parses uploaded image directly.
-
-For every endpoint's request/response shape, see [docs/api/API.md](docs/api/API.md).
+API process, so that the API never parses uploaded image directly. See
+[docs/api/API.md](docs/api/API.md) for every endpoint's full request/response
+shape.
 
 ### Docker
 
@@ -70,7 +66,7 @@ docker compose up -d --build
 ```
 
 This starts two containers: `app` (the API, published on `:8001`) and `ocr`
-(Tesseract, reachable only from `app` over an internal-only Docker network —
+(Tesseract, reachable only from `app` over an internal-only Docker network,
 no published host port). `OCR_SERVICE_TOKEN` is a shared secret between the
 two, checked on every internal OCR request; generate a fresh one per
 deployment, never reuse or commit it.
@@ -96,8 +92,7 @@ docker compose -f docker-compose.ocr.yml up -d --build
 uv run cli.py
 ```
 
-The CLI's OCR path (`app/ocr_client.py`) picks a backend automatically, in
-this order:
+The CLI picks an OCR backend automatically, in this order:
 
 1. **The `ocr` container**, if it answers a health check at `OCR_SERVICE_URL`
    (defaults to `http://localhost:9000`, matching the port above).
@@ -113,7 +108,7 @@ same rule as the full stack above.
 ## Configuration
 
 `config.toml` settings (`game_directory`, `plugins_txt_path`, `log_language`,
-the perk flags) are only used by the CLI — the API doesn't read them at all,
+the perk flags) are only used by the CLI; the API doesn't read them at all,
 so they have no effect on `docker compose up`. Resolution order: init >
 `config.toml` > default.
 
@@ -131,20 +126,23 @@ so they have no effect on `docker compose up`. Resolution order: init >
 
 `plugins_txt_path` is auto-detected by trying every Mod Organizer 2 profile under any Steam library's Proton compatdata prefix for this game, then the native (non-MO2) `Plugins.txt` location for the current OS. Set it explicitly if you run multiple MO2 instances/profiles and auto-detection picks the wrong one.
 
-Alchemy skill, the Alchemist perk, Fortify Alchemy gear, and Seeker of Shadows are **not modeled** — they scale every effect uniformly, so they don't change which recipe is favored, only the absolute gold numbers.
-
 ## Cache
 
 Everything read from plugins or OCR'd is cached under `cache/`, so repeated runs never redo a plugin scan or OCR:
 
 ```
 cache/
-├── game_data/     Ingredient/effect database read from your active plugins (see docs/data-sources/DATA_SOURCES.md)
-├── screenshots/   One JSON file per screenshot's OCR result (<id>.json)
-└── inventory/     marker.json - bookkeeping for the last combined screenshot range
+├── game_data/
+│   ├── plugins/
+│   ├── ingredients.json
+│   └── effects.json
+├── screenshots/
+└── inventory/
 ```
 
-Run the CLI with `--refresh` (`-r`) to force a fresh plugin scan after installing/removing/reordering mods — `cache/game_data/` isn't touched otherwise. Delete `cache/screenshots/<id>.json` (or run with `--refresh`) to force re-OCR of a specific screenshot.
+Run the CLI with `--refresh` (`-r`) to force a fresh plugin scan after installing/removing/reordering mods; `cache/game_data/` isn't touched otherwise. Delete `cache/screenshots/<id>.json` (or run with `--refresh`) to force re-OCR of a specific screenshot.
+
+See [docs/cache/plugin/PLUGIN_CACHE.md](docs/cache/plugin/PLUGIN_CACHE.md), [docs/cache/ingredients/INGREDIENTS_CACHE.md](docs/cache/ingredients/INGREDIENTS_CACHE.md), and [docs/cache/effects/EFFECTS_CACHE.md](docs/cache/effects/EFFECTS_CACHE.md) for exactly what each file contains and how it's populated.
 
 ## Development
 
@@ -153,3 +151,5 @@ make lint          # ruff + pyright (strict mode)
 ```
 
 Docstrings follow NumPy style; type checking runs in pyright `strict` mode with zero inline suppressions (see `typings/pytesseract/` for the one untyped dependency's local stub).
+
+This project depends on two lightly-used third-party libraries to read Skyrim's own binary plugin/archive formats; see [docs/dependencies/DEPENDENCIES.md](docs/dependencies/DEPENDENCIES.md) for what was verified about them and the version-pinning risk that follows.
